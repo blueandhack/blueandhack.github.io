@@ -138,13 +138,13 @@
 <meta property="og:site_name" content="blueandhack">
 <meta property="og:description" content="第一篇伪原创文章，wordpress文章写的不多，这个算其中的一篇。 侧边栏Tab切换效果Widget，这是从木木童鞋那里学到的（但是木木那里的侧边栏Tab切换效果小工具是不可拖拽的），然后又参考了分文童鞋的代码，还有willin大师的代码（是最新留言的代码），等等童鞋的代码……最后将其嵌入到主题之中，实现了实现可以拖拽的Widget。什么是可拖拽的，能够激活删除的Widget呢？">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://blueandhack.com/cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png">
-<meta property="og:image" content="https://blueandhack.com/cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png">
-<meta property="og:updated_time" content="2019-08-19T01:32:20.877Z">
+<meta property="og:image" content="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png">
+<meta property="og:image" content="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png">
+<meta property="og:updated_time" content="2019-08-19T02:52:37.213Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="侧边栏Tab切换效果Widget，实现可以拖拽的Widget">
 <meta name="twitter:description" content="第一篇伪原创文章，wordpress文章写的不多，这个算其中的一篇。 侧边栏Tab切换效果Widget，这是从木木童鞋那里学到的（但是木木那里的侧边栏Tab切换效果小工具是不可拖拽的），然后又参考了分文童鞋的代码，还有willin大师的代码（是最新留言的代码），等等童鞋的代码……最后将其嵌入到主题之中，实现了实现可以拖拽的Widget。什么是可拖拽的，能够激活删除的Widget呢？">
-<meta name="twitter:image" content="https://blueandhack.com/cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png">
+<meta name="twitter:image" content="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png">
 
 
 
@@ -447,7 +447,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-08-18 18:32:20" itemprop="dateModified" datetime="2019-08-18T18:32:20-07:00">2019-08-18</time>
+                <time title="Modified: 2019-08-18 19:52:37" itemprop="dateModified" datetime="2019-08-18T19:52:37-07:00">2019-08-18</time>
               
             
           </span>
@@ -511,7 +511,7 @@
       
         <p>第一篇伪原创文章，wordpress文章写的不多，这个算其中的一篇。 侧边栏Tab切换效果Widget，这是从木木童鞋那里学到的（但是木木那里的侧边栏Tab切换效果小工具是不可拖拽的），然后又参考了分文童鞋的代码，还有willin大师的代码（是最新留言的代码），等等童鞋的代码……最后将其嵌入到主题之中，实现了实现可以拖拽的Widget。什么是可拖拽的，能够激活删除的Widget呢？</p>
 <a id="more"></a>  
-<p><img src="https:/cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png" alt="拖拽"> </p>
+<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png" alt="拖拽"> </p>
 <p>这就是可拖拽的小工具他们可以拖拽小工具到边栏以激活它们，将它们拖回来则自动禁用它们并删除设置。实现此功能，我是查找了很多资料，一开始只找中文资料，但是没有多少好的中文资料去介绍Widget的，所以只好去翻wordpress的codex，结果，还真让我翻到了，<a href="http://codex.wordpress.org/zh-cn:%E6%8C%82%E4%BB%B6%E6%8E%A5%E5%8F%A3" target="_blank" rel="noopener">传送门</a> 此文档中介绍了Widget的API，就是你写的函数要用勾到哪里，做什么事，都需要API来实现，官方文档给了一个很好的例子，我也就是用那个例子改的。 现在说说木木的那个TAB切换特效的小工具吧，这个你可以看我的侧边栏。 直接说操作步骤了 </p>
 <p>一、首先在自己主题文件下的header.php的head标签里加载jquery库。 </p>
 <p>二、加载jquery特效（一般加载到头部）： </p>
@@ -522,7 +522,7 @@
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* Tabber */</span></span><br><span class="line"></span><br><span class="line"><span class="selector-tag">sidebar-tab</span>&#123;<span class="attribute">border</span>:<span class="number">0px</span>;<span class="attribute">margin-bottom</span>:<span class="number">1.5em</span>;<span class="attribute">overflow</span>:hidden;&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">tab-title</span> <span class="selector-tag">h3</span>&#123;<span class="attribute">color</span>:<span class="number">#666</span>;<span class="attribute">font-size</span>:<span class="number">15px</span>;<span class="attribute">font-weight</span>:<span class="number">400</span>;&#125;</span><br><span class="line"></span><br><span class="line">tab-title .selected&#123;color:#356aa0;border-bottom:0px;&#125; /标题被选中时的样式/</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">tab-title</span> <span class="selector-tag">span</span>&#123;<span class="attribute">padding</span>:<span class="number">5px</span> <span class="number">9px</span> <span class="number">5px</span> <span class="number">9px</span>;<span class="attribute">border</span>:<span class="number">0px</span>;<span class="attribute">border-right</span>:<span class="number">0px</span>;<span class="attribute">margin-left</span>:-<span class="number">1px</span>;<span class="attribute">cursor</span>:pointer;&#125;</span><br><span class="line"></span><br><span class="line">tab-content .hide&#123;display:none;&#125; /默认让第一块内容显示，其余隐藏/</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">tab-content</span> <span class="selector-tag">ul</span>&#123;<span class="attribute">padding</span>:<span class="number">5px</span> <span class="number">5px</span>;<span class="attribute">overflow</span>:hidden;&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">tab-content</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span>&#123;<span class="attribute">padding-top</span>:<span class="number">5px</span>;<span class="attribute">overflow</span>:hidden;&#125; &#125;</span><br></pre></td></tr></table></figure>
 <p>五、一切OK</p>
 <p>现在到你的小工具选项中有没有看见一个名叫tabber的小工具呢？</p>
-<p><img src="https:/cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png" alt="成功"> 哈哈，看见了就说明你成功了，如果没有成功，报错等等问题，留言提问哦~~我会耐心解答的。过几天准备弄成插件……方便小白……不过我还是不赞成使用插件…… </p>
+<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png" alt="成功"> 哈哈，看见了就说明你成功了，如果没有成功，报错等等问题，留言提问哦~~我会耐心解答的。过几天准备弄成插件……方便小白……不过我还是不赞成使用插件…… </p>
 <p>PS：codex真的不错，就是很多英文文档没有翻译成中文，实在太可惜了……</p>
 
       
