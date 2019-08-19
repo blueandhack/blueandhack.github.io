@@ -53,6 +53,32 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -364,7 +390,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yoga Lin">
       <meta itemprop="description" content="Know it then hack it!">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://avatars0.githubusercontent.com/u/4150885?s=460&v=4">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -481,7 +507,7 @@
 
       
         <h5 id="2011年7月10日更新"><a href="#2011年7月10日更新" class="headerlink" title="[2011年7月10日更新]"></a>[2011年7月10日更新]</h5><p>由于lnmp的升级，不需要再设置wordpress的伪静态了，这个其实很简单，不需要多少Linux知识就能弄懂的东西<a id="more"></a></p>
-<p>lnmp的安装不过多介绍~网上一堆…… 今天是帮助某童鞋转移站点，（此站点是wordpress）累了一天，由于是270MB内存，再加上他的站点IP上千上万，一开站就死机~内存占用完了……站点就咔嚓了！ 最后实在没办法就尝试lnmp吧~话说lnmp第一次用，在VPSYOU的后台安装了CentOS+lnmp版本的系统，很快两分钟系统装好了。 首先是数据库问题 这个似乎很简单  <a href="http://你的网站地址/phpmyadmin/" target="_blank" rel="noopener">http://你的网站地址/phpmyadmin/</a> 点击里面的权限新建一个和原来数据库用户名一样的还有密码一样的用户 之后再建立一个一样的数据表，导入，一切OK！ 关于文件的转移，putty，用他就很好解决了！ 跟着我的命令来： </p>
+<p>lnmp的安装不过多介绍~网上一堆…… 今天是帮助某童鞋转移站点，（此站点是wordpress）累了一天，由于是270MB内存，再加上他的站点IP上千上万，一开站就死机~内存占用完了……站点就咔嚓了！ 最后实在没办法就尝试lnmp吧~话说lnmp第一次用，在VPSYOU的后台安装了CentOS+lnmp版本的系统，很快两分钟系统装好了。 首先是数据库问题 这个似乎很简单  http://你的网站地址/phpmyadmin/ 点击里面的权限新建一个和原来数据库用户名一样的还有密码一样的用户 之后再建立一个一样的数据表，导入，一切OK！ 关于文件的转移，putty，用他就很好解决了！ 跟着我的命令来： </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /home/wwwroot</span><br><span class="line"></span><br><span class="line">进入根目录</span><br><span class="line"></span><br><span class="line">wget http://原来地址/XXXX.zip</span><br><span class="line"></span><br><span class="line">下载打包的文件到VPS中</span><br><span class="line"></span><br><span class="line">unzip XXXX.zip</span><br><span class="line"></span><br><span class="line">解压zip文件</span><br></pre></td></tr></table></figure>
 <p>一切OK！ 最后找到了nginx写伪静态的规则：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;    </span><br><span class="line">    index index.html index.php;</span><br><span class="line">    <span class="keyword">if</span> (-f <span class="variable">$request_filename</span>/index.html)&#123;</span><br><span class="line">        rewrite (.*) <span class="variable">$1</span>/index.html <span class="built_in">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (-f <span class="variable">$request_filename</span>/index.php)&#123;</span><br><span class="line">        rewrite (.*) <span class="variable">$1</span>/index.php;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (!-f <span class="variable">$request_filename</span>)&#123;</span><br><span class="line">        rewrite (.*) /index.php;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -610,6 +636,8 @@
       <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://avatars0.githubusercontent.com/u/4150885?s=460&v=4" alt="Yoga Lin">
             
               <p class="site-author-name" itemprop="name">Yoga Lin</p>
               <p class="site-description motion-element" itemprop="description">Know it then hack it!</p>
@@ -886,9 +914,9 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2010 – <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2010 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Yoga Lin</span>
 

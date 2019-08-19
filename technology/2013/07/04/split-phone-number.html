@@ -53,6 +53,32 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -112,13 +138,13 @@
 <meta property="og:site_name" content="blueandhack">
 <meta property="og:description" content="晚上的时候，我需要给50多个人发短信，然后就想到了豌豆荚，于是乎从Excel中复制号码到豌豆荚中使用短信群发发送。 结果事情并没有我想的那么简单。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://blueandhack.b0.upaiyun.com/wp-content/uploads/2013/07/复制之后-174x300.png">
-<meta property="og:image" content="http://blueandhack.b0.upaiyun.com/wp-content/uploads/2013/07/无法正常识别.png">
-<meta property="og:updated_time" content="2016-10-22T03:47:59.000Z">
+<meta property="og:image" content="https://blueandhack.com/cdn.blueandhack.com/wp-content/uploads/2013/07/复制之后-174x300.png">
+<meta property="og:image" content="https://blueandhack.com/cdn.blueandhack.com/wp-content/uploads/2013/07/无法正常识别.png">
+<meta property="og:updated_time" content="2019-08-19T01:25:51.687Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="给N多手机号用逗号分隔">
 <meta name="twitter:description" content="晚上的时候，我需要给50多个人发短信，然后就想到了豌豆荚，于是乎从Excel中复制号码到豌豆荚中使用短信群发发送。 结果事情并没有我想的那么简单。">
-<meta name="twitter:image" content="http://blueandhack.b0.upaiyun.com/wp-content/uploads/2013/07/复制之后-174x300.png">
+<meta name="twitter:image" content="https://blueandhack.com/cdn.blueandhack.com/wp-content/uploads/2013/07/复制之后-174x300.png">
 
 
 
@@ -367,7 +393,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yoga Lin">
       <meta itemprop="description" content="Know it then hack it!">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://avatars0.githubusercontent.com/u/4150885?s=460&v=4">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -421,7 +447,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2016-10-21 20:47:59" itemprop="dateModified" datetime="2016-10-21T20:47:59-07:00">2016-10-21</time>
+                <time title="Modified: 2019-08-18 18:25:51" itemprop="dateModified" datetime="2019-08-18T18:25:51-07:00">2019-08-18</time>
               
             
           </span>
@@ -485,9 +511,9 @@
       
         <p>晚上的时候，我需要给50多个人发短信，然后就想到了豌豆荚，于是乎从Excel中复制号码到豌豆荚中使用短信群发发送。 结果事情并没有我想的那么简单。 </p>
 <a id="more"></a>
-<p><img src="http://blueandhack.b0.upaiyun.com/wp-content/uploads/2013/07/复制之后-174x300.png" alt="复制之后"> </p>
+<p><img src="https:/cdn.blueandhack.com/wp-content/uploads/2013/07/复制之后-174x300.png" alt="复制之后"> </p>
 <p>我通过Excel复制到记事本中，结果他是按照Excel的方式，成列复制了，并不能形成一行，于是乎我就把一列的号码拷贝到豌豆荚中，结果让我蛋碎了一地…… </p>
-<p><img src="http://blueandhack.b0.upaiyun.com/wp-content/uploads/2013/07/无法正常识别.png" alt="无法正常识别"> </p>
+<p><img src="https:/cdn.blueandhack.com/wp-content/uploads/2013/07/无法正常识别.png" alt="无法正常识别"> </p>
 <p>可以看到显示的是，将发送给一位联系人，这可是好？难道让我一个一个添加英文逗号来进行分隔？ 我告诉我我自己，不能那么低级，至少自己还是个码农呢！ </p>
 <h3 id="用C语言探路，简单搞定"><a href="#用C语言探路，简单搞定" class="headerlink" title="用C语言探路，简单搞定"></a>用C语言探路，简单搞定</h3><p>自己会C和Java，但是最终还是选择了C来写这个小程序。 首先需要创建一个字符数组，来容纳庞大的号码。接着通过替换换行符为英文逗号，来实现整个程序。</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line">define N <span class="number">100000</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">  FILE *fp;</span><br><span class="line"></span><br><span class="line">  fp=fopen(<span class="string">"Output.txt"</span>,<span class="string">"w+"</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">int</span> i=<span class="number">0</span>,j=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">char</span> a[N],b[N];</span><br><span class="line"></span><br><span class="line">  <span class="built_in">scanf</span>(<span class="string">"%c"</span>,&amp;a[i]);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">while</span>(a[i]!=<span class="string">'#'</span>)</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line">i++;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">"%c"</span>,&amp;a[i]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span>(i=<span class="number">0</span>;a[i]!=<span class="string">'#'</span>;i++)</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="built_in">strchr</span>(a, <span class="string">'\n'</span>)==<span class="literal">NULL</span>) <span class="comment">//如果查找不到指针值为空，就跳出循环</span></span><br><span class="line">  <span class="keyword">break</span>;</span><br><span class="line">*(<span class="built_in">strchr</span>(a, <span class="string">'\n'</span>)) = <span class="string">','</span>; <span class="comment">//查找a字符数组中的换行符，返回一个指针</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span>(i=<span class="number">0</span>;a[i]!=<span class="string">'#'</span>;i++)</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line">fputc(a[i],fp);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%c"</span>,a[i]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  fclose(fp);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -607,6 +633,8 @@
       <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://avatars0.githubusercontent.com/u/4150885?s=460&v=4" alt="Yoga Lin">
             
               <p class="site-author-name" itemprop="name">Yoga Lin</p>
               <p class="site-description motion-element" itemprop="description">Know it then hack it!</p>
@@ -883,9 +911,9 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2010 – <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2010 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Yoga Lin</span>
 
