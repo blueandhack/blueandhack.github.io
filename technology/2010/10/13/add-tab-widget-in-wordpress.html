@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="mask-icon" href="/favicon.ico" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blueandhack.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.18.1","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="第一篇伪原创文章，wordpress文章写的不多，这个算其中的一篇。 侧边栏Tab切换效果Widget，这是从木木童鞋那里学到的（但是木木那里的侧边栏Tab切换效果小工具是不可拖拽的），然后又参考了分文童鞋的代码，还有willin大师的代码（是最新留言的代码），等等童鞋的代码……最后将其嵌入到主题之中，实现了实现可以拖拽的Widget。什么是可拖拽的，能够激活删除的Widget呢？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="侧边栏Tab切换效果Widget，实现可以拖拽的Widget">
+<meta property="og:url" content="https://blueandhack.com/technology/2010/10/13/add-tab-widget-in-wordpress.html">
+<meta property="og:site_name" content="blueandhack">
+<meta property="og:description" content="第一篇伪原创文章，wordpress文章写的不多，这个算其中的一篇。 侧边栏Tab切换效果Widget，这是从木木童鞋那里学到的（但是木木那里的侧边栏Tab切换效果小工具是不可拖拽的），然后又参考了分文童鞋的代码，还有willin大师的代码（是最新留言的代码），等等童鞋的代码……最后将其嵌入到主题之中，实现了实现可以拖拽的Widget。什么是可拖拽的，能够激活删除的Widget呢？">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png">
+<meta property="og:image" content="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png">
+<meta property="article:published_time" content="2010-10-13T11:04:01.000Z">
+<meta property="article:modified_time" content="2023-10-10T07:39:28.150Z">
+<meta property="article:author" content="Yoga Lin">
+<meta property="article:tag" content="programming">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="wordpress">
+<meta property="article:tag" content="plugin">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png">
+
+
+<link rel="canonical" href="https://blueandhack.com/technology/2010/10/13/add-tab-widget-in-wordpress.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://blueandhack.com/technology/2010/10/13/add-tab-widget-in-wordpress.html","path":"technology/2010/10/13/add-tab-widget-in-wordpress.html","title":"侧边栏Tab切换效果Widget，实现可以拖拽的Widget"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>侧边栏Tab切换效果Widget，实现可以拖拽的Widget | blueandhack</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">blueandhack</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">58</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">4</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">163</span></a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Yoga Lin"
+      src="https://avatars0.githubusercontent.com/u/4150885?s=460&v=4">
+  <p class="site-author-name" itemprop="name">Yoga Lin</p>
+  <div class="site-description" itemprop="description">Know it then hack it!</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">163</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">58</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/blueandhack" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;blueandhack" rel="noopener me" target="_blank"><i class="github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/blueandhack" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;blueandhack" rel="noopener me" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          Links
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="http://www.xiaozhou.net/" title="http:&#x2F;&#x2F;www.xiaozhou.net&#x2F;" rel="noopener" target="_blank">Timothy's Space</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="http://www.yumao.name/" title="http:&#x2F;&#x2F;www.yumao.name&#x2F;" rel="noopener" target="_blank">羽毛の家</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://juryquinn.com/" title="https:&#x2F;&#x2F;juryquinn.com&#x2F;" rel="noopener" target="_blank">Jury</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/technology/2010/10/13/add-tab-widget-in-wordpress.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://avatars0.githubusercontent.com/u/4150885?s=460&v=4">
+      <meta itemprop="name" content="Yoga Lin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="blueandhack">
+      <meta itemprop="description" content="Know it then hack it!">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="侧边栏Tab切换效果Widget，实现可以拖拽的Widget | blueandhack">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          侧边栏Tab切换效果Widget，实现可以拖拽的Widget
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2010-10-13 04:04:01" itemprop="dateCreated datePublished" datetime="2010-10-13T04:04:01-07:00">2010-10-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-10-10 00:39:28" itemprop="dateModified" datetime="2023-10-10T00:39:28-07:00">2023-10-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/technology/" itemprop="url" rel="index"><span itemprop="name">technology</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/technology/2010/10/13/add-tab-widget-in-wordpress.html#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="technology/2010/10/13/add-tab-widget-in-wordpress.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>第一篇伪原创文章，wordpress文章写的不多，这个算其中的一篇。 侧边栏Tab切换效果Widget，这是从木木童鞋那里学到的（但是木木那里的侧边栏Tab切换效果小工具是不可拖拽的），然后又参考了分文童鞋的代码，还有willin大师的代码（是最新留言的代码），等等童鞋的代码……最后将其嵌入到主题之中，实现了实现可以拖拽的Widget。什么是可拖拽的，能够激活删除的Widget呢？</p>
+<span id="more"></span>  
+
+<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png" alt="拖拽"> </p>
+<p>这就是可拖拽的小工具他们可以拖拽小工具到边栏以激活它们，将它们拖回来则自动禁用它们并删除设置。实现此功能，我是查找了很多资料，一开始只找中文资料，但是没有多少好的中文资料去介绍Widget的，所以只好去翻wordpress的codex，结果，还真让我翻到了，<a target="_blank" rel="noopener" href="http://codex.wordpress.org/zh-cn:%E6%8C%82%E4%BB%B6%E6%8E%A5%E5%8F%A3">传送门</a> 此文档中介绍了Widget的API，就是你写的函数要用勾到哪里，做什么事，都需要API来实现，官方文档给了一个很好的例子，我也就是用那个例子改的。 现在说说木木的那个TAB切换特效的小工具吧，这个你可以看我的侧边栏。 直接说操作步骤了 </p>
+<p>一、首先在自己主题文件下的header.php的head标签里加载jquery库。 </p>
+<p>二、加载jquery特效（一般加载到头部）： </p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">jQuery</span>(<span class="variable language_">document</span>).<span class="title function_">ready</span>(<span class="keyword">function</span>(<span class="params">$</span>)&#123; </span><br><span class="line"></span><br><span class="line">$(<span class="string">&#x27;#tab-title span&#x27;</span>).<span class="title function_">click</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line"></span><br><span class="line">  $(<span class="variable language_">this</span>).<span class="title function_">addClass</span>(<span class="string">&quot;selected&quot;</span>).<span class="title function_">siblings</span>().<span class="title function_">removeClass</span>();</span><br><span class="line"></span><br><span class="line">  $(<span class="string">&quot;#tab-content &gt; ul&quot;</span>).<span class="title function_">slideUp</span>(<span class="string">&#x27;1500&#x27;</span>).<span class="title function_">eq</span>($(<span class="string">&#x27;#tab-title span&#x27;</span>).<span class="title function_">index</span>(<span class="variable language_">this</span>)).<span class="title function_">slideDown</span>(<span class="string">&#x27;1500&#x27;</span>);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+<p>三、在你使用的主题文件夹里找到主题函数文件（functions.php），在里面添加一下代码（这段代码我纠结了两天……12号的晚上才憋出来的……很辛苦的……）： </p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Tabber</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">Tabber Class</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Tabber</span> <span class="keyword">extends</span> <span class="title">WP_Widget</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"> <span class="comment">/** 构造函数 */</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">Tabber</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line"> <span class="built_in">parent</span>::<span class="title function_ invoke__">WP_Widget</span>(<span class="literal">false</span>, <span class="variable">$name</span> = <span class="string">&#x27;Tabber&#x27;</span>); </span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"> <span class="comment">/** <span class="doctag">@see</span> WP_Widget::widget */</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">widget</span>(<span class="params"><span class="variable">$args</span>, <span class="variable">$instance</span></span>) </span>&#123;   </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> <span class="title function_ invoke__">extract</span>( <span class="variable">$args</span> );</span><br><span class="line"> <span class="meta">?&gt;</span></span><br><span class="line">       <span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="variable">$before_widget</span>; <span class="meta">?&gt;</span></span><br><span class="line">           <span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="variable">$before_title</span></span><br><span class="line">               . <span class="variable">$instance</span>[<span class="string">&#x27;title&#x27;</span>]</span><br><span class="line">               . <span class="variable">$after_title</span>; <span class="meta">?&gt;</span></span><br><span class="line">   &lt;div id=<span class="string">&quot;sidebar-tab&quot;</span>&gt; </span><br><span class="line">   &lt;div id=<span class="string">&quot;tab-title&quot;</span>&gt; </span><br><span class="line">   &lt;h2&gt;&lt;span <span class="class"><span class="keyword">class</span>=&quot;<span class="title">selected</span>&quot;&gt;|  最新文章  |&lt;/<span class="title">span</span>&gt;&lt;<span class="title">span</span>&gt;|  近期热评  |&lt;/<span class="title">span</span>&gt;&lt;<span class="title">span</span>&gt;|  热门标签  |&lt;/<span class="title">span</span>&gt;&lt;/<span class="title">h2</span>&gt; </span></span><br><span class="line"><span class="class">   &lt;/<span class="title">div</span>&gt; </span></span><br><span class="line"><span class="class">   &lt;<span class="title">div</span> <span class="title">id</span>=&quot;<span class="title">tab</span>-<span class="title">content</span>&quot;&gt; </span></span><br><span class="line"><span class="class">   &lt;<span class="title">ul</span>&gt;&lt;?<span class="title">php</span> <span class="title">wp_get_archives</span>(&#x27;<span class="title">type</span>=<span class="title">postbypost</span>&amp;<span class="title">limit</span>=10&#x27;); ?&gt;&lt;/<span class="title">ul</span>&gt; </span></span><br><span class="line"><span class="class">   &lt;<span class="title">ul</span> <span class="title">class</span>=&quot;<span class="title">hide</span>&quot;&gt;&lt;?<span class="title">php</span></span></span><br><span class="line"><span class="class">     <span class="title">global</span> $<span class="title">wpdb</span>;</span></span><br><span class="line"><span class="class">     $<span class="title">my_email</span> = <span class="title">get_bloginfo</span> (&#x27;<span class="title">admin_email</span>&#x27;);</span></span><br><span class="line"><span class="class">     $<span class="title">rc_comms</span> = $<span class="title">wpdb</span>-&gt;<span class="title">get_results</span>(&quot;</span></span><br><span class="line"><span class="class">         <span class="title">SELECT</span> <span class="title">ID</span>, <span class="title">post_title</span>, <span class="title">comment_ID</span>, <span class="title">comment_author</span>, <span class="title">comment_author_email</span>, <span class="title">comment_content</span></span></span><br><span class="line"><span class="class">         <span class="title">FROM</span> $<span class="title">wpdb</span>-&gt;<span class="title">comments</span> <span class="title">LEFT</span> <span class="title">OUTER</span> <span class="title">JOIN</span> $<span class="title">wpdb</span>-&gt;<span class="title">posts</span></span></span><br><span class="line"><span class="class">         <span class="title">ON</span> ($<span class="title">wpdb</span>-&gt;<span class="title">comments</span>.<span class="title">comment_post_ID</span> = $<span class="title">wpdb</span>-&gt;<span class="title">posts</span>.<span class="title">ID</span>)</span></span><br><span class="line"><span class="class">         <span class="title">WHERE</span> <span class="title">comment_approved</span> = &#x27;1&#x27;</span></span><br><span class="line"><span class="class">         <span class="title">AND</span> <span class="title">comment_type</span> = &#x27;&#x27;</span></span><br><span class="line"><span class="class">         <span class="title">AND</span> <span class="title">post_password</span> = &#x27;&#x27;</span></span><br><span class="line"><span class="class">         <span class="title">AND</span> <span class="title">comment_author_email</span> != &#x27;$<span class="title">my_email</span>&#x27;</span></span><br><span class="line"><span class="class">         <span class="title">ORDER</span> <span class="title">BY</span> <span class="title">comment_date_gmt</span></span></span><br><span class="line"><span class="class">         <span class="title">DESC</span> <span class="title">LIMIT</span> 10</span></span><br><span class="line"><span class="class">     &quot;);</span></span><br><span class="line"><span class="class">     $<span class="title">rc_comments</span> = &#x27;&#x27;;</span></span><br><span class="line"><span class="class">     <span class="title">foreach</span> ($<span class="title">rc_comms</span> <span class="title">as</span> $<span class="title">rc_comm</span>) </span>&#123;</span><br><span class="line">         <span class="comment">//$a = &#x27;avatar/&#x27;.md5(strtolower($rc_comm-&gt;comment_author_email)).&#x27;.jpg&#x27;; // 頭像緩存用的</span></span><br><span class="line">         <span class="variable">$rc_comments</span> .= <span class="string">&quot;&lt;li&gt;&quot;</span> . <span class="title function_ invoke__">get_avatar</span>(<span class="variable">$rc_comm</span>,<span class="variable">$size</span>=<span class="string">&#x27;20&#x27;</span>,<span class="variable">$default</span>=<span class="string">&#x27;&lt;path_to_url&gt;&#x27;</span> ) . <span class="string">&quot;&lt;a href=&#x27;&quot;</span></span><br><span class="line">         . <span class="title function_ invoke__">get_permalink</span>(<span class="variable">$rc_comm</span>-&gt;ID) . <span class="string">&quot;#comment-&quot;</span> . <span class="variable">$rc_comm</span>-&gt;comment_ID</span><br><span class="line">         <span class="comment">//. htmlspecialchars(get_comment_link( $rc_comm-&gt;comment_ID, array(&#x27;type&#x27; =&gt; &#x27;comment&#x27;))) // 可取代上一行, 會顯示 cpage, 但較耗資源</span></span><br><span class="line">         . <span class="string">&quot;&#x27; title=&#x27;on &quot;</span> . <span class="variable">$rc_comm</span>-&gt;post_title . <span class="string">&quot;&#x27;&gt;&quot;</span> . <span class="title function_ invoke__">strip_tags</span>(<span class="variable">$rc_comm</span>-&gt;comment_content)</span><br><span class="line">         . <span class="string">&quot;&lt;/a&gt;&lt;/li&gt;\n&quot;</span>;</span><br><span class="line">     &#125;</span><br><span class="line">     <span class="variable">$rc_comments</span> = <span class="title function_ invoke__">convert_smilies</span>(<span class="variable">$rc_comments</span>);</span><br><span class="line">     <span class="keyword">echo</span> <span class="variable">$rc_comments</span>;</span><br><span class="line">   <span class="meta">?&gt;</span>&lt;/ul&gt; </span><br><span class="line">   &lt;ul <span class="class"><span class="keyword">class</span>=&quot;<span class="title">hide</span>&quot;&gt;&lt;?<span class="title">php</span> <span class="title">wp_tag_cloud</span>(&#x27;<span class="title">smallest</span>=6&amp;<span class="title">largest</span>=18&#x27;); ?&gt;&lt;/<span class="title">ul</span>&gt; </span></span><br><span class="line"><span class="class">   &lt;/<span class="title">div</span>&gt; </span></span><br><span class="line"><span class="class">   &lt;/<span class="title">div</span>&gt; </span></span><br><span class="line"><span class="class">       &lt;?<span class="title">php</span> <span class="title">echo</span> $<span class="title">after_widget</span>; ?&gt;</span></span><br><span class="line"><span class="class"> &lt;?<span class="title">php</span></span></span><br><span class="line"><span class="class"> &#125;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class"> /** @<span class="title">see</span> <span class="title">WP_Widget</span>::<span class="title">update</span> */</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class"> <span class="title">function</span> <span class="title">update</span>($<span class="title">new_instance</span>, $<span class="title">old_instance</span>) </span>&#123;       </span><br><span class="line"></span><br><span class="line"> <span class="keyword">return</span> <span class="variable">$new_instance</span>;</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"> <span class="comment">/** <span class="doctag">@see</span> WP_Widget::form */</span></span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">form</span>(<span class="params"><span class="variable">$instance</span></span>) </span>&#123;        </span><br><span class="line"></span><br><span class="line"> <span class="variable">$title</span> = <span class="title function_ invoke__">esc_attr</span>(<span class="variable">$instance</span>[<span class="string">&#x27;title&#x27;</span>]);</span><br><span class="line"> <span class="meta">?&gt;</span></span><br><span class="line">     &lt;p&gt;&lt;label <span class="keyword">for</span>=<span class="string">&quot;&lt;?php echo <span class="subst">$this</span>-&gt;get_field_id(&#x27;title&#x27;); ?&gt;&quot;</span>&gt;<span class="meta">&lt;?php</span> <span class="title function_ invoke__">_e</span>(<span class="string">&#x27;Title:&#x27;</span>); <span class="meta">?&gt;</span> &lt;input <span class="class"><span class="keyword">class</span>=&quot;<span class="title">widefat</span>&quot; <span class="title">id</span>=&quot;&lt;?<span class="title">php</span> <span class="title">echo</span> $<span class="title">this</span>-&gt;<span class="title">get_field_id</span>(&#x27;<span class="title">title</span>&#x27;); ?&gt;&quot; <span class="title">name</span>=&quot;&lt;?<span class="title">php</span> <span class="title">echo</span> $<span class="title">this</span>-&gt;<span class="title">get_field_name</span>(&#x27;<span class="title">title</span>&#x27;); ?&gt;&quot; <span class="title">type</span>=&quot;<span class="title">text</span>&quot; <span class="title">value</span>=&quot;&lt;?<span class="title">php</span> <span class="title">echo</span> $<span class="title">title</span>; ?&gt;&quot; /&gt;&lt;/<span class="title">label</span>&gt;&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line"><span class="class"> &lt;?<span class="title">php</span> </span></span><br><span class="line"><span class="class"> &#125;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&#125; // <span class="title">class</span> <span class="title">Tabber</span></span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">// 注册 <span class="title">Tabber</span> 挂件</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class"><span class="title">add_action</span>(&#x27;<span class="title">widgets_init</span>&#x27;, <span class="title">create_function</span>(&#x27;&#x27;, &#x27;<span class="title">return</span> <span class="title">register_widget</span>(&quot;<span class="title">Tabber</span>&quot;);&#x27;));</span></span><br><span class="line"><span class="class"></span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>四、在样式（style.css）中添加一下代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* Tabber */</span></span><br><span class="line"></span><br><span class="line">sidebar-tab&#123;<span class="attribute">border</span>:<span class="number">0px</span>;<span class="attribute">margin-bottom</span>:<span class="number">1.5em</span>;<span class="attribute">overflow</span>:hidden;&#125;</span><br><span class="line"></span><br><span class="line">tab-title <span class="selector-tag">h3</span>&#123;<span class="attribute">color</span>:<span class="number">#666</span>;<span class="attribute">font-size</span>:<span class="number">15px</span>;<span class="attribute">font-weight</span>:<span class="number">400</span>;&#125;</span><br><span class="line"></span><br><span class="line">tab-title <span class="selector-class">.selected</span>&#123;<span class="attribute">color</span>:<span class="number">#356aa0</span>;<span class="attribute">border-bottom</span>:<span class="number">0px</span>;&#125; /标题被选中时的样式/</span><br><span class="line"></span><br><span class="line">tab-title <span class="selector-tag">span</span>&#123;<span class="attribute">padding</span>:<span class="number">5px</span> <span class="number">9px</span> <span class="number">5px</span> <span class="number">9px</span>;<span class="attribute">border</span>:<span class="number">0px</span>;<span class="attribute">border-right</span>:<span class="number">0px</span>;<span class="attribute">margin-left</span>:-<span class="number">1px</span>;<span class="attribute">cursor</span>:pointer;&#125;</span><br><span class="line"></span><br><span class="line">tab-<span class="attribute">content</span> <span class="selector-class">.hide</span>&#123;<span class="attribute">display</span>:none;&#125; /默认让第一块内容显示，其余隐藏/</span><br><span class="line"></span><br><span class="line">tab-<span class="attribute">content</span> <span class="selector-tag">ul</span>&#123;<span class="attribute">padding</span>:<span class="number">5px</span> <span class="number">5px</span>;<span class="attribute">overflow</span>:hidden;&#125;</span><br><span class="line"></span><br><span class="line">tab-<span class="attribute">content</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span>&#123;<span class="attribute">padding-top</span>:<span class="number">5px</span>;<span class="attribute">overflow</span>:hidden;&#125; &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>五、一切OK</p>
+<p>现在到你的小工具选项中有没有看见一个名叫tabber的小工具呢？</p>
+<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png" alt="成功"> 哈哈，看见了就说明你成功了，如果没有成功，报错等等问题，留言提问哦~~我会耐心解答的。过几天准备弄成插件……方便小白……不过我还是不赞成使用插件…… </p>
+<p>PS：codex真的不错，就是很多英文文档没有翻译成中文，实在太可惜了……</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="followme">
+  <span>Welcome to my other publishing channels</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/blueandhack">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
+          </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/programming/" rel="tag"># programming</a>
+              <a href="/tags/blog/" rel="tag"># blog</a>
+              <a href="/tags/wordpress/" rel="tag"># wordpress</a>
+              <a href="/tags/plugin/" rel="tag"># plugin</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/notes-of-life/2010/10/12/jiankongbao.html" rel="prev" title="小小写一写，关于监控宝">
+                  <i class="fa fa-angle-left"></i> 小小写一写，关于监控宝
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/technology/2010/10/14/scrolling-background.html" rel="next" title="浮云，这就是浮云（jQuery让背景图片滑动起来）">
+                  浮云，这就是浮云（jQuery让背景图片滑动起来） <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Yoga Lin</span>
+  </div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"blueandhack","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>
