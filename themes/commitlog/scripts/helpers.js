@@ -329,3 +329,43 @@ hexo.extend.helper.register('pager_url', function(page, n) {
   const dir = this.config.pagination_dir || 'page';
   return this.url_for((page.base || '') + (n > 1 ? `${dir}/${n}/` : ''));
 });
+
+// Profile links from theme.social. Keys are display labels (GitHub, X, LinkedIn, …);
+// the icon is picked from the lowercased label. Two special keys:
+//   email: base64-encoded address (decoded in the browser on click)
+//   rss: true to include the feed link
+const KNOWN_ICONS = new Set(['github', 'x', 'linkedin']);
+hexo.extend.helper.register('social_links', function() {
+  const social = this.theme.social || {};
+  const out = [];
+  Object.keys(social).forEach(key => {
+    const value = social[key];
+    if (!value) return;
+    const lower = key.toLowerCase();
+    if (lower === 'email') out.push({ icon: 'email', encoded: String(value) });
+    else if (lower === 'rss') out.push({ icon: 'rss', url: typeof value === 'string' ? value : '/atom.xml' });
+    else out.push({ label: key, url: value, icon: KNOWN_ICONS.has(lower) ? lower : 'link' });
+  });
+  return out;
+});
+
+// Theme asset URL with a content fingerprint (?v=<hash>) so browsers and the
+// GitHub Pages CDN never pair new HTML with a stale cached CSS/JS file.
+const fs = require('fs');
+const path = require('path');
+const assetHashes = new Map();
+hexo.extend.helper.register('asset_url', function(file) {
+  if (!assetHashes.has(file)) {
+    let v = '';
+    try {
+      const buf = fs.readFileSync(path.join(hexo.theme_dir, 'source', file));
+      v = crypto.createHash('sha1').update(buf).digest('hex').slice(0, 10);
+    } catch (e) { /* missing file: no fingerprint */ }
+    assetHashes.set(file, v);
+  }
+  const v = assetHashes.get(file);
+  return this.url_for('/' + file) + (v ? `?v=${v}` : '');
+});
+
+// Clear fingerprints when `hexo server` regenerates after a file change.
+hexo.on('generateBefore', () => assetHashes.clear());

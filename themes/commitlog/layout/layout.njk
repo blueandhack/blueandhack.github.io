@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="{{ theme.fonts.wenkai }}">
   <link rel="stylesheet" href="{{ theme.fonts.mono }}">
-  <link rel="stylesheet" href="{{ url_for('/css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset_url('css/style.css') }}">
   {%- if theme.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ theme.google_analytics }}"></script>
   <script>
@@ -56,7 +56,7 @@
       copy: __('post.copy'), copied: __('post.copied')
     }
   } | dump | replace('</', '<\\/') }}</script>
-  <script src="{{ url_for('/js/main.js') }}" defer></script>
+  <script src="{{ asset_url('js/main.js') }}" defer></script>
 </head>
 <body class="{% if is_home() %}is-home{% elif is_post() %}is-post{% else %}is-page{% endif %}">
   <a class="skip-link" href="#main">{{ __('skip') }}</a>
