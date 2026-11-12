@@ -33,6 +33,8 @@ Hexo core), one CSS file, one vanilla JS file.
 - **Code and media**: language label and copy button on code blocks, image
   lightbox, a 404 page.
 - **Comments** via Disqus, loaded only when the reader scrolls near them.
+  Comment counts show on post lists and post headers (one small request per
+  page to Disqus's count service; posts with no comments show nothing).
 - **English UI by default**; `languages/zh-CN.yml` is included. Set
   `language` in the site `_config.yml` to switch.
 

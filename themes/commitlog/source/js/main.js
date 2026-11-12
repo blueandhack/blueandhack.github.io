@@ -565,6 +565,41 @@
     a.addEventListener('focus', show, { once: true });
   });
 
+  /* ---------- Comment counts (Disqus count-data, one request per page) ---------- */
+  var countEls = $$('[data-comments]');
+  if (CFG.disqus && countEls.length) {
+    var byId = {};
+    countEls.forEach(function (el) {
+      var id = el.getAttribute('data-comments');
+      (byId[id] = byId[id] || []).push(el);
+    });
+    window.DISQUSWIDGETS = window.DISQUSWIDGETS || {};
+    window.DISQUSWIDGETS.displayCount = function (data) {
+      (data && data.counts || []).forEach(function (c) {
+        var n = Number(c.comments) || 0;
+        if (!n) return;
+        (byId[c.id] || []).forEach(function (el) {
+          var label = n === 1 ? T.commentOne : String(T.commentMany).replace('{n}', n);
+          var span = $('span', el);
+          span.textContent = el.hasAttribute('data-comments-bare') ? String(n) : label;
+          el.setAttribute('aria-label', label);
+          el.hidden = false;
+          var meta = el.closest('[data-comment-meta]');
+          if (meta) meta.hidden = false;
+        });
+      });
+    };
+    var loadCounts = function () {
+      var qs = Object.keys(byId).map(function (id) { return '1=' + encodeURIComponent(id); }).join('&');
+      var s = document.createElement('script');
+      s.src = 'https://' + CFG.disqus + '.disqus.com/count-data.js?' + qs;
+      s.async = true;
+      document.body.appendChild(s);
+    };
+    if ('requestIdleCallback' in window) requestIdleCallback(loadCounts, { timeout: 2500 });
+    else setTimeout(loadCounts, 800);
+  }
+
   /* ---------- 404 ---------- */
   var missing = $('[data-missing-path]');
   if (missing) missing.textContent = location.pathname;

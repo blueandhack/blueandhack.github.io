@@ -34,6 +34,8 @@ post:
   related: 相关文章
   contents: 目录
   comments: 评论
+  comment_one: 1 条评论
+  comment_many: "{n} 条评论"
   load_comments: 加载评论
   copy: 复制
   copied: 已复制

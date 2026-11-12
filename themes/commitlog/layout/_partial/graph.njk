@@ -31,6 +31,7 @@
         <span class="branch">{{ row.key }}</span>
         {%- set enRow = translation_for(post) %}
         {%- if enRow %}<a class="en-link" href="{{ url_for(enRow.path) }}" hreflang="en" title="{{ enRow.title }}">EN</a>{% endif %}
+        {%- if theme.disqus.shortname and post.comments !== false %}<a class="comment-count" href="{{ url_for(post.path) }}#comments" data-comments="{{ post.path }}" hidden><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/></svg><span></span></a>{% endif %}
       </p>
       {%- set summary = summary_text(post) %}
       {%- if summary %}<p class="commit__summary">{{ summary }}</p>{% endif %}

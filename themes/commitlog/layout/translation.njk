@@ -15,6 +15,9 @@
       <div><dt>{{ __('author') }}</dt><dd>{{ page.author or config.author }}</dd></div>
       <div><dt>{{ __('date') }}</dt><dd><time datetime="{{ date_xml(page.date) }}">{{ date(page.date, 'MMMM D, YYYY') }}</time></dd></div>
       <div><dt>{{ __('reading') }}</dt><dd>{{ __('min_read', reading_minutes(page.content)) }}</dd></div>
+      {%- if orig and theme.disqus.shortname and orig.comments !== false %}
+      <div data-comment-meta hidden><dt>{{ __('post.comments') }}</dt><dd><a href="#comments" data-comments="{{ orig.path }}" data-comments-bare><span></span></a></dd></div>
+      {%- endif %}
     </dl>
     {%- if orig %}
     <p class="translation-note">
@@ -67,7 +70,7 @@
     {%- endif %}
 
     {%- if theme.disqus.shortname and orig.comments !== false %}
-    <section class="comments" aria-labelledby="comments-title">
+    <section class="comments" id="comments" aria-labelledby="comments-title">
       <h2 class="section-title" id="comments-title">{{ __('post.comments') }}</h2>
       {#- Same thread as the original, so readers of both versions share one conversation. -#}
       <div id="disqus_thread" data-disqus data-url="{{ orig.permalink }}" data-identifier="{{ orig.path }}" data-title="{{ orig.title }}">

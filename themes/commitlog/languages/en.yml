@@ -34,6 +34,8 @@ post:
   related: Related posts
   contents: Contents
   comments: Comments
+  comment_one: 1 comment
+  comment_many: "{n} comments"
   load_comments: Load comments
   copy: Copy
   copied: Copied
