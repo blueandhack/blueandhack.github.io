@@ -2,123 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blueandhack.com/about/index.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/categories/index.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/guestbook/index.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/links/index.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/tags/index.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/05/27/to-meet-again.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/03/14/to-think.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2012/11/19/trouble-dormitory.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/06/17/two-days-of-tragedy.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2012/02/21/two-years-for-blog-life.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/08/27/ubuntu-DVD.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/11/24/untitled-one.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/10/22/using-JS-to-write-CSS.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blueandhack.com/technology/2011/01/03/using-PHP-judgment-time.html</loc>
     
     <lastmod>2026-11-12</lastmod>
@@ -210,6 +93,60 @@
   
   <url>
     <loc>https://blueandhack.com/plugins/2010/08/06/wp-cumulus.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/about/index.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/categories/index.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/guestbook/index.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/links/index.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/tags/index.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2013/08/27/say-goodbye-August.html</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -381,6 +318,168 @@
   
   <url>
     <loc>https://blueandhack.com/notes-of-life/2013/05/14/time-flies.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/05/27/to-meet-again.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/03/14/to-think.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2012/11/19/trouble-dormitory.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/06/17/two-days-of-tragedy.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2012/02/21/two-years-for-blog-life.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/08/27/ubuntu-DVD.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/11/24/untitled-one.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/10/22/using-JS-to-write-CSS.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/05/28/meet.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2013/03/25/microfilm-Wait.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/09/24/mid-autumn-festival.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/09/miss-Ads.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/05/16/multiple-choice.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2013/07/27/my-high-school-classmates.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/13/my-road.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2013/06/17/my-thoughts.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/07/12/named-blogger.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/02/27/nightlong.html</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -561,222 +660,6 @@
   
   <url>
     <loc>https://blueandhack.com/themes/2011/07/16/sale-Vivian-theme.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2013/08/27/say-goodbye-August.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/08/08/how-to-develop-wordpress-plugin.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/08/31/how-to-install-DA-in-CentOS.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/10/02/how-to-install-Zend-and-eAccelerator.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/09/09/how-to-install-snmp-in-CentOS.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/01/17/in-Shanghai-2011.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/03/13/in-Shanghai.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/10/12/jiankongbao.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/17/join-qq-micro-blog.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2012/12/24/keep-going.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/11/04/lose-interest.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2013/09/13/love-running.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/12/18/manyan90.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/05/28/meet.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2013/03/25/microfilm-Wait.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/09/24/mid-autumn-festival.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/09/miss-Ads.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/05/16/multiple-choice.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2013/07/27/my-high-school-classmates.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/13/my-road.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2013/06/17/my-thoughts.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/07/12/named-blogger.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/02/27/nightlong.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2011/01/06/domain-for-DirectAdmin.html</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -966,6 +849,465 @@
   
   <url>
     <loc>https://blueandhack.com/notes-of-life/2011/01/20/hone.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/08/08/how-to-develop-wordpress-plugin.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/08/31/how-to-install-DA-in-CentOS.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/10/02/how-to-install-Zend-and-eAccelerator.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/09/09/how-to-install-snmp-in-CentOS.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/01/17/in-Shanghai-2011.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/03/13/in-Shanghai.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/10/12/jiankongbao.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/17/join-qq-micro-blog.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2012/12/24/keep-going.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/11/04/lose-interest.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2013/09/13/love-running.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/12/18/manyan90.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2023/10/10/10-10-2023.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/01/01/1993-to-2010.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2017/02/26/2017-02.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/07/26/ATX770.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/08/24/Ads-VPS.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/07/16/C-plus-plus-hello-world.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/03/27/C-plus-plus-test.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/03/10/Casio-dictionary.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/11/China's-education.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/02/03/Chinese-New-Year-in-2011.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/09/10/I-am-17.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/10/I-am-so-tired.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/01/14/I-feel-very-upset.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/04/I-hava-pagerank-value.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/09/16/IE9-released.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2013/03/20/Java-scanner.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2015/02/04/LA-dream-city.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2015/04/30/LDR.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/09/08/LNMP-and-Nginx.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/10/20/Marx-said.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/06/28/Oblivion-Island.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/30/QQ-micro-blog.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/05/17/STRONG-BUTTERFLY.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/08/12/Shanghai-world-expo.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/plugins/2010/08/19/SweetTitles-wordpress-plugin.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2011/08/30/TOEFL-test.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/07/29/Tencent-Empire.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/07/26/The-Darkess-Outside-Night.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/themes/2010/11/03/WhiteLove-wordpress-theme.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/04/23/Windows-7.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/12/25/XMAS-in-2010.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2013/03/19/about-C-language-create-link-list.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/07/19/about-DNSPod.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2011/01/23/about-GPL.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/03/23/about-Google.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2013/03/18/about-Wait.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2013/03/22/about-c-language-link-list.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/technology/2010/03/23/about-c-plus-plus-array.html</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blueandhack.com/notes-of-life/2010/06/09/about-entrance-examination.html</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -1172,349 +1514,7 @@
   </url>
   
   <url>
-    <loc>https://blueandhack.com/notes-of-life/2023/10/10/10-10-2023.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/01/01/1993-to-2010.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2017/02/26/2017-02.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/07/26/ATX770.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/08/24/Ads-VPS.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/07/16/C-plus-plus-hello-world.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/03/27/C-plus-plus-test.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/03/10/Casio-dictionary.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/11/China's-education.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/02/03/Chinese-New-Year-in-2011.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/09/10/I-am-17.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/10/I-am-so-tired.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/04/I-hava-pagerank-value.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/01/14/I-feel-very-upset.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/09/16/IE9-released.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2013/03/20/Java-scanner.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2015/02/04/LA-dream-city.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2015/04/30/LDR.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/09/08/LNMP-and-Nginx.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/10/20/Marx-said.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/06/28/Oblivion-Island.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/30/QQ-micro-blog.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/05/17/STRONG-BUTTERFLY.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/08/12/Shanghai-world-expo.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/plugins/2010/08/19/SweetTitles-wordpress-plugin.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2011/08/30/TOEFL-test.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/07/29/Tencent-Empire.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/themes/2010/11/03/WhiteLove-wordpress-theme.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/07/26/The-Darkess-Outside-Night.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/04/23/Windows-7.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/12/25/XMAS-in-2010.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2013/03/19/about-C-language-create-link-list.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/07/19/about-DNSPod.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2011/01/23/about-GPL.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/03/23/about-Google.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2013/03/18/about-Wait.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2013/03/22/about-c-language-link-list.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/technology/2010/03/23/about-c-plus-plus-array.html</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blueandhack.com/notes-of-life/2010/06/09/about-entrance-examination.html</loc>
+    <loc>https://blueandhack.com/technology/2011/01/06/domain-for-DirectAdmin.html</loc>
     
     <lastmod>2026-11-12</lastmod>
     

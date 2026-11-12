@@ -185,19 +185,33 @@
       var scored = [];
       posts.forEach(function (p) {
         var t = p.t.toLowerCase();
+        var et = p.e ? p.e.t.toLowerCase() : '';
         var s = 0;
+        var en = false;
         if (t.indexOf(q) === 0) s = 100;
         else if (t.indexOf(q) > -1) s = 80;
+        else if (et && et.indexOf(q) > -1) { s = 75; en = true; }
         else if (p.g.some(function (g) { return g.toLowerCase() === q; })) s = 60;
         else if (p.g.some(function (g) { return g.toLowerCase().indexOf(q) > -1; }) || p.c.indexOf(q) > -1) s = 40;
         else if (p.d.indexOf(q) === 0) s = 30;
-        if (s) scored.push({ p: p, s: s });
+        if (s) scored.push({ p: p, s: s, en: en });
       });
       scored.sort(function (a, b) { return b.s - a.s || (a.p.d < b.p.d ? 1 : -1); });
       var seen = {};
       if (scored.length) {
         addGroup(T.posts);
-        scored.slice(0, 12).forEach(function (x) { seen[x.p.u] = true; addItem(postItem(x.p, q)); });
+        scored.slice(0, 12).forEach(function (x) {
+          seen[x.p.u] = true;
+          if (x.p.e) seen[x.p.e.u] = true;
+          if (x.en) {
+            addItem({
+              title: x.p.e.t, q: q, aside: 'EN ' + x.p.d, color: laneVar(x.p.c),
+              run: function () { location.href = x.p.e.u; }
+            });
+          } else {
+            addItem(postItem(x.p, q));
+          }
+        });
       }
       if (cmdMatches.length) {
         addGroup(T.commands);
@@ -211,7 +225,10 @@
       }
       pStatus.textContent = T.loading;
       var byUrl = {};
-      posts.forEach(function (p) { byUrl[p.u] = p; });
+      posts.forEach(function (p) {
+        byUrl[p.u] = p;
+        if (p.e) byUrl[p.e.u] = { d: 'EN ' + p.d, c: p.c };
+      });
       loadSearch().then(function (index) {
         if (seq !== pSeq) return;
         pStatus.textContent = '';
