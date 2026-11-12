@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Yoga Lin</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://blueandhack.com/</id>
+  <link href="https://blueandhack.com/" rel="alternate"/>
+  <link href="https://blueandhack.com/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Yoga Lin</rights>
+  <subtitle>Know it then hack it!</subtitle>
+  <title>blueandhack</title>
+  <updated>2026-11-12T06:15:14.259Z</updated>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="mood" scheme="https://blueandhack.com/tags/mood/"/>
+    <id>https://blueandhack.com/notes-of-life/2023/10/10/10-10-2023.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2023/10/10/10-10-2023.html"/>
+    <published>2023-10-10T08:06:00.000Z</published>
+    <summary>
+      <![CDATA[<p>很久没有敲着键盘，写一篇像样子的博文了。</p>]]>
+    </summary>
+    <title>二〇二三年，六年后</title>
+    <updated>2026-11-12T06:15:14.259Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="mood" scheme="https://blueandhack.com/tags/mood/"/>
+    <id>https://blueandhack.com/notes-of-life/2017/12/18/ten-years.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2017/12/18/ten-years.html"/>
+    <published>2017-12-18T13:17:15.000Z</published>
+    <summary>
+      <![CDATA[<p>来美国大概即将四年了吧，昨天凌晨，自己开车送了我“儿子”回国，也突然觉得时间真快，以前那个被接机送机的我，如今也开始开车送起了别人，从前不喜欢开车的我，也开始开车上学上班了。</p>]]>
+    </summary>
+    <title>我的2017</title>
+    <updated>2026-11-12T06:15:14.264Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="mood" scheme="https://blueandhack.com/tags/mood/"/>
+    <id>https://blueandhack.com/notes-of-life/2017/02/26/2017-02.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2017/02/26/2017-02.html"/>
+    <published>2017-02-26T09:54:00.000Z</published>
+    <summary>
+      <![CDATA[<p>一转眼将近半个学期过去了，今天放下手中的代码，开始码下这篇文字吧，词穷了很多，因为很久不写文章了。（一月份过年写的文章，因为写了一半，写不下去之后，直接被我删了）</p>]]>
+    </summary>
+    <title>二〇一七年的二月</title>
+    <updated>2026-11-12T06:15:14.259Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="USA" scheme="https://blueandhack.com/tags/USA/"/>
+    <id>https://blueandhack.com/notes-of-life/2016/10/23/some-stories-in-2016.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2016/10/23/some-stories-in-2016.html"/>
+    <published>2016-10-23T09:32:35.000Z</published>
+    <summary>
+      <![CDATA[<p>是的，我更新了！这已经是2016年的秋天了，来图森这是第三个年头，似乎2014年发生的一切都只是昨天的故事。</p>]]>
+    </summary>
+    <title>最近的故事</title>
+    <updated>2026-11-12T06:15:14.264Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="usa" scheme="https://blueandhack.com/tags/usa/"/>
+    <id>https://blueandhack.com/notes-of-life/2015/11/29/autumn.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2015/11/29/autumn.html"/>
+    <published>2015-11-29T09:05:08.000Z</published>
+    <summary>
+      <![CDATA[<p>很久没有敲打键盘为了我的博客，很久没有去写什么中文的博客，就这样，一眨眼半年过去了，在美国一年多的时间也就那么过去了。上个月讲博客的程序换了，从jeklly转到了hexo，换成了我曾经熟悉的nodejs，这一年的时间内，技术的迭代日新月异，速度奇快无比，让我追得有些累和无奈。</p>
+<p>我知道国内已经是冬日了，老家已经开始下雪，但是这里还可以穿着短袖体恤，所以就叫深秋吧。</p>
+<p>来美国，让我重新对学习有了新的认识，现在的我越来越喜欢去整理，整理笔记，整理文件，整理知识点，也许这就是美国人的思维，从一堆杂乱无章的秩序里，找出你所需要的那几个条款，摆放整齐以备不时之需。</p>
+<p>他们说，出来混得都是要还的</p>
+<p>是的他们说的没错，曾经无忧无虑上了几年的高中，高考考不好也没在意，上了个大专，然而现在面对的则是，我认为是比高考还要难搞定的大学，朋友说上心就好，是啊，这上心上的很累。</p>
+<p>最近四个月败了很多东西，按照日期来计算，首先是NAS，群晖DS415Play，UPS备用电源，R7000路由器，DELL U2415显示器，HHKB Type-S，Magic Trackpad，Bother扫描打印机，New 3DS XL……以及其他好用的软件……</p>]]>
+    </summary>
+    <title>深秋</title>
+    <updated>2026-11-12T06:15:14.260Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <id>https://blueandhack.com/notes-of-life/2015/04/30/LDR.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2015/04/30/LDR.html"/>
+    <published>2015-04-30T20:02:35.000Z</published>
+    <summary>
+      <![CDATA[<p>In China, we had a Chinese folk tale that was classical. In the Chinese lunar calendar, on July 7th, so many magpies create a bridge for]]>
+    </summary>
+    <title>Long Distance Relationship</title>
+    <updated>2026-11-12T06:15:14.259Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="USA" scheme="https://blueandhack.com/tags/USA/"/>
+    <id>https://blueandhack.com/notes-of-life/2015/02/04/LA-dream-city.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2015/02/04/LA-dream-city.html"/>
+    <published>2015-02-04T23:14:28.000Z</published>
+    <summary>
+      <![CDATA[<p>第一次去见风投，为了梦想去了洛杉矶，和朋友一起，想想过去的日子，荒废和颓废，联系了国内的朋友用了几周的时间做了个demo，就这样带过去了，结果几位大牛见了就说，demo不重要，重要的是你想好你要做什么了吗？你想好是什么模式了吗？嗯，就是我学到的。</p>]]>
+    </summary>
+    <title>梦的旅程</title>
+    <updated>2026-11-12T06:15:14.259Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="USA" scheme="https://blueandhack.com/tags/USA/"/>
+    <id>https://blueandhack.com/notes-of-life/2015/01/06/bye-2014.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2015/01/06/bye-2014.html"/>
+    <published>2015-01-06T00:12:12.000Z</published>
+    <summary>
+      <![CDATA[<p>时间流逝如此之快，让我抓不住他的头与尾，当我回过神来之时，他就不见了。回顾我的2014年，只觉得匆匆间，就消逝了。]]>
+    </summary>
+    <title>我的2014</title>
+    <updated>2026-11-12T06:15:14.260Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="college" scheme="https://blueandhack.com/tags/college/"/>
+    <id>https://blueandhack.com/notes-of-life/2014/03/13/college-in-China.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2014/03/13/college-in-China.html"/>
+    <published>2014-03-13T08:56:01.000Z</published>
+    <summary>
+      <![CDATA[<p>眼看着大学生涯还没开始就要结束了  不管怎么说，这两年时间收获了不少，目前身处合肥，在科大讯飞教育进行着培训课程。</p>]]>
+    </summary>
+    <title>祭奠的大学，抉择</title>
+    <updated>2026-11-12T06:15:14.260Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="college" scheme="https://blueandhack.com/tags/college/"/>
+    <category term="winter" scheme="https://blueandhack.com/tags/winter/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/12/09/winter-in-2013.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/12/09/winter-in-2013.html"/>
+    <published>2013-12-09T14:27:34.000Z</published>
+    <summary>
+      <![CDATA[<p>现在是北京时间2013年12月9日6:22 一大早被闹铃叫醒，为了赶去学校升旗，因为今天是12.9，外面起了雾霾，刮着大风，不知道能不能坐到车到校。 最近天身体挺疲惫了，就像去年的我一样，freshman，什么也不懂，但却如同水牛一般不断地耕作，为了可能是今后吧。希望努力没有白费。 </p>]]>
+    </summary>
+    <title>冷于12月</title>
+    <updated>2026-11-12T06:15:14.265Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="memory" scheme="https://blueandhack.com/tags/memory/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/09/26/three-years-ago.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/09/26/three-years-ago.html"/>
+    <published>2013-09-26T09:20:32.000Z</published>
+    <summary>
+      <![CDATA[<p>从2010年到2013，三年就那么过去了，开始，放弃，开始，放弃，然后我重新开始。 又是一个寒秋，16°的气温，似乎又回到从前，那个年纪的我，那个想法的我，但是内心世界却变了，愿上帝与你同在，阿门。]]>
+    </summary>
+    <title>时隔三年</title>
+    <updated>2026-11-12T06:15:14.265Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="hobby" scheme="https://blueandhack.com/tags/hobby/"/>
+    <category term="running" scheme="https://blueandhack.com/tags/running/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/09/13/love-running.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/09/13/love-running.html"/>
+    <published>2013-09-13T08:18:53.000Z</published>
+    <summary>
+      <![CDATA[<p>开学以后爱上了跑步于是一发不可收拾，因为白天太忙没时间跑，于是就安排在了晚自习后的晚九点。每天都比前一天跑的多，这就是进步。 很喜欢endomondo这个软件。统计的很细，在这个大数据时代，信息是很重要的。]]>
+    </summary>
+    <title>Love Running</title>
+    <updated>2026-11-12T06:15:14.262Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/09/13/running.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/09/13/running.html"/>
+    <published>2013-09-13T01:21:16.000Z</published>
+    <summary>
+      <![CDATA[<p>人生就像奔跑，只有跑了才能知道是否可以坚持下来。</p>]]>
+    </summary>
+    <title>Running</title>
+    <updated>2026-11-12T06:15:14.263Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="college" scheme="https://blueandhack.com/tags/college/"/>
+    <category term="fall" scheme="https://blueandhack.com/tags/fall/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/09/03/fall-in-2013.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/09/03/fall-in-2013.html"/>
+    <published>2013-09-03T08:52:02.000Z</published>
+    <summary>
+      <![CDATA[<p>开学之后没有上课而是开始了实训，分小组开发Java 项目，又是项目小组组长，又要开始教别人，我感觉蛮好的。这一年来感触很多，毕竟我是要把博客当作日记来写的。这一路写来，代码不知能否绕个地球一圈，希望自己每一天都在成长。英语B级以82分顺利通过还需要努力下去，我明白我自己要做什么，我是幸运的。 </p>]]>
+    </summary>
+    <title>开学了</title>
+    <updated>2026-11-12T06:15:14.261Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="future" scheme="https://blueandhack.com/tags/future/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/08/31/tell-future-self.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/08/31/tell-future-self.html"/>
+    <published>2013-08-31T09:01:44.000Z</published>
+    <summary>
+      <![CDATA[<p>我知道时间没那么快的流逝，但是我想在这里给自己一点提醒，是时候该为自己的梦想不顾一切的奋斗了。 晚上小小的睡了一觉，每天都如此，拖着自己疲惫的身躯，我想奋斗我不想休息。 我所希望的一年后的今天我可以坐在不同的地方，与这个国家相反的地方，学着不一样的知识。我所希望需要我的努力]]>
+    </summary>
+    <title>写给一年后的自己</title>
+    <updated>2026-11-12T06:15:14.264Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="memory" scheme="https://blueandhack.com/tags/memory/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/08/28/silence.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/08/28/silence.html"/>
+    <published>2013-08-28T08:41:47.000Z</published>
+    <summary>
+      <![CDATA[<p>深夜，突然想到2010年从世博会回家的动车上，那时我还很幼稚，三年了，依稀记得在动车上与我爸单位一个同事家的女儿吵了起来（因为是我爸单位组织的世博活动），吵得很凶，但是现在的我已经记不得吵得是什么了？主题似乎是教育的问题，也不知道当时哪里来的劲和勇气去争论的。（不知道那个女]]>
+    </summary>
+    <title>Silence</title>
+    <updated>2026-11-12T06:15:14.264Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/08/27/say-goodbye-August.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/08/27/say-goodbye-August.html"/>
+    <published>2013-08-27T08:30:18.000Z</published>
+    <summary>
+      <![CDATA[<p>从指尖溜过，细细品读，想想流下了什么？ 感谢你朋友，你的话我已经记在了心里，真心感谢一路走来没有背叛。 Follow my dreams in my life.</p>
+<p><img src="https://cdn.blueandhack.com/wp-content/]]>
+    </summary>
+    <title>九月你好，八月再见</title>
+    <updated>2026-11-12T06:15:14.264Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/07/31/face-life.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/07/31/face-life.html"/>
+    <published>2013-07-31T09:11:42.000Z</published>
+    <summary>
+      <![CDATA[<p>泪在眼眶里打转，打了个喷嚏，笑一笑，一笑而过。</p>]]>
+    </summary>
+    <title>嘻皮笑脸面对人生的难</title>
+    <updated>2026-11-12T06:15:14.261Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="dream" scheme="https://blueandhack.com/tags/dream/"/>
+    <category term="future" scheme="https://blueandhack.com/tags/future/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/07/30/continue-my-dream.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/07/30/continue-my-dream.html"/>
+    <published>2013-07-30T10:38:30.000Z</published>
+    <summary>
+      <![CDATA[<p>在睡梦中被梦想惊醒，当你觉得，梦想如同呼吸一般重要之时，你才会发现他就是我生活的一部分，不可分割的一部分，你需要他！  </p>
+<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2013/07/2013]]>
+    </summary>
+    <title>继续我的梦</title>
+    <updated>2026-11-12T06:15:14.261Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yoga Lin</name>
+    </author>
+    <category term="notes-of-life" scheme="https://blueandhack.com/categories/notes-of-life/"/>
+    <category term="life" scheme="https://blueandhack.com/tags/life/"/>
+    <category term="high school" scheme="https://blueandhack.com/tags/high-school/"/>
+    <category term="memory" scheme="https://blueandhack.com/tags/memory/"/>
+    <id>https://blueandhack.com/notes-of-life/2013/07/27/my-high-school-classmates.html</id>
+    <link href="https://blueandhack.com/notes-of-life/2013/07/27/my-high-school-classmates.html"/>
+    <published>2013-07-27T08:34:13.000Z</published>
+    <summary>
+      <![CDATA[<p>联系少了，距离长了，有些人离你而去，有些人还是在你身边。 就是这样。 我总对自己说，只有先学会了孤独，才可能成功。 就这样算了吧，不聊了。诸君保重！就让记忆就那么永远停留吧。 我不联系你，你不联系我，就那么散了吧，永远的沉默下去。]]>
+    </summary>
+    <title>高中的那些人</title>
+    <updated>2026-11-12T06:15:14.262Z</updated>
+  </entry>
+</feed>
