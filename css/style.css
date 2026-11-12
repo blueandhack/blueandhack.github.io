@@ -1499,3 +1499,20 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   background: var(--sw-ink);
 }
 .icon-palette circle { fill: currentColor; stroke: none; }
+
+/* ---------- Comment counts ---------- */
+
+/* Sits above the row-wide title link so it stays clickable. */
+.comment-count {
+  position: relative;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--ink-3);
+  text-decoration: none;
+}
+.comment-count:hover { color: var(--ink); text-decoration: underline; }
+.comment-count svg,
+[data-comment-meta] svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
+[data-comment-meta] a { color: inherit; }
