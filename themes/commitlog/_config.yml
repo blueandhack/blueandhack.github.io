@@ -7,6 +7,7 @@ menu:
   archive: /archives/
   tags: /tags/
   stats: /stats/
+  links: /links/
   about: /about/
 
 # Branches: each post is drawn on one lane of the commit graph.
@@ -30,10 +31,17 @@ branches:
     color: lime
     match: [story, dream, poem, microfilm, book, animation, video, love]
 
-# Social links in the footer. Icon names: rss, github, x.
-social:
-  github: https://github.com/blueandhack
-  x: https://x.com/blueandhack
+# Profile links (home intro, About, Links page, footer). Keys are the labels
+# shown to readers; GitHub, X and LinkedIn get brand icons, anything else a
+# generic link icon. Special keys:
+#   Email: the address base64-encoded (assembled in the browser on click)
+#   RSS: true (links to /atom.xml)
+social: {}
+
+# Friends' blogs for the Links page (a page with `type: links`).
+#   - name: Example
+#     url: https://example.com/
+links: []
 
 # Fonts (loaded from jsDelivr / Google Fonts).
 fonts:

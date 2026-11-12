@@ -496,6 +496,27 @@
     }
   }
 
+  /* ---------- Email (stored base64-encoded, assembled on demand) ---------- */
+  function decodeEmail(node) {
+    try { return atob(node.getAttribute('data-email')); } catch (e) { return ''; }
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-email]');
+    if (!a) return;
+    var addr = decodeEmail(a);
+    if (!addr) return;
+    e.preventDefault();
+    location.href = 'mailto:' + addr;
+  });
+  // On the Links page, reveal the address once a person interacts with the card.
+  $$('[data-email]').forEach(function (a) {
+    var slot = $('[data-email-text]', a);
+    if (!slot) return;
+    var show = function () { slot.textContent = decodeEmail(a); };
+    a.addEventListener('pointerenter', show, { once: true });
+    a.addEventListener('focus', show, { once: true });
+  });
+
   /* ---------- 404 ---------- */
   var missing = $('[data-missing-path]');
   if (missing) missing.textContent = location.pathname;

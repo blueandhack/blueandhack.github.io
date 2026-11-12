@@ -23,10 +23,39 @@
   </header>
   {% include '_partial/lanes.njk' %}
 
+  {%- elif page.type == 'links' %}
+  <header class="page-head">
+    <h1 class="page-head__title">{{ __('links.title') }}</h1>
+    <p class="page-head__intro">{{ __('links.intro') }}</p>
+  </header>
+  <section class="links-section" aria-labelledby="links-me">
+    <h2 class="section-title" id="links-me">{{ __('links.me') }}</h2>
+    {%- set socialStyle = 'cards' %}
+    {% include '_partial/social.njk' %}
+  </section>
+  {%- if theme.links and theme.links.length %}
+  <section class="links-section" aria-labelledby="links-friends">
+    <h2 class="section-title" id="links-friends">{{ __('links.friends') }}</h2>
+    <ul class="blogroll">
+      {%- for l in theme.links %}
+      <li><a href="{{ l.url }}" rel="noopener">{{ l.name }}</a><span class="blogroll__host">{{ l.url | replace('https://', '') | replace('http://', '') | replace('www.', '') | replace(r/\/$/, '') }}</span></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+  {%- if page.content | trim %}<div class="prose" data-prose>{{ page.content }}</div>{% endif %}
+
   {%- else %}
   <header class="page-head">
     <h1 class="page-head__title">{{ page.title }}</h1>
   </header>
+  {%- if page.profiles %}
+  <section class="profiles" aria-labelledby="profiles-title">
+    <h2 class="visually-hidden" id="profiles-title">{{ __('social.find_me') }}</h2>
+    {%- set socialStyle = 'labels' %}
+    {% include '_partial/social.njk' %}
+  </section>
+  {%- endif %}
   <div class="prose" data-prose>
     {{ page.content }}
   </div>

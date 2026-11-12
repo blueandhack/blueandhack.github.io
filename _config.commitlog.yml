@@ -3,3 +3,16 @@ disqus:
   shortname: blueandhack
 
 google_analytics: G-QCZTMV5CJM
+
+social:
+  GitHub: https://github.com/blueandhack
+  X: https://x.com/blueandhack
+  LinkedIn: https://www.linkedin.com/in/blueandhack/
+  Email: Ymx1ZWFuZGhhY2tAZ21haWwuY29t
+  RSS: true
+
+links:
+  - name: Timothy's Space
+    url: https://xiaozhou.net/
+  - name: 羽毛の家
+    url: https://www.yumao.name/

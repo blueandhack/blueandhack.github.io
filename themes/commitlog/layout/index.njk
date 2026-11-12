@@ -6,6 +6,8 @@
   <section class="intro">
     <h1 class="intro__title">{{ config.title }}</h1>
     <p class="intro__subtitle">{{ config.description or config.subtitle }}</p>
+    {%- set socialStyle = 'labels' %}
+    {% include '_partial/social.njk' %}
     <p class="intro__line">{{ __('home.intro', site.posts.length, date(oldest.date, 'YYYY'), date(latest.date, 'MMMM D, YYYY')) }}</p>
   </section>
 

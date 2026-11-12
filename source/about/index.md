@@ -2,6 +2,7 @@
 title: About
 date: 2015-10-03 23:23:40
 comments: false
+profiles: true
 ---
 
 ## 我是谁

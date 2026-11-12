@@ -1,0 +1,18 @@
+{#- Profile links. Set `socialStyle` to 'labels' (icon + name) or 'icons' (icon only) before including. -#}
+{%- import '_partial/icons.njk' as icons -%}
+{%- set profiles = social_links() %}
+{%- if profiles.length %}
+<ul class="social social--{{ socialStyle or 'labels' }}">
+  {%- for p in profiles %}
+  <li>
+    {%- if p.icon == 'email' %}
+    <a href="#email" data-email="{{ p.encoded }}" aria-label="{{ __('social.email') }}"{% if socialStyle == 'icons' %} title="{{ __('social.email') }}"{% endif %}>{{ icons.icon('email') }}<span class="social__label">{{ __('social.email') }}</span><span class="social__detail" data-email-text>{{ __('social.email_hint') }}</span></a>
+    {%- elif p.icon == 'rss' %}
+    <a href="{{ url_for(p.url) }}" aria-label="{{ __('footer.rss') }}"{% if socialStyle == 'icons' %} title="{{ __('footer.rss') }}"{% endif %}>{{ icons.icon('rss') }}<span class="social__label">RSS</span><span class="social__detail">{{ config.url | replace('https://', '') }}{{ url_for(p.url) }}</span></a>
+    {%- else %}
+    <a href="{{ p.url }}" rel="me noopener" aria-label="{{ p.label }}"{% if socialStyle == 'icons' %} title="{{ p.label }}"{% endif %}>{{ icons.icon(p.icon) }}<span class="social__label">{{ p.label }}</span><span class="social__detail">{{ p.display }}</span></a>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endif %}

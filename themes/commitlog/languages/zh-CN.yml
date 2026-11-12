@@ -3,6 +3,7 @@ nav:
   archive: 归档
   tags: 标签
   stats: 统计
+  links: 链接
   about: 关于
   primary: 主导航
 
@@ -108,6 +109,17 @@ shortcuts:
   random: 随机文章
   help: 显示本帮助
   close: 关闭
+
+social:
+  email: 邮件
+  email_hint: 给我写信
+  find_me: 在别处找到我
+
+links:
+  title: 链接
+  intro: 在别处找到我，以及朋友们的博客。
+  me: 我在别处
+  friends: 朋友的博客
 
 footer:
   shortcuts: "按 ? 查看键盘快捷键"

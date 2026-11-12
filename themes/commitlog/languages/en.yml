@@ -3,6 +3,7 @@ nav:
   archive: Archive
   tags: Tags
   stats: Stats
+  links: Links
   about: About
   primary: Main navigation
 
@@ -108,6 +109,17 @@ shortcuts:
   random: Random post
   help: Show this help
   close: Close
+
+social:
+  email: Email
+  email_hint: Write to me
+  find_me: Find me elsewhere
+
+links:
+  title: Links
+  intro: Where else to find me, and blogs by friends.
+  me: Me, elsewhere
+  friends: Friends' blogs
 
 footer:
   shortcuts: "Press ? for keyboard shortcuts"

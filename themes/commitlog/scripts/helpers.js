@@ -344,7 +344,10 @@ hexo.extend.helper.register('social_links', function() {
     const lower = key.toLowerCase();
     if (lower === 'email') out.push({ icon: 'email', encoded: String(value) });
     else if (lower === 'rss') out.push({ icon: 'rss', url: typeof value === 'string' ? value : '/atom.xml' });
-    else out.push({ label: key, url: value, icon: KNOWN_ICONS.has(lower) ? lower : 'link' });
+    else {
+      const display = String(value).replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+      out.push({ label: key, url: value, display, icon: KNOWN_ICONS.has(lower) ? lower : 'link' });
+    }
   });
   return out;
 });
