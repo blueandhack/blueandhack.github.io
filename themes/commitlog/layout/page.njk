@@ -1,0 +1,42 @@
+<div class="wrap page">
+  {%- if page.type == 'tags' %}
+  {%- set tags = sorted_tags() %}
+  <header class="page-head">
+    <h1 class="page-head__title">{{ __('tags.title') }}</h1>
+    <p class="page-head__intro">{{ __('tags.intro', tags.length, site.posts.length) }}</p>
+  </header>
+  <ul class="tag-cloud">
+    {%- for t in tags %}
+    <li><a class="ref ref--count" href="{{ url_for(t.path) }}"><span>#{{ t.name }}</span><span class="ref__n">{{ t.length }}</span></a></li>
+    {%- endfor %}
+  </ul>
+  <section class="lanes-legend" aria-labelledby="branches-title">
+    <h2 class="section-title" id="branches-title">{{ __('categories.title') }}</h2>
+    <p class="section-hint">{{ __('categories.intro') }}</p>
+    {% include '_partial/lanes.njk' %}
+  </section>
+
+  {%- elif page.type == 'categories' %}
+  <header class="page-head">
+    <h1 class="page-head__title">{{ __('categories.title') }}</h1>
+    <p class="page-head__intro">{{ __('categories.intro') }}</p>
+  </header>
+  {% include '_partial/lanes.njk' %}
+
+  {%- else %}
+  <header class="page-head">
+    <h1 class="page-head__title">{{ page.title }}</h1>
+  </header>
+  <div class="prose" data-prose>
+    {{ page.content }}
+  </div>
+  {%- if theme.disqus.shortname and page.comments %}
+  <section class="comments" aria-labelledby="comments-title">
+    <h2 class="section-title" id="comments-title">{{ __('post.comments') }}</h2>
+    <div id="disqus_thread" data-disqus data-url="{{ page.permalink }}" data-identifier="{{ page.path }}" data-title="{{ page.title }}">
+      <button class="button" type="button" data-load-comments>{{ __('post.load_comments') }}</button>
+    </div>
+  </section>
+  {%- endif %}
+  {%- endif %}
+</div>

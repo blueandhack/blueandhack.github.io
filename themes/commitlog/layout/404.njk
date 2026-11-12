@@ -1,0 +1,10 @@
+<div class="wrap page notfound">
+  <p class="notfound__code"><code>fatal: path '<span data-missing-path>/</span>' does not exist in '{{ main_branch() }}'</code></p>
+  <h1 class="page-head__title">{{ __('notfound.title') }}</h1>
+  <p class="notfound__message">{{ __('notfound.message') }}</p>
+  <ul class="notfound__actions">
+    <li><a class="button button--primary" href="{{ url_for('/') }}">{{ __('notfound.home') }}</a></li>
+    <li><button class="button" type="button" data-action="random">{{ __('notfound.random') }}</button></li>
+    <li><button class="button" type="button" data-action="palette">{{ __('notfound.search') }}</button></li>
+  </ul>
+</div>

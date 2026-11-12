@@ -66,8 +66,14 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 15
   order_by: -date
+
+# One page for the full archive (the theme renders a heatmap + year timeline)
+archive_generator:
+  per_page: 0
+  yearly: true
+  monthly: true
 
 # Category & Tag
 default_category: uncategorized
@@ -101,7 +107,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: commitlog
 
 # Deployment
 ## Deployed by GitHub Actions (.github/workflows/pages.yml) on push to main.

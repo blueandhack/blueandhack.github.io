@@ -1,0 +1,33 @@
+{%- set hm = post_heatmap() %}
+<figure class="heatmap" aria-labelledby="heatmap-title">
+  <figcaption class="heatmap__caption" id="heatmap-title">{{ __('archive.heatmap') }}</figcaption>
+  <div class="heatmap__scroll">
+    <table class="heatmap__grid">
+      <thead>
+        <tr>
+          <th scope="col"><span class="visually-hidden">Year</span></th>
+          {%- for m in ['J','F','M','A','M','J','J','A','S','O','N','D'] %}<th scope="col" aria-hidden="true">{{ m }}</th>{% endfor %}
+          <th scope="col"><span class="visually-hidden">Total</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for y in hm.years %}
+        <tr>
+          <th scope="row"><a href="{{ url_for('/archives/' + y.year + '/') }}"{% if not y.total %} tabindex="-1" aria-disabled="true"{% endif %}>{{ y.year }}</a></th>
+          {%- for c in y.months %}
+          <td class="cell cell--{{ c.level }}" title="{{ __('archive.heatmap_cell', c.label, c.count) }}">
+            {%- if c.count %}<a href="{{ url_for('/archives/' + y.year + '/' + (c.label | replace(y.year + '-', '')) + '/') }}" aria-label="{{ __('archive.heatmap_cell', c.label, c.count) }}"></a>{% endif -%}
+          </td>
+          {%- endfor %}
+          <td class="heatmap__total">{{ y.total or '' }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="heatmap__legend" aria-hidden="true">
+    <span>{{ __('archive.less') }}</span>
+    <span class="cell cell--0"></span><span class="cell cell--1"></span><span class="cell cell--2"></span><span class="cell cell--3"></span><span class="cell cell--4"></span>
+    <span>{{ __('archive.more') }}</span>
+  </p>
+</figure>

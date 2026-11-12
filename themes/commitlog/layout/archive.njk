@@ -1,0 +1,30 @@
+<div class="wrap page">
+  <header class="page-head">
+    <h1 class="page-head__title">{{ __('archive.title') }}{% if page.year %} {{ page.year }}{% if page.month %}/{{ page.month }}{% endif %}{% endif %}</h1>
+  </header>
+
+  {%- if not page.year %}
+  {% include '_partial/heatmap.njk' %}
+  {%- endif %}
+
+  <div class="timeline">
+    {%- for group in group_by_year(page.posts) %}
+    <section class="timeline__year" aria-labelledby="y-{{ group.year }}">
+      <h2 class="timeline__heading" id="y-{{ group.year }}">
+        <span class="tag-label">v{{ group.year }}</span>
+        <span class="timeline__count">{{ __('archive.year_count', group.posts.length) }}</span>
+      </h2>
+      <ol class="timeline__list">
+        {%- for post in group.posts %}
+        <li class="timeline__item" style="--c: var(--lane-{{ lane_color(lane_key(post)) }})" data-row>
+          <time datetime="{{ date_xml(post.date) }}">{{ date(post.date, 'MM-DD') }}</time>
+          <a href="{{ url_for(post.path) }}" data-row-link>{{ post.title }}</a>
+          <code class="timeline__hash">{{ commit_hash(post) }}</code>
+        </li>
+        {%- endfor %}
+      </ol>
+    </section>
+    {%- endfor %}
+  </div>
+  {% include '_partial/pager.njk' %}
+</div>

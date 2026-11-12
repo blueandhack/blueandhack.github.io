@@ -1,0 +1,9 @@
+<div class="wrap page">
+  <header class="page-head" style="--c: var(--lane-{{ lane_color(page.branch) }})">
+    <h1 class="page-head__title"><span class="branch branch--big">{{ page.branch }}</span></h1>
+    <p class="page-head__intro">{{ __('archive.year_count', page.posts.length) }}</p>
+  </header>
+  {%- set graph = commit_graph(page.posts) %}
+  {%- set showHead = false %}
+  {% include '_partial/graph.njk' %}
+</div>

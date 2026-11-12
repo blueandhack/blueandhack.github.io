@@ -1,0 +1,33 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="{{ url_for('/') }}" aria-label="{{ config.title }}">
+      <svg class="brand__mark" width="22" height="26" viewBox="0 0 22 26" aria-hidden="true">
+        <path d="M6 1v24" class="brand__main"/>
+        <path d="M6 18c0-6 10-6 10-11V5" class="brand__side"/>
+        <circle cx="6" cy="18" r="3.4" class="brand__dot-main"/>
+        <circle cx="16" cy="5" r="3.4" class="brand__dot-side"/>
+      </svg>
+      <span class="brand__name">{{ config.title }}</span>
+    </a>
+    <nav class="site-nav" aria-label="{{ __('nav.primary') }}">
+      <ul>
+        {%- for key, path in theme.menu %}
+        {%- set active = (key == 'log' and (is_home() or is_post())) or (key != 'log' and page.path and ('/' + page.path).startsWith(path)) or (key == 'archive' and is_archive()) or (key == 'tags' and (is_tag() or page.type == 'tags')) or (key == 'stats' and page.type == 'stats') %}
+        <li><a href="{{ url_for(path) }}"{% if active %} aria-current="page"{% endif %}>{{ __('nav.' + key) }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    <div class="site-tools">
+      <button class="search-trigger" type="button" data-action="palette" aria-label="{{ __('search') }}">
+        <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+        <span class="search-trigger__label">{{ __('search') }}</span>
+        <kbd class="search-trigger__kbd" data-mod-key>Ctrl K</kbd>
+      </button>
+      <button class="icon-button" type="button" data-action="theme" aria-label="{{ __('theme_toggle') }}" title="{{ __('theme_toggle') }}">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
+  </div>
+  {%- if is_post() %}<div class="progress" aria-hidden="true"><div class="progress__bar" style="--c: var(--lane-{{ lane_color(lane_key(page)) }})"></div></div>{% endif %}
+</header>

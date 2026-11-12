@@ -1,0 +1,115 @@
+nav:
+  log: 日志
+  archive: 归档
+  tags: 标签
+  stats: 统计
+  about: 关于
+  primary: 主导航
+
+skip: 跳到正文
+search: 搜索
+theme_toggle: 切换浅色或深色主题
+min_read: "%d 分钟阅读"
+reading: 阅读时间
+author: 作者
+date: 日期
+branch: 分支
+commit: commit
+
+home:
+  intro: "自 %2$s 起共写了 %1$d 篇文章，最近一篇写于 %3$s。"
+  on_this_day: 历史上的今天
+  on_this_day_hint: 往年今天前后写下的文章。
+  head: HEAD
+
+pager:
+  newer: 较新的文章
+  older: 较早的文章
+  page: 第 %d 页，共 %d 页
+
+post:
+  parent: 更早
+  child: 更新
+  related: 相关文章
+  contents: 目录
+  comments: 评论
+  load_comments: 加载评论
+  copy: 复制
+  copied: 已复制
+  tags: 标签
+
+archive:
+  title: 归档
+  heatmap: 每月文章数，2010 年至今
+  heatmap_cell: "%s：%d 篇"
+  less: 少
+  more: 多
+  year_count: "%d 篇"
+
+tags:
+  title: 标签
+  intro: "%d 个标签，%d 篇文章。"
+tag:
+  title: "标签：%s"
+categories:
+  title: 分支
+  intro: 文章按标签归入不同分支，每条分支是图中的一条线。
+category:
+  title: "分支：%s"
+
+stats:
+  title: 统计
+  intro: 十六年的写作，数一数。
+  posts: 文章
+  characters: 总字数
+  busiest_year: 最多产的一年
+  longest: 最长的文章
+  per_year: 每年文章数
+  chars_per_year: 每年字数
+  branches: 各分支文章数
+  years_active: 有文章的年份
+
+notfound:
+  title: 页面不存在
+  message: 这个地址没有内容。博客这些年换过几次平台，页面可能已经搬家了。
+  home: 查看最新文章
+  random: 随便读一篇
+  search: 搜索博客
+
+palette:
+  label: 搜索文章和命令
+  placeholder: 搜索文章、标签，或输入命令
+  posts: 文章
+  commands: 命令
+  fulltext: 正文匹配
+  empty: 没有匹配的文章。试试更短的关键词。
+  loading: 正在加载全文索引
+  go_home: 前往日志
+  go_archive: 前往归档
+  go_tags: 前往标签
+  go_stats: 前往统计
+  go_about: 前往关于
+  random: 随机打开一篇文章
+  toggle_theme: 切换浅色或深色主题
+  rss: 通过 RSS 订阅
+  shortcuts: 显示键盘快捷键
+
+shortcuts:
+  title: 键盘快捷键
+  open_palette: 搜索和命令
+  next_prev: 列表中的下一篇或上一篇
+  older_newer: 更早或更新的文章（文章页）
+  open: 打开选中的文章
+  go_home: 前往日志
+  go_archive: 前往归档
+  go_tags: 前往标签
+  go_stats: 前往统计
+  theme: 切换浅色或深色主题
+  random: 随机文章
+  help: 显示本帮助
+  close: 关闭
+
+footer:
+  shortcuts: "按 ? 查看键盘快捷键"
+  powered: "由 Hexo 和 commitlog 主题构建"
+  rss: RSS 订阅

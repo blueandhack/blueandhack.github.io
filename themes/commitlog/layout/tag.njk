@@ -1,0 +1,9 @@
+<div class="wrap page">
+  <header class="page-head">
+    <h1 class="page-head__title"><span class="ref ref--big">#{{ page.tag }}</span></h1>
+  </header>
+  {%- set graph = commit_graph(page.posts) %}
+  {%- set showHead = false %}
+  {% include '_partial/graph.njk' %}
+  {% include '_partial/pager.njk' %}
+</div>

@@ -1,0 +1,53 @@
+# commitlog — a Hexo theme that renders a blog as a git history.
+# Override any of these in the site root `_config.commitlog.yml`.
+
+# Top navigation. Key = i18n label under `nav.`, value = path.
+menu:
+  log: /
+  archive: /archives/
+  tags: /tags/
+  stats: /stats/
+  about: /about/
+
+# Branches: each post is drawn on one lane of the commit graph.
+# The first branch is the main line (always drawn) and catches every post that
+# matches nothing else. Other branches are tried in order; a post joins the
+# first one whose `match` list contains one of its tags or categories
+# (case-insensitive). Colors come from --lane-<color> in style.css.
+branches:
+  life:
+    color: blue
+  code:
+    color: magenta
+    match: [technology, themes, plugins, programming, C, C++, Java, PHP, Javascript, HTML, Linux, CentOS, ubuntu, LNMP, DirectAdmin, wordpress, theme, plugin, GPL, Windows, blog, blogger, Ads, links, GFW, test]
+  school:
+    color: teal
+    match: [college, high school, TOEFL, education, classmate]
+  places:
+    color: amber
+    match: [Shanghai, China, USA, vacation, travel]
+  stories:
+    color: lime
+    match: [story, dream, poem, microfilm, book, animation, video, love]
+
+# Social links in the footer. Icon names: rss, github, x.
+social:
+  github: https://github.com/blueandhack
+  x: https://x.com/blueandhack
+
+# Fonts (loaded from jsDelivr / Google Fonts).
+fonts:
+  wenkai: https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css
+  mono: https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap
+
+# Comments
+disqus:
+  shortname:
+
+# Google Analytics 4 measurement ID (G-XXXXXXX)
+google_analytics:
+
+# Reading speed used for "N min read".
+reading_speed:
+  cjk_chars_per_min: 300
+  words_per_min: 220

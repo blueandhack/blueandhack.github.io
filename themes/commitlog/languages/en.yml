@@ -1,0 +1,115 @@
+nav:
+  log: Log
+  archive: Archive
+  tags: Tags
+  stats: Stats
+  about: About
+  primary: Main navigation
+
+skip: Skip to content
+search: Search
+theme_toggle: Switch light or dark theme
+min_read: "%d min read"
+reading: Reading time
+author: Author
+date: Date
+branch: Branch
+commit: commit
+
+home:
+  intro: "%d posts written since %s. The latest landed on %s."
+  on_this_day: On this day
+  on_this_day_hint: Posts written around today's date in earlier years.
+  head: HEAD
+
+pager:
+  newer: Newer posts
+  older: Older posts
+  page: Page %d of %d
+
+post:
+  parent: Older
+  child: Newer
+  related: Related posts
+  contents: Contents
+  comments: Comments
+  load_comments: Load comments
+  copy: Copy
+  copied: Copied
+  tags: Tags
+
+archive:
+  title: Archive
+  heatmap: Posts per month, 2010 to now
+  heatmap_cell: "%s: %d posts"
+  less: Fewer
+  more: More
+  year_count: "%d posts"
+
+tags:
+  title: Tags
+  intro: "%d tags across %d posts."
+tag:
+  title: "Tagged %s"
+categories:
+  title: Branches
+  intro: Posts are grouped into branches by their tags. Each branch is a lane in the graph.
+category:
+  title: "Branch %s"
+
+stats:
+  title: Stats
+  intro: Sixteen years of writing, counted.
+  posts: Posts
+  characters: Characters written
+  busiest_year: Busiest year
+  longest: Longest post
+  per_year: Posts per year
+  chars_per_year: Characters per year
+  branches: Posts per branch
+  years_active: Years with posts
+
+notfound:
+  title: Page not found
+  message: "There's nothing at this address. The page may have moved when the blog changed platforms over the years."
+  home: Go to the latest posts
+  random: Read a random post
+  search: Search the blog
+
+palette:
+  label: Search posts and commands
+  placeholder: Search posts, tags, or type a command
+  posts: Posts
+  commands: Commands
+  fulltext: Matches in post text
+  empty: No posts match. Try a shorter word, or search in Chinese.
+  loading: Loading full-text index
+  go_home: Go to the log
+  go_archive: Go to the archive
+  go_tags: Go to tags
+  go_stats: Go to stats
+  go_about: Go to about
+  random: Open a random post
+  toggle_theme: Switch light or dark theme
+  rss: Subscribe via RSS
+  shortcuts: Show keyboard shortcuts
+
+shortcuts:
+  title: Keyboard shortcuts
+  open_palette: Search and commands
+  next_prev: Next or previous post in a list
+  older_newer: Older or newer post (on a post)
+  open: Open the selected post
+  go_home: Go to the log
+  go_archive: Go to the archive
+  go_tags: Go to tags
+  go_stats: Go to stats
+  theme: Switch light or dark theme
+  random: Random post
+  help: Show this help
+  close: Close
+
+footer:
+  shortcuts: "Press ? for keyboard shortcuts"
+  powered: "Built with Hexo and the commitlog theme"
+  rss: RSS feed

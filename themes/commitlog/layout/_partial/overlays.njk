@@ -1,0 +1,38 @@
+<dialog class="palette" id="palette" aria-label="{{ __('palette.label') }}">
+  <div class="palette__box">
+    <div class="palette__field">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+      <input class="palette__input" type="search" autocomplete="off" spellcheck="false"
+             placeholder="{{ __('palette.placeholder') }}" aria-label="{{ __('palette.label') }}"
+             role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list">
+      <kbd>Esc</kbd>
+    </div>
+    <ul class="palette__list" id="palette-list" role="listbox"></ul>
+    <p class="palette__status" aria-live="polite"></p>
+  </div>
+</dialog>
+
+<dialog class="shortcuts" id="shortcuts" aria-labelledby="shortcuts-title">
+  <div class="shortcuts__box">
+    <h2 id="shortcuts-title">{{ __('shortcuts.title') }}</h2>
+    <dl>
+      <div><dt><kbd data-mod-key>Ctrl K</kbd> <kbd>/</kbd></dt><dd>{{ __('shortcuts.open_palette') }}</dd></div>
+      <div><dt><kbd>j</kbd> <kbd>k</kbd></dt><dd>{{ __('shortcuts.next_prev') }}</dd></div>
+      <div><dt><kbd>Enter</kbd></dt><dd>{{ __('shortcuts.open') }}</dd></div>
+      <div><dt><kbd>h</kbd> <kbd>l</kbd></dt><dd>{{ __('shortcuts.older_newer') }}</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>h</kbd></dt><dd>{{ __('shortcuts.go_home') }}</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>a</kbd></dt><dd>{{ __('shortcuts.go_archive') }}</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>t</kbd></dt><dd>{{ __('shortcuts.go_tags') }}</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>s</kbd></dt><dd>{{ __('shortcuts.go_stats') }}</dd></div>
+      <div><dt><kbd>t</kbd></dt><dd>{{ __('shortcuts.theme') }}</dd></div>
+      <div><dt><kbd>r</kbd></dt><dd>{{ __('shortcuts.random') }}</dd></div>
+      <div><dt><kbd>?</kbd></dt><dd>{{ __('shortcuts.help') }}</dd></div>
+    </dl>
+    <form method="dialog"><button class="button">{{ __('shortcuts.close') }}</button></form>
+  </div>
+</dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Image">
+  <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="{{ __('shortcuts.close') }}">×</button></form>
+  <img class="lightbox__img" alt="">
+</dialog>

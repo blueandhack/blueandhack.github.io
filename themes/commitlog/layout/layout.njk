@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="{{ config.language or 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- set pageTitle = page.title if page.title else '' %}
+  {%- if page.type == 'stats' %}{% set pageTitle = __('stats.title') %}{% endif %}
+  {%- if page.type == 'notfound' %}{% set pageTitle = __('notfound.title') %}{% endif %}
+  {%- if is_archive() %}{% set pageTitle = __('archive.title') %}{% endif %}
+  {%- if is_tag() %}{% set pageTitle = __('tag.title', page.tag) %}{% endif %}
+  {%- if is_category() %}{% set pageTitle = __('category.title', page.category) %}{% endif %}
+  {%- if page.type == 'branch' %}{% set pageTitle = __('category.title', page.branch) %}{% endif %}
+  <title>{% if pageTitle and not is_home() %}{{ pageTitle }} | {% endif %}{{ config.title }}{% if is_home() and (config.subtitle or config.description) %} | {{ config.subtitle or config.description }}{% endif %}</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('cl-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f6fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1630" media="(prefers-color-scheme: dark)">
+  {{ open_graph({ twitter_id: '', image: config.avatar }) }}
+  <link rel="icon" href="{{ url_for('/favicon.ico') }}">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="{{ theme.fonts.wenkai }}">
+  <link rel="stylesheet" href="{{ theme.fonts.mono }}">
+  <link rel="stylesheet" href="{{ url_for('/css/style.css') }}">
+  {%- if theme.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ theme.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ theme.google_analytics }}');
+  </script>
+  {%- endif %}
+  <script type="application/json" id="cl-config">{{ {
+    root: config.root,
+    postsIndex: url_for('/posts.json'),
+    searchIndex: url_for('/' + (config.search.path if config.search and config.search.path else 'search.json')),
+    rss: url_for('/atom.xml'),
+    disqus: theme.disqus.shortname,
+    lanes: branch_colors(),
+    links: { home: url_for('/'), archive: url_for('/archives/'), tags: url_for('/tags/'), stats: url_for('/stats/'), about: url_for('/about/') },
+    i18n: {
+      posts: __('palette.posts'), commands: __('palette.commands'), fulltext: __('palette.fulltext'),
+      empty: __('palette.empty'), loading: __('palette.loading'),
+      go_home: __('palette.go_home'), go_archive: __('palette.go_archive'), go_tags: __('palette.go_tags'),
+      go_stats: __('palette.go_stats'), go_about: __('palette.go_about'), random: __('palette.random'),
+      toggle_theme: __('palette.toggle_theme'), rss: __('palette.rss'), shortcuts: __('palette.shortcuts'),
+      copy: __('post.copy'), copied: __('post.copied')
+    }
+  } | dump | replace('</', '<\\/') }}</script>
+  <script src="{{ url_for('/js/main.js') }}" defer></script>
+</head>
+<body class="{% if is_home() %}is-home{% elif is_post() %}is-post{% else %}is-page{% endif %}">
+  <a class="skip-link" href="#main">{{ __('skip') }}</a>
+  {% include '_partial/header.njk' %}
+  <main id="main" tabindex="-1">
+    {{ body }}
+  </main>
+  {% include '_partial/footer.njk' %}
+  {% include '_partial/overlays.njk' %}
+</body>
+</html>

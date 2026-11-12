@@ -1,0 +1,7 @@
+{%- if page.total > 1 %}
+<nav class="pager" aria-label="{{ __('pager.page', page.current, page.total) }}">
+  {%- if page.prev_link %}<a class="pager__link" rel="prev" href="{{ url_for(page.prev_link) }}">{{ __('pager.newer') }}</a>{% else %}<span></span>{% endif %}
+  <span class="pager__state">{{ __('pager.page', page.current, page.total) }}</span>
+  {%- if page.next_link %}<a class="pager__link" rel="next" href="{{ url_for(page.next_link) }}">{{ __('pager.older') }}</a>{% else %}<span></span>{% endif %}
+</nav>
+{%- endif %}

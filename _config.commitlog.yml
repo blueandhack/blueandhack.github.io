@@ -1,0 +1,5 @@
+# Site-specific overrides for themes/commitlog/_config.yml
+disqus:
+  shortname: blueandhack
+
+google_analytics: G-QCZTMV5CJM

@@ -1,0 +1,23 @@
+{%- set allPosts = site.posts.sort('-date') %}
+{%- set latest = allPosts.first() %}
+{%- set oldest = allPosts.last() %}
+<div class="wrap">
+  {%- if page.current == 1 %}
+  <section class="intro">
+    <h1 class="intro__title">{{ config.title }}</h1>
+    <p class="intro__subtitle">{{ config.description or config.subtitle }}</p>
+    <p class="intro__line">{{ __('home.intro', site.posts.length, date(oldest.date, 'YYYY'), date(latest.date, 'MMMM D, YYYY')) }}</p>
+  </section>
+
+  <section class="on-this-day" data-on-this-day hidden aria-labelledby="otd-title">
+    <h2 id="otd-title" class="section-title">{{ __('home.on_this_day') }}</h2>
+    <p class="section-hint">{{ __('home.on_this_day_hint') }}</p>
+    <ul class="on-this-day__list"></ul>
+  </section>
+  {%- endif %}
+
+  {%- set graph = commit_graph(page.posts) %}
+  {%- set showHead = page.current == 1 %}
+  {% include '_partial/graph.njk' %}
+  {% include '_partial/pager.njk' %}
+</div>

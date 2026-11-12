@@ -1,0 +1,49 @@
+# commitlog
+
+A Hexo theme that renders a blog as a git history. The home page is a commit
+graph: every post is a commit, each branch is a colored lane, and every year
+boundary is a release tag (`v2010`, `v2011`, …).
+
+No build step and no runtime dependencies: Nunjucks templates (rendered by
+Hexo core), one CSS file, one vanilla JS file.
+
+## Features
+
+- **Commit graph** on the home, tag, category and branch pages, with lanes that
+  fork from and merge back into the main line.
+- **Branches** (`/branches/<name>/`) group posts by tag. Configure them under
+  `branches` in `_config.yml`: the first branch is the main line; a post joins
+  the first other branch whose `match` list contains one of its tags or
+  categories.
+- **Command palette** (`Ctrl/⌘ K` or `/`): search titles, tags and full post
+  text, plus commands (navigation, random post, theme, RSS, shortcuts).
+- **Keyboard shortcuts**: `j`/`k` move through lists, `Enter` opens, `h`/`l`
+  older/newer post, `g h|a|t|s|b` go to log/archive/tags/stats/about, `t` theme,
+  `r` random post, `?` help.
+- **Archive** with a posts-per-month heatmap and a year timeline.
+- **On this day**: posts written around today's date in earlier years.
+- **Stats page** (`/stats/`): posts and characters per year, posts per branch.
+- **Reading tools**: light/dark theme, reading progress bar, table of contents
+  (for posts with headings), reading time that counts Chinese characters,
+  older/newer navigation, related posts by shared tags.
+- **Code and media**: language label and copy button on code blocks, image
+  lightbox, a 404 page.
+- **Comments** via Disqus, loaded only when the reader scrolls near them.
+- **English UI by default**; `languages/zh-CN.yml` is included. Set
+  `language` in the site `_config.yml` to switch.
+
+## Site requirements
+
+- `hexo-generator-searchdb` (full-text search in the palette)
+- `hexo-generator-feed` (RSS link)
+- `archive_generator.per_page: 0` is recommended so the archive is one page.
+
+## Overrides
+
+Put site-specific values in `_config.commitlog.yml` at the site root, e.g.:
+
+```yaml
+disqus:
+  shortname: your-shortname
+google_analytics: G-XXXXXXXXXX
+```

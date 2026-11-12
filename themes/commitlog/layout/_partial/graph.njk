@@ -1,0 +1,39 @@
+{#- Expects `graph` (from commit_graph()) and optional `showHead` in context. -#}
+<ol class="graph" style="--graph-w: {{ graph.width }}px" data-graph>
+  {%- for row in graph.rows %}
+  {%- if row.type == 'tag' %}
+  <li class="graph-row graph-row--tag" aria-hidden="true" style="--i: {{ loop.index0 }}">
+    <span class="graph-row__lanes">
+      {%- for s in row.segs %}<span class="seg seg--{{ s.kind }}" style="--x: {{ s.x }}; --c: var(--lane-{{ s.color }})"></span>{% endfor %}
+      <span class="tag-mark"></span>
+    </span>
+    <span class="tag-label">v{{ row.year }}</span>
+  </li>
+  {%- else %}
+  {%- set post = row.post %}
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-{{ row.color }}); --i: {{ loop.index0 }}" data-row>
+    <span class="graph-row__lanes" aria-hidden="true">
+      {%- for s in row.segs %}<span class="seg seg--{{ s.kind }}" style="--x: {{ s.x }}; --c: var(--lane-{{ s.color }})"></span>{% endfor %}
+      {%- if row.curves.length %}
+      <svg class="curves" width="{{ graph.width }}" height="{{ graph.svgHeight }}" viewBox="0 0 {{ graph.width }} {{ graph.svgHeight }}">
+        {%- for c in row.curves %}<path d="{{ c.d }}" style="stroke: var(--lane-{{ c.color }})"/>{% endfor %}
+      </svg>
+      {%- endif %}
+      <span class="dot{% if row.x == 0 %} dot--main{% endif %}" style="--x: {{ row.x }}"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="{{ url_for(post.path) }}" data-row-link>{{ post.title }}</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">{{ commit_hash(post) }}</code>
+        {%- if showHead and row.first %}<span class="ref ref--head">{{ __('home.head') }}</span>{% endif %}
+        <time datetime="{{ date_xml(post.date) }}">{{ date(post.date, 'YYYY-MM-DD') }}</time>
+        <span>{{ __('min_read', reading_minutes(post.content)) }}</span>
+        <span class="branch">{{ row.key }}</span>
+      </p>
+      {%- set summary = summary_text(post) %}
+      {%- if summary %}<p class="commit__summary">{{ summary }}</p>{% endif %}
+    </article>
+  </li>
+  {%- endif %}
+  {%- endfor %}
+</ol>

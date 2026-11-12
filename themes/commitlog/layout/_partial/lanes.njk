@@ -1,0 +1,8 @@
+<ul class="lanes">
+  {%- for l in lane_list() %}
+  <li style="--c: var(--lane-{{ l.color }})">
+    {%- if l.path %}<a class="lanes__name" href="{{ url_for(l.path) }}">{{ l.key }}</a>{% else %}<span class="lanes__name">{{ l.key }}</span>{% endif %}
+    <span class="lanes__count">{{ l.count }}</span>
+  </li>
+  {%- endfor %}
+</ul>
