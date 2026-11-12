@@ -110,6 +110,11 @@ shortcuts:
   help: Show this help
   close: Close
 
+translation:
+  note: Translated from Chinese by Claude.
+  read_original: Read the original
+  read_english: Read in English
+
 social:
   email: Email
   email_hint: Write to me

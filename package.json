@@ -5,7 +5,10 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "server": "hexo server"
+    "server": "hexo server",
+    "translate": "node tools/translate.mjs",
+    "links": "node tools/links.mjs",
+    "links:fix": "node tools/links.mjs --fix"
   },
   "hexo": {
     "version": "8.1.2"
@@ -21,5 +24,8 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-marked": "^7.0.1",
     "hexo-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
   }
 }

@@ -29,5 +29,8 @@
       </button>
     </div>
   </div>
-  {%- if is_post() %}<div class="progress" aria-hidden="true"><div class="progress__bar" style="--c: var(--lane-{{ lane_color(lane_key(page)) }})"></div></div>{% endif %}
+  {%- if is_post() or page.layout == 'translation' %}
+  {%- set progressPost = original_for(page) if page.layout == 'translation' else page %}
+  <div class="progress" aria-hidden="true"><div class="progress__bar" style="--c: var(--lane-{{ lane_color(lane_key(progressPost) if progressPost else main_branch()) }})"></div></div>
+  {%- endif %}
 </header>

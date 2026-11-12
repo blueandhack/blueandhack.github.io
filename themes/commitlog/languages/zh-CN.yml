@@ -110,6 +110,11 @@ shortcuts:
   help: 显示本帮助
   close: 关闭
 
+translation:
+  note: 本文由 Claude 从中文翻译。
+  read_original: 阅读原文
+  read_english: 阅读英文版
+
 social:
   email: 邮件
   email_hint: 给我写信

@@ -1,0 +1,80 @@
+{#- English translation of a post (pages in source/en/, written by tools/translate.mjs). -#}
+{%- set orig = original_for(page) %}
+{%- set key = lane_key(orig) if orig else main_branch() %}
+{%- set color = lane_color(key) %}
+{%- set tocHtml = toc(page.content, { list_number: false, max_depth: 3 }) %}
+<article class="post wrap" style="--c: var(--lane-{{ color }})" lang="en">
+  <header class="post-head">
+    <p class="post-head__commit">
+      {%- if orig %}<code>{{ __('commit') }} {{ commit_hash(orig) }}</code>{% endif %}
+      <a class="branch" href="{{ url_for(branch_path(key)) }}">{{ key }}</a>
+      {%- if orig %}<a class="lang-switch" href="{{ url_for(orig.path) }}" hreflang="zh-CN" lang="zh-CN">中文原文</a>{% endif %}
+    </p>
+    <h1 class="post-head__title">{{ page.title }}</h1>
+    <dl class="post-head__meta">
+      <div><dt>{{ __('author') }}</dt><dd>{{ page.author or config.author }}</dd></div>
+      <div><dt>{{ __('date') }}</dt><dd><time datetime="{{ date_xml(page.date) }}">{{ date(page.date, 'MMMM D, YYYY') }}</time></dd></div>
+      <div><dt>{{ __('reading') }}</dt><dd>{{ __('min_read', reading_minutes(page.content)) }}</dd></div>
+    </dl>
+    {%- if orig %}
+    <p class="translation-note">
+      {{ __('translation.note') }}
+      <a href="{{ url_for(orig.path) }}" hreflang="zh-CN">{{ __('translation.read_original') }}</a>
+    </p>
+    {%- endif %}
+  </header>
+
+  <div class="post-layout{% if tocHtml %} has-toc{% endif %}">
+    <div class="prose" data-prose>
+      {{ page.content }}
+    </div>
+    {%- if tocHtml %}
+    <aside class="toc" aria-labelledby="toc-title">
+      <h2 class="toc__title" id="toc-title">{{ __('post.contents') }}</h2>
+      {{ tocHtml }}
+    </aside>
+    {%- endif %}
+  </div>
+
+  {%- if orig %}
+  <footer class="post-foot">
+    {%- set tags = post_tags(orig) %}
+    {%- if tags.length %}
+    <ul class="refs" aria-label="{{ __('post.tags') }}">
+      {%- for t in tags %}<li><a class="ref" href="{{ url_for(t.path) }}">#{{ t.name }}</a></li>{% endfor %}
+    </ul>
+    {%- endif %}
+
+    {%- set olderEn = translation_for(orig.next) if orig.next else null %}
+    {%- set newerEn = translation_for(orig.prev) if orig.prev else null %}
+    {%- if olderEn or newerEn %}
+    <nav class="lineage" aria-label="{{ __('post.parent') }} / {{ __('post.child') }}">
+      {%- if olderEn %}
+      <a class="lineage__link lineage__link--parent" rel="prev" href="{{ url_for(olderEn.path) }}" data-older>
+        <span class="lineage__label">{{ __('post.parent') }}</span>
+        <span class="lineage__title">{{ olderEn.title }}</span>
+        <code class="lineage__hash">{{ commit_hash(orig.next) }}</code>
+      </a>
+      {%- else %}<span></span>{% endif %}
+      {%- if newerEn %}
+      <a class="lineage__link lineage__link--child" rel="next" href="{{ url_for(newerEn.path) }}" data-newer>
+        <span class="lineage__label">{{ __('post.child') }}</span>
+        <span class="lineage__title">{{ newerEn.title }}</span>
+        <code class="lineage__hash">{{ commit_hash(orig.prev) }}</code>
+      </a>
+      {%- endif %}
+    </nav>
+    {%- endif %}
+
+    {%- if theme.disqus.shortname and orig.comments !== false %}
+    <section class="comments" aria-labelledby="comments-title">
+      <h2 class="section-title" id="comments-title">{{ __('post.comments') }}</h2>
+      {#- Same thread as the original, so readers of both versions share one conversation. -#}
+      <div id="disqus_thread" data-disqus data-url="{{ orig.permalink }}" data-identifier="{{ orig.path }}" data-title="{{ orig.title }}">
+        <button class="button" type="button" data-load-comments>{{ __('post.load_comments') }}</button>
+      </div>
+    </section>
+    {%- endif %}
+  </footer>
+  {%- endif %}
+</article>

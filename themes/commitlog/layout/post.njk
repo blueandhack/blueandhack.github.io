@@ -1,14 +1,16 @@
 {%- set key = lane_key(page) %}
 {%- set color = lane_color(key) %}
 {%- set tocHtml = toc(page.content, { list_number: false, max_depth: 3 }) %}
-<article class="post wrap" style="--c: var(--lane-{{ color }})">
+{%- set enPage = translation_for(page) %}
+<article class="post wrap" style="--c: var(--lane-{{ color }})" lang="{{ content_lang(page) }}">
   <header class="post-head">
     <p class="post-head__commit">
       <code>{{ __('commit') }} {{ commit_hash(page) }}</code>
       <a class="branch" href="{{ url_for(branch_path(key)) }}">{{ key }}</a>
+      {%- if enPage %}<a class="lang-switch" href="{{ url_for(enPage.path) }}" hreflang="en" lang="en">{{ __('translation.read_english') }}</a>{% endif %}
     </p>
     <h1 class="post-head__title">{{ page.title }}</h1>
-    <dl class="post-head__meta">
+    <dl class="post-head__meta" lang="en">
       <div><dt>{{ __('author') }}</dt><dd>{{ page.author or config.author }}</dd></div>
       <div><dt>{{ __('date') }}</dt><dd><time datetime="{{ date_xml(page.date) }}">{{ date(page.date, 'MMMM D, YYYY') }}</time></dd></div>
       <div><dt>{{ __('reading') }}</dt><dd>{{ __('min_read', reading_minutes(page.content)) }}</dd></div>
@@ -27,7 +29,7 @@
     {%- endif %}
   </div>
 
-  <footer class="post-foot">
+  <footer class="post-foot" lang="en">
     {%- set tags = post_tags(page) %}
     {%- if tags.length %}
     <ul class="refs" aria-label="{{ __('post.tags') }}">

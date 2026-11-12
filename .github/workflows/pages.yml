@@ -5,6 +5,11 @@ on:
     branches:
       - main  # default branch
 
+# Never run two deploys at once (the translate step may push a commit).
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   pages:
     runs-on: ubuntu-latest
@@ -23,6 +28,34 @@ jobs:
           cache: 'yarn'
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
+
+      # Auto-translation: runs only when the ANTHROPIC_API_KEY repository secret is set.
+      # Translates posts that are new or changed (capped per run), commits the English
+      # versions back to main, and includes them in this deploy. A failure here never
+      # blocks the deploy; untranslated posts are retried on the next push.
+      - name: Check for translation key
+        id: translate-key
+        env:
+          KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: echo "present=$([ -n "$KEY" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - name: Translate new or changed posts
+        if: steps.translate-key.outputs.present == 'true'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: yarn translate --max 20
+      - name: Commit translations
+        if: steps.translate-key.outputs.present == 'true'
+        continue-on-error: true
+        run: |
+          if [ -n "$(git status --porcelain source/en)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add source/en
+            git commit -m "Translate new posts to English [skip ci]"
+            git push
+          fi
+
       - name: Build
         run: yarn build
       - name: Deploy

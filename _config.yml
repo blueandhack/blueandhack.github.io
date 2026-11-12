@@ -131,6 +131,6 @@ sitemap:
 # Local search index for NexT: https://github.com/next-theme/hexo-generator-searchdb
 search:
   path: search.json
-  field: post
+  field: all
   content: true
   format: html

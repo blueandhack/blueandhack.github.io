@@ -23,6 +23,16 @@
   <meta name="theme-color" content="#f3f6fc" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0d1630" media="(prefers-color-scheme: dark)">
   {{ open_graph({ twitter_id: '', image: config.avatar }) }}
+  {%- if is_post() %}{% set enPage = translation_for(page) %}{% if enPage %}
+  <link rel="alternate" hreflang="zh-CN" href="{{ page.permalink }}">
+  <link rel="alternate" hreflang="en" href="{{ enPage.permalink }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.permalink }}">
+  {%- endif %}{% endif %}
+  {%- if page.layout == 'translation' %}{% set zhPost = original_for(page) %}{% if zhPost %}
+  <link rel="alternate" hreflang="zh-CN" href="{{ zhPost.permalink }}">
+  <link rel="alternate" hreflang="en" href="{{ page.permalink }}">
+  <link rel="alternate" hreflang="x-default" href="{{ zhPost.permalink }}">
+  {%- endif %}{% endif %}
   <link rel="icon" href="{{ url_for('/favicon.ico') }}">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,7 +68,7 @@
   } | dump | replace('</', '<\\/') }}</script>
   <script src="{{ asset_url('js/main.js') }}" defer></script>
 </head>
-<body class="{% if is_home() %}is-home{% elif is_post() %}is-post{% else %}is-page{% endif %}">
+<body class="{% if is_home() %}is-home{% elif is_post() or page.layout == 'translation' %}is-post{% else %}is-page{% endif %}">
   <a class="skip-link" href="#main">{{ __('skip') }}</a>
   {% include '_partial/header.njk' %}
   <main id="main" tabindex="-1">

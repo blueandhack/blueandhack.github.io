@@ -1161,3 +1161,42 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 .blogroll__host { color: var(--ink-3); font-size: 0.82rem; }
 
 .site-footer .social--icons { margin: -0.4rem 0; }
+
+/* ---------- Translations ---------- */
+
+.lang-switch {
+  padding: 0 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink-2);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  text-decoration: none;
+}
+.lang-switch:hover { color: var(--ink); border-color: var(--ink-3); }
+
+.translation-note {
+  margin: 1rem 0 0;
+  padding: 0.55rem 0.85rem;
+  border-left: 3px solid var(--c, var(--lane-blue));
+  background: var(--paper-2);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--ink-2);
+  font-size: 0.9rem;
+}
+.translation-note a { color: var(--c, var(--lane-blue)); }
+
+/* Sits above the row-wide title link so it stays clickable. */
+.en-link {
+  position: relative;
+  z-index: 3;
+  padding: 0 0.35rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  color: var(--ink-3);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.en-link:hover { color: var(--ink); border-color: var(--ink-3); }

@@ -21,14 +21,16 @@
       {%- endif %}
       <span class="dot{% if row.x == 0 %} dot--main{% endif %}" style="--x: {{ row.x }}"></span>
     </span>
-    <article class="commit">
+    <article class="commit" lang="{{ content_lang(post) }}">
       <h2 class="commit__title"><a href="{{ url_for(post.path) }}" data-row-link>{{ post.title }}</a></h2>
-      <p class="commit__meta">
+      <p class="commit__meta" lang="en">
         <code class="commit__hash">{{ commit_hash(post) }}</code>
         {%- if showHead and row.first %}<span class="ref ref--head">{{ __('home.head') }}</span>{% endif %}
         <time datetime="{{ date_xml(post.date) }}">{{ date(post.date, 'YYYY-MM-DD') }}</time>
         <span>{{ __('min_read', reading_minutes(post.content)) }}</span>
         <span class="branch">{{ row.key }}</span>
+        {%- set enRow = translation_for(post) %}
+        {%- if enRow %}<a class="en-link" href="{{ url_for(enRow.path) }}" hreflang="en" title="{{ enRow.title }}">EN</a>{% endif %}
       </p>
       {%- set summary = summary_text(post) %}
       {%- if summary %}<p class="commit__summary">{{ summary }}</p>{% endif %}

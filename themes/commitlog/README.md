@@ -47,3 +47,18 @@ disqus:
   shortname: your-shortname
 google_analytics: G-XXXXXXXXXX
 ```
+
+## English translations
+
+`tools/translate.mjs` (run with `yarn translate`) writes English versions of
+Chinese posts to `source/en/<same path>.md` as pages with `layout: translation`.
+The theme then:
+
+- serves them at `/en/<original path>` and links the two versions both ways
+  ("Read in English" / "中文原文"), with `hreflang` alternates for search engines;
+- shows an `EN` link on graph rows that have a translation;
+- keeps translations out of the graph, archive, tags, stats and RSS feed;
+- lets the command palette find posts by their English titles;
+- shares the original post's Disqus thread on the English page.
+
+Posts already written in English are never translated.

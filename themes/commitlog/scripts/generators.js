@@ -7,13 +7,22 @@ const toArray = q => (q ? (typeof q.toArray === 'function' ? q.toArray() : [...q
 hexo.extend.generator.register('commitlog_posts_json', function(locals) {
   const root = this.config.root || '/';
   const theme = this.theme.config;
-  const posts = locals.posts.sort('-date').toArray().map(p => ({
-    t: p.title,
-    u: root + p.path,
-    d: p.date.format('YYYY-MM-DD'),
-    c: hexo.commitlog.laneKey(p, theme),
-    g: toArray(p.tags).map(t => t.name)
-  }));
+  const english = new Map();
+  locals.pages.toArray().forEach(pg => {
+    if (pg.layout === 'translation' && pg.original) english.set(pg.original, pg);
+  });
+  const posts = locals.posts.sort('-date').toArray().map(p => {
+    const entry = {
+      t: p.title,
+      u: root + p.path,
+      d: p.date.format('YYYY-MM-DD'),
+      c: hexo.commitlog.laneKey(p, theme),
+      g: toArray(p.tags).map(t => t.name)
+    };
+    const en = english.get(p.source);
+    if (en) entry.e = { t: en.title, u: root + en.path };
+    return entry;
+  });
   return { path: 'posts.json', data: JSON.stringify(posts) };
 });
 
