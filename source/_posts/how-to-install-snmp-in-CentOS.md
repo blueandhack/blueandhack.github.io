@@ -56,7 +56,7 @@ chkconfig snmpd on
 
 
 
-现在可以在监控宝后台添加服务器监控了。 监控宝中具体设置，请看监控宝的博客 [在Linux服务器上开启安全的SNMP代理](http://blog.jiankongbao.com/?p=160) 
+现在可以在监控宝后台添加服务器监控了。 监控宝中具体设置，请看监控宝的博客 [在Linux服务器上开启安全的SNMP代理](https://web.archive.org/web/20100728080252/http://blog.jiankongbao.com/?p=160) 
 
 PS：![鲁迅](https://cdn.blueandhack.com/wp-content/uploads/2010/09/e284aca8cd58b9c21f17a2e41_thumb.gif)
 

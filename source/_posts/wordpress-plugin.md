@@ -17,7 +17,7 @@ tags:
 
 [All in One SEO Pack](http://wordpress.org/extend/plugins/all-in-one-seo-pack/)         SEO优化，N多的人说需要，N多的人说不需要，呃~我很困惑~所以一直没有去掉   
 
-[Comment Info Detector](http://www.hzlzh.com/comment-info-detector/)         留言者的所在地、浏览器、操作系统的显示插件，很炫，我用的是修改版的   
+[Comment Info Detector](https://web.archive.org/web/20100714205227/http://www.hzlzh.com/comment-info-detector/)         留言者的所在地、浏览器、操作系统的显示插件，很炫，我用的是修改版的   
 
 [Clean Archives Reloaded](http://wordpress.org/extend/plugins/clean-archives-reloaded/)         一个很方便的调用文章归档的插件   
 
@@ -29,7 +29,7 @@ tags:
 
 [Google XML Sitemaps](http://wordpress.org/extend/plugins/google-sitemap-generator/)         谷歌地图生成器，这个很有必要！   
 
-[Hacklog Highslide Picture](http://www.ihacklog.com/wordpress/plugins/hacklog-highslide-picture.html)         一款修改版的图片显示插件   
+[Hacklog Highslide Picture](https://web.archive.org/web/20100724203837/http://www.ihacklog.com/wordpress/plugins/hacklog-highslide-picture.html)         一款修改版的图片显示插件   
 
 [Highslide4WP](http://wordpress.org/extend/plugins/highslide4wp/)         留言表情增强插件   
 
@@ -39,7 +39,7 @@ tags:
 
 [NextGEN Gallery](http://wordpress.org/extend/plugins/nextgen-gallery/)         相册，这个太臃肿，展示关闭，用其他的相册   
 
-[OpenID](http://lanbing.org/1913.html)         这个暂时没有开启普通用户的，方便别人快速登录，建议看一下蓝冰的这篇文章   
+[OpenID](https://web.archive.org/web/20100721204501/http://lanbing.org/1913.html)         这个暂时没有开启普通用户的，方便别人快速登录，建议看一下蓝冰的这篇文章   
 
 [Page Links To](http://wordpress.org/extend/plugins/page-links-to/)         超链接页面直达，这个很方便，不用修改源码   
 
@@ -57,7 +57,7 @@ tags:
 
 [wp-comment-warrior](http://wordpress.org/extend/plugins/wp-comment-warrior/)         灌水先锋，暂时停用   
 
-[WP-Cumulus](http://u.115.com/file/f49b5d84ef)         标签云 支持中文，我已经进行了优化，支持中文字体，雅黑字体，没有抖动现象，因为原始版本不支持中文，有些有抖动现象 附3D云标签下载地址 [115网盘下载请点击](http://u.115.com/file/f49b5d84ef)   
+[WP-Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)         标签云 支持中文，我已经进行了优化，支持中文字体，雅黑字体，没有抖动现象，因为原始版本不支持中文，有些有抖动现象 附3D云标签下载地址 [115网盘下载请点击](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)   
 
 [WP-MulticolLinks](http://wordpress.org/extend/plugins/wp-multicollinks/)         友情链接分栏插件，这个不至于友情链接占用很多版面，其实css也能修改，我比较懒   
 

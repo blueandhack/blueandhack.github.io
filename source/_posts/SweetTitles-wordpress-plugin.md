@@ -10,7 +10,7 @@ tags:
 - programming
 ---
 
-Sweet Titles 这个名字源自于一个改变 Title 提示效果的 js 插件 [Sweet Titles Finalized](http://www.dustindiaz.com/sweet-titles-finalized/)。<!-- more -->此插件不但让你的 title 提示效果变得美观，而且可以显示出你将要点击的链接的 url，让用户知道自己将要去哪里，同时提升了用户感受度。而且我认为，系统的 title 提示有时间延迟，用 js 实现的可以迅速的展示出来。 此插件的js、css来自大牛[leeiio](http://leeiio.me/sweet-titles-for-jquery)童鞋那里，在此先感谢一下他的幸苦，我只是稍稍的改成了插件，真是前人栽树，后人乘凉啊！此次是我的处女之作，欢迎围观，如果不想用插件的，leeiio大牛那里有手动添加方法。 好了现在介绍此插件 
+Sweet Titles 这个名字源自于一个改变 Title 提示效果的 js 插件 [Sweet Titles Finalized](https://web.archive.org/web/20100305070407/http://www.dustindiaz.com/sweet-titles-finalized/)。<!-- more -->此插件不但让你的 title 提示效果变得美观，而且可以显示出你将要点击的链接的 url，让用户知道自己将要去哪里，同时提升了用户感受度。而且我认为，系统的 title 提示有时间延迟，用 js 实现的可以迅速的展示出来。 此插件的js、css来自大牛[leeiio](http://leeiio.me/sweet-titles-for-jquery)童鞋那里，在此先感谢一下他的幸苦，我只是稍稍的改成了插件，真是前人栽树，后人乘凉啊！此次是我的处女之作，欢迎围观，如果不想用插件的，leeiio大牛那里有手动添加方法。 好了现在介绍此插件 
 
 - 插件名称：sweetTitles （中文名：美妙标题） 
 - 初次版本号：0.9 
@@ -25,5 +25,5 @@ Sweet Titles 这个名字源自于一个改变 Title 提示效果的 js 插件 [
 
 ![设置步骤](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb15.png)
 
-感谢帮助过我的[leeiio](http://leeiio.me)（提供js等等）、[ilover](http://www.ilover.me/)（帮我修改过初始版本，但是最后我还是重写了）、[hey33](http://www.hey33.com/)（勇敢的帮我测试插件）、还有[木木](http://immmmm.com)，他们的无私奉献十分感激，在此谢谢他们！ 官方下载地址：[sweetTitles 1.4v](http://wordpress.org/extend/plugins/sweettitles/)
+感谢帮助过我的[leeiio](http://leeiio.me)（提供js等等）、[ilover](https://web.archive.org/web/20100830012610/http://www.ilover.me/)（帮我修改过初始版本，但是最后我还是重写了）、[hey33](http://www.hey33.com/)（勇敢的帮我测试插件）、还有[木木](http://immmmm.com)，他们的无私奉献十分感激，在此谢谢他们！ 官方下载地址：[sweetTitles 1.4v](http://wordpress.org/extend/plugins/sweettitles/)
 

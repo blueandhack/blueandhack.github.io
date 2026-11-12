@@ -10,7 +10,7 @@ tags:
 - blog
 ---
 
-此篇来自MOPVHS童鞋的文章，[jQuery(让背景图片滑动起来](http://www.tulongzhiji.com/mopvhs/2010/04/02/jquery%e8%ae%a9%e8%83%8c%e6%99%af%e5%9b%be%e7%89%87%e6%bb%91%e5%8a%a8%e8%b5%b7%e6%9d%a5/)，因为看起来不错，所以就折腾了起来。  浮云，这就是浮云，大家请看：<!-- more -->
+此篇来自MOPVHS童鞋的文章，[jQuery(让背景图片滑动起来](https://web.archive.org/web/20101010061923/http://www.tulongzhiji.com/mopvhs/2010/04/02/jquery%e8%ae%a9%e8%83%8c%e6%99%af%e5%9b%be%e7%89%87%e6%bb%91%e5%8a%a8%e8%b5%b7%e6%9d%a5/)，因为看起来不错，所以就折腾了起来。  浮云，这就是浮云，大家请看：<!-- more -->
 
 ![浮云](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb5.png)
 

@@ -14,8 +14,8 @@ tags:
 
 下载地址： 
 
-[**115网盘 Devlounge - How to Write a Wordpress Plugin**](http://u.115.com/file/f4211efa9e)（英文版）
+**115网盘 Devlounge - How to Write a Wordpress Plugin**（英文版）
 
-[**115网盘 WordPress插件开发全攻略**](http://u.115.com/file/f4c5a6856a) （中文版） 
+**115网盘 WordPress插件开发全攻略** （中文版） 
 
 时间不早了，我明天5点多就要走了，现在睡觉去喽~

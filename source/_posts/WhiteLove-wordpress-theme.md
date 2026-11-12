@@ -36,6 +36,6 @@ tags:
     
 11. 等等（需要你的发现）
     
-    主题的功能大概也就那么多，此主题通过了W3C验证，通过HTML 1.0和CSS 2.1验证，由于CSS 3的特效是用JS写入，所以不影响验证，另外我将JS压缩了，并备份的JS，其中all.bak.js是备份的JS文件，如果修改请修改那里面的数据，然后在重新压缩。 此主题没有后台管理选项，请您自行修改源码。 本主题遵守GPL协议，header背景使用proclouds背景图片 [DOWNLOAD](https://dl.dropboxusercontent.com/u/5853014/whitelove.zip) 如果有BUG等疑问请留言。
+    主题的功能大概也就那么多，此主题通过了W3C验证，通过HTML 1.0和CSS 2.1验证，由于CSS 3的特效是用JS写入，所以不影响验证，另外我将JS压缩了，并备份的JS，其中all.bak.js是备份的JS文件，如果修改请修改那里面的数据，然后在重新压缩。 此主题没有后台管理选项，请您自行修改源码。 本主题遵守GPL协议，header背景使用proclouds背景图片 DOWNLOAD 如果有BUG等疑问请留言。
 
 PS：此主题献给我高中喜欢的女生！

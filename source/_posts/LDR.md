@@ -24,7 +24,7 @@ My girlfriend and I are apart 6,975 miles, but I believe I can shorten this long
 ```
 References
 
-1.Long Distance Relationship StatisticsRetrieved April 9, 2015 from Waiit <http://www.waiit.com/Long_Distance_Relationships_Statistics>
+1.Long Distance Relationship StatisticsRetrieved April 9, 2015 from Waiit <https://web.archive.org/web/20150326042300/http://www.waiit.com/Long_Distance_Relationships_Statistics>
 ```
 
 

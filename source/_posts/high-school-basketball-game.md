@@ -13,9 +13,9 @@ tags:
 
 大家欣赏比赛视频吧！（这都是我拍的）
 
-[比赛一](http://www.tudou.com/programs/view/rIvz4xuMDW4/)
+比赛一
 
-[比赛二](http://www.tudou.com/programs/view/6NIowX0Ce8c/)
+比赛二
 
  
 

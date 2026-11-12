@@ -10,7 +10,7 @@ tags:
 - programming
 ---
 
-之前在[pwhack](http://www.pwhack.me/archives/print_rhombus.html)的博客里看到的。 虽然他是Go语言写的，但是对于这道经典例题来说，用C有很多种写法。 于是我想看看这道题目最简单的到底可以多简单。 于是搜到一段代码 <!-- more -->
+之前在[pwhack](https://web.archive.org/web/20130629201540/http://www.pwhack.me/archives/print_rhombus.html)的博客里看到的。 虽然他是Go语言写的，但是对于这道经典例题来说，用C有很多种写法。 于是我想看看这道题目最简单的到底可以多简单。 于是搜到一段代码 <!-- more -->
 
 ``` c
 #include "stdio.h"

@@ -44,7 +44,7 @@ PS：更具系统的情况，有些VPS会缺少很多组件，所以要更具提
 vi /usr/local/directadmin/conf/directadmin.conf
 ```
 
-找到```ethernet_dev=***```这样的字符，然后把等号后面的字符改为刚才我们查看到的venet0:0，然后保存退出vi。 */ 然后重启Linux使我们的更改生效，重启之后在浏览器里面输入http://ip:2222，如果你看到一个登陆框，那就说明DirectAdmin安装成功了。（记得一定要重启，杯具的我就是没重启，导致无法打开控制面板） 然后是DirectAdmin面板的汉化了 首先下载一个工具 [fzftp.rar ](http://u.115.com/file/f44e9e63d1)用此工具链接VPS 然后下载 语言包[lang.zip ](http://u.115.com/file/f4b41c4060) 把语言包里的文件覆盖到 
+找到```ethernet_dev=***```这样的字符，然后把等号后面的字符改为刚才我们查看到的venet0:0，然后保存退出vi。 */ 然后重启Linux使我们的更改生效，重启之后在浏览器里面输入http://ip:2222，如果你看到一个登陆框，那就说明DirectAdmin安装成功了。（记得一定要重启，杯具的我就是没重启，导致无法打开控制面板） 然后是DirectAdmin面板的汉化了 首先下载一个工具 [fzftp.rar ](https://web.archive.org/web/20101121065756/http://u.115.com/file/f44e9e63d1)用此工具链接VPS 然后下载 语言包[lang.zip ](https://web.archive.org/web/20101120032628/http://u.115.com/file/f4b41c4060) 把语言包里的文件覆盖到 
 
 ``` bash
 /usr/local/directadmin/data/skins/enhanced/lang

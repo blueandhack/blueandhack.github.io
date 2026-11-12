@@ -19,26 +19,26 @@ tags:
 
 第一集：《想做你的code》
 
-<embed src="http://player.ku6.com/refer/G2sSaYkUs3M-y81h/v.swf" quality="high" width="414" height="305" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash">
+*（这里原本是一段 Flash 视频，现在已无法播放。）*
 
 第二集：《让爱延长》
 
-<embed src="http://player.ku6.com/refer/8Bf2fTOqBcgn9GXP/v.swf" quality="high" width="414" height="305" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash">
+*（这里原本是一段 Flash 视频，现在已无法播放。）*
 
     
 
 第三集：《幸福也要敏捷》 
 
-<embed src="http://player.ku6.com/refer/RMNuLmajjkBuWe11/v.swf" quality="high" width="414" height="305" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash">
+*（这里原本是一段 Flash 视频，现在已无法播放。）*
 
 第四集：《为爱Debug》 
 
-<embed src="http://player.ku6.com/refer/ginh8iOmOqJ0bm52/v.swf" quality="high" width="414" height="305" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash">
+*（这里原本是一段 Flash 视频，现在已无法播放。）*
 
 终结第五集：《让爱编译通过》 
 
-<embed src="http://player.ku6.com/refer/0sTIFJ4jxsmyFAyk/v.swf" quality="high" width="414" height="305" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash">
+*（这里原本是一段 Flash 视频，现在已无法播放。）*
 
-感谢[Swarm's Blog](http://stevewang.info/microsoft-vs2010-ads)的搜集~
+感谢[Swarm's Blog](https://web.archive.org/web/20100502173054/http://stevewang.info/microsoft-vs2010-ads)的搜集~
 
 我在奋力下载VS2010中…………

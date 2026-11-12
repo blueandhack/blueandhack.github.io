@@ -12,4 +12,4 @@ QQ微博已经白菜了，到处都有，但是还是为了方便其他没有的
 
 顺便对本人的博文提提意见~嘿嘿~
 
-我的QQ微博 [http://t.qq.com/blueandhack](http://t.qq.com/blueandhack)
+我的QQ微博 [http://t.qq.com/blueandhack](https://web.archive.org/web/20130317050130/http://t.qq.com/blueandhack)

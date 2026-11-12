@@ -8,7 +8,7 @@ tags:
 - life
 ---
 
-今天写了一篇关于[google app engine的翻墙文章](http://www.blueandhack.com/?p=382)
+今天写了一篇关于google app engine的翻墙文章
 
 前几个星期就有这个想法，我很懒就一直没写文章，然后昨天头脑一热，一口气写完了~呵呵
 

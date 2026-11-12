@@ -10,7 +10,7 @@ tags:
 
 昨天加入了QQ微博，得到了内测资格<!-- more -->
 
-我的微博 [t.qq.com/blueandhack](http://t.qq.com/blueandhack)
+我的微博 [t.qq.com/blueandhack](https://web.archive.org/web/20130317050130/http://t.qq.com/blueandhack)
 
 欢迎各位敬请围观
 

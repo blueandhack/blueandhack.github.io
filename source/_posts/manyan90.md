@@ -16,6 +16,6 @@ tags:
 
 我希望您能够为我们投票 
 
-## [投票地址](http://bbs.ifeng.com/special/bbs100/lty.shtml?bbsid=1032)
+## [投票地址](https://web.archive.org/web/20101227105026/http://bbs.ifeng.com/special/bbs100/lty.shtml?bbsid=1032)
 
 （无需注册，选择10分就可以） 感谢您的投票，让其充满快感，请您给点力吧！OTZ~~

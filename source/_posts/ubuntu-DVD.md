@@ -60,7 +60,7 @@ tags:
 
 
 
-不用多说了~大家都了解……只是秀秀…… UBUNTU免费光盘申请地址（话说我等了一个月了……现在好像没有UBUNTU的LOGO的贴纸了）[~~申请传送门~~](https://shipit.ubuntu.com/)
+不用多说了~大家都了解……只是秀秀…… UBUNTU免费光盘申请地址（话说我等了一个月了……现在好像没有UBUNTU的LOGO的贴纸了）[~~申请传送门~~](https://web.archive.org/web/20100826024834/https://shipit.ubuntu.com/)
 
 **2015年1月3日更新：**
 

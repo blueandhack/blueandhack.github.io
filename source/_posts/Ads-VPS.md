@@ -28,7 +28,7 @@ San Jose(t2)
 
 所以每个人应付款为 105\*12\*0.75/4=236.5人民币 你们只需出236人民币就可以 那5毛我出吧……
 
-说说VPSYOU的口碑，话说口碑非常不错，他们的[客户演示](http://www.vpsyou.com/sites/)，他们的[主机配置信息、探针等等](http://www.vpsyou.com/datacenters/)。VPSYOU的好坏我不多说，你自己看吧，绝对一流超值，基于XEN不会超售，所以速度非常好，买过之后会安装Kloxo面板，容易操作，容易管理。
+说说VPSYOU的口碑，话说口碑非常不错，他们的[客户演示](https://web.archive.org/web/20100920141737/http://www.vpsyou.com/sites/)，他们的[主机配置信息、探针等等](https://web.archive.org/web/20100729023306/http://www.vpsyou.com/datacenters/)。VPSYOU的好坏我不多说，你自己看吧，绝对一流超值，基于XEN不会超售，所以速度非常好，买过之后会安装Kloxo面板，容易操作，容易管理。
 
 关于我的人品……既然你要买就是交个朋友，你要是怕我拿着你的钱跑路……那么你就别骚扰我了，你去找你信任的人去~~~~合租的话，绝对会对你负责到底~~~~~
 
