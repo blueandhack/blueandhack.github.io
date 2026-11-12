@@ -353,7 +353,12 @@
 
   
 <nav class="pager" aria-label="Page 1 of 11"><span></span>
-  <span class="pager__state">Page 1 of 11</span><a class="pager__link" rel="next" href="/page/2/">Older posts</a>
+  <ol class="pager__pages">
+    <li><span class="pager__num" aria-current="page">1</span></li>
+    <li><a class="pager__num" href="/page/2/" aria-label="Page 2 of 11">2</a></li>
+    <li class="pager__gap" aria-hidden="true">…</li>
+    <li><a class="pager__num" href="/page/11/" aria-label="Page 11 of 11">11</a></li>
+  </ol><a class="pager__link" rel="next" href="/page/2/">Older posts</a>
 </nav>
 
 </div>
