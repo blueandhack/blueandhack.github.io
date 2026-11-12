@@ -11,7 +11,7 @@ tags:
 
 开始独立博客也有6个月了吧，至今为止没有发过关于折腾wordpress的文章，现在就说说我的wordpress所使用的插件吧。<!-- more -->
 
-以下是我的插件列表，按照字母顺序来的，给了下载的连接： 
+以下是我的插件列表，按照字母顺序来的，给了下载的链接： 
 
 [Akismet](http://akismet.com/)         拦截垃圾留言，这个插件不用罗嗦了~   
 
@@ -37,7 +37,7 @@ tags:
 
 [Mail To Commenter](http://wordpress.org/extend/plugins/mailtocommenter/)         留言邮件回复，由于我的博客主题不是嵌套的，所以这个很好，使得用户黏度增加！   
 
-[NextGEN Gallery](http://wordpress.org/extend/plugins/nextgen-gallery/)         相册，这个太臃肿，展示关闭，用其他的相册   
+[NextGEN Gallery](http://wordpress.org/extend/plugins/nextgen-gallery/)         相册，这个太臃肿，暂时关闭，用其他的相册   
 
 [OpenID](https://web.archive.org/web/20100721204501/http://lanbing.org/1913.html)         这个暂时没有开启普通用户的，方便别人快速登录，建议看一下蓝冰的这篇文章   
 

@@ -10,7 +10,7 @@ tags:
 - programming
 ---
 
-Sweet Titles 这个名字源自于一个改变 Title 提示效果的 js 插件 [Sweet Titles Finalized](https://web.archive.org/web/20100305070407/http://www.dustindiaz.com/sweet-titles-finalized/)。<!-- more -->此插件不但让你的 title 提示效果变得美观，而且可以显示出你将要点击的链接的 url，让用户知道自己将要去哪里，同时提升了用户感受度。而且我认为，系统的 title 提示有时间延迟，用 js 实现的可以迅速的展示出来。 此插件的js、css来自大牛[leeiio](http://leeiio.me/sweet-titles-for-jquery)童鞋那里，在此先感谢一下他的幸苦，我只是稍稍的改成了插件，真是前人栽树，后人乘凉啊！此次是我的处女之作，欢迎围观，如果不想用插件的，leeiio大牛那里有手动添加方法。 好了现在介绍此插件 
+Sweet Titles 这个名字源自于一个改变 Title 提示效果的 js 插件 [Sweet Titles Finalized](https://web.archive.org/web/20100305070407/http://www.dustindiaz.com/sweet-titles-finalized/)。<!-- more -->此插件不但让你的 title 提示效果变得美观，而且可以显示出你将要点击的链接的 url，让用户知道自己将要去哪里，同时提升了用户感受度。而且我认为，系统的 title 提示有时间延迟，用 js 实现的可以迅速的展示出来。 此插件的js、css来自大牛[leeiio](http://leeiio.me/sweet-titles-for-jquery)童鞋那里，在此先感谢一下他的辛苦，我只是稍稍的改成了插件，真是前人栽树，后人乘凉啊！此次是我的处女之作，欢迎围观，如果不想用插件的，leeiio大牛那里有手动添加方法。 好了现在介绍此插件 
 
 - 插件名称：sweetTitles （中文名：美妙标题） 
 - 初次版本号：0.9 

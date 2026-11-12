@@ -22,7 +22,7 @@ tags:
 
 `yum -y  install gcc gcc-c++ flex make perl quota automaker`
 
-PS：更具系统的情况，有些VPS会缺少很多组件，所以要更具提示安装。 第二步、CentOS是附带了httpd的unix版本，但是因为directadmin的安装需要干净的系统，所以在装之前要反安装httpd,php,mysql这些web组件 
+PS：根据系统的情况，有些VPS会缺少很多组件，所以要根据提示安装。 第二步、CentOS是附带了httpd的unix版本，但是因为directadmin的安装需要干净的系统，所以在装之前要反安装httpd,php,mysql这些web组件 
 
 `yum remove httpd* php* mysql* -y`
 

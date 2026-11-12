@@ -6,10 +6,14 @@
 //   yarn translate --only a.md,b.md   translate just these posts (file names in source/_posts)
 //   yarn translate --max 10           translate at most 10 posts this run
 //   yarn translate --force            re-translate even if up to date or edited by hand
+//   yarn translate --import <dir>     file translations written elsewhere (e.g. by Claude in a chat
+//                                     session) instead of calling the API: <dir>/<post file name>.md
+//                                     in the reply format below (<title>…</title><body>…</body>)
 //
-// Each English version is written to source/en/<same path as the original>.md, e.g.
-//   source/_posts/10-10-2023.md  ->  source/en/notes-of-life/2023/10/10/10-10-2023.md
-// and is served at /en/notes-of-life/2023/10/10/10-10-2023.html.
+// Each English version is written to source/en/ under the same file name as the original, e.g.
+//   source/_posts/10-10-2023.md  ->  source/en/10-10-2023.md
+// and is served at /en/ + the original's address (set by `permalink:` in its front matter):
+//   /notes-of-life/2023/10/10/10-10-2023.html  ->  /en/notes-of-life/2023/10/10/10-10-2023.html
 //
 // Posts that are already in English are skipped. A translation records a hash of the
 // original (`source_hash`) and of its own body (`translation_hash`), so:
@@ -38,6 +42,7 @@ const DRY = flag('--dry-run');
 const FORCE = flag('--force');
 const MAX = option('--max') ? Number(option('--max')) : Infinity;
 const ONLY = option('--only') ? new Set(option('--only').split(',').map(s => s.trim())) : null;
+const IMPORT = option('--import') ? path.resolve(option('--import')) : null;
 
 const sha1 = s => crypto.createHash('sha1').update(s).digest('hex');
 
@@ -117,6 +122,10 @@ async function translate(post) {
   if (message.stop_reason === 'max_tokens') throw new Error('the translation was cut off (post too long)');
 
   const text = message.content.filter(b => b.type === 'text').map(b => b.text).join('');
+  return { ...parseAndCheck(post, text), model: message.model };
+}
+
+function parseAndCheck(post, text) {
   const m = text.match(/<title>([\s\S]*?)<\/title>\s*<body>\n?([\s\S]*?)\n?<\/body>\s*$/);
   if (!m) throw new Error('reply was not in the expected <title>/<body> format');
   const title = m[1].trim();
@@ -126,10 +135,29 @@ async function translate(post) {
   const warnings = [];
   const more = s => (s.match(/<!--\s*more\s*-->/g) || []).length;
   if (more(post._content) !== more(body)) warnings.push('<!-- more --> marker count changed');
-  const urls = s => new Set(s.match(/https?:\/\/[^\s)"'<>\]]+/g) || []);
+  const urls = s => new Set(s.match(/https?:\/\/[^\s)"'<>\]\u3000-\u303f\uff00-\uffef]+/g) || []);
   const missing = [...urls(post._content)].filter(u => !body.includes(u));
   if (missing.length) warnings.push(`URLs missing in translation: ${missing.slice(0, 3).join(', ')}`);
-  return { title, body, warnings, model: message.model };
+  return { title, body, warnings };
+}
+
+function writeTranslation(t, title, body, model) {
+  const front = [
+    '---',
+    `title: ${JSON.stringify(title)}`,
+    `date: ${t.post.date.format('YYYY-MM-DD HH:mm:ss')}`,
+    `permalink: ${JSON.stringify('en/' + t.post.path)}`,
+    'layout: translation',
+    'lang: en',
+    `original: ${JSON.stringify(t.post.source)}`,
+    `source_hash: ${t.sourceHash}`,
+    `translation_hash: ${sha1(body)}`,
+    `translated_by: ${model}`,
+    '---',
+    ''
+  ].join('\n');
+  fs.mkdirSync(path.dirname(t.out), { recursive: true });
+  fs.writeFileSync(t.out, front + body);
 }
 
 // ---- main ------------------------------------------------------------------
@@ -146,7 +174,7 @@ for (const post of posts) {
   if (ONLY && !ONLY.has(file)) continue;
   if (chineseShare(post._content) < 0.3) { counts.english++; continue; }
 
-  const out = path.join(OUT_DIR, post.path.replace(/\.html$/, '') + '.md');
+  const out = path.join(OUT_DIR, file);
   const sourceHash = sha1(post.raw);
   let reason = 'new';
   if (fs.existsSync(out)) {
@@ -164,7 +192,7 @@ for (const post of posts) {
 }
 
 // Translations whose original no longer exists.
-const known = new Set(posts.map(p => path.join(OUT_DIR, p.path.replace(/\.html$/, '') + '.md')));
+const known = new Set(posts.map(p => path.join(OUT_DIR, path.basename(p.source))));
 const orphans = [];
 (function walk(dir) {
   if (!fs.existsSync(dir)) return;
@@ -180,6 +208,30 @@ counts.todo = queue.length;
 console.log(`Posts: ${counts.english} already in English, ${counts.upToDate} up to date, ${counts.edited} kept (edited by hand), ${plan.length} to translate${plan.length > queue.length ? ` (this run: ${queue.length}, --max)` : ''}.`);
 if (orphans.length) console.log(`Translations without an original (delete them if the post was removed):\n  ${orphans.join('\n  ')}`);
 
+if (IMPORT) {
+  let imported = 0;
+  let missingFiles = 0;
+  let bad = 0;
+  for (const t of queue) {
+    const staged = path.join(IMPORT, t.file);
+    if (!fs.existsSync(staged)) { missingFiles++; continue; }
+    try {
+      const { title, body, warnings } = parseAndCheck(t.post, fs.readFileSync(staged, 'utf8'));
+      if (DRY) { console.log(`  would import ${t.file} -> ${title}`); continue; }
+      writeTranslation(t, title, body, MODEL);
+      imported++;
+      console.log(`✓ ${t.file} -> ${title}`);
+      for (const w of warnings) console.warn(`  ! ${w}`);
+    } catch (err) {
+      bad++;
+      console.error(`✗ ${t.file}: ${err.message}`);
+    }
+  }
+  console.log(`\nImported ${imported}, invalid ${bad}, not staged yet ${missingFiles}.`);
+  await hexo.exit();
+  process.exit(bad ? 1 : 0);
+}
+
 if (DRY || !queue.length) {
   for (const t of queue) console.log(`  would translate ${t.file} (${t.reason}) -> ${path.relative(ROOT, t.out)}`);
   await hexo.exit();
@@ -194,21 +246,7 @@ await Promise.all(Array.from({ length: Math.min(CONCURRENCY, queue.length) }, as
     const started = Date.now();
     try {
       const { title, body, warnings, model } = await translate(t.post);
-      const front = [
-        '---',
-        `title: ${JSON.stringify(title)}`,
-        `date: ${t.post.date.format('YYYY-MM-DD HH:mm:ss')}`,
-        'layout: translation',
-        'lang: en',
-        `original: ${JSON.stringify(t.post.source)}`,
-        `source_hash: ${t.sourceHash}`,
-        `translation_hash: ${sha1(body)}`,
-        `translated_by: ${model}`,
-        '---',
-        ''
-      ].join('\n');
-      fs.mkdirSync(path.dirname(t.out), { recursive: true });
-      fs.writeFileSync(t.out, front + body);
+      writeTranslation(t, title, body, model);
       console.log(`✓ ${t.file} -> ${title} (${((Date.now() - started) / 1000).toFixed(0)}s)`);
       for (const w of warnings) console.warn(`  ! ${w}`);
     } catch (err) {

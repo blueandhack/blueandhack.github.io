@@ -49,7 +49,7 @@ ls
 
 输入 cd public_html
 
-紧接着输入 wget http://XXXXXX/wordpress.zip（地址是你的博客地址，更具实际情况来）
+紧接着输入 wget http://XXXXXX/wordpress.zip（地址是你的博客地址，根据实际情况来）
 
 这时，就会把原先主机里的wordpress.zip压缩包，下载到新的主机里了。
 

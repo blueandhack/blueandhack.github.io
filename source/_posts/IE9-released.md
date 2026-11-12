@@ -11,7 +11,7 @@ tags:
 
 期待已久，听说IE9很给力，所以本人就迫不及待的安装了！总体来说，给我的印象是很不错的！换IE9，其实怎么说呢，其实我的IE8经常崩溃~呜呜，所以要换了……<!-- more -->
 
-去IE9个官方网站下载中文版本，IE9如今已经彻底放弃了XP用户，所以XP用户要想使用，只能升级操作系统了！（下载传送门：[下载地址](http://windows.microsoft.com/zh-CN/internet-explorer/download/ie-9/worldwide)）
+去IE9的官方网站下载中文版本，IE9如今已经彻底放弃了XP用户，所以XP用户要想使用，只能升级操作系统了！（下载传送门：[下载地址](http://windows.microsoft.com/zh-CN/internet-explorer/download/ie-9/worldwide)）
 
 安装过程很简单~几步搞定，安装之后重启
 

@@ -12,7 +12,7 @@ tags:
 
 找不到一年以前的感觉了，一年前还是孩子吧……
 
-最在看Plato的The Repulilic
+最近在看Plato的The Repulilic
 
 中文名是理想国
 

@@ -9,7 +9,7 @@ tags:
 - blog
 ---
 
-还是一个月以前的事了，DirectAdmin面板安装WordPress，然后开启多站点，由于DirectAdmin不支持*的子站添加，所以必须手动修改配置文件，这就是此篇文章的目的。  对于单个域名的设置 首先登录SSH（需要root权限） 输入一下命令 yourdomain.com 用你的域名替换 
+还是一个月以前的事了，DirectAdmin面板安装WordPress，然后开启多站点，由于DirectAdmin不支持*的子站添加，所以必须手动修改配置文件，这就是此篇文章的目的。  对于单个域名的设置 首先登录SSH（需要root权限） 输入以下命令 yourdomain.com 用你的域名替换 
 
 ``` bash
 cd /usr/local/directadmin/data/users/yourdomain/

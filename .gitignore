@@ -188,3 +188,4 @@ dist
 
 # Link checker cache and report
 tools/.links-*.json
+tools/.staging/

@@ -51,7 +51,8 @@ google_analytics: G-XXXXXXXXXX
 ## English translations
 
 `tools/translate.mjs` (run with `yarn translate`) writes English versions of
-Chinese posts to `source/en/<same path>.md` as pages with `layout: translation`.
+Chinese posts to `source/en/<same file name>.md` as pages with `layout: translation`
+and a `permalink` of `en/<original path>`.
 The theme then:
 
 - serves them at `/en/<original path>` and links the two versions both ways
