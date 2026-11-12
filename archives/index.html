@@ -1,504 +1,1333 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
-  <link rel="mask-icon" href="/favicon.ico" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha256-4Lad8m4ZWW1Lgb9+sMVLYEfnIh7BjV1NQMEe79Pviks=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
-
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blueandhack.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.29.1","exturl":false,"sidebar":{"position":"right","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="/js/config.js" defer></script>
-
-    <meta name="description" content="Know it then hack it!">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archive | blueandhack</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('cl-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f6fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1630" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Know it then hack it!">
 <meta property="og:type" content="website">
 <meta property="og:title" content="blueandhack">
 <meta property="og:url" content="https://blueandhack.com/archives/index.html">
 <meta property="og:site_name" content="blueandhack">
 <meta property="og:description" content="Know it then hack it!">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
 <meta property="article:author" content="Yoga Lin">
 <meta name="twitter:card" content="summary">
-
-
-<link rel="canonical" href="https://blueandhack.com/archives/">
-
-
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":"","permalink":"","path":"archives/index.html","title":""}</script>
-
-<script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Archive | blueandhack</title>
-  
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
-  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-QCZTMV5CJM","only_pageview":false,"measure_protocol_api_secret":null}</script>
-  <script src="/js/third-party/analytics/google-analytics.js" defer></script>
-
-
-
-
-
-
-
-
-  
-<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
-<script src="/js/third-party/search/local-search.js" defer></script>
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  <noscript>
-    <link rel="stylesheet" href="/css/noscript.css">
-  </noscript>
-<link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QCZTMV5CJM');
+  </script>
+  <script type="application/json" id="cl-config">{"root":"/","postsIndex":"/posts.json","searchIndex":"/search.json","rss":"/atom.xml","disqus":"blueandhack","lanes":{"life":"blue","code":"magenta","school":"teal","places":"amber","stories":"lime"},"links":{"home":"/","archive":"/archives/","tags":"/tags/","stats":"/stats/","about":"/about/"},"i18n":{"posts":"Posts","commands":"Commands","fulltext":"Matches in post text","empty":"No posts match. Try a shorter word, or search in Chinese.","loading":"Loading full-text index","go_home":"Go to the log","go_archive":"Go to the archive","go_tags":"Go to tags","go_stats":"Go to stats","go_about":"Go to about","random":"Open a random post","toggle_theme":"Switch light or dark theme","rss":"Subscribe via RSS","shortcuts":"Show keyboard shortcuts","copy":"Copy","copied":"Copied"}}</script>
+  <script src="/js/main.js" defer></script>
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
 </head>
-
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
-
-  <main class="main">
-    <div class="column">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
-  <div class="site-nav-search popup-trigger" aria-label="Search" role="button">
-      <i class="fa fa-search fa-fw fa-lg"></i>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <i class="logo-line"></i>
-      <h1 class="site-title">blueandhack</h1>
-      <i class="logo-line"></i>
+<body class="is-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/" aria-label="blueandhack">
+      <svg class="brand__mark" width="22" height="26" viewBox="0 0 22 26" aria-hidden="true">
+        <path d="M6 1v24" class="brand__main"/>
+        <path d="M6 18c0-6 10-6 10-11V5" class="brand__side"/>
+        <circle cx="6" cy="18" r="3.4" class="brand__dot-main"/>
+        <circle cx="16" cy="5" r="3.4" class="brand__dot-side"/>
+      </svg>
+      <span class="brand__name">blueandhack</span>
     </a>
-  </div>
-
-  <div class="site-nav-toggle" aria-label="Toggle navigation bar" role="button">
-      <i class="fa fa-ellipsis fa-fw fa-lg"></i>
-  </div>
-</div>
-
-
-
-<nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">58</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">4</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">164</span></a></li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
-        </a>
-      </li>
-  </ul>
-</nav>
-
-
-
-  
-  <template id="search-popup-template"><div class="search-pop-overlay">
-    <div class="popup search-popup">
-      <div class="search-header">
-        <span class="search-icon">
-          <i class="fa fa-search"></i>
-        </span>
-        <div class="search-input-container">
-          <input autocomplete="off" autocapitalize="off" maxlength="80"
-                placeholder="Searching..." spellcheck="false"
-                type="search" class="search-input">
-        </div>
-        <span class="popup-btn-close" role="button">
-          <i class="fa fa-times-circle"></i>
-        </span>
-      </div>
-      <div class="search-result-container">
-        <div class="search-result-icon">
-          <i class="fa fa-spinner fa-pulse fa-5x"></i>
-        </div>
-      </div>
-    </div>
-  </div></template>
-
-</header>
-        
-  
-  <aside class="sidebar">
-
-    <div class="sidebar-inner sidebar-overview-active">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Log</a></li>
+        <li><a href="/archives/" aria-current="page">Archive</a></li>
+        <li><a href="/tags/">Tags</a></li>
+        <li><a href="/stats/">Stats</a></li>
+        <li><a href="/about/">About</a></li>
       </ul>
-
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-        </div>
-        <!--/noindex-->
-
-        <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Yoga Lin"
-      src="https://avatars.githubusercontent.com/u/4150885?s=460">
-  <p class="site-author-name" itemprop="name">Yoga Lin</p>
-  <div class="site-description" itemprop="description">Know it then hack it!</div>
-</div>
-<div class="site-state-wrap animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">164</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">4</span>
-        <span class="site-state-item-name">categories</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">58</span>
-        <span class="site-state-item-name">tags</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author animated">
-      <span class="links-of-author-item">
-        <a href="https://github.com/blueandhack" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;blueandhack" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://x.com/blueandhack" title="X → https:&#x2F;&#x2F;x.com&#x2F;blueandhack" rel="noopener me" target="_blank"><i class="fab fa-x-twitter fa-fw"></i>X</a>
-      </span>
-  </div>
-
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="sidebar-inner sidebar-blogroll">
-      <div class="links-of-blogroll animated">
-        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-          Links
-        </div>
-        <ul class="links-of-blogroll-list">
-            <li class="links-of-blogroll-item">
-              <a href="http://www.xiaozhou.net/" title="http:&#x2F;&#x2F;www.xiaozhou.net&#x2F;" rel="noopener" target="_blank">Timothy's Space</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="http://www.yumao.name/" title="http:&#x2F;&#x2F;www.yumao.name&#x2F;" rel="noopener" target="_blank">羽毛の家</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="https://juryquinn.com/" title="https:&#x2F;&#x2F;juryquinn.com&#x2F;" rel="noopener" target="_blank">Jury</a>
-            </li>
-        </ul>
-      </div>
-    </div>
-  </aside>
-
-
-    </div>
-
-    <div class="main-inner archive posts-collapse">
-
-
-  
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        
-        <span class="collection-header">Great! 164 posts in total. Keep on posting.</span>
-      </div>
-
-      
-    <div class="collection-year">
-      <span class="collection-header">2023<span class="collection-year-count">1</span></span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-10-10T01:06:00-07:00"
-              content="2023-10-10">
-          10-10
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2023/10/10/10-10-2023.html" itemprop="url">
-            <span itemprop="name">二〇二三年，六年后</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-    <div class="collection-year">
-      <span class="collection-header">2017<span class="collection-year-count">2</span></span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-12-18T05:17:15-08:00"
-              content="2017-12-18">
-          12-18
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2017/12/18/ten-years.html" itemprop="url">
-            <span itemprop="name">我的2017</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-02-26T01:54:00-08:00"
-              content="2017-02-26">
-          02-26
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2017/02/26/2017-02.html" itemprop="url">
-            <span itemprop="name">二〇一七年的二月</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-    <div class="collection-year">
-      <span class="collection-header">2016<span class="collection-year-count">1</span></span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2016-10-23T02:32:35-07:00"
-              content="2016-10-23">
-          10-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2016/10/23/some-stories-in-2016.html" itemprop="url">
-            <span itemprop="name">最近的故事</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-    <div class="collection-year">
-      <span class="collection-header">2015<span class="collection-year-count">4</span></span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2015-11-29T01:05:08-08:00"
-              content="2015-11-29">
-          11-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2015/11/29/autumn.html" itemprop="url">
-            <span itemprop="name">深秋</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2015-04-30T13:02:35-07:00"
-              content="2015-04-30">
-          04-30
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2015/04/30/LDR.html" itemprop="url">
-            <span itemprop="name">Long Distance Relationship</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2015-02-04T15:14:28-08:00"
-              content="2015-02-04">
-          02-04
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2015/02/04/LA-dream-city.html" itemprop="url">
-            <span itemprop="name">梦的旅程</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2015-01-05T16:12:12-08:00"
-              content="2015-01-05">
-          01-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2015/01/06/bye-2014.html" itemprop="url">
-            <span itemprop="name">我的2014</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-    <div class="collection-year">
-      <span class="collection-header">2014<span class="collection-year-count">1</span></span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2014-03-13T01:56:01-07:00"
-              content="2014-03-13">
-          03-13
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2014/03/13/college-in-China.html" itemprop="url">
-            <span itemprop="name">祭奠的大学，抉择</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-    <div class="collection-year">
-      <span class="collection-header">2013<span class="collection-year-count">27</span></span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2013-12-09T06:27:34-08:00"
-              content="2013-12-09">
-          12-09
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/notes-of-life/2013/12/09/winter-in-2013.html" itemprop="url">
-            <span itemprop="name">冷于12月</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-
+    </nav>
+    <div class="site-tools">
+      <button class="search-trigger" type="button" data-action="palette" aria-label="Search">
+        <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+        <span class="search-trigger__label">Search</span>
+        <kbd class="search-trigger__kbd" data-mod-key>Ctrl K</kbd>
+      </button>
+      <button class="icon-button" type="button" data-action="theme" aria-label="Switch light or dark theme" title="Switch light or dark theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+      </button>
     </div>
   </div>
+</header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap page">
+  <header class="page-head">
+    <h1 class="page-head__title">Archive</h1>
+  </header>
   
+<figure class="heatmap" aria-labelledby="heatmap-title">
+  <figcaption class="heatmap__caption" id="heatmap-title">Posts per month, 2010 to now</figcaption>
+  <div class="heatmap__scroll">
+    <table class="heatmap__grid">
+      <thead>
+        <tr>
+          <th scope="col"><span class="visually-hidden">Year</span></th><th scope="col" aria-hidden="true">J</th><th scope="col" aria-hidden="true">F</th><th scope="col" aria-hidden="true">M</th><th scope="col" aria-hidden="true">A</th><th scope="col" aria-hidden="true">M</th><th scope="col" aria-hidden="true">J</th><th scope="col" aria-hidden="true">J</th><th scope="col" aria-hidden="true">A</th><th scope="col" aria-hidden="true">S</th><th scope="col" aria-hidden="true">O</th><th scope="col" aria-hidden="true">N</th><th scope="col" aria-hidden="true">D</th>
+          <th scope="col"><span class="visually-hidden">Total</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><a href="/archives/2026/" tabindex="-1" aria-disabled="true">2026</a></th>
+          <td class="cell cell--0" title="2026-01: 0 posts"></td>
+          <td class="cell cell--0" title="2026-02: 0 posts"></td>
+          <td class="cell cell--0" title="2026-03: 0 posts"></td>
+          <td class="cell cell--0" title="2026-04: 0 posts"></td>
+          <td class="cell cell--0" title="2026-05: 0 posts"></td>
+          <td class="cell cell--0" title="2026-06: 0 posts"></td>
+          <td class="cell cell--0" title="2026-07: 0 posts"></td>
+          <td class="cell cell--0" title="2026-08: 0 posts"></td>
+          <td class="cell cell--0" title="2026-09: 0 posts"></td>
+          <td class="cell cell--0" title="2026-10: 0 posts"></td>
+          <td class="cell cell--0" title="2026-11: 0 posts"></td>
+          <td class="cell cell--0" title="2026-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2025/" tabindex="-1" aria-disabled="true">2025</a></th>
+          <td class="cell cell--0" title="2025-01: 0 posts"></td>
+          <td class="cell cell--0" title="2025-02: 0 posts"></td>
+          <td class="cell cell--0" title="2025-03: 0 posts"></td>
+          <td class="cell cell--0" title="2025-04: 0 posts"></td>
+          <td class="cell cell--0" title="2025-05: 0 posts"></td>
+          <td class="cell cell--0" title="2025-06: 0 posts"></td>
+          <td class="cell cell--0" title="2025-07: 0 posts"></td>
+          <td class="cell cell--0" title="2025-08: 0 posts"></td>
+          <td class="cell cell--0" title="2025-09: 0 posts"></td>
+          <td class="cell cell--0" title="2025-10: 0 posts"></td>
+          <td class="cell cell--0" title="2025-11: 0 posts"></td>
+          <td class="cell cell--0" title="2025-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2024/" tabindex="-1" aria-disabled="true">2024</a></th>
+          <td class="cell cell--0" title="2024-01: 0 posts"></td>
+          <td class="cell cell--0" title="2024-02: 0 posts"></td>
+          <td class="cell cell--0" title="2024-03: 0 posts"></td>
+          <td class="cell cell--0" title="2024-04: 0 posts"></td>
+          <td class="cell cell--0" title="2024-05: 0 posts"></td>
+          <td class="cell cell--0" title="2024-06: 0 posts"></td>
+          <td class="cell cell--0" title="2024-07: 0 posts"></td>
+          <td class="cell cell--0" title="2024-08: 0 posts"></td>
+          <td class="cell cell--0" title="2024-09: 0 posts"></td>
+          <td class="cell cell--0" title="2024-10: 0 posts"></td>
+          <td class="cell cell--0" title="2024-11: 0 posts"></td>
+          <td class="cell cell--0" title="2024-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2023/">2023</a></th>
+          <td class="cell cell--0" title="2023-01: 0 posts"></td>
+          <td class="cell cell--0" title="2023-02: 0 posts"></td>
+          <td class="cell cell--0" title="2023-03: 0 posts"></td>
+          <td class="cell cell--0" title="2023-04: 0 posts"></td>
+          <td class="cell cell--0" title="2023-05: 0 posts"></td>
+          <td class="cell cell--0" title="2023-06: 0 posts"></td>
+          <td class="cell cell--0" title="2023-07: 0 posts"></td>
+          <td class="cell cell--0" title="2023-08: 0 posts"></td>
+          <td class="cell cell--0" title="2023-09: 0 posts"></td>
+          <td class="cell cell--1" title="2023-10: 1 posts"><a href="/archives/2023/10/" aria-label="2023-10: 1 posts"></a></td>
+          <td class="cell cell--0" title="2023-11: 0 posts"></td>
+          <td class="cell cell--0" title="2023-12: 0 posts"></td>
+          <td class="heatmap__total">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2022/" tabindex="-1" aria-disabled="true">2022</a></th>
+          <td class="cell cell--0" title="2022-01: 0 posts"></td>
+          <td class="cell cell--0" title="2022-02: 0 posts"></td>
+          <td class="cell cell--0" title="2022-03: 0 posts"></td>
+          <td class="cell cell--0" title="2022-04: 0 posts"></td>
+          <td class="cell cell--0" title="2022-05: 0 posts"></td>
+          <td class="cell cell--0" title="2022-06: 0 posts"></td>
+          <td class="cell cell--0" title="2022-07: 0 posts"></td>
+          <td class="cell cell--0" title="2022-08: 0 posts"></td>
+          <td class="cell cell--0" title="2022-09: 0 posts"></td>
+          <td class="cell cell--0" title="2022-10: 0 posts"></td>
+          <td class="cell cell--0" title="2022-11: 0 posts"></td>
+          <td class="cell cell--0" title="2022-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2021/" tabindex="-1" aria-disabled="true">2021</a></th>
+          <td class="cell cell--0" title="2021-01: 0 posts"></td>
+          <td class="cell cell--0" title="2021-02: 0 posts"></td>
+          <td class="cell cell--0" title="2021-03: 0 posts"></td>
+          <td class="cell cell--0" title="2021-04: 0 posts"></td>
+          <td class="cell cell--0" title="2021-05: 0 posts"></td>
+          <td class="cell cell--0" title="2021-06: 0 posts"></td>
+          <td class="cell cell--0" title="2021-07: 0 posts"></td>
+          <td class="cell cell--0" title="2021-08: 0 posts"></td>
+          <td class="cell cell--0" title="2021-09: 0 posts"></td>
+          <td class="cell cell--0" title="2021-10: 0 posts"></td>
+          <td class="cell cell--0" title="2021-11: 0 posts"></td>
+          <td class="cell cell--0" title="2021-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2020/" tabindex="-1" aria-disabled="true">2020</a></th>
+          <td class="cell cell--0" title="2020-01: 0 posts"></td>
+          <td class="cell cell--0" title="2020-02: 0 posts"></td>
+          <td class="cell cell--0" title="2020-03: 0 posts"></td>
+          <td class="cell cell--0" title="2020-04: 0 posts"></td>
+          <td class="cell cell--0" title="2020-05: 0 posts"></td>
+          <td class="cell cell--0" title="2020-06: 0 posts"></td>
+          <td class="cell cell--0" title="2020-07: 0 posts"></td>
+          <td class="cell cell--0" title="2020-08: 0 posts"></td>
+          <td class="cell cell--0" title="2020-09: 0 posts"></td>
+          <td class="cell cell--0" title="2020-10: 0 posts"></td>
+          <td class="cell cell--0" title="2020-11: 0 posts"></td>
+          <td class="cell cell--0" title="2020-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2019/" tabindex="-1" aria-disabled="true">2019</a></th>
+          <td class="cell cell--0" title="2019-01: 0 posts"></td>
+          <td class="cell cell--0" title="2019-02: 0 posts"></td>
+          <td class="cell cell--0" title="2019-03: 0 posts"></td>
+          <td class="cell cell--0" title="2019-04: 0 posts"></td>
+          <td class="cell cell--0" title="2019-05: 0 posts"></td>
+          <td class="cell cell--0" title="2019-06: 0 posts"></td>
+          <td class="cell cell--0" title="2019-07: 0 posts"></td>
+          <td class="cell cell--0" title="2019-08: 0 posts"></td>
+          <td class="cell cell--0" title="2019-09: 0 posts"></td>
+          <td class="cell cell--0" title="2019-10: 0 posts"></td>
+          <td class="cell cell--0" title="2019-11: 0 posts"></td>
+          <td class="cell cell--0" title="2019-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2018/" tabindex="-1" aria-disabled="true">2018</a></th>
+          <td class="cell cell--0" title="2018-01: 0 posts"></td>
+          <td class="cell cell--0" title="2018-02: 0 posts"></td>
+          <td class="cell cell--0" title="2018-03: 0 posts"></td>
+          <td class="cell cell--0" title="2018-04: 0 posts"></td>
+          <td class="cell cell--0" title="2018-05: 0 posts"></td>
+          <td class="cell cell--0" title="2018-06: 0 posts"></td>
+          <td class="cell cell--0" title="2018-07: 0 posts"></td>
+          <td class="cell cell--0" title="2018-08: 0 posts"></td>
+          <td class="cell cell--0" title="2018-09: 0 posts"></td>
+          <td class="cell cell--0" title="2018-10: 0 posts"></td>
+          <td class="cell cell--0" title="2018-11: 0 posts"></td>
+          <td class="cell cell--0" title="2018-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2017/">2017</a></th>
+          <td class="cell cell--0" title="2017-01: 0 posts"></td>
+          <td class="cell cell--1" title="2017-02: 1 posts"><a href="/archives/2017/02/" aria-label="2017-02: 1 posts"></a></td>
+          <td class="cell cell--0" title="2017-03: 0 posts"></td>
+          <td class="cell cell--0" title="2017-04: 0 posts"></td>
+          <td class="cell cell--0" title="2017-05: 0 posts"></td>
+          <td class="cell cell--0" title="2017-06: 0 posts"></td>
+          <td class="cell cell--0" title="2017-07: 0 posts"></td>
+          <td class="cell cell--0" title="2017-08: 0 posts"></td>
+          <td class="cell cell--0" title="2017-09: 0 posts"></td>
+          <td class="cell cell--0" title="2017-10: 0 posts"></td>
+          <td class="cell cell--0" title="2017-11: 0 posts"></td>
+          <td class="cell cell--1" title="2017-12: 1 posts"><a href="/archives/2017/12/" aria-label="2017-12: 1 posts"></a></td>
+          <td class="heatmap__total">2</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2016/">2016</a></th>
+          <td class="cell cell--0" title="2016-01: 0 posts"></td>
+          <td class="cell cell--0" title="2016-02: 0 posts"></td>
+          <td class="cell cell--0" title="2016-03: 0 posts"></td>
+          <td class="cell cell--0" title="2016-04: 0 posts"></td>
+          <td class="cell cell--0" title="2016-05: 0 posts"></td>
+          <td class="cell cell--0" title="2016-06: 0 posts"></td>
+          <td class="cell cell--0" title="2016-07: 0 posts"></td>
+          <td class="cell cell--0" title="2016-08: 0 posts"></td>
+          <td class="cell cell--0" title="2016-09: 0 posts"></td>
+          <td class="cell cell--1" title="2016-10: 1 posts"><a href="/archives/2016/10/" aria-label="2016-10: 1 posts"></a></td>
+          <td class="cell cell--0" title="2016-11: 0 posts"></td>
+          <td class="cell cell--0" title="2016-12: 0 posts"></td>
+          <td class="heatmap__total">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2015/">2015</a></th>
+          <td class="cell cell--1" title="2015-01: 1 posts"><a href="/archives/2015/01/" aria-label="2015-01: 1 posts"></a></td>
+          <td class="cell cell--1" title="2015-02: 1 posts"><a href="/archives/2015/02/" aria-label="2015-02: 1 posts"></a></td>
+          <td class="cell cell--0" title="2015-03: 0 posts"></td>
+          <td class="cell cell--1" title="2015-04: 1 posts"><a href="/archives/2015/04/" aria-label="2015-04: 1 posts"></a></td>
+          <td class="cell cell--0" title="2015-05: 0 posts"></td>
+          <td class="cell cell--0" title="2015-06: 0 posts"></td>
+          <td class="cell cell--0" title="2015-07: 0 posts"></td>
+          <td class="cell cell--0" title="2015-08: 0 posts"></td>
+          <td class="cell cell--0" title="2015-09: 0 posts"></td>
+          <td class="cell cell--0" title="2015-10: 0 posts"></td>
+          <td class="cell cell--1" title="2015-11: 1 posts"><a href="/archives/2015/11/" aria-label="2015-11: 1 posts"></a></td>
+          <td class="cell cell--0" title="2015-12: 0 posts"></td>
+          <td class="heatmap__total">4</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2014/">2014</a></th>
+          <td class="cell cell--0" title="2014-01: 0 posts"></td>
+          <td class="cell cell--0" title="2014-02: 0 posts"></td>
+          <td class="cell cell--1" title="2014-03: 1 posts"><a href="/archives/2014/03/" aria-label="2014-03: 1 posts"></a></td>
+          <td class="cell cell--0" title="2014-04: 0 posts"></td>
+          <td class="cell cell--0" title="2014-05: 0 posts"></td>
+          <td class="cell cell--0" title="2014-06: 0 posts"></td>
+          <td class="cell cell--0" title="2014-07: 0 posts"></td>
+          <td class="cell cell--0" title="2014-08: 0 posts"></td>
+          <td class="cell cell--0" title="2014-09: 0 posts"></td>
+          <td class="cell cell--0" title="2014-10: 0 posts"></td>
+          <td class="cell cell--0" title="2014-11: 0 posts"></td>
+          <td class="cell cell--0" title="2014-12: 0 posts"></td>
+          <td class="heatmap__total">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2013/">2013</a></th>
+          <td class="cell cell--0" title="2013-01: 0 posts"></td>
+          <td class="cell cell--1" title="2013-02: 1 posts"><a href="/archives/2013/02/" aria-label="2013-02: 1 posts"></a></td>
+          <td class="cell cell--2" title="2013-03: 7 posts"><a href="/archives/2013/03/" aria-label="2013-03: 7 posts"></a></td>
+          <td class="cell cell--1" title="2013-04: 1 posts"><a href="/archives/2013/04/" aria-label="2013-04: 1 posts"></a></td>
+          <td class="cell cell--1" title="2013-05: 2 posts"><a href="/archives/2013/05/" aria-label="2013-05: 2 posts"></a></td>
+          <td class="cell cell--2" title="2013-06: 4 posts"><a href="/archives/2013/06/" aria-label="2013-06: 4 posts"></a></td>
+          <td class="cell cell--2" title="2013-07: 4 posts"><a href="/archives/2013/07/" aria-label="2013-07: 4 posts"></a></td>
+          <td class="cell cell--1" title="2013-08: 3 posts"><a href="/archives/2013/08/" aria-label="2013-08: 3 posts"></a></td>
+          <td class="cell cell--2" title="2013-09: 4 posts"><a href="/archives/2013/09/" aria-label="2013-09: 4 posts"></a></td>
+          <td class="cell cell--0" title="2013-10: 0 posts"></td>
+          <td class="cell cell--0" title="2013-11: 0 posts"></td>
+          <td class="cell cell--1" title="2013-12: 1 posts"><a href="/archives/2013/12/" aria-label="2013-12: 1 posts"></a></td>
+          <td class="heatmap__total">27</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2012/">2012</a></th>
+          <td class="cell cell--0" title="2012-01: 0 posts"></td>
+          <td class="cell cell--1" title="2012-02: 1 posts"><a href="/archives/2012/02/" aria-label="2012-02: 1 posts"></a></td>
+          <td class="cell cell--0" title="2012-03: 0 posts"></td>
+          <td class="cell cell--0" title="2012-04: 0 posts"></td>
+          <td class="cell cell--0" title="2012-05: 0 posts"></td>
+          <td class="cell cell--0" title="2012-06: 0 posts"></td>
+          <td class="cell cell--0" title="2012-07: 0 posts"></td>
+          <td class="cell cell--1" title="2012-08: 1 posts"><a href="/archives/2012/08/" aria-label="2012-08: 1 posts"></a></td>
+          <td class="cell cell--0" title="2012-09: 0 posts"></td>
+          <td class="cell cell--0" title="2012-10: 0 posts"></td>
+          <td class="cell cell--1" title="2012-11: 1 posts"><a href="/archives/2012/11/" aria-label="2012-11: 1 posts"></a></td>
+          <td class="cell cell--1" title="2012-12: 1 posts"><a href="/archives/2012/12/" aria-label="2012-12: 1 posts"></a></td>
+          <td class="heatmap__total">4</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2011/">2011</a></th>
+          <td class="cell cell--3" title="2011-01: 10 posts"><a href="/archives/2011/01/" aria-label="2011-01: 10 posts"></a></td>
+          <td class="cell cell--2" title="2011-02: 5 posts"><a href="/archives/2011/02/" aria-label="2011-02: 5 posts"></a></td>
+          <td class="cell cell--1" title="2011-03: 1 posts"><a href="/archives/2011/03/" aria-label="2011-03: 1 posts"></a></td>
+          <td class="cell cell--0" title="2011-04: 0 posts"></td>
+          <td class="cell cell--2" title="2011-05: 5 posts"><a href="/archives/2011/05/" aria-label="2011-05: 5 posts"></a></td>
+          <td class="cell cell--1" title="2011-06: 2 posts"><a href="/archives/2011/06/" aria-label="2011-06: 2 posts"></a></td>
+          <td class="cell cell--1" title="2011-07: 3 posts"><a href="/archives/2011/07/" aria-label="2011-07: 3 posts"></a></td>
+          <td class="cell cell--1" title="2011-08: 1 posts"><a href="/archives/2011/08/" aria-label="2011-08: 1 posts"></a></td>
+          <td class="cell cell--1" title="2011-09: 1 posts"><a href="/archives/2011/09/" aria-label="2011-09: 1 posts"></a></td>
+          <td class="cell cell--0" title="2011-10: 0 posts"></td>
+          <td class="cell cell--1" title="2011-11: 1 posts"><a href="/archives/2011/11/" aria-label="2011-11: 1 posts"></a></td>
+          <td class="cell cell--1" title="2011-12: 1 posts"><a href="/archives/2011/12/" aria-label="2011-12: 1 posts"></a></td>
+          <td class="heatmap__total">30</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2010/">2010</a></th>
+          <td class="cell cell--0" title="2010-01: 0 posts"></td>
+          <td class="cell cell--2" title="2010-02: 4 posts"><a href="/archives/2010/02/" aria-label="2010-02: 4 posts"></a></td>
+          <td class="cell cell--4" title="2010-03: 15 posts"><a href="/archives/2010/03/" aria-label="2010-03: 15 posts"></a></td>
+          <td class="cell cell--4" title="2010-04: 13 posts"><a href="/archives/2010/04/" aria-label="2010-04: 13 posts"></a></td>
+          <td class="cell cell--2" title="2010-05: 4 posts"><a href="/archives/2010/05/" aria-label="2010-05: 4 posts"></a></td>
+          <td class="cell cell--3" title="2010-06: 8 posts"><a href="/archives/2010/06/" aria-label="2010-06: 8 posts"></a></td>
+          <td class="cell cell--2" title="2010-07: 6 posts"><a href="/archives/2010/07/" aria-label="2010-07: 6 posts"></a></td>
+          <td class="cell cell--3" title="2010-08: 10 posts"><a href="/archives/2010/08/" aria-label="2010-08: 10 posts"></a></td>
+          <td class="cell cell--4" title="2010-09: 12 posts"><a href="/archives/2010/09/" aria-label="2010-09: 12 posts"></a></td>
+          <td class="cell cell--3" title="2010-10: 8 posts"><a href="/archives/2010/10/" aria-label="2010-10: 8 posts"></a></td>
+          <td class="cell cell--2" title="2010-11: 6 posts"><a href="/archives/2010/11/" aria-label="2010-11: 6 posts"></a></td>
+          <td class="cell cell--3" title="2010-12: 8 posts"><a href="/archives/2010/12/" aria-label="2010-12: 8 posts"></a></td>
+          <td class="heatmap__total">94</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="heatmap__legend" aria-hidden="true">
+    <span>Fewer</span>
+    <span class="cell cell--0"></span><span class="cell cell--1"></span><span class="cell cell--2"></span><span class="cell cell--3"></span><span class="cell cell--4"></span>
+    <span>More</span>
+  </p>
+</figure>
+
+
+  <div class="timeline">
+    <section class="timeline__year" aria-labelledby="y-2023">
+      <h2 class="timeline__heading" id="y-2023">
+        <span class="tag-label">v2023</span>
+        <span class="timeline__count">1 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2023-10-10T08:06:00.000Z">10-10</time>
+          <a href="/notes-of-life/2023/10/10/10-10-2023.html" data-row-link>二〇二三年，六年后</a>
+          <code class="timeline__hash">cc06234</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2017">
+      <h2 class="timeline__heading" id="y-2017">
+        <span class="tag-label">v2017</span>
+        <span class="timeline__count">2 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2017-12-18T13:17:15.000Z">12-18</time>
+          <a href="/notes-of-life/2017/12/18/ten-years.html" data-row-link>我的2017</a>
+          <code class="timeline__hash">3420504</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2017-02-26T09:54:00.000Z">02-26</time>
+          <a href="/notes-of-life/2017/02/26/2017-02.html" data-row-link>二〇一七年的二月</a>
+          <code class="timeline__hash">debb20f</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2016">
+      <h2 class="timeline__heading" id="y-2016">
+        <span class="tag-label">v2016</span>
+        <span class="timeline__count">1 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2016-10-23T09:32:35.000Z">10-23</time>
+          <a href="/notes-of-life/2016/10/23/some-stories-in-2016.html" data-row-link>最近的故事</a>
+          <code class="timeline__hash">9cee807</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2015">
+      <h2 class="timeline__heading" id="y-2015">
+        <span class="tag-label">v2015</span>
+        <span class="timeline__count">4 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2015-11-29T09:05:08.000Z">11-29</time>
+          <a href="/notes-of-life/2015/11/29/autumn.html" data-row-link>深秋</a>
+          <code class="timeline__hash">bbb9699</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2015-04-30T20:02:35.000Z">04-30</time>
+          <a href="/notes-of-life/2015/04/30/LDR.html" data-row-link>Long Distance Relationship</a>
+          <code class="timeline__hash">5b96f76</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2015-02-04T23:14:28.000Z">02-04</time>
+          <a href="/notes-of-life/2015/02/04/LA-dream-city.html" data-row-link>梦的旅程</a>
+          <code class="timeline__hash">366117f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2015-01-06T00:12:12.000Z">01-05</time>
+          <a href="/notes-of-life/2015/01/06/bye-2014.html" data-row-link>我的2014</a>
+          <code class="timeline__hash">8263fb1</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2014">
+      <h2 class="timeline__heading" id="y-2014">
+        <span class="tag-label">v2014</span>
+        <span class="timeline__count">1 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2014-03-13T08:56:01.000Z">03-13</time>
+          <a href="/notes-of-life/2014/03/13/college-in-China.html" data-row-link>祭奠的大学，抉择</a>
+          <code class="timeline__hash">02d3114</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2013">
+      <h2 class="timeline__heading" id="y-2013">
+        <span class="tag-label">v2013</span>
+        <span class="timeline__count">27 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2013-12-09T14:27:34.000Z">12-09</time>
+          <a href="/notes-of-life/2013/12/09/winter-in-2013.html" data-row-link>冷于12月</a>
+          <code class="timeline__hash">2aa40c4</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-09-26T09:20:32.000Z">09-26</time>
+          <a href="/notes-of-life/2013/09/26/three-years-ago.html" data-row-link>时隔三年</a>
+          <code class="timeline__hash">73f4c5a</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-09-13T08:18:53.000Z">09-13</time>
+          <a href="/notes-of-life/2013/09/13/love-running.html" data-row-link>Love Running</a>
+          <code class="timeline__hash">4a8a6f4</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-09-13T01:21:16.000Z">09-12</time>
+          <a href="/notes-of-life/2013/09/13/running.html" data-row-link>Running</a>
+          <code class="timeline__hash">9c1b03f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2013-09-03T08:52:02.000Z">09-03</time>
+          <a href="/notes-of-life/2013/09/03/fall-in-2013.html" data-row-link>开学了</a>
+          <code class="timeline__hash">816f4b8</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-08-31T09:01:44.000Z">08-31</time>
+          <a href="/notes-of-life/2013/08/31/tell-future-self.html" data-row-link>写给一年后的自己</a>
+          <code class="timeline__hash">6bb8eda</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-08-28T08:41:47.000Z">08-28</time>
+          <a href="/notes-of-life/2013/08/28/silence.html" data-row-link>Silence</a>
+          <code class="timeline__hash">9b3b5f7</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-08-27T08:30:18.000Z">08-27</time>
+          <a href="/notes-of-life/2013/08/27/say-goodbye-August.html" data-row-link>九月你好，八月再见</a>
+          <code class="timeline__hash">06451e6</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-07-31T09:11:42.000Z">07-31</time>
+          <a href="/notes-of-life/2013/07/31/face-life.html" data-row-link>嘻皮笑脸面对人生的难</a>
+          <code class="timeline__hash">2eca8ad</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2013-07-30T10:38:30.000Z">07-30</time>
+          <a href="/notes-of-life/2013/07/30/continue-my-dream.html" data-row-link>继续我的梦</a>
+          <code class="timeline__hash">9428f8f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2013-07-27T08:34:13.000Z">07-27</time>
+          <a href="/notes-of-life/2013/07/27/my-high-school-classmates.html" data-row-link>高中的那些人</a>
+          <code class="timeline__hash">60c9714</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2013-07-04T09:05:41.000Z">07-04</time>
+          <a href="/technology/2013/07/04/split-phone-number.html" data-row-link>给N多手机号用逗号分隔</a>
+          <code class="timeline__hash">2044eba</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2013-06-27T09:39:05.000Z">06-27</time>
+          <a href="/notes-of-life/2013/06/27/remember-my-dream.html" data-row-link>又想到了曾经的梦</a>
+          <code class="timeline__hash">cedca7c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2013-06-20T07:04:59.000Z">06-20</time>
+          <a href="/technology/2013/06/20/print-diamond.html" data-row-link>一句话打印菱形</a>
+          <code class="timeline__hash">514da6e</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-06-17T09:36:57.000Z">06-17</time>
+          <a href="/notes-of-life/2013/06/17/my-thoughts.html" data-row-link>我的文艺</a>
+          <code class="timeline__hash">e61d057</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2013-06-14T09:03:52.000Z">06-14</time>
+          <a href="/notes-of-life/2013/06/14/change-theme-change-mood.html" data-row-link>换了个皮肤，换一种心情</a>
+          <code class="timeline__hash">bf0f765</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-05-15T07:49:41.000Z">05-15</time>
+          <a href="/notes-of-life/2013/05/15/busy-life.html" data-row-link>忙碌的生活</a>
+          <code class="timeline__hash">c079a92</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-05-14T08:06:23.000Z">05-14</time>
+          <a href="/notes-of-life/2013/05/14/time-flies.html" data-row-link>物是人非，永远跑不过时间</a>
+          <code class="timeline__hash">97f5c75</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-04-09T06:30:47.000Z">04-08</time>
+          <a href="/notes-of-life/2013/04/09/cheating.html" data-row-link>那一瞬的感觉</a>
+          <code class="timeline__hash">896dd5f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-03-26T06:10:27.000Z">03-25</time>
+          <a href="/notes-of-life/2013/03/26/this-is-ture-life.html" data-row-link>这才是生活</a>
+          <code class="timeline__hash">e319826</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2013-03-25T06:26:11.000Z">03-24</time>
+          <a href="/notes-of-life/2013/03/25/microfilm-Wait.html" data-row-link>微电影《Wait》杀青</a>
+          <code class="timeline__hash">2fadc6f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2013-03-22T06:32:42.000Z">03-21</time>
+          <a href="/technology/2013/03/22/about-c-language-link-list.html" data-row-link>C语言关于链表的头插入和头删除</a>
+          <code class="timeline__hash">9315937</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-03-21T06:34:08.000Z">03-20</time>
+          <a href="/notes-of-life/2013/03/21/the-week-plan.html" data-row-link>这周要完成的事</a>
+          <code class="timeline__hash">e154744</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2013-03-20T06:34:21.000Z">03-19</time>
+          <a href="/technology/2013/03/20/Java-scanner.html" data-row-link>关于Java的输入编程</a>
+          <code class="timeline__hash">285ae98</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2013-03-19T06:37:44.000Z">03-18</time>
+          <a href="/notes-of-life/2013/03/19/about-C-language-create-link-list.html" data-row-link>关于C语言链表创建的小实例</a>
+          <code class="timeline__hash">34359a9</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2013-03-18T06:26:31.000Z">03-17</time>
+          <a href="/notes-of-life/2013/03/18/about-Wait.html" data-row-link>即将开拍的微电影《Wait》</a>
+          <code class="timeline__hash">8732a6f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2013-02-24T09:15:21.000Z">02-24</time>
+          <a href="/notes-of-life/2013/02/24/none-title.html" data-row-link>无题</a>
+          <code class="timeline__hash">7ccc7df</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2012">
+      <h2 class="timeline__heading" id="y-2012">
+        <span class="tag-label">v2012</span>
+        <span class="timeline__count">4 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2012-12-24T07:23:58.000Z">12-23</time>
+          <a href="/notes-of-life/2012/12/24/keep-going.html" data-row-link>生活就是不断地前进</a>
+          <code class="timeline__hash">0cd3fcd</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2012-11-19T07:29:14.000Z">11-18</time>
+          <a href="/notes-of-life/2012/11/19/trouble-dormitory.html" data-row-link>我们不在一个起跑线上</a>
+          <code class="timeline__hash">2f262ef</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2012-08-25T15:51:04.000Z">08-25</time>
+          <a href="/notes-of-life/2012/08/25/fall-in-2012.html" data-row-link>凉凉的风，又是秋天了吗？</a>
+          <code class="timeline__hash">ee92365</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2012-02-21T20:50:28.000Z">02-21</time>
+          <a href="/notes-of-life/2012/02/21/two-years-for-blog-life.html" data-row-link>博客两周年</a>
+          <code class="timeline__hash">822cc2e</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2011">
+      <h2 class="timeline__heading" id="y-2011">
+        <span class="tag-label">v2011</span>
+        <span class="timeline__count">30 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-12-25T21:45:45.000Z">12-25</time>
+          <a href="/notes-of-life/2011/12/25/winter-in-2011.html" data-row-link>说说近况</a>
+          <code class="timeline__hash">820d0ee</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-11-04T02:25:25.000Z">11-03</time>
+          <a href="/notes-of-life/2011/11/04/lose-interest.html" data-row-link>所谓的热情真的会流逝</a>
+          <code class="timeline__hash">12fb991</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-09-14T20:07:15.000Z">09-14</time>
+          <a href="/notes-of-life/2011/09/14/nuffnang.html" data-row-link>拿福能千人挑战赛接近尾声</a>
+          <code class="timeline__hash">2071a8d</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2011-08-30T21:25:48.000Z">08-30</time>
+          <a href="/notes-of-life/2011/08/30/TOEFL-test.html" data-row-link>TOEFL TEST</a>
+          <code class="timeline__hash">748ff45</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-07-26T20:25:21.000Z">07-26</time>
+          <a href="/notes-of-life/2011/07/26/ATX770.html" data-row-link>ATX770</a>
+          <code class="timeline__hash">dc5e788</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-07-16T06:57:27.000Z">07-15</time>
+          <a href="/themes/2011/07/16/sale-Vivian-theme.html" data-row-link>Wordpress博客主题出售-----Vivian</a>
+          <code class="timeline__hash">735f2ab</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-07-10T20:31:10.000Z">07-10</time>
+          <a href="/notes-of-life/2011/07/10/suddenly.html" data-row-link>转瞬间</a>
+          <code class="timeline__hash">a419509</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-06-29T00:03:26.000Z">06-28</time>
+          <a href="/notes-of-life/2011/06/29/pagerank-4.html" data-row-link>本博客PageRank升至4</a>
+          <code class="timeline__hash">50716c5</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-06-14T08:12:35.000Z">06-14</time>
+          <a href="/notes-of-life/2011/06/14/restart.html" data-row-link>重新开始</a>
+          <code class="timeline__hash">262350c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-05-31T18:53:45.000Z">05-31</time>
+          <a href="/notes-of-life/2011/05/31/end.html" data-row-link>END</a>
+          <code class="timeline__hash">426a91f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-05-28T08:03:31.000Z">05-28</time>
+          <a href="/notes-of-life/2011/05/28/meet.html" data-row-link>遇见</a>
+          <code class="timeline__hash">5a11983</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-05-27T08:30:09.000Z">05-27</time>
+          <a href="/notes-of-life/2011/05/27/to-meet-again.html" data-row-link>再次见面可能会很容易</a>
+          <code class="timeline__hash">bdba427</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-05-25T06:50:43.000Z">05-24</time>
+          <a href="/notes-of-life/2011/05/25/pay-attention.html" data-row-link>我说，干什么都要专一</a>
+          <code class="timeline__hash">3251253</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-05-16T23:54:01.000Z">05-16</time>
+          <a href="/notes-of-life/2011/05/16/multiple-choice.html" data-row-link>选择题</a>
+          <code class="timeline__hash">92412fe</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-03-13T14:36:19.000Z">03-13</time>
+          <a href="/notes-of-life/2011/03/13/in-Shanghai.html" data-row-link>在上海的日子</a>
+          <code class="timeline__hash">da9c739</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-02-28T06:06:36.000Z">02-27</time>
+          <a href="/notes-of-life/2011/02/28/one-year-for-blog.html" data-row-link>独立博客一周年</a>
+          <code class="timeline__hash">693ef8a</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-02-26T19:19:27.000Z">02-26</time>
+          <a href="/notes-of-life/2011/02/26/bloggers.html" data-row-link>雷锋群的博主</a>
+          <code class="timeline__hash">f5cb73c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2011-02-11T11:14:46.000Z">02-11</time>
+          <a href="/notes-of-life/2011/02/11/waht-is-love.html" data-row-link>何为爱？</a>
+          <code class="timeline__hash">f7dab8e</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-02-07T08:50:32.000Z">02-07</time>
+          <a href="/notes-of-life/2011/02/07/go-to-rest.html" data-row-link>累了，困了，准备洗洗睡了</a>
+          <code class="timeline__hash">7253281</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-02-03T07:50:45.000Z">02-02</time>
+          <a href="/notes-of-life/2011/02/03/Chinese-New-Year-in-2011.html" data-row-link>春节</a>
+          <code class="timeline__hash">513dc2f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-01-27T07:48:29.000Z">01-26</time>
+          <a href="/notes-of-life/2011/01/27/harmonica-and-iPod.html" data-row-link>我的蓝调口琴和iPod shuffle</a>
+          <code class="timeline__hash">27d5919</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-01-24T07:36:30.000Z">01-23</time>
+          <a href="/notes-of-life/2011/01/24/sense.html" data-row-link>归属感</a>
+          <code class="timeline__hash">ddeac88</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-01-23T22:01:07.000Z">01-23</time>
+          <a href="/technology/2011/01/23/about-GPL.html" data-row-link>关于GPL协议</a>
+          <code class="timeline__hash">1a1f5ae</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-01-20T18:46:28.000Z">01-20</time>
+          <a href="/notes-of-life/2011/01/20/hone.html" data-row-link>人生是一种修炼</a>
+          <code class="timeline__hash">4edc0f3</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-01-19T01:17:10.000Z">01-18</time>
+          <a href="/notes-of-life/2011/01/19/winter-in-Shanghai.html" data-row-link>到上海的第三天，难得一见的雪</a>
+          <code class="timeline__hash">a61950c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-01-17T06:53:05.000Z">01-16</time>
+          <a href="/notes-of-life/2011/01/17/in-Shanghai-2011.html" data-row-link>到上海了</a>
+          <code class="timeline__hash">6496158</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2011-01-14T21:46:49.000Z">01-14</time>
+          <a href="/notes-of-life/2011/01/14/go-to-Shanghai.html" data-row-link>又一次去上海</a>
+          <code class="timeline__hash">060c39f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-01-14T01:52:54.000Z">01-13</time>
+          <a href="/notes-of-life/2011/01/14/I-feel-very-upset.html" data-row-link>有时候我真的觉得很烦</a>
+          <code class="timeline__hash">0071e39</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-01-06T12:13:02.000Z">01-06</time>
+          <a href="/technology/2011/01/06/domain-for-DirectAdmin.html" data-row-link>DirectAdmin泛解析设置方法</a>
+          <code class="timeline__hash">6b686b9</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2011-01-03T07:23:59.000Z">01-02</time>
+          <a href="/technology/2011/01/03/using-PHP-judgment-time.html" data-row-link>PHP根据时间加载不同的CSS或JS</a>
+          <code class="timeline__hash">044c860</code>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline__year" aria-labelledby="y-2010">
+      <h2 class="timeline__heading" id="y-2010">
+        <span class="tag-label">v2010</span>
+        <span class="timeline__count">94 posts</span>
+      </h2>
+      <ol class="timeline__list">
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2011-01-01T07:11:43.000Z">12-31</time>
+          <a href="/notes-of-life/2011/01/01/1993-to-2010.html" data-row-link>1993年到2010年</a>
+          <code class="timeline__hash">fb02eaf</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-12-30T11:09:19.000Z">12-30</time>
+          <a href="/notes-of-life/2010/12/30/remember-dream.html" data-row-link>My dream，I can to achieve her.</a>
+          <code class="timeline__hash">6d1c39d</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-12-27T09:37:06.000Z">12-27</time>
+          <a href="/notes-of-life/2010/12/27/flash-firmware.html" data-row-link>台电神马固件，坑爹呢~</a>
+          <code class="timeline__hash">4cfb630</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2010-12-25T09:41:17.000Z">12-25</time>
+          <a href="/notes-of-life/2010/12/25/XMAS-in-2010.html" data-row-link>Chapter 5 一直在变味的中国，最近才变味的生活</a>
+          <code class="timeline__hash">76e7332</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-12-21T06:09:37.000Z">12-20</time>
+          <a href="/notes-of-life/2010/12/21/delicious-fries.html" data-row-link>Chapter 4 薯条在番茄酱中游泳</a>
+          <code class="timeline__hash">1fa2020</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-12-18T07:50:24.000Z">12-17</time>
+          <a href="/notes-of-life/2010/12/18/manyan90.html" data-row-link>请给90蔓延论坛投一票</a>
+          <code class="timeline__hash">e4f1213</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-12-14T07:59:39.000Z">12-13</time>
+          <a href="/notes-of-life/2010/12/14/happy-life.html" data-row-link>Chapter 3 快乐的生活，快乐的我</a>
+          <code class="timeline__hash">94fd45c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-12-05T22:14:42.000Z">12-05</time>
+          <a href="/notes-of-life/2010/12/05/focus-living.html" data-row-link>混沌的世界，我专注生活</a>
+          <code class="timeline__hash">cec0abb</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-12-01T07:57:55.000Z">11-30</time>
+          <a href="/notes-of-life/2010/12/01/continue-to-live.html" data-row-link>Chapter 2 生活还是继续的</a>
+          <code class="timeline__hash">c927e51</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-11-24T09:48:42.000Z">11-24</time>
+          <a href="/notes-of-life/2010/11/24/untitled-one.html" data-row-link>Chapter 1 滴滴嗒嗒</a>
+          <code class="timeline__hash">cdb6439</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-11-21T09:06:12.000Z">11-21</time>
+          <a href="/notes-of-life/2010/11/21/what-course-to-follow.html" data-row-link>我何去何从</a>
+          <code class="timeline__hash">3ace4d7</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-11-05T06:21:05.000Z">11-04</time>
+          <a href="/notes-of-life/2010/11/05/what-is-freedom.html" data-row-link>我问，什么叫做自由？He Said:Dogs are Freedom</a>
+          <code class="timeline__hash">584105c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-11-04T07:04:28.000Z">11-04</time>
+          <a href="/notes-of-life/2010/11/04/please-write-your-story.html" data-row-link>转载横行的年代，还有多少人热衷写自己的故事？</a>
+          <code class="timeline__hash">8f15ac4</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-11-03T01:57:09.000Z">11-02</time>
+          <a href="/themes/2010/11/03/WhiteLove-wordpress-theme.html" data-row-link>WhiteLove（纯之爱）主题发布</a>
+          <code class="timeline__hash">17676a6</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-24T04:50:07.000Z">10-23</time>
+          <a href="/notes-of-life/2010/10/24/publish-articles.html" data-row-link>我的两篇文章被《计算机应用文摘》刊登</a>
+          <code class="timeline__hash">9730acb</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-22T08:34:14.000Z">10-22</time>
+          <a href="/technology/2010/10/22/using-JS-to-write-CSS.html" data-row-link>用JS写CSS</a>
+          <code class="timeline__hash">a3f66c7</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-20T07:44:57.000Z">10-20</time>
+          <a href="/notes-of-life/2010/10/20/Marx-said.html" data-row-link>写在XX之后，马克思曾今说过</a>
+          <code class="timeline__hash">0b7b577</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-14T09:12:44.000Z">10-14</time>
+          <a href="/technology/2010/10/14/backtop-function-for-blog.html" data-row-link>返回顶部功能之完美篇</a>
+          <code class="timeline__hash">23a0cd8</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-14T04:24:47.000Z">10-13</time>
+          <a href="/technology/2010/10/14/scrolling-background.html" data-row-link>浮云，这就是浮云（jQuery让背景图片滑动起来）</a>
+          <code class="timeline__hash">adba92e</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-13T11:04:01.000Z">10-13</time>
+          <a href="/technology/2010/10/13/add-tab-widget-in-wordpress.html" data-row-link>侧边栏Tab切换效果Widget，实现可以拖拽的Widget</a>
+          <code class="timeline__hash">1bbb971</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-12T10:11:34.000Z">10-12</time>
+          <a href="/notes-of-life/2010/10/12/jiankongbao.html" data-row-link>小小写一写，关于监控宝</a>
+          <code class="timeline__hash">7d4a0ca</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-10-02T07:38:34.000Z">10-02</time>
+          <a href="/technology/2010/10/02/how-to-install-Zend-and-eAccelerator.html" data-row-link>DirectAdmin下安装Zend Opitimizer和eAccelerator</a>
+          <code class="timeline__hash">69b9918</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-30T09:45:17.000Z">09-30</time>
+          <a href="/notes-of-life/2010/09/30/remove-Ads.html" data-row-link>我发现，我的博写不出所谓的意境</a>
+          <code class="timeline__hash">d2f7427</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-28T09:29:45.000Z">09-28</time>
+          <a href="/notes-of-life/2010/09/28/bought-a-domain.html" data-row-link>整理友链，入手一个新米</a>
+          <code class="timeline__hash">b5e8552</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-09-24T07:13:46.000Z">09-24</time>
+          <a href="/notes-of-life/2010/09/24/mid-autumn-festival.html" data-row-link>中秋第二日记事</a>
+          <code class="timeline__hash">6ff7d13</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-16T10:50:09.000Z">09-16</time>
+          <a href="/technology/2010/09/16/IE9-released.html" data-row-link>IE9 Beta 发布啦！</a>
+          <code class="timeline__hash">43fe280</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-15T02:09:40.000Z">09-14</time>
+          <a href="/technology/2010/09/15/fix-CNZZ-code.html" data-row-link>CNZZ统计通过W3C</a>
+          <code class="timeline__hash">c6d37f9</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-13T10:31:56.000Z">09-13</time>
+          <a href="/themes/2010/09/13/about-my-first-theme.html" data-row-link>White Love悄然上线</a>
+          <code class="timeline__hash">843618d</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-09-12T07:18:42.000Z">09-12</time>
+          <a href="/notes-of-life/2010/09/12/weary.html" data-row-link>累了，真的累了！</a>
+          <code class="timeline__hash">ab827f6</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-09-10T06:51:06.000Z">09-09</time>
+          <a href="/notes-of-life/2010/09/10/I-am-17.html" data-row-link>今天生日</a>
+          <code class="timeline__hash">ea5426b</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-09T22:23:04.000Z">09-09</time>
+          <a href="/technology/2010/09/09/how-to-install-snmp-in-CentOS.html" data-row-link>CentOS安装snmp 使用监控宝监测服务器性能的详细安装设置的方法</a>
+          <code class="timeline__hash">73ac9d0</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-08T06:59:33.000Z">09-07</time>
+          <a href="/technology/2010/09/08/LNMP-and-Nginx.html" data-row-link>lnmp使用教程 & nginx伪静态规则</a>
+          <code class="timeline__hash">5bd7490</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-09-07T07:09:39.000Z">09-07</time>
+          <a href="/notes-of-life/2010/09/07/thanks-immmmm.html" data-row-link>我是一个水银，doulex按键灯到手</a>
+          <code class="timeline__hash">095676c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-09-01T08:00:06.000Z">09-01</time>
+          <a href="/notes-of-life/2010/09/01/one-year-ago.html" data-row-link>又是一年，过去了一年</a>
+          <code class="timeline__hash">cec3c5d</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-31T09:52:11.000Z">08-31</time>
+          <a href="/technology/2010/08/31/how-to-install-DA-in-CentOS.html" data-row-link>VPS CentOS系统安装DirectAdmin面板</a>
+          <code class="timeline__hash">ea64051</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-27T06:57:02.000Z">08-26</time>
+          <a href="/notes-of-life/2010/08/27/ubuntu-DVD.html" data-row-link>UBUNTU 10.04 LTS 光盘 收到了</a>
+          <code class="timeline__hash">fa331e0</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-24T07:53:23.000Z">08-24</time>
+          <a href="/notes-of-life/2010/08/24/Ads-VPS.html" data-row-link>VPSYOU合租（结束）</a>
+          <code class="timeline__hash">3d6ad3f</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-19T08:14:45.000Z">08-19</time>
+          <a href="/plugins/2010/08/19/SweetTitles-wordpress-plugin.html" data-row-link>SweetTitles插件 美妙的标题提示</a>
+          <code class="timeline__hash">eb1a2d8</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-08-18T10:08:35.000Z">08-18</time>
+          <a href="/notes-of-life/2010/08/18/be-lonely.html" data-row-link>我的痛，谁了解？我的沉默，自己的孤独</a>
+          <code class="timeline__hash">289a99c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-18T05:34:06.000Z">08-17</time>
+          <a href="/notes-of-life/2010/08/18/wordpress-in-2010.html" data-row-link>WORDPRESS中国社区被注入的新血液</a>
+          <code class="timeline__hash">9ff1ffc</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2010-08-12T09:17:57.000Z">08-12</time>
+          <a href="/notes-of-life/2010/08/12/Shanghai-world-expo.html" data-row-link>从上海回来了，肉博会，一个杯具的国度</a>
+          <code class="timeline__hash">f576a83</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-08T06:59:55.000Z">08-07</time>
+          <a href="/notes-of-life/2010/08/08/how-to-develop-wordpress-plugin.html" data-row-link>明天去上海，插件延迟发布（附上一个我觉得不错的插件开发教程）</a>
+          <code class="timeline__hash">6c1dd29</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-06T10:09:35.000Z">08-06</time>
+          <a href="/plugins/2010/08/06/wp-cumulus.html" data-row-link>WordPress 3D 标签云插件——WP Cumulus</a>
+          <code class="timeline__hash">f3b1f56</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-08-05T00:52:17.000Z">08-04</time>
+          <a href="/plugins/2010/08/05/wordpress-plugin.html" data-row-link>博客插件小总结</a>
+          <code class="timeline__hash">2784901</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-07-29T22:18:50.000Z">07-29</time>
+          <a href="/notes-of-life/2010/07/29/Tencent-Empire.html" data-row-link>试图整合所有产品的腾讯</a>
+          <code class="timeline__hash">1c0993a</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-07-26T06:32:46.000Z">07-25</time>
+          <a href="/notes-of-life/2010/07/26/The-Darkess-Outside-Night.html" data-row-link>漫画《The Darkess Outside Night》，有谁看懂了吗？</a>
+          <code class="timeline__hash">23df8b6</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-07-19T07:09:01.000Z">07-19</time>
+          <a href="/notes-of-life/2010/07/19/about-DNSPod.html" data-row-link>关于DNSPod的邀请码的问题</a>
+          <code class="timeline__hash">6d2080d</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-07-16T23:10:12.000Z">07-16</time>
+          <a href="/technology/2010/07/16/C-plus-plus-hello-world.html" data-row-link>C++中的 Hello World!</a>
+          <code class="timeline__hash">50ab250</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-07-12T07:35:45.000Z">07-12</time>
+          <a href="/notes-of-life/2010/07/12/named-blogger.html" data-row-link>囧：独立博客来点名</a>
+          <code class="timeline__hash">45efd81</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-07-03T21:12:20.000Z">07-03</time>
+          <a href="/notes-of-life/2010/07/03/past-now-and-future.html" data-row-link>最近要做的 & 以前要改正的 & 现在发生的</a>
+          <code class="timeline__hash">adedc83</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2010-06-29T07:24:08.000Z">06-29</time>
+          <a href="/notes-of-life/2010/06/29/high-school-basketball-game.html" data-row-link>班级的篮球赛</a>
+          <code class="timeline__hash">93f3b18</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-06-28T06:08:15.000Z">06-27</time>
+          <a href="/notes-of-life/2010/06/28/Oblivion-Island.html" data-row-link>弃宝之岛——一个童话的世界让我回味</a>
+          <code class="timeline__hash">9d4bb9b</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-06-27T08:13:22.000Z">06-27</time>
+          <a href="/notes-of-life/2010/06/27/great-plan.html" data-row-link>世界上最健康的作息时间表</a>
+          <code class="timeline__hash">efdef22</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-06-17T06:22:40.000Z">06-16</time>
+          <a href="/notes-of-life/2010/06/17/two-days-of-tragedy.html" data-row-link>杯具的两天</a>
+          <code class="timeline__hash">2772836</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-06-11T06:15:59.000Z">06-10</time>
+          <a href="/notes-of-life/2010/06/11/pass-Googl-AdSense.html" data-row-link>谷歌广告联盟通过啦！好的、坏的一起来了~囧</a>
+          <code class="timeline__hash">3d21f53</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-06-09T07:31:24.000Z">06-09</time>
+          <a href="/notes-of-life/2010/06/09/sea-fog.html" data-row-link>海雾</a>
+          <code class="timeline__hash">1a79819</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-06-09T05:51:02.000Z">06-08</time>
+          <a href="/notes-of-life/2010/06/09/about-entrance-examination.html" data-row-link>关于高考 关于我的这几天</a>
+          <code class="timeline__hash">bdc1dbb</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-06-05T05:17:57.000Z">06-04</time>
+          <a href="/notes-of-life/2010/06/05/six-four-in-2010.html" data-row-link>今天六四</a>
+          <code class="timeline__hash">b3ff07c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-05-17T02:42:39.000Z">05-16</time>
+          <a href="/notes-of-life/2010/05/17/STRONG-BUTTERFLY.html" data-row-link>STRONG BUTTERFLY</a>
+          <code class="timeline__hash">7070a84</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-05-09T23:50:49.000Z">05-09</time>
+          <a href="/notes-of-life/2010/05/09/struggling.html" data-row-link>默默奋斗一阵子</a>
+          <code class="timeline__hash">083b786</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2010-05-04T06:43:46.000Z">05-03</time>
+          <a href="/notes-of-life/2010/05/04/happy-vacation.html" data-row-link>5.1假期总结</a>
+          <code class="timeline__hash">7ff11d4</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-05-03T06:25:04.000Z">05-02</time>
+          <a href="/technology/2010/05/03/flash-SLIC.html" data-row-link>技嘉主板(型号:G31MES2C_F8)刷bios和刷SLIC2.1</a>
+          <code class="timeline__hash">55a7385</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-04-30T07:13:06.000Z">04-30</time>
+          <a href="/notes-of-life/2010/04/30/QQ-micro-blog.html" data-row-link>送QQ微博邀请</a>
+          <code class="timeline__hash">3890b6c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2010-04-29T06:50:00.000Z">04-28</time>
+          <a href="/notes-of-life/2010/04/29/about-my-high-school.html" data-row-link>淮南一中的虚假</a>
+          <code class="timeline__hash">cb100ba</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-04-25T09:16:37.000Z">04-25</time>
+          <a href="/notes-of-life/2010/04/25/ads-for-vs2010.html" data-row-link>微软VS2010广告全集，让程序员们内牛满面酸酸的广告</a>
+          <code class="timeline__hash">6b244a8</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-04-23T07:27:18.000Z">04-23</time>
+          <a href="/notes-of-life/2010/04/23/Windows-7.html" data-row-link>换Windows 7</a>
+          <code class="timeline__hash">0539f39</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-04-21T06:47:49.000Z">04-20</time>
+          <a href="/notes-of-life/2010/04/21/remember-512.html" data-row-link>全国哀悼日,悼念我们逝去的同胞</a>
+          <code class="timeline__hash">66ed02a</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-04-19T05:53:30.000Z">04-18</time>
+          <a href="/notes-of-life/2010/04/19/april-in-2010.html" data-row-link>宅~在四月的中旬</a>
+          <code class="timeline__hash">32e48f2</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-04-17T09:59:47.000Z">04-17</time>
+          <a href="/notes-of-life/2010/04/17/join-qq-micro-blog.html" data-row-link>加入QQ微博，成为其中一员</a>
+          <code class="timeline__hash">df92213</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-04-13T06:53:13.000Z">04-12</time>
+          <a href="/notes-of-life/2010/04/13/my-road.html" data-row-link>感慨~抉择~路~</a>
+          <code class="timeline__hash">d63b393</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2010-04-11T03:11:18.000Z">04-10</time>
+          <a href="/notes-of-life/2010/04/11/China's-education.html" data-row-link>中国教育的希望？没有希望！带给我们什么？什么也没有！</a>
+          <code class="timeline__hash">0ca2e70</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-04-10T07:25:12.000Z">04-10</time>
+          <a href="/notes-of-life/2010/04/10/I-am-so-tired.html" data-row-link>又困又累</a>
+          <code class="timeline__hash">9651e7c</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-04-09T04:01:19.000Z">04-08</time>
+          <a href="/notes-of-life/2010/04/09/miss-Ads.html" data-row-link>错过的，回不来</a>
+          <code class="timeline__hash">7b982e9</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-04-05T04:27:02.000Z">04-04</time>
+          <a href="/notes-of-life/2010/04/05/feel-comfortable-afternoon.html" data-row-link>心情舒畅的下午</a>
+          <code class="timeline__hash">f890595</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-04-04T08:43:54.000Z">04-04</time>
+          <a href="/notes-of-life/2010/04/04/I-hava-pagerank-value.html" data-row-link>庆祝一下</a>
+          <code class="timeline__hash">287d47e</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-03-29T04:36:44.000Z">03-28</time>
+          <a href="/notes-of-life/2010/03/29/peach-snow.html" data-row-link>三月的桃花雪，四月的美丽心情</a>
+          <code class="timeline__hash">0470374</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-03-27T08:22:39.000Z">03-27</time>
+          <a href="/notes-of-life/2010/03/27/C-plus-plus-test.html" data-row-link>祝福自己</a>
+          <code class="timeline__hash">fa0743d</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2010-03-27T08:19:00.000Z">03-27</time>
+          <a href="/notes-of-life/2010/03/27/first-study-in-Shanghai.html" data-row-link>12日新东方</a>
+          <code class="timeline__hash">3ec8b97</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-03-25T20:16:32.000Z">03-25</time>
+          <a href="/notes-of-life/2010/03/25/thanksgiving.html" data-row-link>感恩17年</a>
+          <code class="timeline__hash">b32be06</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-03-24T08:36:20.000Z">03-24</time>
+          <a href="/notes-of-life/2010/03/24/fuck-GFW.html" data-row-link>第一次破墙</a>
+          <code class="timeline__hash">d25a7b5</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-03-23T20:29:05.000Z">03-23</time>
+          <a href="/notes-of-life/2010/03/23/about-Google.html" data-row-link>About Google 一些征兆，一些预示</a>
+          <code class="timeline__hash">1b26561</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-03-23T07:39:59.000Z">03-23</time>
+          <a href="/technology/2010/03/23/about-c-plus-plus-array.html" data-row-link>关于C++数组简单的问题</a>
+          <code class="timeline__hash">fdbbc27</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-03-23T06:55:51.000Z">03-22</time>
+          <a href="/notes-of-life/2010/03/23/sign-up-TOEFL.html" data-row-link>要加油了呢，思密达</a>
+          <code class="timeline__hash">be6f653</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2010-03-19T07:01:00.000Z">03-19</time>
+          <a href="/notes-of-life/2010/03/19/dream-in-dream.html" data-row-link>追梦的梦——我们在想的是什么？梦中</a>
+          <code class="timeline__hash">e0d2c67</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-03-14T08:12:00.000Z">03-14</time>
+          <a href="/notes-of-life/2010/03/14/to-think.html" data-row-link>让自己静一静，好好的去思考</a>
+          <code class="timeline__hash">6422a7b</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-03-12T08:13:00.000Z">03-12</time>
+          <a href="/notes-of-life/2010/03/12/sigh.html" data-row-link>无奈落泪</a>
+          <code class="timeline__hash">45efe44</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-03-10T08:05:00.000Z">03-10</time>
+          <a href="/notes-of-life/2010/03/10/Casio-dictionary.html" data-row-link>卡西欧的到来~~</a>
+          <code class="timeline__hash">8582210</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-teal)" data-row>
+          <time datetime="2010-03-07T08:41:00.000Z">03-07</time>
+          <a href="/notes-of-life/2010/03/07/classmates-birthday.html" data-row-link>庆祝生日，聚餐</a>
+          <code class="timeline__hash">1b63aa0</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-03-06T08:08:00.000Z">03-06</time>
+          <a href="/notes-of-life/2010/03/06/boring-courses.html" data-row-link>除了上课还剩下些什么？</a>
+          <code class="timeline__hash">7e89bde</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-amber)" data-row>
+          <time datetime="2010-03-04T07:49:40.000Z">03-03</time>
+          <a href="/notes-of-life/2010/03/04/follow-my-dream.html" data-row-link>博客的起始点，为了追梦，反而梦破灭</a>
+          <code class="timeline__hash">592d7dd</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-02-27T00:23:28.000Z">02-26</time>
+          <a href="/notes-of-life/2010/02/27/nightlong.html" data-row-link>又到了这个时间</a>
+          <code class="timeline__hash">79713da</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-blue)" data-row>
+          <time datetime="2010-02-25T00:35:30.000Z">02-24</time>
+          <a href="/notes-of-life/2010/02/25/depressing-day.html" data-row-link>郁闷的下午</a>
+          <code class="timeline__hash">12c7b57</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-lime)" data-row>
+          <time datetime="2010-02-24T05:35:25.000Z">02-23</time>
+          <a href="/notes-of-life/2010/02/24/poem-in-the-way.html" data-row-link>慢慢的旅途中，我望着远方的那盏灯</a>
+          <code class="timeline__hash">15bf389</code>
+        </li>
+        <li class="timeline__item" style="--c: var(--lane-magenta)" data-row>
+          <time datetime="2010-02-23T20:13:31.000Z">02-23</time>
+          <a href="/notes-of-life/2010/02/23/begin.html" data-row-link>开始我的旅途</a>
+          <code class="timeline__hash">0a49b54</code>
+        </li>
+      </ol>
+    </section>
+  </div>
   
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/17/">17</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/archives/page/2/"><i class="fa fa-angle-right"></i></a>
-  </nav>
 
 </div>
+
   </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-
-  <div class="copyright">
-    &copy; 
-    <span itemprop="copyrightYear">2026</span>
-    <span class="with-love">
-      <i class="fa fa-heart"></i>
-    </span>
-    <span class="author" itemprop="copyrightHolder">Yoga Lin</span>
+  <footer class="site-footer">
+  <div class="site-footer__inner">
+    <p class="site-footer__copy">© 2010–2026 Yoga Lin</p>
+    <ul class="site-footer__links">
+      <li><a href="/atom.xml">RSS feed</a></li><li><a target="_blank" href="https://github.com/blueandhack" rel="me noopener">GitHub</a></li><li><a target="_blank" href="https://x.com/blueandhack" rel="me noopener">X</a></li>
+    </ul>
+    <p class="site-footer__hint">Press ? for keyboard shortcuts</p>
+    <p class="site-footer__powered">Built with Hexo and the commitlog theme</p>
   </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
+</footer>
 
+  <dialog class="palette" id="palette" aria-label="Search posts and commands">
+  <div class="palette__box">
+    <div class="palette__field">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+      <input class="palette__input" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Search posts, tags, or type a command" aria-label="Search posts and commands"
+             role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list">
+      <kbd>Esc</kbd>
     </div>
-  </footer>
-
-  
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
+    <ul class="palette__list" id="palette-list" role="listbox"></ul>
+    <p class="palette__status" aria-live="polite"></p>
   </div>
-  <div class="back-to-top" role="button" aria-label="Back to top">
-    <i class="fa fa-arrow-up fa-lg"></i>
-    <span>0%</span>
-  </div>
+</dialog>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
-<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"blueandhack","count":true,"i18n":{"disqus":"disqus"}}</script>
-<script src="/js/third-party/comments/disqus.js" defer></script>
+<dialog class="shortcuts" id="shortcuts" aria-labelledby="shortcuts-title">
+  <div class="shortcuts__box">
+    <h2 id="shortcuts-title">Keyboard shortcuts</h2>
+    <dl>
+      <div><dt><kbd data-mod-key>Ctrl K</kbd> <kbd>/</kbd></dt><dd>Search and commands</dd></div>
+      <div><dt><kbd>j</kbd> <kbd>k</kbd></dt><dd>Next or previous post in a list</dd></div>
+      <div><dt><kbd>Enter</kbd></dt><dd>Open the selected post</dd></div>
+      <div><dt><kbd>h</kbd> <kbd>l</kbd></dt><dd>Older or newer post (on a post)</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>h</kbd></dt><dd>Go to the log</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>a</kbd></dt><dd>Go to the archive</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>t</kbd></dt><dd>Go to tags</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>s</kbd></dt><dd>Go to stats</dd></div>
+      <div><dt><kbd>t</kbd></dt><dd>Switch light or dark theme</dd></div>
+      <div><dt><kbd>r</kbd></dt><dd>Random post</dd></div>
+      <div><dt><kbd>?</kbd></dt><dd>Show this help</dd></div>
+    </dl>
+    <form method="dialog"><button class="button">Close</button></form>
+  </div>
+</dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Image">
+  <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="Close">×</button></form>
+  <img class="lightbox__img" alt="">
+</dialog>
 
 </body>
 </html>

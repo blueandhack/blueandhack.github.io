@@ -1,1225 +1,372 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
-  <link rel="mask-icon" href="/favicon.ico" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha256-4Lad8m4ZWW1Lgb9+sMVLYEfnIh7BjV1NQMEe79Pviks=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
-
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blueandhack.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.29.1","exturl":false,"sidebar":{"position":"right","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="/js/config.js" defer></script>
-
-    <meta name="description" content="Know it then hack it!">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>blueandhack | Know it then hack it!</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('cl-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f6fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1630" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Know it then hack it!">
 <meta property="og:type" content="website">
 <meta property="og:title" content="blueandhack">
 <meta property="og:url" content="https://blueandhack.com/page/7/index.html">
 <meta property="og:site_name" content="blueandhack">
 <meta property="og:description" content="Know it then hack it!">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
 <meta property="article:author" content="Yoga Lin">
 <meta name="twitter:card" content="summary">
-
-
-<link rel="canonical" href="https://blueandhack.com/page/7/">
-
-
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/7/index.html","title":""}</script>
-
-<script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>blueandhack</title>
-  
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
-  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-QCZTMV5CJM","only_pageview":false,"measure_protocol_api_secret":null}</script>
-  <script src="/js/third-party/analytics/google-analytics.js" defer></script>
-
-
-
-
-
-
-
-
-  
-<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
-<script src="/js/third-party/search/local-search.js" defer></script>
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  <noscript>
-    <link rel="stylesheet" href="/css/noscript.css">
-  </noscript>
-<link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QCZTMV5CJM');
+  </script>
+  <script type="application/json" id="cl-config">{"root":"/","postsIndex":"/posts.json","searchIndex":"/search.json","rss":"/atom.xml","disqus":"blueandhack","lanes":{"life":"blue","code":"magenta","school":"teal","places":"amber","stories":"lime"},"links":{"home":"/","archive":"/archives/","tags":"/tags/","stats":"/stats/","about":"/about/"},"i18n":{"posts":"Posts","commands":"Commands","fulltext":"Matches in post text","empty":"No posts match. Try a shorter word, or search in Chinese.","loading":"Loading full-text index","go_home":"Go to the log","go_archive":"Go to the archive","go_tags":"Go to tags","go_stats":"Go to stats","go_about":"Go to about","random":"Open a random post","toggle_theme":"Switch light or dark theme","rss":"Subscribe via RSS","shortcuts":"Show keyboard shortcuts","copy":"Copy","copied":"Copied"}}</script>
+  <script src="/js/main.js" defer></script>
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
 </head>
-
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
-
-  <main class="main">
-    <div class="column">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
-  <div class="site-nav-search popup-trigger" aria-label="Search" role="button">
-      <i class="fa fa-search fa-fw fa-lg"></i>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <i class="logo-line"></i>
-      <h1 class="site-title">blueandhack</h1>
-      <i class="logo-line"></i>
+<body class="is-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/" aria-label="blueandhack">
+      <svg class="brand__mark" width="22" height="26" viewBox="0 0 22 26" aria-hidden="true">
+        <path d="M6 1v24" class="brand__main"/>
+        <path d="M6 18c0-6 10-6 10-11V5" class="brand__side"/>
+        <circle cx="6" cy="18" r="3.4" class="brand__dot-main"/>
+        <circle cx="16" cy="5" r="3.4" class="brand__dot-side"/>
+      </svg>
+      <span class="brand__name">blueandhack</span>
     </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/" aria-current="page">Log</a></li>
+        <li><a href="/archives/">Archive</a></li>
+        <li><a href="/tags/">Tags</a></li>
+        <li><a href="/stats/">Stats</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+    <div class="site-tools">
+      <button class="search-trigger" type="button" data-action="palette" aria-label="Search">
+        <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+        <span class="search-trigger__label">Search</span>
+        <kbd class="search-trigger__kbd" data-mod-key>Ctrl K</kbd>
+      </button>
+      <button class="icon-button" type="button" data-action="theme" aria-label="Switch light or dark theme" title="Switch light or dark theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
   </div>
+</header>
 
-  <div class="site-nav-toggle" aria-label="Toggle navigation bar" role="button">
-      <i class="fa fa-ellipsis fa-fw fa-lg"></i>
-  </div>
-</div>
+  <main id="main" tabindex="-1">
+    
+<div class="wrap">
+  <ol class="graph" style="--graph-w: 52px" data-graph>
+  <li class="graph-row graph-row--tag" aria-hidden="true" style="--i: 0">
+    <span class="graph-row__lanes"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span>
+      <span class="tag-mark"></span>
+    </span>
+    <span class="tag-label">v2010</span>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 1" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <svg class="curves" width="52" height="53" viewBox="0 0 52 53"><path d="M10 0C10 16.2 26 9.45 26 27" style="stroke: var(--lane-magenta)"/>
+      </svg>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/10/12/jiankongbao.html" data-row-link>小小写一写，关于监控宝</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">7d4a0ca</code>
+        <time datetime="2010-10-12T10:11:34.000Z">2010-10-12</time>
+        <span>1 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">最近也没发生什么事，日子平平常常。</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 2" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/technology/2010/10/02/how-to-install-Zend-and-eAccelerator.html" data-row-link>DirectAdmin下安装Zend Opitimizer和eAccelerator</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">69b9918</code>
+        <time datetime="2010-10-02T07:38:34.000Z">2010-10-02</time>
+        <span>1 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">今天折腾了一下VPS 给DirectAdmin下安装Zend Opitimizer和eAccelerator，下面就是我写的教程了。</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 3" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/09/30/remove-Ads.html" data-row-link>我发现，我的博写不出所谓的意境</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">d2f7427</code>
+        <time datetime="2010-09-30T09:45:17.000Z">2010-09-30</time>
+        <span>1 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">是我老了，还是我堕落了，还是…… 文章内页的广告去掉了，清爽多了 最近比较忙，所以博客更新缓慢</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 4" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/09/28/bought-a-domain.html" data-row-link>整理友链，入手一个新米</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">b5e8552</code>
+        <time datetime="2010-09-28T09:29:45.000Z">2010-09-28</time>
+        <span>1 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">今天晚上我狠心一下，去除了某些友链，这些一般都是互不往来，或者和我博客不相关的博客，友链友链，先友情，后链接，这都是我上半年没有认识到的错误，很迷茫而添加的，如今，看到公告的，就把…</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-lime); --i: 5" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 2; --c: var(--lane-lime)"></span>
+      <svg class="curves" width="52" height="53" viewBox="0 0 52 53"><path d="M10 0C10 16.2 42 9.45 42 27" style="stroke: var(--lane-lime)"/>
+      </svg>
+      <span class="dot" style="--x: 2"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/09/24/mid-autumn-festival.html" data-row-link>中秋第二日记事</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">6ff7d13</code>
+        <time datetime="2010-09-24T07:13:46.000Z">2010-09-24</time>
+        <span>2 min read</span>
+        <span class="branch">stories</span>
+      </p><p class="commit__summary">早上昏昏沉沉，肚子急剧疼痛去厕所解决原来是拉肚子，然后睡觉到10点，起床，看看书，上网。</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 6" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 2; --c: var(--lane-lime)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/technology/2010/09/16/IE9-released.html" data-row-link>IE9 Beta 发布啦！</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">43fe280</code>
+        <time datetime="2010-09-16T10:50:09.000Z">2010-09-16</time>
+        <span>2 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">期待已久，听说IE9很给力，所以本人就迫不及待的安装了！总体来说，给我的印象是很不错的！换IE9，其实怎么说呢，其实我的IE8经常崩溃~呜呜，所以要换了……</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 7" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 2; --c: var(--lane-lime)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/technology/2010/09/15/fix-CNZZ-code.html" data-row-link>CNZZ统计通过W3C</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">c6d37f9</code>
+        <time datetime="2010-09-15T02:09:40.000Z">2010-09-14</time>
+        <span>1 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">小小的记录一下又是折腾我的wordpress，因为CNZZ的统计代码不符合标准所以只好改一改了~让CNZZ通过W3C认证。 原始代码露出来 1&lt;script src=&quo…</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 8" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 2; --c: var(--lane-lime)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/themes/2010/09/13/about-my-first-theme.html" data-row-link>White Love悄然上线</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">843618d</code>
+        <time datetime="2010-09-13T10:31:56.000Z">2010-09-13</time>
+        <span>1 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">这个主题真的是酝酿了很久，今天终于把他憋了出来~</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-blue); --i: 9" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--through" style="--x: 2; --c: var(--lane-lime)"></span>
+      <span class="dot dot--main" style="--x: 0"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/09/12/weary.html" data-row-link>累了，真的累了！</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">ab827f6</code>
+        <time datetime="2010-09-12T07:18:42.000Z">2010-09-12</time>
+        <span>1 min read</span>
+        <span class="branch">life</span>
+      </p><p class="commit__summary">这两天心情有点放松，明显感觉自己很累了。</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-lime); --i: 10" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--top" style="--x: 2; --c: var(--lane-lime)"></span><span class="seg seg--bottom" style="--x: 2; --c: var(--lane-lime)"></span>
+      <span class="dot" style="--x: 2"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/09/10/I-am-17.html" data-row-link>今天生日</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">ea5426b</code>
+        <time datetime="2010-09-10T06:51:06.000Z">2010-09-09</time>
+        <span>1 min read</span>
+        <span class="branch">stories</span>
+      </p><p class="commit__summary">17岁的生日，快要结束了~ 祝我自己生日快乐！ :-D 2015年1月3日更新： 这是我17岁的生日，现在看起来，当时的我幼稚可笑，但是这是真实地我。如果能回到那天，我会和我说，回…</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 11" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 2; --c: var(--lane-lime)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/technology/2010/09/09/how-to-install-snmp-in-CentOS.html" data-row-link>CentOS安装snmp 使用监控宝监测服务器性能的详细安装设置的方法</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">73ac9d0</code>
+        <time datetime="2010-09-09T22:23:04.000Z">2010-09-09</time>
+        <span>2 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">今天早上VPS宕机7小时，找不出原因，于是我想还是用监控宝监控吧~省事一点。 于是就有了下篇…… 首先安装snmp</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 12" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 2; --c: var(--lane-lime)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/technology/2010/09/08/LNMP-and-Nginx.html" data-row-link>lnmp使用教程 & nginx伪静态规则</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">5bd7490</code>
+        <time datetime="2010-09-08T06:59:33.000Z">2010-09-07</time>
+        <span>2 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">[2011年7月10日更新]由于lnmp的升级，不需要再设置wordpress的伪静态了，这个其实很简单，不需要多少Linux知识就能弄懂的东西</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 13" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 2; --c: var(--lane-lime)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--bottom" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/09/07/thanks-immmmm.html" data-row-link>我是一个水银，doulex按键灯到手</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">095676c</code>
+        <time datetime="2010-09-07T07:09:39.000Z">2010-09-07</time>
+        <span>2 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">开场语：过几天也算是我生日了吧！话说9月9日~新主题也要上线了！这几天忙完了《计算机应用文摘》的两篇稿子，改了N遍了……N大于等于3，不算多，小编帮我改了很多次，批注了很多次，咳咳…</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-lime); --i: 14" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--through" style="--x: 1; --c: var(--lane-magenta)"></span><span class="seg seg--top" style="--x: 2; --c: var(--lane-lime)"></span>
+      <svg class="curves" width="52" height="53" viewBox="0 0 52 53"><path d="M42 27C42 43.900000000000006 10 37.4 10 53" style="stroke: var(--lane-lime)"/>
+      </svg>
+      <span class="dot" style="--x: 2"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/notes-of-life/2010/09/01/one-year-ago.html" data-row-link>又是一年，过去了一年</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">cec3c5d</code>
+        <time datetime="2010-09-01T08:00:06.000Z">2010-09-01</time>
+        <span>3 min read</span>
+        <span class="branch">stories</span>
+      </p><p class="commit__summary">时间真的很快，写下这篇文章有些沉重。</p>
+    </article>
+  </li>
+  <li class="graph-row graph-row--commit" style="--c: var(--lane-magenta); --i: 15" data-row>
+    <span class="graph-row__lanes" aria-hidden="true"><span class="seg seg--through" style="--x: 0; --c: var(--lane-blue)"></span><span class="seg seg--top" style="--x: 1; --c: var(--lane-magenta)"></span>
+      <svg class="curves" width="52" height="53" viewBox="0 0 52 53"><path d="M26 27C26 43.900000000000006 10 37.4 10 53" style="stroke: var(--lane-magenta)"/>
+      </svg>
+      <span class="dot" style="--x: 1"></span>
+    </span>
+    <article class="commit">
+      <h2 class="commit__title"><a href="/technology/2010/08/31/how-to-install-DA-in-CentOS.html" data-row-link>VPS CentOS系统安装DirectAdmin面板</a></h2>
+      <p class="commit__meta">
+        <code class="commit__hash">ea64051</code>
+        <time datetime="2010-08-31T09:52:11.000Z">2010-08-31</time>
+        <span>3 min read</span>
+        <span class="branch">code</span>
+      </p><p class="commit__summary">终于买了VPS，今天才弄好……买的DirectAdmin面板的授权，然后安装，话说折腾了两个小时，终于折腾好了，然后汉化又出了问题，多亏船长大牛，给我弄好了嘿嘿 现在说说CentO…</p>
+    </article>
+  </li>
+</ol>
 
-
-
-<nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">58</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">4</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">164</span></a></li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
-        </a>
-      </li>
-  </ul>
+  
+<nav class="pager" aria-label="Page 7 of 11"><a class="pager__link" rel="prev" href="/page/6/">Newer posts</a>
+  <span class="pager__state">Page 7 of 11</span><a class="pager__link" rel="next" href="/page/8/">Older posts</a>
 </nav>
 
-
-
-  
-  <template id="search-popup-template"><div class="search-pop-overlay">
-    <div class="popup search-popup">
-      <div class="search-header">
-        <span class="search-icon">
-          <i class="fa fa-search"></i>
-        </span>
-        <div class="search-input-container">
-          <input autocomplete="off" autocapitalize="off" maxlength="80"
-                placeholder="Searching..." spellcheck="false"
-                type="search" class="search-input">
-        </div>
-        <span class="popup-btn-close" role="button">
-          <i class="fa fa-times-circle"></i>
-        </span>
-      </div>
-      <div class="search-result-container">
-        <div class="search-result-icon">
-          <i class="fa fa-spinner fa-pulse fa-5x"></i>
-        </div>
-      </div>
-    </div>
-  </div></template>
-
-</header>
-        
-  
-  <aside class="sidebar">
-
-    <div class="sidebar-inner sidebar-overview-active">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-        </div>
-        <!--/noindex-->
-
-        <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Yoga Lin"
-      src="https://avatars.githubusercontent.com/u/4150885?s=460">
-  <p class="site-author-name" itemprop="name">Yoga Lin</p>
-  <div class="site-description" itemprop="description">Know it then hack it!</div>
-</div>
-<div class="site-state-wrap animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">164</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">4</span>
-        <span class="site-state-item-name">categories</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">58</span>
-        <span class="site-state-item-name">tags</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author animated">
-      <span class="links-of-author-item">
-        <a href="https://github.com/blueandhack" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;blueandhack" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://x.com/blueandhack" title="X → https:&#x2F;&#x2F;x.com&#x2F;blueandhack" rel="noopener me" target="_blank"><i class="fab fa-x-twitter fa-fw"></i>X</a>
-      </span>
-  </div>
-
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="sidebar-inner sidebar-blogroll">
-      <div class="links-of-blogroll animated">
-        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-          Links
-        </div>
-        <ul class="links-of-blogroll-list">
-            <li class="links-of-blogroll-item">
-              <a href="http://www.xiaozhou.net/" title="http:&#x2F;&#x2F;www.xiaozhou.net&#x2F;" rel="noopener" target="_blank">Timothy's Space</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="http://www.yumao.name/" title="http:&#x2F;&#x2F;www.yumao.name&#x2F;" rel="noopener" target="_blank">羽毛の家</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="https://juryquinn.com/" title="https:&#x2F;&#x2F;juryquinn.com&#x2F;" rel="noopener" target="_blank">Jury</a>
-            </li>
-        </ul>
-      </div>
-    </div>
-  </aside>
-
-
-    </div>
-
-    <div class="main-inner index posts-expand">
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/notes-of-life/2011/01/27/harmonica-and-iPod.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/notes-of-life/2011/01/27/harmonica-and-iPod.html" class="post-title-link" itemprop="url">我的蓝调口琴和iPod shuffle</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-26 23:48:29" itemprop="dateCreated datePublished" datetime="2011-01-26T23:48:29-08:00">2011-01-26</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/notes-of-life/" itemprop="url" rel="index"><span itemprop="name">notes-of-life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/notes-of-life/2011/01/27/harmonica-and-iPod.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="notes-of-life/2011/01/27/harmonica-and-iPod.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
 </div>
 
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>其实就是几张图片，一直塞在电脑里，没上传。
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/notes-of-life/2011/01/27/harmonica-and-iPod.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/notes-of-life/2011/01/24/sense.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/notes-of-life/2011/01/24/sense.html" class="post-title-link" itemprop="url">归属感</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-23 23:36:30" itemprop="dateCreated datePublished" datetime="2011-01-23T23:36:30-08:00">2011-01-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/notes-of-life/" itemprop="url" rel="index"><span itemprop="name">notes-of-life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/notes-of-life/2011/01/24/sense.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="notes-of-life/2011/01/24/sense.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>不是第一次从外地回家过年，也不是最后一次，是个人都会有强烈的归属感。老乡见老乡两眼泪汪汪，火车上有人半开玩笑的说了那么一句。  19号回来那天早上，回家就睡觉了，睡到下午，吃了个饭接着睡，然后睡了两天，中间吃饭的时候起来，在床上吃，然后接着睡，就这样过了两天。 累得着不住，这就是我的感受，整个火车厢被塞得满满的，没有一个位置，只能站着，然后能凑活坐一坐就算很好了，我基本是从上海站到家里的，总共11小时，到站之后腿都僵掉了，抬不起……而且车厢很热，下雪天，满身大汗。 归属感，人所具有的一中情感。 家的感觉动物也有，我觉得是个动物就会有，春运大潮，我是受不了。 本来日志准备好好写写的，算了还是草草结尾吧，明天几个同学聚聚，我请客，几个月没见了。 可能今后也不会见了。 生活就是这样，在火车上，我知道，坐在我对面的，这辈子，只有一面之缘吧，再见面的可能性，再也不会有。 想找女友，我表示我很蛋疼，我个人情况很不稳定……唉 张震岳的《OK》中的一句</p>
-<blockquote>
-<p>有时只想一夜情而已，放了真感情害怕自由会失去</p>
-</blockquote>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/technology/2011/01/23/about-GPL.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/technology/2011/01/23/about-GPL.html" class="post-title-link" itemprop="url">关于GPL协议</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-23 14:01:07" itemprop="dateCreated datePublished" datetime="2011-01-23T14:01:07-08:00">2011-01-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/technology/" itemprop="url" rel="index"><span itemprop="name">technology</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/technology/2011/01/23/about-GPL.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="technology/2011/01/23/about-GPL.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>曾经的WhiteLove主题遵守GPL协议 什么是GPL协议 通俗的说就是你可以抹去作者，但是必须保持代码的开源，允许使用者随意修改，但是你需要遵守相应的条款。  GPL协议最主要的几个原则：</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/technology/2011/01/23/about-GPL.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/notes-of-life/2011/01/20/hone.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/notes-of-life/2011/01/20/hone.html" class="post-title-link" itemprop="url">人生是一种修炼</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-20 10:46:28" itemprop="dateCreated datePublished" datetime="2011-01-20T10:46:28-08:00">2011-01-20</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/notes-of-life/" itemprop="url" rel="index"><span itemprop="name">notes-of-life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/notes-of-life/2011/01/20/hone.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="notes-of-life/2011/01/20/hone.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>我是困得不行了，昨晚11点的火车，站票，我就是从上海回老家，一共11小时。 困，打这几个字都很费力，各位再见，睡觉去喽……</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/notes-of-life/2011/01/19/winter-in-Shanghai.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/notes-of-life/2011/01/19/winter-in-Shanghai.html" class="post-title-link" itemprop="url">到上海的第三天，难得一见的雪</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-18 17:17:10" itemprop="dateCreated datePublished" datetime="2011-01-18T17:17:10-08:00">2011-01-18</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/notes-of-life/" itemprop="url" rel="index"><span itemprop="name">notes-of-life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/notes-of-life/2011/01/19/winter-in-Shanghai.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="notes-of-life/2011/01/19/winter-in-Shanghai.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>我很喜欢在上海的生活。 今天是到上海的第三天，半年的托福培训课程，已经报了，也见到了我在太傻论坛认识的网友，今后就是好哥们了。这两天到处跑，乘地铁，瞎逛，下午去人民广场看电影，《非诚勿扰2》，看完之后就和他分别了。 明天晚上的火车，11点多的火车，明天晚上是个难熬的晚上。 今天下雪了，难得一见，去年这时候来上海，没有下雪，我总是觉得上海很暖和，今天下雪我也觉得很暖和…… </p>
-<p>PS：部分朋友的留言由于不方便，我等到回去后再回答吧……</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/notes-of-life/2011/01/17/in-Shanghai-2011.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/notes-of-life/2011/01/17/in-Shanghai-2011.html" class="post-title-link" itemprop="url">到上海了</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-16 22:53:05" itemprop="dateCreated datePublished" datetime="2011-01-16T22:53:05-08:00">2011-01-16</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/notes-of-life/" itemprop="url" rel="index"><span itemprop="name">notes-of-life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/notes-of-life/2011/01/17/in-Shanghai-2011.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="notes-of-life/2011/01/17/in-Shanghai-2011.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>没照片，累死了，明天去环球雅思进行测试。 没想到的是，火车居然提前一个小时到站，奇迹啊…… 每天晚上练习口琴是我的必修课。 短短小牢骚 END</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/notes-of-life/2011/01/14/go-to-Shanghai.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/notes-of-life/2011/01/14/go-to-Shanghai.html" class="post-title-link" itemprop="url">又一次去上海</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-14 13:46:49" itemprop="dateCreated datePublished" datetime="2011-01-14T13:46:49-08:00">2011-01-14</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/notes-of-life/" itemprop="url" rel="index"><span itemprop="name">notes-of-life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/notes-of-life/2011/01/14/go-to-Shanghai.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="notes-of-life/2011/01/14/go-to-Shanghai.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>后天就动身去上海，总是这样子，在过年之前，别人都是往家里赶……
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/notes-of-life/2011/01/14/go-to-Shanghai.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/notes-of-life/2011/01/14/I-feel-very-upset.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/notes-of-life/2011/01/14/I-feel-very-upset.html" class="post-title-link" itemprop="url">有时候我真的觉得很烦</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-13 17:52:54" itemprop="dateCreated datePublished" datetime="2011-01-13T17:52:54-08:00">2011-01-13</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/notes-of-life/" itemprop="url" rel="index"><span itemprop="name">notes-of-life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/notes-of-life/2011/01/14/I-feel-very-upset.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="notes-of-life/2011/01/14/I-feel-very-upset.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>没完没了的QQ消息，然后是没完没了的事，然后就觉得很烦。 即将奔赴上海，然后再回来，然后还会再去，也有可能，不会再去，我希望再去吧。 这么长时间，我发现，很多人生活在一种浮躁的氛围之后，一点都不低调，爱装B。 做人要低调，是吧<del>该得瑟的时候得瑟一下了事，别总是弄出一副贱B的样子，我说是吧。 然后，我的一篇文章又发了，应该是《计算机应用文摘》2010年12月36期的，关于网盘测评的文章，杂志没拿到，所以就没图了，200RMB的稿费，然后一下子被我花完了…… 买了一个口琴，感觉非常不错，很喜欢</del>今后我的博客可能会出现我的练习视频<del>嘿嘿</del> 另外想搭建一个公益（非盈利）的口琴资源网站，过完年后，我稳定了再说吧~有兴趣的朋友可以联系我。 ShowBLOG由于轩静考试，停了有一个多月了吧，即将开工了，预计年后能出来。 短短的一小篇，END</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/technology/2011/01/06/domain-for-DirectAdmin.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/technology/2011/01/06/domain-for-DirectAdmin.html" class="post-title-link" itemprop="url">DirectAdmin泛解析设置方法</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-06 04:13:02" itemprop="dateCreated datePublished" datetime="2011-01-06T04:13:02-08:00">2011-01-06</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/technology/" itemprop="url" rel="index"><span itemprop="name">technology</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/technology/2011/01/06/domain-for-DirectAdmin.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="technology/2011/01/06/domain-for-DirectAdmin.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>还是一个月以前的事了，DirectAdmin面板安装WordPress，然后开启多站点，由于DirectAdmin不支持*的子站添加，所以必须手动修改配置文件，这就是此篇文章的目的。  对于单个域名的设置 首先登录SSH（需要root权限） 输入一下命令 yourdomain.com 用你的域名替换 </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/local/directadmin/data/users/yourdomain/</span><br><span class="line">vi httpd.conf</span><br></pre></td></tr></table></figure>
-
-<p>找到 <code>ServerAlias www.yourdomain.com yourdomain.com</code></p>
-<p>在后面添加: <code>*.yourdomain.com</code></p>
-<p>如此变为 <code>ServerAlias www.yourdomain.com yourdomain.com *.yourdomain.com</code></p>
-<p>保存，重启Apache，你的泛解析记录就生效了 PS:我发现我开始习惯用HTML写文章了……可视化编辑器真垃圾……</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blueandhack.com/technology/2011/01/03/using-PHP-judgment-time.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
-      <meta itemprop="name" content="Yoga Lin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blueandhack">
-      <meta itemprop="description" content="Know it then hack it!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | blueandhack">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/technology/2011/01/03/using-PHP-judgment-time.html" class="post-title-link" itemprop="url">PHP根据时间加载不同的CSS或JS</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2011-01-02 23:23:59" itemprop="dateCreated datePublished" datetime="2011-01-02T23:23:59-08:00">2011-01-02</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/technology/" itemprop="url" rel="index"><span itemprop="name">technology</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/technology/2011/01/03/using-PHP-judgment-time.html#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="technology/2011/01/03/using-PHP-judgment-time.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>一时兴起，就改了一下CSS，分时间加载，这里的时间是北京时间。 代码如下
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/technology/2011/01/03/using-PHP-judgment-time.html#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/page/6/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/17/">17</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/8/"><i class="fa fa-angle-right"></i></a>
-  </nav>
-
-</div>
   </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-
-  <div class="copyright">
-    &copy; 
-    <span itemprop="copyrightYear">2026</span>
-    <span class="with-love">
-      <i class="fa fa-heart"></i>
-    </span>
-    <span class="author" itemprop="copyrightHolder">Yoga Lin</span>
+  <footer class="site-footer">
+  <div class="site-footer__inner">
+    <p class="site-footer__copy">© 2010–2026 Yoga Lin</p>
+    <ul class="site-footer__links">
+      <li><a href="/atom.xml">RSS feed</a></li><li><a target="_blank" href="https://github.com/blueandhack" rel="me noopener">GitHub</a></li><li><a target="_blank" href="https://x.com/blueandhack" rel="me noopener">X</a></li>
+    </ul>
+    <p class="site-footer__hint">Press ? for keyboard shortcuts</p>
+    <p class="site-footer__powered">Built with Hexo and the commitlog theme</p>
   </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
+</footer>
 
+  <dialog class="palette" id="palette" aria-label="Search posts and commands">
+  <div class="palette__box">
+    <div class="palette__field">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+      <input class="palette__input" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Search posts, tags, or type a command" aria-label="Search posts and commands"
+             role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list">
+      <kbd>Esc</kbd>
     </div>
-  </footer>
-
-  
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
+    <ul class="palette__list" id="palette-list" role="listbox"></ul>
+    <p class="palette__status" aria-live="polite"></p>
   </div>
-  <div class="back-to-top" role="button" aria-label="Back to top">
-    <i class="fa fa-arrow-up fa-lg"></i>
-    <span>0%</span>
-  </div>
+</dialog>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
-<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"blueandhack","count":true,"i18n":{"disqus":"disqus"}}</script>
-<script src="/js/third-party/comments/disqus.js" defer></script>
+<dialog class="shortcuts" id="shortcuts" aria-labelledby="shortcuts-title">
+  <div class="shortcuts__box">
+    <h2 id="shortcuts-title">Keyboard shortcuts</h2>
+    <dl>
+      <div><dt><kbd data-mod-key>Ctrl K</kbd> <kbd>/</kbd></dt><dd>Search and commands</dd></div>
+      <div><dt><kbd>j</kbd> <kbd>k</kbd></dt><dd>Next or previous post in a list</dd></div>
+      <div><dt><kbd>Enter</kbd></dt><dd>Open the selected post</dd></div>
+      <div><dt><kbd>h</kbd> <kbd>l</kbd></dt><dd>Older or newer post (on a post)</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>h</kbd></dt><dd>Go to the log</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>a</kbd></dt><dd>Go to the archive</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>t</kbd></dt><dd>Go to tags</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>s</kbd></dt><dd>Go to stats</dd></div>
+      <div><dt><kbd>t</kbd></dt><dd>Switch light or dark theme</dd></div>
+      <div><dt><kbd>r</kbd></dt><dd>Random post</dd></div>
+      <div><dt><kbd>?</kbd></dt><dd>Show this help</dd></div>
+    </dl>
+    <form method="dialog"><button class="button">Close</button></form>
+  </div>
+</dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Image">
+  <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="Close">×</button></form>
+  <img class="lightbox__img" alt="">
+</dialog>
 
 </body>
 </html>

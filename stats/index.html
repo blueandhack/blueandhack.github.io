@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stats | blueandhack</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('cl-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f6fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1630" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Know it then hack it!">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stats">
+<meta property="og:url" content="https://blueandhack.com/stats/index.html">
+<meta property="og:site_name" content="blueandhack">
+<meta property="og:description" content="Know it then hack it!">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
+<meta property="article:author" content="Yoga Lin">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QCZTMV5CJM');
+  </script>
+  <script type="application/json" id="cl-config">{"root":"/","postsIndex":"/posts.json","searchIndex":"/search.json","rss":"/atom.xml","disqus":"blueandhack","lanes":{"life":"blue","code":"magenta","school":"teal","places":"amber","stories":"lime"},"links":{"home":"/","archive":"/archives/","tags":"/tags/","stats":"/stats/","about":"/about/"},"i18n":{"posts":"Posts","commands":"Commands","fulltext":"Matches in post text","empty":"No posts match. Try a shorter word, or search in Chinese.","loading":"Loading full-text index","go_home":"Go to the log","go_archive":"Go to the archive","go_tags":"Go to tags","go_stats":"Go to stats","go_about":"Go to about","random":"Open a random post","toggle_theme":"Switch light or dark theme","rss":"Subscribe via RSS","shortcuts":"Show keyboard shortcuts","copy":"Copy","copied":"Copied"}}</script>
+  <script src="/js/main.js" defer></script>
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
+</head>
+<body class="is-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/" aria-label="blueandhack">
+      <svg class="brand__mark" width="22" height="26" viewBox="0 0 22 26" aria-hidden="true">
+        <path d="M6 1v24" class="brand__main"/>
+        <path d="M6 18c0-6 10-6 10-11V5" class="brand__side"/>
+        <circle cx="6" cy="18" r="3.4" class="brand__dot-main"/>
+        <circle cx="16" cy="5" r="3.4" class="brand__dot-side"/>
+      </svg>
+      <span class="brand__name">blueandhack</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Log</a></li>
+        <li><a href="/archives/">Archive</a></li>
+        <li><a href="/tags/">Tags</a></li>
+        <li><a href="/stats/" aria-current="page">Stats</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+    <div class="site-tools">
+      <button class="search-trigger" type="button" data-action="palette" aria-label="Search">
+        <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+        <span class="search-trigger__label">Search</span>
+        <kbd class="search-trigger__kbd" data-mod-key>Ctrl K</kbd>
+      </button>
+      <button class="icon-button" type="button" data-action="theme" aria-label="Switch light or dark theme" title="Switch light or dark theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <main id="main" tabindex="-1">
+    
+<div class="wrap page stats">
+  <header class="page-head">
+    <h1 class="page-head__title">Stats</h1>
+    <p class="page-head__intro">Sixteen years of writing, counted.</p>
+  </header>
+
+  <dl class="stats__facts">
+    <div><dt>Posts</dt><dd>164</dd></div>
+    <div><dt>Characters written</dt><dd>78,165</dd></div>
+    <div><dt>Busiest year</dt><dd>2010 <small>(94 posts)</small></dd></div>
+    <div><dt>Longest post</dt><dd><a href="/notes-of-life/2010/03/25/thanksgiving.html">感恩17年</a> <small>(5,371)</small></dd></div>
+  </dl>
+
+  <section aria-labelledby="per-year">
+    <h2 class="section-title" id="per-year">Posts per year</h2>
+    <table class="bars">
+      <tbody>
+        <tr>
+          <th scope="row"><a href="/archives/2010/">2010</a></th>
+          <td><span class="bars__bar" style="--w: 100%"></span></td>
+          <td class="bars__n">94</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2011/">2011</a></th>
+          <td><span class="bars__bar" style="--w: 31.9%"></span></td>
+          <td class="bars__n">30</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2012/">2012</a></th>
+          <td><span class="bars__bar" style="--w: 4.3%"></span></td>
+          <td class="bars__n">4</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2013/">2013</a></th>
+          <td><span class="bars__bar" style="--w: 28.7%"></span></td>
+          <td class="bars__n">27</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2014/">2014</a></th>
+          <td><span class="bars__bar" style="--w: 1.1%"></span></td>
+          <td class="bars__n">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2015/">2015</a></th>
+          <td><span class="bars__bar" style="--w: 4.3%"></span></td>
+          <td class="bars__n">4</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2016/">2016</a></th>
+          <td><span class="bars__bar" style="--w: 1.1%"></span></td>
+          <td class="bars__n">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2017/">2017</a></th>
+          <td><span class="bars__bar" style="--w: 2.1%"></span></td>
+          <td class="bars__n">2</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2023/">2023</a></th>
+          <td><span class="bars__bar" style="--w: 1.1%"></span></td>
+          <td class="bars__n">1</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section aria-labelledby="chars-year">
+    <h2 class="section-title" id="chars-year">Characters per year</h2>
+    <table class="bars bars--alt">
+      <tbody>
+        <tr>
+          <th scope="row">2010</th>
+          <td><span class="bars__bar" style="--w: 100%"></span></td>
+          <td class="bars__n">54,757</td>
+        </tr>
+        <tr>
+          <th scope="row">2011</th>
+          <td><span class="bars__bar" style="--w: 15.9%"></span></td>
+          <td class="bars__n">8,690</td>
+        </tr>
+        <tr>
+          <th scope="row">2012</th>
+          <td><span class="bars__bar" style="--w: 1.8%"></span></td>
+          <td class="bars__n">984</td>
+        </tr>
+        <tr>
+          <th scope="row">2013</th>
+          <td><span class="bars__bar" style="--w: 14.5%"></span></td>
+          <td class="bars__n">7,942</td>
+        </tr>
+        <tr>
+          <th scope="row">2014</th>
+          <td><span class="bars__bar" style="--w: 0.5%"></span></td>
+          <td class="bars__n">290</td>
+        </tr>
+        <tr>
+          <th scope="row">2015</th>
+          <td><span class="bars__bar" style="--w: 5.5%"></span></td>
+          <td class="bars__n">3,007</td>
+        </tr>
+        <tr>
+          <th scope="row">2016</th>
+          <td><span class="bars__bar" style="--w: 1.3%"></span></td>
+          <td class="bars__n">701</td>
+        </tr>
+        <tr>
+          <th scope="row">2017</th>
+          <td><span class="bars__bar" style="--w: 2%"></span></td>
+          <td class="bars__n">1,114</td>
+        </tr>
+        <tr>
+          <th scope="row">2023</th>
+          <td><span class="bars__bar" style="--w: 1.2%"></span></td>
+          <td class="bars__n">680</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section aria-labelledby="per-branch">
+    <h2 class="section-title" id="per-branch">Posts per branch</h2>
+    <table class="bars">
+      <tbody>
+        <tr style="--c: var(--lane-magenta)">
+          <th scope="row"><span class="branch">code</span></th>
+          <td><span class="bars__bar bars__bar--lane" style="--w: 37.8%"></span></td>
+          <td class="bars__n">62</td>
+        </tr>
+        <tr style="--c: var(--lane-blue)">
+          <th scope="row"><span class="branch">life</span></th>
+          <td><span class="bars__bar bars__bar--lane" style="--w: 32.9%"></span></td>
+          <td class="bars__n">54</td>
+        </tr>
+        <tr style="--c: var(--lane-lime)">
+          <th scope="row"><span class="branch">stories</span></th>
+          <td><span class="bars__bar bars__bar--lane" style="--w: 10.4%"></span></td>
+          <td class="bars__n">17</td>
+        </tr>
+        <tr style="--c: var(--lane-amber)">
+          <th scope="row"><span class="branch">places</span></th>
+          <td><span class="bars__bar bars__bar--lane" style="--w: 10.4%"></span></td>
+          <td class="bars__n">17</td>
+        </tr>
+        <tr style="--c: var(--lane-teal)">
+          <th scope="row"><span class="branch">school</span></th>
+          <td><span class="bars__bar bars__bar--lane" style="--w: 8.5%"></span></td>
+          <td class="bars__n">14</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  
+<figure class="heatmap" aria-labelledby="heatmap-title">
+  <figcaption class="heatmap__caption" id="heatmap-title">Posts per month, 2010 to now</figcaption>
+  <div class="heatmap__scroll">
+    <table class="heatmap__grid">
+      <thead>
+        <tr>
+          <th scope="col"><span class="visually-hidden">Year</span></th><th scope="col" aria-hidden="true">J</th><th scope="col" aria-hidden="true">F</th><th scope="col" aria-hidden="true">M</th><th scope="col" aria-hidden="true">A</th><th scope="col" aria-hidden="true">M</th><th scope="col" aria-hidden="true">J</th><th scope="col" aria-hidden="true">J</th><th scope="col" aria-hidden="true">A</th><th scope="col" aria-hidden="true">S</th><th scope="col" aria-hidden="true">O</th><th scope="col" aria-hidden="true">N</th><th scope="col" aria-hidden="true">D</th>
+          <th scope="col"><span class="visually-hidden">Total</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><a href="/archives/2026/" tabindex="-1" aria-disabled="true">2026</a></th>
+          <td class="cell cell--0" title="2026-01: 0 posts"></td>
+          <td class="cell cell--0" title="2026-02: 0 posts"></td>
+          <td class="cell cell--0" title="2026-03: 0 posts"></td>
+          <td class="cell cell--0" title="2026-04: 0 posts"></td>
+          <td class="cell cell--0" title="2026-05: 0 posts"></td>
+          <td class="cell cell--0" title="2026-06: 0 posts"></td>
+          <td class="cell cell--0" title="2026-07: 0 posts"></td>
+          <td class="cell cell--0" title="2026-08: 0 posts"></td>
+          <td class="cell cell--0" title="2026-09: 0 posts"></td>
+          <td class="cell cell--0" title="2026-10: 0 posts"></td>
+          <td class="cell cell--0" title="2026-11: 0 posts"></td>
+          <td class="cell cell--0" title="2026-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2025/" tabindex="-1" aria-disabled="true">2025</a></th>
+          <td class="cell cell--0" title="2025-01: 0 posts"></td>
+          <td class="cell cell--0" title="2025-02: 0 posts"></td>
+          <td class="cell cell--0" title="2025-03: 0 posts"></td>
+          <td class="cell cell--0" title="2025-04: 0 posts"></td>
+          <td class="cell cell--0" title="2025-05: 0 posts"></td>
+          <td class="cell cell--0" title="2025-06: 0 posts"></td>
+          <td class="cell cell--0" title="2025-07: 0 posts"></td>
+          <td class="cell cell--0" title="2025-08: 0 posts"></td>
+          <td class="cell cell--0" title="2025-09: 0 posts"></td>
+          <td class="cell cell--0" title="2025-10: 0 posts"></td>
+          <td class="cell cell--0" title="2025-11: 0 posts"></td>
+          <td class="cell cell--0" title="2025-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2024/" tabindex="-1" aria-disabled="true">2024</a></th>
+          <td class="cell cell--0" title="2024-01: 0 posts"></td>
+          <td class="cell cell--0" title="2024-02: 0 posts"></td>
+          <td class="cell cell--0" title="2024-03: 0 posts"></td>
+          <td class="cell cell--0" title="2024-04: 0 posts"></td>
+          <td class="cell cell--0" title="2024-05: 0 posts"></td>
+          <td class="cell cell--0" title="2024-06: 0 posts"></td>
+          <td class="cell cell--0" title="2024-07: 0 posts"></td>
+          <td class="cell cell--0" title="2024-08: 0 posts"></td>
+          <td class="cell cell--0" title="2024-09: 0 posts"></td>
+          <td class="cell cell--0" title="2024-10: 0 posts"></td>
+          <td class="cell cell--0" title="2024-11: 0 posts"></td>
+          <td class="cell cell--0" title="2024-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2023/">2023</a></th>
+          <td class="cell cell--0" title="2023-01: 0 posts"></td>
+          <td class="cell cell--0" title="2023-02: 0 posts"></td>
+          <td class="cell cell--0" title="2023-03: 0 posts"></td>
+          <td class="cell cell--0" title="2023-04: 0 posts"></td>
+          <td class="cell cell--0" title="2023-05: 0 posts"></td>
+          <td class="cell cell--0" title="2023-06: 0 posts"></td>
+          <td class="cell cell--0" title="2023-07: 0 posts"></td>
+          <td class="cell cell--0" title="2023-08: 0 posts"></td>
+          <td class="cell cell--0" title="2023-09: 0 posts"></td>
+          <td class="cell cell--1" title="2023-10: 1 posts"><a href="/archives/2023/10/" aria-label="2023-10: 1 posts"></a></td>
+          <td class="cell cell--0" title="2023-11: 0 posts"></td>
+          <td class="cell cell--0" title="2023-12: 0 posts"></td>
+          <td class="heatmap__total">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2022/" tabindex="-1" aria-disabled="true">2022</a></th>
+          <td class="cell cell--0" title="2022-01: 0 posts"></td>
+          <td class="cell cell--0" title="2022-02: 0 posts"></td>
+          <td class="cell cell--0" title="2022-03: 0 posts"></td>
+          <td class="cell cell--0" title="2022-04: 0 posts"></td>
+          <td class="cell cell--0" title="2022-05: 0 posts"></td>
+          <td class="cell cell--0" title="2022-06: 0 posts"></td>
+          <td class="cell cell--0" title="2022-07: 0 posts"></td>
+          <td class="cell cell--0" title="2022-08: 0 posts"></td>
+          <td class="cell cell--0" title="2022-09: 0 posts"></td>
+          <td class="cell cell--0" title="2022-10: 0 posts"></td>
+          <td class="cell cell--0" title="2022-11: 0 posts"></td>
+          <td class="cell cell--0" title="2022-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2021/" tabindex="-1" aria-disabled="true">2021</a></th>
+          <td class="cell cell--0" title="2021-01: 0 posts"></td>
+          <td class="cell cell--0" title="2021-02: 0 posts"></td>
+          <td class="cell cell--0" title="2021-03: 0 posts"></td>
+          <td class="cell cell--0" title="2021-04: 0 posts"></td>
+          <td class="cell cell--0" title="2021-05: 0 posts"></td>
+          <td class="cell cell--0" title="2021-06: 0 posts"></td>
+          <td class="cell cell--0" title="2021-07: 0 posts"></td>
+          <td class="cell cell--0" title="2021-08: 0 posts"></td>
+          <td class="cell cell--0" title="2021-09: 0 posts"></td>
+          <td class="cell cell--0" title="2021-10: 0 posts"></td>
+          <td class="cell cell--0" title="2021-11: 0 posts"></td>
+          <td class="cell cell--0" title="2021-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2020/" tabindex="-1" aria-disabled="true">2020</a></th>
+          <td class="cell cell--0" title="2020-01: 0 posts"></td>
+          <td class="cell cell--0" title="2020-02: 0 posts"></td>
+          <td class="cell cell--0" title="2020-03: 0 posts"></td>
+          <td class="cell cell--0" title="2020-04: 0 posts"></td>
+          <td class="cell cell--0" title="2020-05: 0 posts"></td>
+          <td class="cell cell--0" title="2020-06: 0 posts"></td>
+          <td class="cell cell--0" title="2020-07: 0 posts"></td>
+          <td class="cell cell--0" title="2020-08: 0 posts"></td>
+          <td class="cell cell--0" title="2020-09: 0 posts"></td>
+          <td class="cell cell--0" title="2020-10: 0 posts"></td>
+          <td class="cell cell--0" title="2020-11: 0 posts"></td>
+          <td class="cell cell--0" title="2020-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2019/" tabindex="-1" aria-disabled="true">2019</a></th>
+          <td class="cell cell--0" title="2019-01: 0 posts"></td>
+          <td class="cell cell--0" title="2019-02: 0 posts"></td>
+          <td class="cell cell--0" title="2019-03: 0 posts"></td>
+          <td class="cell cell--0" title="2019-04: 0 posts"></td>
+          <td class="cell cell--0" title="2019-05: 0 posts"></td>
+          <td class="cell cell--0" title="2019-06: 0 posts"></td>
+          <td class="cell cell--0" title="2019-07: 0 posts"></td>
+          <td class="cell cell--0" title="2019-08: 0 posts"></td>
+          <td class="cell cell--0" title="2019-09: 0 posts"></td>
+          <td class="cell cell--0" title="2019-10: 0 posts"></td>
+          <td class="cell cell--0" title="2019-11: 0 posts"></td>
+          <td class="cell cell--0" title="2019-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2018/" tabindex="-1" aria-disabled="true">2018</a></th>
+          <td class="cell cell--0" title="2018-01: 0 posts"></td>
+          <td class="cell cell--0" title="2018-02: 0 posts"></td>
+          <td class="cell cell--0" title="2018-03: 0 posts"></td>
+          <td class="cell cell--0" title="2018-04: 0 posts"></td>
+          <td class="cell cell--0" title="2018-05: 0 posts"></td>
+          <td class="cell cell--0" title="2018-06: 0 posts"></td>
+          <td class="cell cell--0" title="2018-07: 0 posts"></td>
+          <td class="cell cell--0" title="2018-08: 0 posts"></td>
+          <td class="cell cell--0" title="2018-09: 0 posts"></td>
+          <td class="cell cell--0" title="2018-10: 0 posts"></td>
+          <td class="cell cell--0" title="2018-11: 0 posts"></td>
+          <td class="cell cell--0" title="2018-12: 0 posts"></td>
+          <td class="heatmap__total"></td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2017/">2017</a></th>
+          <td class="cell cell--0" title="2017-01: 0 posts"></td>
+          <td class="cell cell--1" title="2017-02: 1 posts"><a href="/archives/2017/02/" aria-label="2017-02: 1 posts"></a></td>
+          <td class="cell cell--0" title="2017-03: 0 posts"></td>
+          <td class="cell cell--0" title="2017-04: 0 posts"></td>
+          <td class="cell cell--0" title="2017-05: 0 posts"></td>
+          <td class="cell cell--0" title="2017-06: 0 posts"></td>
+          <td class="cell cell--0" title="2017-07: 0 posts"></td>
+          <td class="cell cell--0" title="2017-08: 0 posts"></td>
+          <td class="cell cell--0" title="2017-09: 0 posts"></td>
+          <td class="cell cell--0" title="2017-10: 0 posts"></td>
+          <td class="cell cell--0" title="2017-11: 0 posts"></td>
+          <td class="cell cell--1" title="2017-12: 1 posts"><a href="/archives/2017/12/" aria-label="2017-12: 1 posts"></a></td>
+          <td class="heatmap__total">2</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2016/">2016</a></th>
+          <td class="cell cell--0" title="2016-01: 0 posts"></td>
+          <td class="cell cell--0" title="2016-02: 0 posts"></td>
+          <td class="cell cell--0" title="2016-03: 0 posts"></td>
+          <td class="cell cell--0" title="2016-04: 0 posts"></td>
+          <td class="cell cell--0" title="2016-05: 0 posts"></td>
+          <td class="cell cell--0" title="2016-06: 0 posts"></td>
+          <td class="cell cell--0" title="2016-07: 0 posts"></td>
+          <td class="cell cell--0" title="2016-08: 0 posts"></td>
+          <td class="cell cell--0" title="2016-09: 0 posts"></td>
+          <td class="cell cell--1" title="2016-10: 1 posts"><a href="/archives/2016/10/" aria-label="2016-10: 1 posts"></a></td>
+          <td class="cell cell--0" title="2016-11: 0 posts"></td>
+          <td class="cell cell--0" title="2016-12: 0 posts"></td>
+          <td class="heatmap__total">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2015/">2015</a></th>
+          <td class="cell cell--1" title="2015-01: 1 posts"><a href="/archives/2015/01/" aria-label="2015-01: 1 posts"></a></td>
+          <td class="cell cell--1" title="2015-02: 1 posts"><a href="/archives/2015/02/" aria-label="2015-02: 1 posts"></a></td>
+          <td class="cell cell--0" title="2015-03: 0 posts"></td>
+          <td class="cell cell--1" title="2015-04: 1 posts"><a href="/archives/2015/04/" aria-label="2015-04: 1 posts"></a></td>
+          <td class="cell cell--0" title="2015-05: 0 posts"></td>
+          <td class="cell cell--0" title="2015-06: 0 posts"></td>
+          <td class="cell cell--0" title="2015-07: 0 posts"></td>
+          <td class="cell cell--0" title="2015-08: 0 posts"></td>
+          <td class="cell cell--0" title="2015-09: 0 posts"></td>
+          <td class="cell cell--0" title="2015-10: 0 posts"></td>
+          <td class="cell cell--1" title="2015-11: 1 posts"><a href="/archives/2015/11/" aria-label="2015-11: 1 posts"></a></td>
+          <td class="cell cell--0" title="2015-12: 0 posts"></td>
+          <td class="heatmap__total">4</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2014/">2014</a></th>
+          <td class="cell cell--0" title="2014-01: 0 posts"></td>
+          <td class="cell cell--0" title="2014-02: 0 posts"></td>
+          <td class="cell cell--1" title="2014-03: 1 posts"><a href="/archives/2014/03/" aria-label="2014-03: 1 posts"></a></td>
+          <td class="cell cell--0" title="2014-04: 0 posts"></td>
+          <td class="cell cell--0" title="2014-05: 0 posts"></td>
+          <td class="cell cell--0" title="2014-06: 0 posts"></td>
+          <td class="cell cell--0" title="2014-07: 0 posts"></td>
+          <td class="cell cell--0" title="2014-08: 0 posts"></td>
+          <td class="cell cell--0" title="2014-09: 0 posts"></td>
+          <td class="cell cell--0" title="2014-10: 0 posts"></td>
+          <td class="cell cell--0" title="2014-11: 0 posts"></td>
+          <td class="cell cell--0" title="2014-12: 0 posts"></td>
+          <td class="heatmap__total">1</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2013/">2013</a></th>
+          <td class="cell cell--0" title="2013-01: 0 posts"></td>
+          <td class="cell cell--1" title="2013-02: 1 posts"><a href="/archives/2013/02/" aria-label="2013-02: 1 posts"></a></td>
+          <td class="cell cell--2" title="2013-03: 7 posts"><a href="/archives/2013/03/" aria-label="2013-03: 7 posts"></a></td>
+          <td class="cell cell--1" title="2013-04: 1 posts"><a href="/archives/2013/04/" aria-label="2013-04: 1 posts"></a></td>
+          <td class="cell cell--1" title="2013-05: 2 posts"><a href="/archives/2013/05/" aria-label="2013-05: 2 posts"></a></td>
+          <td class="cell cell--2" title="2013-06: 4 posts"><a href="/archives/2013/06/" aria-label="2013-06: 4 posts"></a></td>
+          <td class="cell cell--2" title="2013-07: 4 posts"><a href="/archives/2013/07/" aria-label="2013-07: 4 posts"></a></td>
+          <td class="cell cell--1" title="2013-08: 3 posts"><a href="/archives/2013/08/" aria-label="2013-08: 3 posts"></a></td>
+          <td class="cell cell--2" title="2013-09: 4 posts"><a href="/archives/2013/09/" aria-label="2013-09: 4 posts"></a></td>
+          <td class="cell cell--0" title="2013-10: 0 posts"></td>
+          <td class="cell cell--0" title="2013-11: 0 posts"></td>
+          <td class="cell cell--1" title="2013-12: 1 posts"><a href="/archives/2013/12/" aria-label="2013-12: 1 posts"></a></td>
+          <td class="heatmap__total">27</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2012/">2012</a></th>
+          <td class="cell cell--0" title="2012-01: 0 posts"></td>
+          <td class="cell cell--1" title="2012-02: 1 posts"><a href="/archives/2012/02/" aria-label="2012-02: 1 posts"></a></td>
+          <td class="cell cell--0" title="2012-03: 0 posts"></td>
+          <td class="cell cell--0" title="2012-04: 0 posts"></td>
+          <td class="cell cell--0" title="2012-05: 0 posts"></td>
+          <td class="cell cell--0" title="2012-06: 0 posts"></td>
+          <td class="cell cell--0" title="2012-07: 0 posts"></td>
+          <td class="cell cell--1" title="2012-08: 1 posts"><a href="/archives/2012/08/" aria-label="2012-08: 1 posts"></a></td>
+          <td class="cell cell--0" title="2012-09: 0 posts"></td>
+          <td class="cell cell--0" title="2012-10: 0 posts"></td>
+          <td class="cell cell--1" title="2012-11: 1 posts"><a href="/archives/2012/11/" aria-label="2012-11: 1 posts"></a></td>
+          <td class="cell cell--1" title="2012-12: 1 posts"><a href="/archives/2012/12/" aria-label="2012-12: 1 posts"></a></td>
+          <td class="heatmap__total">4</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2011/">2011</a></th>
+          <td class="cell cell--3" title="2011-01: 10 posts"><a href="/archives/2011/01/" aria-label="2011-01: 10 posts"></a></td>
+          <td class="cell cell--2" title="2011-02: 5 posts"><a href="/archives/2011/02/" aria-label="2011-02: 5 posts"></a></td>
+          <td class="cell cell--1" title="2011-03: 1 posts"><a href="/archives/2011/03/" aria-label="2011-03: 1 posts"></a></td>
+          <td class="cell cell--0" title="2011-04: 0 posts"></td>
+          <td class="cell cell--2" title="2011-05: 5 posts"><a href="/archives/2011/05/" aria-label="2011-05: 5 posts"></a></td>
+          <td class="cell cell--1" title="2011-06: 2 posts"><a href="/archives/2011/06/" aria-label="2011-06: 2 posts"></a></td>
+          <td class="cell cell--1" title="2011-07: 3 posts"><a href="/archives/2011/07/" aria-label="2011-07: 3 posts"></a></td>
+          <td class="cell cell--1" title="2011-08: 1 posts"><a href="/archives/2011/08/" aria-label="2011-08: 1 posts"></a></td>
+          <td class="cell cell--1" title="2011-09: 1 posts"><a href="/archives/2011/09/" aria-label="2011-09: 1 posts"></a></td>
+          <td class="cell cell--0" title="2011-10: 0 posts"></td>
+          <td class="cell cell--1" title="2011-11: 1 posts"><a href="/archives/2011/11/" aria-label="2011-11: 1 posts"></a></td>
+          <td class="cell cell--1" title="2011-12: 1 posts"><a href="/archives/2011/12/" aria-label="2011-12: 1 posts"></a></td>
+          <td class="heatmap__total">30</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="/archives/2010/">2010</a></th>
+          <td class="cell cell--0" title="2010-01: 0 posts"></td>
+          <td class="cell cell--2" title="2010-02: 4 posts"><a href="/archives/2010/02/" aria-label="2010-02: 4 posts"></a></td>
+          <td class="cell cell--4" title="2010-03: 15 posts"><a href="/archives/2010/03/" aria-label="2010-03: 15 posts"></a></td>
+          <td class="cell cell--4" title="2010-04: 13 posts"><a href="/archives/2010/04/" aria-label="2010-04: 13 posts"></a></td>
+          <td class="cell cell--2" title="2010-05: 4 posts"><a href="/archives/2010/05/" aria-label="2010-05: 4 posts"></a></td>
+          <td class="cell cell--3" title="2010-06: 8 posts"><a href="/archives/2010/06/" aria-label="2010-06: 8 posts"></a></td>
+          <td class="cell cell--2" title="2010-07: 6 posts"><a href="/archives/2010/07/" aria-label="2010-07: 6 posts"></a></td>
+          <td class="cell cell--3" title="2010-08: 10 posts"><a href="/archives/2010/08/" aria-label="2010-08: 10 posts"></a></td>
+          <td class="cell cell--4" title="2010-09: 12 posts"><a href="/archives/2010/09/" aria-label="2010-09: 12 posts"></a></td>
+          <td class="cell cell--3" title="2010-10: 8 posts"><a href="/archives/2010/10/" aria-label="2010-10: 8 posts"></a></td>
+          <td class="cell cell--2" title="2010-11: 6 posts"><a href="/archives/2010/11/" aria-label="2010-11: 6 posts"></a></td>
+          <td class="cell cell--3" title="2010-12: 8 posts"><a href="/archives/2010/12/" aria-label="2010-12: 8 posts"></a></td>
+          <td class="heatmap__total">94</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="heatmap__legend" aria-hidden="true">
+    <span>Fewer</span>
+    <span class="cell cell--0"></span><span class="cell cell--1"></span><span class="cell cell--2"></span><span class="cell cell--3"></span><span class="cell cell--4"></span>
+    <span>More</span>
+  </p>
+</figure>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+  <div class="site-footer__inner">
+    <p class="site-footer__copy">© 2010–2026 Yoga Lin</p>
+    <ul class="site-footer__links">
+      <li><a href="/atom.xml">RSS feed</a></li><li><a target="_blank" href="https://github.com/blueandhack" rel="me noopener">GitHub</a></li><li><a target="_blank" href="https://x.com/blueandhack" rel="me noopener">X</a></li>
+    </ul>
+    <p class="site-footer__hint">Press ? for keyboard shortcuts</p>
+    <p class="site-footer__powered">Built with Hexo and the commitlog theme</p>
+  </div>
+</footer>
+
+  <dialog class="palette" id="palette" aria-label="Search posts and commands">
+  <div class="palette__box">
+    <div class="palette__field">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+      <input class="palette__input" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Search posts, tags, or type a command" aria-label="Search posts and commands"
+             role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list">
+      <kbd>Esc</kbd>
+    </div>
+    <ul class="palette__list" id="palette-list" role="listbox"></ul>
+    <p class="palette__status" aria-live="polite"></p>
+  </div>
+</dialog>
+
+<dialog class="shortcuts" id="shortcuts" aria-labelledby="shortcuts-title">
+  <div class="shortcuts__box">
+    <h2 id="shortcuts-title">Keyboard shortcuts</h2>
+    <dl>
+      <div><dt><kbd data-mod-key>Ctrl K</kbd> <kbd>/</kbd></dt><dd>Search and commands</dd></div>
+      <div><dt><kbd>j</kbd> <kbd>k</kbd></dt><dd>Next or previous post in a list</dd></div>
+      <div><dt><kbd>Enter</kbd></dt><dd>Open the selected post</dd></div>
+      <div><dt><kbd>h</kbd> <kbd>l</kbd></dt><dd>Older or newer post (on a post)</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>h</kbd></dt><dd>Go to the log</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>a</kbd></dt><dd>Go to the archive</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>t</kbd></dt><dd>Go to tags</dd></div>
+      <div><dt><kbd>g</kbd> <kbd>s</kbd></dt><dd>Go to stats</dd></div>
+      <div><dt><kbd>t</kbd></dt><dd>Switch light or dark theme</dd></div>
+      <div><dt><kbd>r</kbd></dt><dd>Random post</dd></div>
+      <div><dt><kbd>?</kbd></dt><dd>Show this help</dd></div>
+    </dl>
+    <form method="dialog"><button class="button">Close</button></form>
+  </div>
+</dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Image">
+  <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="Close">×</button></form>
+  <img class="lightbox__img" alt="">
+</dialog>
+
+</body>
+</html>
