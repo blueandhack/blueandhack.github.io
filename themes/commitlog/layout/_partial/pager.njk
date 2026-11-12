@@ -1,7 +1,17 @@
 {%- if page.total > 1 %}
 <nav class="pager" aria-label="{{ __('pager.page', page.current, page.total) }}">
-  {%- if page.prev_link %}<a class="pager__link" rel="prev" href="{{ url_for(page.prev_link) }}">{{ __('pager.newer') }}</a>{% else %}<span></span>{% endif %}
-  <span class="pager__state">{{ __('pager.page', page.current, page.total) }}</span>
-  {%- if page.next_link %}<a class="pager__link" rel="next" href="{{ url_for(page.next_link) }}">{{ __('pager.older') }}</a>{% else %}<span></span>{% endif %}
+  {%- if page.prev %}<a class="pager__link" rel="prev" href="{{ pager_url(page, page.prev) }}">{{ __('pager.newer') }}</a>{% else %}<span></span>{% endif %}
+  <ol class="pager__pages">
+    {%- for n in pager_items(page.current, page.total) %}
+    {%- if n == null %}
+    <li class="pager__gap" aria-hidden="true">…</li>
+    {%- elif n == page.current %}
+    <li><span class="pager__num" aria-current="page">{{ n }}</span></li>
+    {%- else %}
+    <li><a class="pager__num" href="{{ pager_url(page, n) }}" aria-label="{{ __('pager.page', n, page.total) }}">{{ n }}</a></li>
+    {%- endif %}
+    {%- endfor %}
+  </ol>
+  {%- if page.next %}<a class="pager__link" rel="next" href="{{ pager_url(page, page.next) }}">{{ __('pager.older') }}</a>{% else %}<span></span>{% endif %}
 </nav>
 {%- endif %}

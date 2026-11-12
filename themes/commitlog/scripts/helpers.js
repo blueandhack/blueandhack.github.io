@@ -309,3 +309,23 @@ hexo.extend.helper.register('group_by_year', posts => {
 
 // Shared with generators.js
 hexo.commitlog = { laneKey, mainKey, branchNames };
+
+// Page numbers for the pager: first, last, and current ±1, with null for gaps.
+hexo.extend.helper.register('pager_items', (current, total) => {
+  const nums = [...new Set([1, total, current - 1, current, current + 1])]
+    .filter(n => n >= 1 && n <= total)
+    .sort((a, b) => a - b);
+  const out = [];
+  let prev = 0;
+  nums.forEach(n => {
+    if (n - prev > 1) out.push(null);
+    out.push(n);
+    prev = n;
+  });
+  return out;
+});
+
+hexo.extend.helper.register('pager_url', function(page, n) {
+  const dir = this.config.pagination_dir || 'page';
+  return this.url_for((page.base || '') + (n > 1 ? `${dir}/${n}/` : ''));
+});
