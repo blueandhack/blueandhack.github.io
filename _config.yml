@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 #avatar
-avatar: https://avatars1.githubusercontent.com/u/4150885?v=3s=460
+avatar: https://avatars.githubusercontent.com/u/4150885?s=460
 
 # Site
 title: blueandhack
@@ -104,8 +104,27 @@ ignore:
 theme: next
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: 'git'
-  repo: 'git@github.com:blueandhack/blueandhack.github.io.git'
-  branch: 'master'
+## Deployed by GitHub Actions (.github/workflows/pages.yml) on push to main.
+
+# Feed: https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: false
+  order_by: -date
+  autodiscovery: true
+
+# Sitemap: https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: false
+  categories: false
+
+# Local search index for NexT: https://github.com/next-theme/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: html

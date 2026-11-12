@@ -44,7 +44,7 @@ tags:
 
 我的QQVIP6了~
 
-![12](https://cdn.blueandhack.comblueandhack.b0.upaiyun.com/wp-content/uploads/2010/04/12_thumb.jpg)
+![12](https://cdn.blueandhack.com/wp-content/uploads/2010/04/12_thumb.jpg)
 
 ![5](https://cdn.blueandhack.com/wp-content/uploads/2010/04/5_thumb.jpg)
 
