@@ -23,6 +23,10 @@ Hexo core), one CSS file, one vanilla JS file.
 - **Archive** with a posts-per-month heatmap and a year timeline.
 - **On this day**: posts written around today's date in earlier years.
 - **Stats page** (`/stats/`): posts and characters per year, posts per branch.
+- **Color palettes**: readers pick Ink, Forest, Plum, Ember or Mono from the
+  header (or the command palette); each has light and dark variants with all
+  text colors at 4.5:1 contrast or better, and the choice is remembered in the
+  browser. Configure the list with `palettes` in `_config.yml`.
 - **Reading tools**: light/dark theme, reading progress bar, table of contents
   (for posts with headings), reading time that counts Chinese characters,
   older/newer navigation, related posts by shared tags.

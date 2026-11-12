@@ -31,6 +31,11 @@ branches:
     color: lime
     match: [story, dream, poem, microfilm, book, animation, video, love]
 
+# Color palettes readers can choose in the header (first = default).
+# Each name needs a matching :root[data-palette="..."] block in style.css,
+# except the default, which is the base :root block.
+palettes: [ink, forest, plum, ember, mono]
+
 # Profile links (home intro, About, Links page, footer). Keys are the labels
 # shown to readers; GitHub, X and LinkedIn get brand icons, anything else a
 # generic link icon. Special keys:

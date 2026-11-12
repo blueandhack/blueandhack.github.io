@@ -16,6 +16,8 @@
       try {
         var t = localStorage.getItem('cl-theme');
         if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        var p = localStorage.getItem('cl-palette');
+        if (p && /^[a-z]+$/.test(p) && p !== '{{ theme.palettes[0] }}') document.documentElement.dataset.palette = p;
       } catch (e) {}
     })();
   </script>
@@ -56,6 +58,7 @@
     rss: url_for('/atom.xml'),
     disqus: theme.disqus.shortname,
     lanes: branch_colors(),
+    palettes: theme.palettes,
     links: { home: url_for('/'), archive: url_for('/archives/'), tags: url_for('/tags/'), stats: url_for('/stats/'), about: url_for('/about/') },
     i18n: {
       posts: __('palette.posts'), commands: __('palette.commands'), fulltext: __('palette.fulltext'),
@@ -63,7 +66,9 @@
       go_home: __('palette.go_home'), go_archive: __('palette.go_archive'), go_tags: __('palette.go_tags'),
       go_stats: __('palette.go_stats'), go_about: __('palette.go_about'), random: __('palette.random'),
       toggle_theme: __('palette.toggle_theme'), rss: __('palette.rss'), shortcuts: __('palette.shortcuts'),
-      copy: __('post.copy'), copied: __('post.copied')
+      copy: __('post.copy'), copied: __('post.copied'),
+      color: __('palettes.command'),
+      paletteNames: { ink: __('palettes.ink'), forest: __('palettes.forest'), plum: __('palettes.plum'), ember: __('palettes.ember'), mono: __('palettes.mono') }
     }
   } | dump | replace('</', '<\\/') }}</script>
   <script src="{{ asset_url('js/main.js') }}" defer></script>

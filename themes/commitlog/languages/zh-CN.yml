@@ -110,6 +110,15 @@ shortcuts:
   help: 显示本帮助
   close: 关闭
 
+palettes:
+  title: 配色
+  command: 配色
+  ink: 墨蓝
+  forest: 森林
+  plum: 梅紫
+  ember: 余烬
+  mono: 黑白
+
 translation:
   note: 本文由 Claude 从中文翻译。
   read_original: 阅读原文

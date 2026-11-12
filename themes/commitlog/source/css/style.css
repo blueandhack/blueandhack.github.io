@@ -12,10 +12,10 @@
 
   --lane-blue: #2c52e3;
   --lane-magenta: #c2306a;
-  --lane-teal: #08826f;
-  --lane-amber: #a86400;
+  --lane-teal: #066b5f;
+  --lane-amber: #855400;
   --lane-violet: #6a52da;
-  --lane-lime: #4f7f00;
+  --lane-lime: #416a00;
   --lane-other: #5d6782;
 
   --focus: var(--lane-blue);
@@ -1200,3 +1200,302 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   text-decoration: none;
 }
 .en-link:hover { color: var(--ink); border-color: var(--ink-3); }
+
+/* ---------- Color palettes ----------
+   Chosen in the header (remembered in localStorage as cl-palette) and applied
+   before first paint by the inline script in layout.njk. The default palette
+   ("ink") is the :root block at the top of this file. Slot names (--lane-blue …)
+   are lanes, not literal hues: --lane-blue is always the main line / accent. */
+
+:root[data-palette="forest"] {
+  --paper: #f1f6f2;
+  --paper-2: #e3ece6;
+  --paper-3: #d5e2d9;
+  --ink: #13261b;
+  --ink-2: #3b5446;
+  --ink-3: #536d5c;
+  --rule: #cfdcd3;
+  --code-bg: #e6eee9;
+  --lane-blue: #1d7448;
+  --lane-magenta: #b4235d;
+  --lane-teal: #2559c4;
+  --lane-amber: #9a5a00;
+  --lane-lime: #7346c0;
+  --lane-violet: #7346c0;
+  --lane-other: #536d5c;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-palette="forest"]:not([data-theme="light"]) {
+  --paper: #0d1813;
+  --paper-2: #13231b;
+  --paper-3: #1b3025;
+  --ink: #dbe9e0;
+  --ink-2: #adc4b6;
+  --ink-3: #8aa393;
+  --rule: #24392d;
+  --code-bg: #0f1f17;
+  --lane-blue: #5fd39a;
+  --lane-magenta: #f2729f;
+  --lane-teal: #7aa2ff;
+  --lane-amber: #f0b14e;
+  --lane-lime: #b79cff;
+  --lane-violet: #b79cff;
+  --lane-other: #8aa393;
+  color-scheme: dark;
+  }
+}
+:root[data-palette="forest"][data-theme="dark"] {
+  --paper: #0d1813;
+  --paper-2: #13231b;
+  --paper-3: #1b3025;
+  --ink: #dbe9e0;
+  --ink-2: #adc4b6;
+  --ink-3: #8aa393;
+  --rule: #24392d;
+  --code-bg: #0f1f17;
+  --lane-blue: #5fd39a;
+  --lane-magenta: #f2729f;
+  --lane-teal: #7aa2ff;
+  --lane-amber: #f0b14e;
+  --lane-lime: #b79cff;
+  --lane-violet: #b79cff;
+  --lane-other: #8aa393;
+  color-scheme: dark;
+}
+:root[data-palette="plum"] {
+  --paper: #f8f3f8;
+  --paper-2: #efe5f0;
+  --paper-3: #e4d6e6;
+  --ink: #29172f;
+  --ink-2: #4f3a57;
+  --ink-3: #6a5472;
+  --rule: #e0d2e3;
+  --code-bg: #f0e7f1;
+  --lane-blue: #83379a;
+  --lane-magenta: #b8400d;
+  --lane-teal: #066b5f;
+  --lane-amber: #855400;
+  --lane-lime: #416a00;
+  --lane-violet: #83379a;
+  --lane-other: #6a5472;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-palette="plum"]:not([data-theme="light"]) {
+  --paper: #170e1c;
+  --paper-2: #211528;
+  --paper-3: #2c1c35;
+  --ink: #ede1f2;
+  --ink-2: #c7b3cf;
+  --ink-3: #a590ae;
+  --rule: #34233e;
+  --code-bg: #1c1222;
+  --lane-blue: #d18ce6;
+  --lane-magenta: #ff8a5c;
+  --lane-teal: #41ceb1;
+  --lane-amber: #f0b14e;
+  --lane-lime: #a6d65a;
+  --lane-violet: #d18ce6;
+  --lane-other: #a590ae;
+  color-scheme: dark;
+  }
+}
+:root[data-palette="plum"][data-theme="dark"] {
+  --paper: #170e1c;
+  --paper-2: #211528;
+  --paper-3: #2c1c35;
+  --ink: #ede1f2;
+  --ink-2: #c7b3cf;
+  --ink-3: #a590ae;
+  --rule: #34233e;
+  --code-bg: #1c1222;
+  --lane-blue: #d18ce6;
+  --lane-magenta: #ff8a5c;
+  --lane-teal: #41ceb1;
+  --lane-amber: #f0b14e;
+  --lane-lime: #a6d65a;
+  --lane-violet: #d18ce6;
+  --lane-other: #a590ae;
+  color-scheme: dark;
+}
+:root[data-palette="ember"] {
+  --paper: #faf4f0;
+  --paper-2: #f2e7df;
+  --paper-3: #e9d8cc;
+  --ink: #2a1911;
+  --ink-2: #55392b;
+  --ink-3: #705244;
+  --rule: #e6d6ca;
+  --code-bg: #f3e9e2;
+  --lane-blue: #b93c0a;
+  --lane-magenta: #a8215a;
+  --lane-teal: #066b5f;
+  --lane-amber: #2c52e3;
+  --lane-lime: #416a00;
+  --lane-violet: #6a52da;
+  --lane-other: #705244;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-palette="ember"]:not([data-theme="light"]) {
+  --paper: #1a110c;
+  --paper-2: #251812;
+  --paper-3: #31211a;
+  --ink: #f3e6dd;
+  --ink-2: #d1bcae;
+  --ink-3: #ad9687;
+  --rule: #3a2a21;
+  --code-bg: #20150f;
+  --lane-blue: #fb923c;
+  --lane-magenta: #f2729f;
+  --lane-teal: #41ceb1;
+  --lane-amber: #7a98ff;
+  --lane-lime: #a6d65a;
+  --lane-violet: #ab9cff;
+  --lane-other: #ad9687;
+  color-scheme: dark;
+  }
+}
+:root[data-palette="ember"][data-theme="dark"] {
+  --paper: #1a110c;
+  --paper-2: #251812;
+  --paper-3: #31211a;
+  --ink: #f3e6dd;
+  --ink-2: #d1bcae;
+  --ink-3: #ad9687;
+  --rule: #3a2a21;
+  --code-bg: #20150f;
+  --lane-blue: #fb923c;
+  --lane-magenta: #f2729f;
+  --lane-teal: #41ceb1;
+  --lane-amber: #7a98ff;
+  --lane-lime: #a6d65a;
+  --lane-violet: #ab9cff;
+  --lane-other: #ad9687;
+  color-scheme: dark;
+}
+:root[data-palette="mono"] {
+  --paper: #f6f6f6;
+  --paper-2: #ebebeb;
+  --paper-3: #dedede;
+  --ink: #18181b;
+  --ink-2: #3f3f46;
+  --ink-3: #5a5a64;
+  --rule: #d9d9de;
+  --code-bg: #ececee;
+  --lane-blue: #18181b;
+  --lane-magenta: #a32f5a;
+  --lane-teal: #26705f;
+  --lane-amber: #7d5a12;
+  --lane-lime: #4f6826;
+  --lane-violet: #5b4bb0;
+  --lane-other: #5a5a64;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-palette="mono"]:not([data-theme="light"]) {
+  --paper: #111113;
+  --paper-2: #1a1a1d;
+  --paper-3: #242428;
+  --ink: #ececef;
+  --ink-2: #b9b9c0;
+  --ink-3: #92929c;
+  --rule: #2c2c31;
+  --code-bg: #17171a;
+  --lane-blue: #ececef;
+  --lane-magenta: #e58aaa;
+  --lane-teal: #7fcbbd;
+  --lane-amber: #d7b36a;
+  --lane-lime: #b3cd84;
+  --lane-violet: #b3a8ee;
+  --lane-other: #92929c;
+  color-scheme: dark;
+  }
+}
+:root[data-palette="mono"][data-theme="dark"] {
+  --paper: #111113;
+  --paper-2: #1a1a1d;
+  --paper-3: #242428;
+  --ink: #ececef;
+  --ink-2: #b9b9c0;
+  --ink-3: #92929c;
+  --rule: #2c2c31;
+  --code-bg: #17171a;
+  --lane-blue: #ececef;
+  --lane-magenta: #e58aaa;
+  --lane-teal: #7fcbbd;
+  --lane-amber: #d7b36a;
+  --lane-lime: #b3cd84;
+  --lane-violet: #b3a8ee;
+  --lane-other: #92929c;
+  color-scheme: dark;
+}
+.palette-option[data-palette-value="ink"] { --sw-paper: #f3f6fc; --sw-ink: #16203a; --sw-main: #2c52e3; --sw-a: #c2306a; --sw-b: #855400; }
+.palette-option[data-palette-value="forest"] { --sw-paper: #f1f6f2; --sw-ink: #13261b; --sw-main: #1d7448; --sw-a: #b4235d; --sw-b: #9a5a00; }
+.palette-option[data-palette-value="plum"] { --sw-paper: #f8f3f8; --sw-ink: #29172f; --sw-main: #83379a; --sw-a: #b8400d; --sw-b: #855400; }
+.palette-option[data-palette-value="ember"] { --sw-paper: #faf4f0; --sw-ink: #2a1911; --sw-main: #b93c0a; --sw-a: #a8215a; --sw-b: #2c52e3; }
+.palette-option[data-palette-value="mono"] { --sw-paper: #f6f6f6; --sw-ink: #18181b; --sw-main: #18181b; --sw-a: #a32f5a; --sw-b: #7d5a12; }
+
+/* ---------- Palette picker ---------- */
+
+.palette-menu {
+  position: fixed;
+  inset: 3.4rem 1rem auto auto;
+  margin: 0;
+  width: 15rem;
+  padding: 0.4rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+.palette-menu__title { margin: 0.35rem 0.55rem 0.4rem; color: var(--ink-3); font-size: 0.8rem; font-weight: 400; }
+.palette-menu ul { list-style: none; margin: 0; padding: 0; }
+.palette-option {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.45rem 0.55rem;
+  border: 0;
+  border-radius: var(--radius);
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95rem;
+  text-align: left;
+  cursor: pointer;
+}
+.palette-option:hover { background: var(--paper-2); }
+.palette-option[aria-checked="true"] { background: var(--paper-2); }
+.palette-option[aria-checked="true"]::after { content: "✓"; margin-left: auto; color: var(--ink-2); }
+.palette-swatch {
+  position: relative;
+  flex: none;
+  width: 2.1rem;
+  height: 1.3rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--sw-paper);
+  overflow: hidden;
+}
+.palette-swatch::before {
+  content: "";
+  position: absolute;
+  left: 0.35rem; top: 0; bottom: 0;
+  width: 2px;
+  background: var(--sw-main);
+  box-shadow: 0.35rem 0 0 var(--sw-a), 0.7rem 0 0 var(--sw-b);
+}
+.palette-swatch::after {
+  content: "";
+  position: absolute;
+  right: 0.25rem; top: 50%;
+  width: 0.45rem; height: 0.45rem;
+  margin-top: -0.225rem;
+  border-radius: 50%;
+  background: var(--sw-ink);
+}
+.icon-palette circle { fill: currentColor; stroke: none; }

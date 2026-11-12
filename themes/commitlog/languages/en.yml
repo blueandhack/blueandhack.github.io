@@ -110,6 +110,15 @@ shortcuts:
   help: Show this help
   close: Close
 
+palettes:
+  title: Color palette
+  command: Color
+  ink: Ink
+  forest: Forest
+  plum: Plum
+  ember: Ember
+  mono: Mono
+
 translation:
   note: Translated from Chinese by Claude.
   read_original: Read the original

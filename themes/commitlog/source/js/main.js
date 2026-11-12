@@ -34,6 +34,7 @@
     var next = currentTheme() === 'dark' ? 'light' : 'dark';
     root.dataset.theme = next;
     try { localStorage.setItem('cl-theme', next); } catch (e) {}
+    if (typeof syncThemeColor === 'function') syncThemeColor();
     if (window.DISQUS && disqusLoaded) {
       try { window.DISQUS.reset({ reload: true }); } catch (e) {}
     }
@@ -278,6 +279,36 @@
     });
     palette.addEventListener('click', function (e) { if (e.target === palette) palette.close(); });
   }
+
+  /* ---------- Color palettes (remembered per browser) ---------- */
+  var PALETTES = CFG.palettes || [];
+  function currentPalette() { return root.dataset.palette || PALETTES[0]; }
+  function syncThemeColor() {
+    var paper = getComputedStyle(root).getPropertyValue('--paper').trim();
+    $$('meta[name="theme-color"]').forEach(function (m) { m.setAttribute('content', paper); });
+  }
+  function setPalette(name) {
+    if (PALETTES.indexOf(name) < 0) return;
+    if (name === PALETTES[0]) delete root.dataset.palette; else root.dataset.palette = name;
+    try { localStorage.setItem('cl-palette', name); } catch (e) {}
+    $$('.palette-option').forEach(function (b) {
+      b.setAttribute('aria-checked', b.getAttribute('data-palette-value') === name ? 'true' : 'false');
+    });
+    syncThemeColor();
+  }
+  $$('.palette-option').forEach(function (b) {
+    b.setAttribute('aria-checked', b.getAttribute('data-palette-value') === currentPalette() ? 'true' : 'false');
+    b.addEventListener('click', function () {
+      setPalette(b.getAttribute('data-palette-value'));
+      var menu = document.getElementById('palette-menu');
+      if (menu && menu.hidePopover) menu.hidePopover();
+    });
+  });
+  PALETTES.forEach(function (name) {
+    var label = (T.color || 'Color') + ': ' + ((T.paletteNames || {})[name] || name);
+    commands.splice(commands.length - 2, 0, { label: label, run: function () { setPalette(name); }, keep: true });
+  });
+  if (root.dataset.palette || root.dataset.theme) syncThemeColor();
 
   /* ---------- Shortcuts dialog ---------- */
   var shortcuts = $('#shortcuts');
