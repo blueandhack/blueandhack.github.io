@@ -13,4 +13,4 @@ After school started, instead of classes we began a practical training program, 
 
 <!-- more -->
 
-![My driver's license test photo](https://cdn.blueandhack.com//wp-content/uploads/2013/09/SavedPicture-2013932149.jpg)
+![My driver's license test photo](https://cdn.blueandhack.com/wp-content/uploads/2013/09/SavedPicture-2013932149.jpg)
