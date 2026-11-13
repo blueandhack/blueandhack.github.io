@@ -1516,3 +1516,6 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 .comment-count svg,
 [data-comment-meta] svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
 [data-comment-meta] a { color: inherit; }
+
+/* Videos added from the Writer app */
+.prose video { display: block; width: 100%; max-width: 100%; height: auto; margin: 1.6em 0; border-radius: 4px; background: #000; }
