@@ -26,7 +26,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
 <meta property="article:published_time" content="2010-03-07T08:41:00.000Z">
-<meta property="article:modified_time" content="2026-11-13T22:24:35.084Z">
+<meta property="article:modified_time" content="2026-11-13T22:51:25.833Z">
 <meta property="article:author" content="Yujia Lin">
 <meta property="article:tag" content="classmate">
 <meta property="article:tag" content="life">
@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
-  <link rel="stylesheet" href="/css/style.css?v=ca55dd6f61">
+  <link rel="stylesheet" href="/css/style.css?v=f3788871ed">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -50,7 +50,7 @@
     gtag('config', 'G-QCZTMV5CJM');
   </script>
   <script type="application/json" id="cl-config">{"root":"/","postsIndex":"/posts.json","searchIndex":"/search.json","rss":"/atom.xml","disqus":"blueandhack","lanes":{"life":"blue","code":"magenta","school":"teal","places":"amber","stories":"lime"},"palettes":["ink","forest","plum","ember","mono"],"links":{"home":"/","archive":"/archives/","tags":"/tags/","stats":"/stats/","about":"/about/"},"i18n":{"posts":"Posts","commands":"Commands","fulltext":"Matches in post text","empty":"No posts match. Try a shorter word, or search in Chinese.","loading":"Loading full-text index","go_home":"Go to the log","go_archive":"Go to the archive","go_tags":"Go to tags","go_stats":"Go to stats","go_about":"Go to about","random":"Open a random post","toggle_theme":"Switch light or dark theme","rss":"Subscribe via RSS","shortcuts":"Show keyboard shortcuts","copy":"Copy","copied":"Copied","color":"Color","commentOne":"1 comment","commentMany":"{n} comments","paletteNames":{"ink":"Ink","forest":"Forest","plum":"Plum","ember":"Ember","mono":"Mono"}}}</script>
-  <script src="/js/main.js?v=68147d3ac2" defer></script>
+  <script src="/js/main.js?v=28fc490711" defer></script>
 <meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
 </head>
 <body class="is-post">
@@ -128,7 +128,7 @@
 <p>最后吃得差不多，玩起了剪刀石头布的游戏，因为不会猜拳，惩罚是吃洋葱和喝啤酒~~哈哈，一次都没有轮到我，JB胖胖每次都轮到他吃洋葱……狗狗也被罚了，吃的是炒茄子的盘底~~~o(∩_∩)o</p>
 <p>在那之前去了一趟网吧，飞宇，还不错，没怎么玩游戏，一直在弄博客，我还被一个C++群踢了<del>悲哀</del>原因是我发我的博客链接。我说啊，踢了也好，是一个水群，垃圾一个。</p>
 <p>今天，淮南下雪了，可以说是我第一次见，三月桃花雪<del>很难得的，雪下得很大，一会地就铺满了白皑皑的雪</del></p>
-<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000095_thumb.jpg" alt="night&#39;s snow I"><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000096_thumb.jpg" alt="night&#39;s snow II"></p>
+<div class="figure-row"><figure class="figure"><img src="https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000095_thumb.jpg" alt="night&#39;s snow I" width="184" height="244" data-full="https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000095.jpg" data-zoomable="" loading="eager" decoding="async"><figcaption>night&#39;s snow I</figcaption></figure><figure class="figure"><img src="https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000096_thumb.jpg" alt="night&#39;s snow II" width="184" height="244" data-full="https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000096.jpg" data-zoomable="" loading="lazy" decoding="async"><figcaption>night&#39;s snow II</figcaption></figure></div>
 <p>晚上拍的，家后面，前面一栋4层楼，雪快化了，昨天过得很值得。不知道那个考T的人考得怎么样~今天上课，就没怎么上网~~</p>
 <p>祝郑元杰昨天生日快乐~~</p>
 <p>今天好象是胡晓，毕羽的生日<del>后天是丁轲的生日，怎么都是3月过生日</del>先提前祝他们生日快乐~</p>
@@ -247,9 +247,18 @@
   </div>
 </dialog>
 
-<dialog class="lightbox" id="lightbox" aria-label="Image">
+<dialog class="lightbox" id="lightbox" aria-label="Image viewer">
   <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="Close">×</button></form>
-  <img class="lightbox__img" alt="">
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Previous image">‹</button>
+  <figure class="lightbox__stage">
+    <img class="lightbox__img" alt="">
+    <figcaption class="lightbox__caption">
+      <span class="lightbox__text" data-lb-caption></span>
+      <span class="lightbox__count" data-lb-count></span>
+      <a class="lightbox__orig" data-lb-orig target="_blank" rel="noopener">Open original</a>
+    </figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next image">›</button>
 </dialog>
 
 </body>

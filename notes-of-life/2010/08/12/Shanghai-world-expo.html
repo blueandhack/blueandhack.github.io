@@ -26,7 +26,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
 <meta property="article:published_time" content="2010-08-12T09:17:57.000Z">
-<meta property="article:modified_time" content="2026-11-13T22:24:35.083Z">
+<meta property="article:modified_time" content="2026-11-13T22:51:25.831Z">
 <meta property="article:author" content="Yujia Lin">
 <meta property="article:tag" content="Shanghai">
 <meta property="article:tag" content="story">
@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
-  <link rel="stylesheet" href="/css/style.css?v=ca55dd6f61">
+  <link rel="stylesheet" href="/css/style.css?v=f3788871ed">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -50,7 +50,7 @@
     gtag('config', 'G-QCZTMV5CJM');
   </script>
   <script type="application/json" id="cl-config">{"root":"/","postsIndex":"/posts.json","searchIndex":"/search.json","rss":"/atom.xml","disqus":"blueandhack","lanes":{"life":"blue","code":"magenta","school":"teal","places":"amber","stories":"lime"},"palettes":["ink","forest","plum","ember","mono"],"links":{"home":"/","archive":"/archives/","tags":"/tags/","stats":"/stats/","about":"/about/"},"i18n":{"posts":"Posts","commands":"Commands","fulltext":"Matches in post text","empty":"No posts match. Try a shorter word, or search in Chinese.","loading":"Loading full-text index","go_home":"Go to the log","go_archive":"Go to the archive","go_tags":"Go to tags","go_stats":"Go to stats","go_about":"Go to about","random":"Open a random post","toggle_theme":"Switch light or dark theme","rss":"Subscribe via RSS","shortcuts":"Show keyboard shortcuts","copy":"Copy","copied":"Copied","color":"Color","commentOne":"1 comment","commentMany":"{n} comments","paletteNames":{"ink":"Ink","forest":"Forest","plum":"Plum","ember":"Ember","mono":"Mono"}}}</script>
-  <script src="/js/main.js?v=68147d3ac2" defer></script>
+  <script src="/js/main.js?v=28fc490711" defer></script>
 <meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
 </head>
 <body class="is-post">
@@ -131,14 +131,14 @@
 <p>杯具的国度，我们生活在杯具里！</p>
 <p>议论完毕，放几张照片吧！</p>
 <p>东方明珠前：</p>
-<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000347_thumb.jpg" alt="东方明珠前"></p>
+<figure class="figure"><img src="https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000347_thumb.jpg" alt="东方明珠前" width="640" height="480" loading="eager" decoding="async"><figcaption>东方明珠前</figcaption></figure>
 <p>美国馆，大爱：</p>
-<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000442_thumb.jpg" alt="美国馆"></p>
+<figure class="figure"><img src="https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000442_thumb.jpg" alt="美国馆" width="640" height="480" loading="lazy" decoding="async"><figcaption>美国馆</figcaption></figure>
 <p>朝鲜馆，很好很强大：</p>
-<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000476_thumb.jpg" alt="朝鲜馆"></p>
+<figure class="figure"><img src="https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000476_thumb.jpg" alt="朝鲜馆" width="640" height="480" loading="lazy" decoding="async"><figcaption>朝鲜馆</figcaption></figure>
 <p>以色列馆，人太多，没去：</p>
-<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000409_thumb.jpg" alt="以色列馆"><br>一般人，很难进入：</p>
-<p><img src="https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000410_thumb.jpg" alt="中国馆"></p>
+<p><img src="https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000409_thumb.jpg" alt="以色列馆" width="640" height="480" loading="lazy" decoding="async"><br>一般人，很难进入：</p>
+<figure class="figure"><img src="https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000410_thumb.jpg" alt="中国馆" width="640" height="480" loading="lazy" decoding="async"><figcaption>中国馆</figcaption></figure>
 <p>这个世博，真的很失败，排队时间的长度，抹杀了游玩的乐趣。</p>
 <p>这届世博会的主题，似乎更适合城市规划的人去看吧！</p>
 <p>PS：很有可能插件会延迟到9月，我最近在为托福考试忙活……</p>
@@ -254,9 +254,18 @@
   </div>
 </dialog>
 
-<dialog class="lightbox" id="lightbox" aria-label="Image">
+<dialog class="lightbox" id="lightbox" aria-label="Image viewer">
   <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="Close">×</button></form>
-  <img class="lightbox__img" alt="">
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Previous image">‹</button>
+  <figure class="lightbox__stage">
+    <img class="lightbox__img" alt="">
+    <figcaption class="lightbox__caption">
+      <span class="lightbox__text" data-lb-caption></span>
+      <span class="lightbox__count" data-lb-count></span>
+      <a class="lightbox__orig" data-lb-orig target="_blank" rel="noopener">Open original</a>
+    </figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next image">›</button>
 </dialog>
 
 </body>

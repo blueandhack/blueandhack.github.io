@@ -26,7 +26,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
 <meta property="article:published_time" content="2011-07-16T06:57:27.000Z">
-<meta property="article:modified_time" content="2026-11-13T22:24:35.091Z">
+<meta property="article:modified_time" content="2026-11-13T22:51:25.844Z">
 <meta property="article:author" content="Yujia Lin">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
@@ -39,7 +39,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
-  <link rel="stylesheet" href="/css/style.css?v=ca55dd6f61">
+  <link rel="stylesheet" href="/css/style.css?v=f3788871ed">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZTMV5CJM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -48,7 +48,7 @@
     gtag('config', 'G-QCZTMV5CJM');
   </script>
   <script type="application/json" id="cl-config">{"root":"/","postsIndex":"/posts.json","searchIndex":"/search.json","rss":"/atom.xml","disqus":"blueandhack","lanes":{"life":"blue","code":"magenta","school":"teal","places":"amber","stories":"lime"},"palettes":["ink","forest","plum","ember","mono"],"links":{"home":"/","archive":"/archives/","tags":"/tags/","stats":"/stats/","about":"/about/"},"i18n":{"posts":"Posts","commands":"Commands","fulltext":"Matches in post text","empty":"No posts match. Try a shorter word, or search in Chinese.","loading":"Loading full-text index","go_home":"Go to the log","go_archive":"Go to the archive","go_tags":"Go to tags","go_stats":"Go to stats","go_about":"Go to about","random":"Open a random post","toggle_theme":"Switch light or dark theme","rss":"Subscribe via RSS","shortcuts":"Show keyboard shortcuts","copy":"Copy","copied":"Copied","color":"Color","commentOne":"1 comment","commentMany":"{n} comments","paletteNames":{"ink":"Ink","forest":"Forest","plum":"Plum","ember":"Ember","mono":"Mono"}}}</script>
-  <script src="/js/main.js?v=68147d3ac2" defer></script>
+  <script src="/js/main.js?v=28fc490711" defer></script>
 <meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
 </head>
 <body class="is-post">
@@ -126,7 +126,7 @@
     <div class="prose" data-prose>
       <p>Life’s forcing my hand, so I’m selling my blog’s Vivian theme.  This blog’s theme, Vivian, version: 0.9. This theme was created at the start of this year. Theme features: 1. Single-column theme 2. CSS changes depending on the time 3. AJAX comments 4. Accordion effect on the home page 5. Post archive page 6. Admin options page where you can add Google Analytics code and other custom code And more… Technical guidance for future upgrades is provided after purchase.   </p>
 <p>I’m also selling links on this blog. This blog is PR4. Links cost 25 yuan per month.   </p>
-<p>Only 15 copies of this theme will be sold, at 99 yuan each, with group-buy discounts. If you’re interested, please send an e-mail to <img src="https://cdn.blueandhack.com/gmail.png" alt="my email"> or QQ <a target="_blank" rel="noopener" href="http://sighttp.qq.com/authd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205"><img src="http://wpa.qq.com/imgd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205&pic=49" alt="Click here to send me a message"></a></p>
+<p>Only 15 copies of this theme will be sold, at 99 yuan each, with group-buy discounts. If you’re interested, please send an e-mail to <img src="https://cdn.blueandhack.com/images/2010/05/struggling/gmail.png" alt="my email" width="174" height="21" loading="eager" decoding="async"> or QQ <a target="_blank" rel="noopener" href="http://sighttp.qq.com/authd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205"><img src="http://wpa.qq.com/imgd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205&pic=49" alt="Click here to send me a message" loading="lazy" decoding="async"></a></p>
 
     </div>
   </div>
@@ -215,9 +215,18 @@
   </div>
 </dialog>
 
-<dialog class="lightbox" id="lightbox" aria-label="Image">
+<dialog class="lightbox" id="lightbox" aria-label="Image viewer">
   <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="Close">×</button></form>
-  <img class="lightbox__img" alt="">
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Previous image">‹</button>
+  <figure class="lightbox__stage">
+    <img class="lightbox__img" alt="">
+    <figcaption class="lightbox__caption">
+      <span class="lightbox__text" data-lb-caption></span>
+      <span class="lightbox__count" data-lb-count></span>
+      <a class="lightbox__orig" data-lb-orig target="_blank" rel="noopener">Open original</a>
+    </figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next image">›</button>
 </dialog>
 
 </body>
