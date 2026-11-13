@@ -112,6 +112,12 @@ shortcuts:
   help: Show this help
   close: Close
 
+lightbox:
+  label: Image viewer
+  prev: Previous image
+  next: Next image
+  original: Open original
+
 palettes:
   title: Color palette
   command: Color

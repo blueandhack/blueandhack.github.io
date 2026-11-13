@@ -112,6 +112,12 @@ shortcuts:
   help: 显示本帮助
   close: 关闭
 
+lightbox:
+  label: 图片查看器
+  prev: 上一张
+  next: 下一张
+  original: 查看原图
+
 palettes:
   title: 配色
   command: 配色

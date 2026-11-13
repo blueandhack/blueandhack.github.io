@@ -32,7 +32,16 @@
   </div>
 </dialog>
 
-<dialog class="lightbox" id="lightbox" aria-label="Image">
+<dialog class="lightbox" id="lightbox" aria-label="{{ __('lightbox.label') }}">
   <form method="dialog" class="lightbox__form"><button class="lightbox__close" aria-label="{{ __('shortcuts.close') }}">×</button></form>
-  <img class="lightbox__img" alt="">
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="{{ __('lightbox.prev') }}">‹</button>
+  <figure class="lightbox__stage">
+    <img class="lightbox__img" alt="">
+    <figcaption class="lightbox__caption">
+      <span class="lightbox__text" data-lb-caption></span>
+      <span class="lightbox__count" data-lb-count></span>
+      <a class="lightbox__orig" data-lb-orig target="_blank" rel="noopener">{{ __('lightbox.original') }}</a>
+    </figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="{{ __('lightbox.next') }}">›</button>
 </dialog>
