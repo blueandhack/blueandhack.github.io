@@ -11,7 +11,7 @@ tags:
 
 首先要说的是：社会主义好！要感谢国家感谢党感谢政府感谢中央感谢领导感谢领导的小三等让我有机会说“社会主义”好！<!-- more -->（多谢[@飞晏童鞋](http://www.feiyan.info)提醒，不能把这句话忘记了。） XX此意，说的是Google+Firefox+Wordpress=G+F+W（以下用G+0+W代替），说的是XX Prize，以及其他。马克思曾经说过：审查制度，就像奴隶制一样，永不可能合法，即便它作为法律存在过一千多遍。  马克思说过的就是真理，是XX党要做的，XX之后，这几天十分不平静，XX大游行，XX事件，XX Prize，XXX……太多太多，由于互联网是一个开放的不容易管理的环境，所以XX必定会审查，封锁。 中华人民共和国公民有言论、出版、集会、结社、游行、示威的自由。-宪法第35条。……可以看出，某些时候……XX还是会XX的，所以此条款似乎只是个空头白条的支票，大多数情况之下，都会被规劝，或者XX某个地区，或者XX。 一个好端端的Gavatar头像加速服务器被封，真是悲剧…… 我还记得三月份Xi Xiang plan，那是我FQ的开始，其中的一些档案还在我的电脑里，关于XXX的黑箱测试报告也被我翻了出来，下面是线路拓扑图，文字的一些东西还是算了。 
 
-![wall](https://cdn.blueandhack.com/wp-content/uploads/2010/10/wall_thumb.png)
+![wall](https://cdn.blueandhack.com/images/2010/10/Marx-said/wall_thumb.png)
 
 
 

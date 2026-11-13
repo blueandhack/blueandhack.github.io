@@ -10,7 +10,7 @@ translation_hash: 3446a4e7d4b13ff193bd4b06f54c64d09a5dbc16
 translated_by: claude-opus-5-5
 ---
 
-![spr](https://cdn.blueandhack.com/wp-content/uploads/2010/03/spr_thumb.png)
+![spr](https://cdn.blueandhack.com/images/2010/03/peach-snow/spr_thumb.png)
 
     Peach-blossom snow in March rustles down outside the window; a beautiful April mood leaps up in my heart~
 

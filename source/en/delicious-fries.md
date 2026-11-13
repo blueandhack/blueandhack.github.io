@@ -19,19 +19,19 @@ Back to today. The title is "Fries Swimming in Ketchup"...
 
 Straight to the photos (the fries are the frozen kind from the supermarket, and I fried them myself. Last summer break I worked at a certain restaurant for a week, and frying this stuff was my job, along with chicken drumsticks and whatnot)
 
-![Fries and ketchup, plus my laptop](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000084_thumb.jpg)
+![Fries and ketchup, plus my laptop](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000084_thumb.jpg)
 
-![Fries fresh out of the bath](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000088_thumb.jpg)
+![Fries fresh out of the bath](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000088_thumb.jpg)
 
-![Close-up of fries fresh out of the bath](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000087_thumb.jpg)
+![Close-up of fries fresh out of the bath](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000087_thumb.jpg)
 
 While I was eating my fries I was watching South Park, and of all things it was the episode with Mr. Hankey (yes, the Christmas poo...). I switched to another episode in a hurry... Epic fail
 
 The apple cider vinegar drink was so good that I accidentally finished it all in one go...
 
-![Apple cider vinegar](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000089_thumb.jpg)
+![Apple cider vinegar](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000089_thumb.jpg)
 
-![Xiao Qiao](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000091_thumb.jpg)
+![Xiao Qiao](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000091_thumb.jpg)
 
 Xiao Qiao reminds me of someone. That's life...
 

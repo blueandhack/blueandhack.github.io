@@ -29,5 +29,5 @@ tags:
 
 PS：看了火影的动漫，卡卡西死了~杯具啊~不过死的很值得~感动~~>_<~+~~
 
-有事的话发我的邮箱 ![](https://cdn.blueandhack.com/gmail.png)
+有事的话发我的邮箱 ![](https://cdn.blueandhack.com/images/2010/05/struggling/gmail.png)
 

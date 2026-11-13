@@ -11,19 +11,19 @@ translated_by: claude-opus-5-5
 ---
 Yesterday, with nothing to do, I opened my Gmail
 
-![Google AdSense approval](https://cdn.blueandhack.com/wp-content/uploads/2010/06/image_thumb.png)
+![Google AdSense approval](https://cdn.blueandhack.com/images/2010/06/pass-Googl-AdSense/image_thumb.png)
 
 and this email was sitting in my inbox. I was stunned. I'd only applied the day before yesterday, and the reply came today~ Then I saw "Welcome to..." WOW!!! I made it~ After such a long time, I finally got approved~ 4 months~<!-- more -->
 
 Below are the rejection emails from my Google AdSense applications, for your viewing pleasure
 
-![Google rejection letters](https://cdn.blueandhack.com/wp-content/uploads/2010/06/image_thumb1.png)
+![Google rejection letters](https://cdn.blueandhack.com/images/2010/06/pass-Googl-AdSense/image_thumb1.png)
 
 Eight of them in total. The first batch were rejections over the type of site, and then came rejections because my site was down. Sigh~ each one more tragic than the last~ Yesterday I finally got in, and I'm over the moon~ HOHO~
 
 The Baidu ad network approved me the week before last. Baidu approving me was only right~ heh~ But Baidu wasn't smooth sailing either: three rejections in a row, then approved on the fourth try.
 
-![Baidu rejection and approval letters](https://cdn.blueandhack.com/wp-content/uploads/2010/06/image_thumb2.png)
+![Baidu rejection and approval letters](https://cdn.blueandhack.com/images/2010/06/pass-Googl-AdSense/image_thumb2.png)
 
 I figure the rejections had their reasons. Baidu seems to care about how many pages are indexed, and Google seems to care about the age of the domain. When I applied to Baidu, they had already indexed 200-something pages, whereas before it was only a dozen or so. Once it hit 200, Baidu approved me~ Google kept saying the site type wasn't right. I figured the domain just hadn't been registered long enough, so I kept waiting, and it turned out pretty much the way Little M said: Google approves you in the third month after the domain is registered. This is just my guess, probably not worth much as a reference... heh~
 

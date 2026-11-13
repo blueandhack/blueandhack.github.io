@@ -25,4 +25,4 @@ My classmates around me are all playing LOL or other games. I rarely play games 
 
 I've decided to take my own road. I hope I can succeed and keep going.
 
-![enter image description here](https://cdn.blueandhack.com/wp-content/uploads/2014/03/2014-02-17-19.46.30-576x1024.jpg)
+![enter image description here](https://cdn.blueandhack.com/images/2014/03/college-in-China/2014-02-17-19.46.30-576x1024.jpg)

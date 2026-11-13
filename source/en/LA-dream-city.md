@@ -14,6 +14,6 @@ My first time meeting venture capitalists. I went to Los Angeles with a friend f
 
 <!-- more -->
 
-![](https://cdn.blueandhack.com/pics/2015-02-04-01.jpg)
+![](https://cdn.blueandhack.com/images/2015/02/LA-dream-city/2015-02-04-01.jpg)
 
-![](https://cdn.blueandhack.com/pics/2015-02-04-02.jpg)
+![](https://cdn.blueandhack.com/images/2015/02/LA-dream-city/2015-02-04-02.jpg)

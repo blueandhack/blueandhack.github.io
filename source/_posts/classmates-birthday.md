@@ -19,7 +19,7 @@ tags:
 
 今天，淮南下雪了，可以说是我第一次见，三月桃花雪~很难得的，雪下得很大，一会地就铺满了白皑皑的雪~
 
-![night's snow I](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000095_thumb.jpg)![night's snow II](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000096_thumb.jpg)
+![night's snow I](https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000095_thumb.jpg)![night's snow II](https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000096_thumb.jpg)
 
 晚上拍的，家后面，前面一栋4层楼，雪快化了，昨天过得很值得。不知道那个考T的人考得怎么样~今天上课，就没怎么上网~~
 

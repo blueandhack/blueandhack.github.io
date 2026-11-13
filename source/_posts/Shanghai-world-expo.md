@@ -25,22 +25,22 @@ tags:
 
 东方明珠前：
 
-![东方明珠前](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000347_thumb.jpg)
+![东方明珠前](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000347_thumb.jpg)
 
 美国馆，大爱：
 
-![美国馆](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000442_thumb.jpg)
+![美国馆](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000442_thumb.jpg)
 
 朝鲜馆，很好很强大：
 
-![朝鲜馆](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000476_thumb.jpg)
+![朝鲜馆](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000476_thumb.jpg)
 
 以色列馆，人太多，没去：
 
-![以色列馆](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000409_thumb.jpg)
+![以色列馆](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000409_thumb.jpg)
 一般人，很难进入：
 
-![中国馆](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000410_thumb.jpg)
+![中国馆](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000410_thumb.jpg)
 
 这个世博，真的很失败，排队时间的长度，抹杀了游玩的乐趣。
 

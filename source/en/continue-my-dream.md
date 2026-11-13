@@ -11,4 +11,4 @@ translated_by: claude-opus-5-5
 ---
 Jolted awake from sleep by my dream. Only when you feel that your dream is as important as breathing do you realize that it's a part of my life, an inseparable part. You need it!  
 
-![20130730-033005.jpg](https://cdn.blueandhack.com/wp-content/uploads/2013/07/20130730-033005.jpg)
+![20130730-033005.jpg](https://cdn.blueandhack.com/images/2013/07/continue-my-dream/20130730-033005.jpg)

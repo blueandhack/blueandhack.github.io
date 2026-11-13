@@ -11,7 +11,7 @@ tags:
 
 我想，这应该是我见过最酷炫的标签云效果。Flash+JS实现的超炫Wordpress标签云效果。发现它只是因为无目的地浏览，一个接一个的链接，让自己跑到了这里，原来，能有这样的东西，值得推荐。具体的效果？查看我的侧边栏吧。**最重要的是，我用的这个版本是完美支持中文的版本哦！** <!-- more -->
 
-![WP-Cumulus效果](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb8.png)
+![WP-Cumulus效果](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb8.png)
 
 **[WP Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)**这个****wordpress插件的主要特点： 
 
@@ -21,9 +21,9 @@ tags:
 
 **[WP Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)**这个**Wordpress插件**的使用方法： 
 
-1. 上传，激活。![设置WP Cumulus](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb9.png)
-2. 点击外观，小工具，然后会出现可用小工具列表，在里面选择[WP-Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)。![设置WP-Cumulus](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb10.png)![WP-Cumulus](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb11.png)
-3. 将WP-Cumulus拉到旁边的边栏里，进行设置。![WP-Cumulus具体选项](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb12.png)
+1. 上传，激活。![设置WP Cumulus](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb9.png)
+2. 点击外观，小工具，然后会出现可用小工具列表，在里面选择[WP-Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)。![设置WP-Cumulus](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb10.png)![WP-Cumulus](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb11.png)
+3. 将WP-Cumulus拉到旁边的边栏里，进行设置。![WP-Cumulus具体选项](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb12.png)
 
   ---
 

@@ -96,6 +96,6 @@ CSS code, add it to your theme's style.css:
 
 The image you'll need (remember to put it in the images folder inside your theme)
 
-![](https://cdn.blueandhack.com/pics/huadong.gif)
+![](https://cdn.blueandhack.com/images/2010/10/backtop-function-for-blog/huadong.gif)
 
 That's every step done. The effect is working now, right? Hehe, Mumu's stuff really is a classic. Original post: ["Back to Top" enhanced code, with explanations](http://immmmm.com/added-sliding-effect-enhanced.html) Why call this the perfect version? Because it's more complete than Mumu's: I've given you all the materials, so it's truly foolproof.

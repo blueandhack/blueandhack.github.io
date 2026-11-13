@@ -17,25 +17,25 @@ DNSPod, I admit, is the best DNS hosting company in China, and it really is good
 
 It was just a small suggestion. Since nobody ever replied, I also sent them the suggestion on Weibo
 
-![Suggestion](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb9.png)
+![Suggestion](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb9.png)
 
 Then I sent a Weibo message to their founder
 
-![Suggestion B](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb10.png)
+![Suggestion B](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb10.png)
 
 And sure enough, going to the founder actually worked. Two announcements went out very quickly, but reading them made me pretty unhappy.
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb11.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb11.png)
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb12.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb12.png)
 
 I don't get it. Did I insult them? No! I have no idea why, after I made one suggestion, they'd say something like that. It was obviously aimed at me. So I sent them two Weibo messages
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb13.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb13.png)
 
 I asked whether it was aimed at me, and they still haven't replied. Then I asked whether the invitation-code request feature on their site was just for show, and they didn't reply to that either. They seem to think I'm just making trouble for no reason, probably sent by a competitor specifically to stir things up... Sigh, I'm speechless.
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb14.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb14.png)
 
 After that I sent them one last Weibo message, but got no reply to that either. I don't know why, but DNSPod doesn't seem to treat its free users very well.
 

@@ -10,11 +10,11 @@ tags:
 
 昨天晚上开了一次电脑（最近忙于学习）然后打开了我的Gmail邮箱，一封feedsky的邮件躺在了我的邮箱中
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb20.png)
+![image](https://cdn.blueandhack.com/images/2010/04/miss-Ads/image_thumb20.png)
 
 <!-- more -->话题营销，打开一看，登录到后台~额~虽然得到了机会，但是已经没有了名额~
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb21.png)
+![image](https://cdn.blueandhack.com/images/2010/04/miss-Ads/image_thumb21.png)
 
 接受按钮是灰色的~
 
@@ -22,7 +22,7 @@ tags:
 
 再说说谷歌广告吧，似乎是第10次被拒绝了，然后就是这次的
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb22.png)
+![image](https://cdn.blueandhack.com/images/2010/04/miss-Ads/image_thumb22.png)
 
 > 我们未批准您申请的原因如下。   
 
@@ -36,7 +36,7 @@ tags:
 
 前几个星期的地球一小时2010 参与证书躺在了我的邮箱里，WWF的电子证书：
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb23.png)
+![image](https://cdn.blueandhack.com/images/2010/04/miss-Ads/image_thumb23.png)
 
 这几件事啊，我知道了，错过的，回不来， 所以把握现在，不要犹豫自己的选择，失去了才知道珍惜~似乎谁都明白的道理~
 

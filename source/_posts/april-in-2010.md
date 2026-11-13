@@ -16,9 +16,9 @@ tags:
 
 今天中午从厨房望望窗外，嗯，风景不错~
 
-![P1000228](https://cdn.blueandhack.com/wp-content/uploads/2010/04/P1000228_thumb.jpg)
+![P1000228](https://cdn.blueandhack.com/images/2010/04/april-in-2010/P1000228_thumb.jpg)
 
-![P1000229](https://cdn.blueandhack.com/wp-content/uploads/2010/04/P1000229_thumb.jpg)
+![P1000229](https://cdn.blueandhack.com/images/2010/04/april-in-2010/P1000229_thumb.jpg)
 
 前天才发现我的PS用的不错~嘿嘿，给一个在网上认识的朋友去除水印，其实我一直不用PS的，我答应了，i try！我也只有这么做~
 
@@ -26,7 +26,7 @@ tags:
 
 给大家展示一下我的成果
 
-![查看 去除水印的作品](https://cdn.blueandhack.com/wp-content/uploads/2010/04/InlineRepresentation025be74889f8473aabc61a10d4471987.jpg)
+![查看 去除水印的作品](https://cdn.blueandhack.com/images/2010/04/april-in-2010/InlineRepresentation025be74889f8473aabc61a10d4471987.jpg)
 
 看看吧，有对比哦~~~
 
@@ -46,7 +46,7 @@ tags:
 
 说是请我去吃麦当劳~额~因为太晚了
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb30.png)
+![image](https://cdn.blueandhack.com/images/2010/04/april-in-2010/image_thumb30.png)
 
 我谢绝了~我家离麦当劳很近，只是下雨和太晚了所以就不去了，在这里谢谢他了~
 
@@ -56,11 +56,11 @@ tags:
 
 嘿嘿，看我的启动画面~
 
-![P1000222](https://cdn.blueandhack.com/wp-content/uploads/2010/04/P1000222_thumb.jpg)
+![P1000222](https://cdn.blueandhack.com/images/2010/04/april-in-2010/P1000222_thumb.jpg)
 
 桌面也变成了这个主题，很阳光哦~~
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb31.png)
+![image](https://cdn.blueandhack.com/images/2010/04/april-in-2010/image_thumb31.png)
 
 在研究wordpress插入播放器
 

@@ -19,6 +19,6 @@ And just like that, I don't know where my future is
 
 Maybe this is my period of feeling lost, the one I have to go through
 
-![Group photo of the TOEFL class](https://cdn.blueandhack.com/wp-content/uploads/2011/07/IMG_0029_thumb.jpg)
+![Group photo of the TOEFL class](https://cdn.blueandhack.com/images/2011/07/suddenly/IMG_0029_thumb.jpg)
 
-![Me and Oscar](https://cdn.blueandhack.com/wp-content/uploads/2011/07/IMG_0042_thumb.jpg)
+![Me and Oscar](https://cdn.blueandhack.com/images/2011/07/suddenly/IMG_0042_thumb.jpg)

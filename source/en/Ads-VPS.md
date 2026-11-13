@@ -34,7 +34,7 @@ As for VPSYOU's reputation, it's honestly excellent. Here are their [customer sh
 
 As for my character... if you're buying in, we're making friends. If you're afraid I'll run off with your money... then please don't bother me, go find someone you trust~~~~ If you join, I'll absolutely take responsibility all the way through~~~~~
 
-If you're interested, join QQ group 111926532 or email me at ![](https://cdn.blueandhack.com/gmail.png) Please don't bother me for no reason...
+If you're interested, join QQ group 111926532 or email me at ![](https://cdn.blueandhack.com/images/2010/05/struggling/gmail.png) Please don't bother me for no reason...
 
 Buying together is about making friends... let me say it again~ I'm not trying to make a profit~ At first a friend and I were going to buy it, but we didn't have enough money~ so we had to share it. There's one spot left~ if you want it, hurry~~~ 236 RMB, an absolute bargain!!!!!
 

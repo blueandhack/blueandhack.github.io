@@ -26,22 +26,22 @@ End of rant. Here are a few photos!
 
 In front of the Oriental Pearl Tower:
 
-![In front of the Oriental Pearl Tower](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000347_thumb.jpg)
+![In front of the Oriental Pearl Tower](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000347_thumb.jpg)
 
 The USA Pavilion, love it:
 
-![USA Pavilion](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000442_thumb.jpg)
+![USA Pavilion](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000442_thumb.jpg)
 
 The North Korea Pavilion, very good, very powerful:
 
-![North Korea Pavilion](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000476_thumb.jpg)
+![North Korea Pavilion](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000476_thumb.jpg)
 
 The Israel Pavilion, too crowded, didn't go in:
 
-![Israel Pavilion](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000409_thumb.jpg)
+![Israel Pavilion](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000409_thumb.jpg)
 Very hard for ordinary people to get into:
 
-![China Pavilion](https://cdn.blueandhack.com/wp-content/uploads/2010/08/P1000410_thumb.jpg)
+![China Pavilion](https://cdn.blueandhack.com/images/2010/08/Shanghai-world-expo/P1000410_thumb.jpg)
 
 This Expo was a real failure. The length of the lines killed all the fun.
 

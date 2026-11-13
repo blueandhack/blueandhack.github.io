@@ -12,5 +12,5 @@ tags:
 
 从2010年到2013，三年就那么过去了，开始，放弃，开始，放弃，然后我重新开始。 又是一个寒秋，16°的气温，似乎又回到从前，那个年纪的我，那个想法的我，但是内心世界却变了，愿上帝与你同在，阿门。  <!-- more -->
 
-![2010](https://cdn.blueandhack.com/wp-content/uploads/2013/09/2010.jpg)
+![2010](https://cdn.blueandhack.com/images/2013/09/three-years-ago/2010.jpg)
 

@@ -19,19 +19,19 @@ tags:
 
 直接放图（薯条是在超市买的成品，然后是我自己炸的，去年暑假在某店打工，一个星期，我就是煎炸这个东东的，还有鸡腿什么的）
 
-![薯条和番茄酱还有笔记本](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000084_thumb.jpg)
+![薯条和番茄酱还有笔记本](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000084_thumb.jpg)
 
-![薯条出浴](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000088_thumb.jpg)
+![薯条出浴](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000088_thumb.jpg)
 
-![薯条出浴特写](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000087_thumb.jpg)
+![薯条出浴特写](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000087_thumb.jpg)
 
 在我吃薯条的时候看的是南方公园，居然有Mr. Hankey（就是那个大便先生……）的那一集，我赶紧换了一集……杯具
 
 苹果醋是那么好喝，不小心一下子喝完了……
 
-![苹果醋](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000089_thumb.jpg)
+![苹果醋](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000089_thumb.jpg)
 
-![小乔](https://cdn.blueandhack.com/wp-content/uploads/2010/12/P1000091_thumb.jpg)
+![小乔](https://cdn.blueandhack.com/images/2010/12/delicious-fries/P1000091_thumb.jpg)
 
 小乔，让我想起了某人。这就是生活啊……
 

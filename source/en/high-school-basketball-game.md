@@ -24,6 +24,6 @@ Number 8 is the captain~
 
 Then the team photo. I'm clueless about sports, so I'm not in it——||
 
-![Class 8 basketball team](https://cdn.blueandhack.com/wp-content/uploads/2010/06/8_thumb.jpg)
+![Class 8 basketball team](https://cdn.blueandhack.com/images/2010/06/high-school-basketball-game/8_thumb.jpg)
 
 A stretch of middle school life really worth remembering……

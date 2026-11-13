@@ -33,27 +33,27 @@ tags:
 
 PS：昨天买的智高宝宝泥，给大家show一下……
 
-![宝宝泥](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000036_thumb.jpg)
+![宝宝泥](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000036_thumb.jpg)
 
-![宝宝泥II](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000037_thumb.jpg)
+![宝宝泥II](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000037_thumb.jpg)
 
 下面的就是我做的模型，半成品，一个小房间的模型。
 
-![模型I](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000038_thumb.jpg)
+![模型I](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000038_thumb.jpg)
 
-![模型II](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000039_thumb.jpg)
+![模型II](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000039_thumb.jpg)
 
-![模型III](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000040_thumb.jpg)
+![模型III](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000040_thumb.jpg)
 
-![模型IIII](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000041_thumb.jpg)
+![模型IIII](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000041_thumb.jpg)
 
-![模型VI](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000042_thumb.jpg)
+![模型VI](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000042_thumb.jpg)
 
-![模型IV](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000043_thumb.jpg)
+![模型IV](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000043_thumb.jpg)
 
-![模型IIV](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000044_thumb.jpg)
+![模型IIV](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000044_thumb.jpg)
 
-![模型IIIV](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000045_thumb.jpg)
+![模型IIIV](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000045_thumb.jpg)
 
 另外ShowBLOG招人，找PHP MYSQL开发者，无薪水，纯属爱好，有愿意的联系我，ShowBLOG是什么？这个我过一阵子再来详细写篇日志和大家说说、谈谈
 

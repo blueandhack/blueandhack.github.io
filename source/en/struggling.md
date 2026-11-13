@@ -30,4 +30,4 @@ Cheering myself on~
 
 PS: I watched the Naruto anime and Kakashi died~ Tragic~ But it was a death worth dying~ So moving~~>_<~+~~
 
-If you need anything, email me ![](https://cdn.blueandhack.com/gmail.png)
+If you need anything, email me ![](https://cdn.blueandhack.com/images/2010/05/struggling/gmail.png)

@@ -27,5 +27,5 @@ tags:
 
 我决定走我的一条路，我希望可以成功，可以走下去。
 
-![enter image description here](https://cdn.blueandhack.com/wp-content/uploads/2014/03/2014-02-17-19.46.30-576x1024.jpg)
+![enter image description here](https://cdn.blueandhack.com/images/2014/03/college-in-China/2014-02-17-19.46.30-576x1024.jpg)
 

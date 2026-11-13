@@ -96,6 +96,6 @@ CSS代码，添加到主题的style.css里：
 
 要用到的图片（记得要放到主题里的images文件夹里）
 
-![](https://cdn.blueandhack.com/pics/huadong.gif)
+![](https://cdn.blueandhack.com/images/2010/10/backtop-function-for-blog/huadong.gif)
 
 所有步骤都完成了，效果出来了吧，嘿嘿，木木的东西就是经典啊，原文地址 [“返回顶部”加强版代码及释义](http://immmmm.com/added-sliding-effect-enhanced.html) 为什么是完美篇，因为比木木的完善，素材都提供给你了，真的是很傻瓜化了。

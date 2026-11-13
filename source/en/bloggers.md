@@ -14,7 +14,7 @@ Me, I've outed my own face before, and now I've been outed again...<!-- more -->
 
 They used a photo I took around this time last year. I've changed quite a bit, so let me post a recent photo of myself
 
-![](https://cdn.blueandhack.com/wp-content/uploads/2011/02/P1000146_thumb.jpg)
+![](https://cdn.blueandhack.com/images/2011/02/bloggers/P1000146_thumb.jpg)
 
 What I want to say is: independent blogs rule...
 

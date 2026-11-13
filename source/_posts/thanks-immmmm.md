@@ -20,25 +20,25 @@ doulex的来历是这样的，上个月在[@木木木木木](http://immmmm.com/)
 
 战果截图 证据地址 [帅木的通告](http://immmmm.com/activities-winners-announced.html) 
 
-![727条](https://cdn.blueandhack.com/wp-content/uploads/2010/09/image_thumb.png)
+![727条](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/image_thumb.png)
 
-![木木点名](https://cdn.blueandhack.com/wp-content/uploads/2010/09/image_thumb1.png)
+![木木点名](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/image_thumb1.png)
 
-![我的奖励](https://cdn.blueandhack.com/wp-content/uploads/2010/09/image_thumb2.png)
+![我的奖励](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/image_thumb2.png)
 
 show一下按键灯吧~咳咳~~~ 
 
-![近景](https://cdn.blueandhack.com/wp-content/uploads/2010/09/P1000554_thumb.jpg)
+![近景](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/P1000554_thumb.jpg)
 
-![远景](https://cdn.blueandhack.com/wp-content/uploads/2010/09/P1000557_thumb.jpg)
+![远景](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/P1000557_thumb.jpg)
 
-![没发亮](https://cdn.blueandhack.com/wp-content/uploads/2010/09/P1000564_thumb.jpg)
+![没发亮](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/P1000564_thumb.jpg)
 
-![盒子](https://cdn.blueandhack.com/wp-content/uploads/2010/09/P1000573_thumb.jpg)
+![盒子](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/P1000573_thumb.jpg)
 
-![暖暖名片](https://cdn.blueandhack.com/wp-content/uploads/2010/09/P1000580_thumb.jpg)
+![暖暖名片](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/P1000580_thumb.jpg)
 
-![盒子，本子，灯子](https://cdn.blueandhack.com/wp-content/uploads/2010/09/P1000576_thumb.jpg)
+![盒子，本子，灯子](https://cdn.blueandhack.com/images/2010/09/thanks-immmmm/P1000576_thumb.jpg)
 
 买VPS也有一些日子了~嘻嘻~总体来说VPS不错的，这个灯子也是不错的~很喜欢~正好适合我这个夜行动物！ 结束语：马上过生日了~求点祝福，C++还是要过的，托福还是要考的，咳咳，我这几个月要积点德，做点好事，要到马路上扶扶老奶奶~~咳咳 《计算机应用文摘》大家记得要买九月下旬的，咳咳，有我的文章，两篇~~作者是blueandhack童鞋~~记得一定要买哦！！！ 好了就这点废话了~不啰嗦了！囧文完毕。
 

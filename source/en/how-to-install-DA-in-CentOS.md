@@ -11,7 +11,7 @@ translated_by: claude-opus-5-5
 ---
 I finally bought a VPS, and only got it set up today... I bought a license for the DirectAdmin panel and installed it. I spent two hours wrestling with it before it finally worked, and then the Chinese localization ran into problems. Thankfully the expert Chuanzhang fixed it for me~~ hehe~~ Now let me explain how to install the DirectAdmin panel on CentOS 5.5. First you need a clean CentOS system. I chose <!-- more -->
 
-![CentOS](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb16.png)
+![CentOS](https://cdn.blueandhack.com/images/2010/08/how-to-install-DA-in-CentOS/image_thumb16.png)
 
 Step 1: install the CentOS packages you need. First run 
 
@@ -57,6 +57,6 @@ vi /usr/local/directadmin/data/users/admin/user.conf
 
 and that's it. All done~ Ta-da…… the brand-new DirectAdmin panel appears before your eyes! 
 
-![DirectAdmin](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb17.png)
+![DirectAdmin](https://cdn.blueandhack.com/images/2010/08/how-to-install-DA-in-CentOS/image_thumb17.png)
 
 One last plug: I'm still sharing this VPS with others. I'll post the specific resource plans in a few days. PS: Could everyone please ping godvps.net to test the speed~ and let me know how it is. My little blog will move to the VPS in a few days, so please bear with me

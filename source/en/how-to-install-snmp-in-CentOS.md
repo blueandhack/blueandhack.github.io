@@ -59,6 +59,6 @@ chkconfig snmpd on
 
 Now you can add server monitoring in the Jiankongbao dashboard. For the detailed Jiankongbao settings, see Jiankongbao's blog post [Enabling a Secure SNMP Agent on a Linux Server](https://web.archive.org/web/20100728080252/http://blog.jiankongbao.com/?p=160) 
 
-PS: ![Lu Xun](https://cdn.blueandhack.com/wp-content/uploads/2010/09/e284aca8cd58b9c21f17a2e41_thumb.gif)
+PS: ![Lu Xun](https://cdn.blueandhack.com/images/2010/09/how-to-install-snmp-in-CentOS/e284aca8cd58b9c21f17a2e41_thumb.gif)
 
 Lu Xun. It took the Party 60 years to figure out who Lu Xun was cursing, and just a few months to erase him from the textbooks. A nation short on national heroes is a sad thing indeed. A few fewer radicals, a few fewer leftists, a few fewer angry young men, a few fewer…… does that make the country safe? Ridiculous! Sad. I can't go into politics. I'd like to, but once I sat in that seat, maybe I'd end up just like him. Anyone could fill that seat! There's a whole crowd underneath helping him out! The PS above is purely for fun!

@@ -13,7 +13,7 @@ tags:
 
 他的PR值是4（我很嫉妒~呵呵）他的是软件介绍之类的，友情链接少，所以4也是很正常的~他的站质量高，我很眼红~o(∩_∩)o 
 
-![我的PR值](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb15.png)
+![我的PR值](https://cdn.blueandhack.com/images/2010/04/I-hava-pagerank-value/image_thumb15.png)
 
 不过最近谷歌收录的页面被K了很多，应该有几十页吧，不清楚是怎么回事~这几天的情况也说说吧，最近一直在背单词，头痛，喝咖啡坚持，保持兴奋状态，只有兴奋的时候背单词是最好的，我总结的，呵呵~~
 

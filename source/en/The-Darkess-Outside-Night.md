@@ -21,15 +21,15 @@ Little people often reveal big truths. Don't give up, don't lose heart, fight wi
 
 The original is in color. Below is the scanned version going around online.
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb16.png)![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb17.png)
+![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb16.png)![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb17.png)
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb18.png)![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb19.png)
+![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb18.png)![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb19.png)
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb20.png)![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb21.png)
+![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb20.png)![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb21.png)
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb22.png)![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb23.png)
+![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb22.png)![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb23.png)
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb24.png)![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb25.png)
+![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb24.png)![image](https://cdn.blueandhack.com/images/2010/07/The-Darkess-Outside-Night/image_thumb25.png)
 
 
 

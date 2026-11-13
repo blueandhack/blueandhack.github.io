@@ -33,26 +33,26 @@ Life goes on. What if one day it stops? I think that day will be when I leave th
 
 PS: Here's the Zhigao baby clay I bought yesterday. Let me show it off…
 
-![Baby clay](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000036_thumb.jpg)
+![Baby clay](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000036_thumb.jpg)
 
-![Baby clay II](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000037_thumb.jpg)
+![Baby clay II](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000037_thumb.jpg)
 
 Below is the model I made. It's half finished: a model of a small room.
 
-![Model I](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000038_thumb.jpg)
+![Model I](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000038_thumb.jpg)
 
-![Model II](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000039_thumb.jpg)
+![Model II](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000039_thumb.jpg)
 
-![Model III](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000040_thumb.jpg)
+![Model III](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000040_thumb.jpg)
 
-![Model IIII](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000041_thumb.jpg)
+![Model IIII](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000041_thumb.jpg)
 
-![Model VI](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000042_thumb.jpg)
+![Model VI](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000042_thumb.jpg)
 
-![Model IV](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000043_thumb.jpg)
+![Model IV](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000043_thumb.jpg)
 
-![Model IIV](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000044_thumb.jpg)
+![Model IIV](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000044_thumb.jpg)
 
-![Model IIIV](https://cdn.blueandhack.com/wp-content/uploads/2010/11/P1000045_thumb.jpg)
+![Model IIIV](https://cdn.blueandhack.com/images/2010/11/continue-to-live/P1000045_thumb.jpg)
 
 Also, ShowBLOG is recruiting. Looking for PHP and MySQL developers. No pay, purely for the love of it. If you're interested, get in touch. What's ShowBLOG? I'll write a proper post about it in a little while and tell you all about it.

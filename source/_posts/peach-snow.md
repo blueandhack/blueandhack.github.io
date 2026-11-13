@@ -9,7 +9,7 @@ tags:
 - mood
 ---
 
-![spr](https://cdn.blueandhack.com/wp-content/uploads/2010/03/spr_thumb.png)
+![spr](https://cdn.blueandhack.com/images/2010/03/peach-snow/spr_thumb.png)
 
     三月的桃花雪，在窗外簌簌的飘，四月的美丽心情，在心中跃然而起~
 

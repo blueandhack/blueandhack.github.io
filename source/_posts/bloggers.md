@@ -13,7 +13,7 @@ tags:
 
 找的是我去年这时候拍的照片了，变化还是挺大的，我放一张我最近的照片吧
 
-![](https://cdn.blueandhack.com/wp-content/uploads/2011/02/P1000146_thumb.jpg)
+![](https://cdn.blueandhack.com/images/2011/02/bloggers/P1000146_thumb.jpg)
 
 我想说：独博是王道……
 

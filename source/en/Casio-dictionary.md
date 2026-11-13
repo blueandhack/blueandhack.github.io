@@ -19,7 +19,7 @@ Thank you first~~
 
 SHOW
 
-![Check out my Casio~](https://cdn.blueandhack.com/wp-content/uploads/2010/03/InlineRepresentationa80881e9b091458f9cfbb25d80fcfd98.jpg)
+![Check out my Casio~](https://cdn.blueandhack.com/images/2010/03/Casio-dictionary/InlineRepresentationa80881e9b091458f9cfbb25d80fcfd98.jpg)
 
 
 

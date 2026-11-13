@@ -17,7 +17,7 @@ The day before the zhongkao, the high school entrance exam
 
 Not that I'm taking the zhongkao~
 
-![Registration](https://cdn.blueandhack.com/wp-content/uploads/2010/03/thumb1.jpg)
+![Registration](https://cdn.blueandhack.com/images/2010/03/sign-up-TOEFL/thumb1.jpg)
 
 ETS sent a free practice test~ from '05~
 

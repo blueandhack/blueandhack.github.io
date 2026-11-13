@@ -14,5 +14,5 @@ tags:
 
 同时出售本博客友链，本博客PR4，卖链接，25元每月。   
 
-此款主题只售15份，99元/份，团购优惠，需要的请发E-mail到 ![我的邮箱](https://cdn.blueandhack.com/gmail.png) 或者QQ [![点击这里给我发消息](http://wpa.qq.com/imgd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205&pic=49)](http://sighttp.qq.com/authd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205)
+此款主题只售15份，99元/份，团购优惠，需要的请发E-mail到 ![我的邮箱](https://cdn.blueandhack.com/images/2010/05/struggling/gmail.png) 或者QQ [![点击这里给我发消息](http://wpa.qq.com/imgd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205&pic=49)](http://sighttp.qq.com/authd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205)
 

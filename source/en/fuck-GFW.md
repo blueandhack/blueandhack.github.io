@@ -12,4 +12,4 @@ translated_by: claude-opus-5-5
 
 I won't say what I got around. I breathed the air outside the wall~ So fresh. It didn't cost a cent, it's free, not a VPN or anything like that~ I'm so touched I'm crying a river~~~ So excited I can barely type~~ I hope it keeps working~ To the people who developed it, thank you~ Today, honestly, Google got us netizens fired up, and our fighting spirit is higher than ever~ Thumbs up~~ <!-- more -->
 
-![](https://cdn.blueandhack.com/wp-content/uploads/2010/03/youtube-300x216.jpg)
+![](https://cdn.blueandhack.com/images/2010/03/fuck-GFW/youtube-300x216.jpg)

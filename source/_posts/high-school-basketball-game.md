@@ -23,7 +23,7 @@ tags:
 
 然后是合影，我是球盲所以没我——||
 
-![8班篮球队](https://cdn.blueandhack.com/wp-content/uploads/2010/06/8_thumb.jpg)
+![8班篮球队](https://cdn.blueandhack.com/images/2010/06/high-school-basketball-game/8_thumb.jpg)
 
 一段很值得回忆的初中生活……
 

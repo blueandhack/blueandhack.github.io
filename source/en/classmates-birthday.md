@@ -19,7 +19,7 @@ Before that I went to an internet café, Feiyu. It was pretty good. I barely pla
 
 Today it snowed in Huainan. You could say it's the first time I've seen it: a "peach-blossom snow" in March~ That's really rare. It snowed so hard that in no time the ground was covered in white~
 
-![night's snow I](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000095_thumb.jpg)![night's snow II](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000096_thumb.jpg)
+![night's snow I](https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000095_thumb.jpg)![night's snow II](https://cdn.blueandhack.com/images/2010/03/classmates-birthday/P1000096_thumb.jpg)
 
 I took these at night behind my house, with a four-story building in front. The snow is almost melted now. Yesterday was well spent. I wonder how the guy taking the TOEFL did. I had class today, so I wasn't online much~~
 

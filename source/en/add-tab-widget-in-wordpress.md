@@ -13,7 +13,7 @@ My first semi-original post. I haven't written many WordPress posts, and this co
 
 <!-- more -->  
 
-![Drag and drop](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png) 
+![Drag and drop](https://cdn.blueandhack.com/images/2010/10/add-tab-widget-in-wordpress/image_thumb3.png) 
 
 These are drag-and-drop widgets: you drag a widget into the sidebar to activate it, and drag it back out to disable it and delete its settings. To make this work I dug through a lot of material. At first I only looked for Chinese resources, but there wasn't much good Chinese material on widgets, so I had to go through the WordPress Codex, and sure enough, I found it. [Here's the link](http://codex.wordpress.org/zh-cn:%E6%8C%82%E4%BB%B6%E6%8E%A5%E5%8F%A3) This document covers the Widget API, meaning which hooks your functions attach to and what they do; it all goes through the API. The official docs give a really good example, and that's the example I modified. Now about Mumu's tabbed widget: you can see it in my sidebar. Let's go straight to the steps 
 
@@ -161,6 +161,6 @@ tab-content ul li{padding-top:5px;overflow:hidden;} }
 
 Now go to your Widgets page. Do you see a widget called tabber?
 
-![Success](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png) Haha, if you see it, you've done it. If it didn't work, or you get errors or anything, leave a comment and ask~~ I'll patiently answer. In a few days I plan to turn this into a plugin... to make it easier for newbies... though I'm still not a fan of using plugins... 
+![Success](https://cdn.blueandhack.com/images/2010/10/add-tab-widget-in-wordpress/image_thumb4.png) Haha, if you see it, you've done it. If it didn't work, or you get errors or anything, leave a comment and ask~~ I'll patiently answer. In a few days I plan to turn this into a plugin... to make it easier for newbies... though I'm still not a fan of using plugins... 
 
 PS: The Codex is really good. It's just a real shame that a lot of the English docs haven't been translated into Chinese...

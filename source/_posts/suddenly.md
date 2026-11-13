@@ -20,7 +20,7 @@ tags:
 
 可能，这就是我的，我要经历的迷茫期吧
 
-![TOEFL班集体照](https://cdn.blueandhack.com/wp-content/uploads/2011/07/IMG_0029_thumb.jpg)
+![TOEFL班集体照](https://cdn.blueandhack.com/images/2011/07/suddenly/IMG_0029_thumb.jpg)
 
-![我和Oscar](https://cdn.blueandhack.com/wp-content/uploads/2011/07/IMG_0042_thumb.jpg)
+![我和Oscar](https://cdn.blueandhack.com/images/2011/07/suddenly/IMG_0042_thumb.jpg)
 

@@ -28,7 +28,7 @@ tags:
 
 最近买了个鼠标垫，买的时候没看型号，结果寄过来的时候WOW太大了
 
-![P1000110](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000110_thumb1.jpg)
+![P1000110](https://cdn.blueandhack.com/images/2010/03/to-think/P1000110_thumb1.jpg)
 
 额~~不过挺帅气的
 
@@ -36,9 +36,9 @@ tags:
 
 以前是学习C的，呵呵，上次笔试考了56分，就差4分，这次希望不留遗憾，要达到80分，不留遗憾，上次考试的资料书还留着呢，复习喽~~
 
-![P1000114](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000114_thumb1.jpg)
+![P1000114](https://cdn.blueandhack.com/images/2010/03/to-think/P1000114_thumb1.jpg)
 
-![P1000115](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000115_thumb1.jpg)
+![P1000115](https://cdn.blueandhack.com/images/2010/03/to-think/P1000115_thumb1.jpg)
 
 cheer up！为自己加油~Yes,I Can!
 

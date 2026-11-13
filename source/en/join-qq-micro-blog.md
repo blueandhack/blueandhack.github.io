@@ -15,9 +15,9 @@ My microblog: [t.qq.com/blueandhack](https://web.archive.org/web/20130317050130/
 
 Everyone's welcome to come take a look
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb26.png)
+![image](https://cdn.blueandhack.com/images/2010/04/join-qq-micro-blog/image_thumb26.png)
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb27.png)
+![image](https://cdn.blueandhack.com/images/2010/04/join-qq-micro-blog/image_thumb27.png)
 
 Tencent even put out a QQ2010bate3
 

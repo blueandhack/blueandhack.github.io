@@ -19,7 +19,7 @@ tags:
 
 十七年前，我诞生了，之后我便开始了我的成长，从只会嚎啕大哭的孩子，变成了现在机智少年。漫漫长路，我不知道跌倒了多少次，才成了如今的这模样；我不知道父母亲付出了多少，才成就了如今的我；我不知道我的每一位老师训斥、教导我多少次，才使得我拥有了更多的理智。我知道是无数次的跌倒，无限多的付出，无数回的训斥、教导，才有了我的今天。
 
-![clip_image001](https://cdn.blueandhack.com/wp-content/uploads/2010/03/clip_image001_thumb.jpg)
+![clip_image001](https://cdn.blueandhack.com/images/2010/03/thanksgiving/clip_image001_thumb.jpg)
 
 ### **我的父母：我的妈妈拉着我，我的爸爸看着我**
 

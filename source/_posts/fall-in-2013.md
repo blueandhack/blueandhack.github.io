@@ -15,5 +15,5 @@ tags:
 
 <!-- more -->
 
-![考驾照的照片](https://cdn.blueandhack.com/wp-content/uploads/2013/09/SavedPicture-2013932149.jpg)
+![考驾照的照片](https://cdn.blueandhack.com/images/2013/09/fall-in-2013/SavedPicture-2013932149.jpg)
 

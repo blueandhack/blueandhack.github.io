@@ -8,7 +8,7 @@ tags:
 - life
 ---
 
-**![daily life](https://cdn.blueandhack.com/wp-content/uploads/2010/06/dailylife_thumb.jpg) **
+**![daily life](https://cdn.blueandhack.com/images/2010/06/great-plan/dailylife_thumb.jpg) **
 
 <!-- more -->**7:30：起床。**英国威斯敏斯特大学的研究人员发现，那些在早上5:22―7:21 分起床的人，其血液中有一种能引起心脏病的物质含量较高，因此，在7:21之后起床对身体健康更加有益。   
 

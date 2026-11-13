@@ -12,4 +12,4 @@ translated_by: claude-opus-5-5
 
 It slipped through my fingers. Savoring it slowly, I wonder what it left behind. Thank you, my friend. I've taken your words to heart. Truly, thank you for never betraying me all along the way. Follow my dreams in my life.
 
-![My dream](https://cdn.blueandhack.com/wp-content/uploads/2013/08/SavedPicture-201382713735.jpg)
+![My dream](https://cdn.blueandhack.com/images/2013/08/say-goodbye-August/SavedPicture-201382713735.jpg)

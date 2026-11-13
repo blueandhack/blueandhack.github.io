@@ -21,13 +21,13 @@ tags:
 最近四个月败了很多东西，按照日期来计算，首先是NAS，群晖DS415Play，UPS备用电源，R7000路由器，DELL U2415显示器，HHKB Type-S，Magic Trackpad，Bother扫描打印机，New 3DS XL……以及其他好用的软件……
 <!-- more -->
 
-![我的NAS](https://cdn.blueandhack.com/pics/autumn/2015-08-05%2018.13.21.jpg)
+![我的NAS](https://cdn.blueandhack.com/images/2015/11/autumn/2015-08-05-18.13.21.jpg)
 
-![Trackpad](https://cdn.blueandhack.com/pics/autumn/2015-10-28%2014.04.12.jpg)
+![Trackpad](https://cdn.blueandhack.com/images/2015/11/autumn/2015-10-28-14.04.12.jpg)
 
-![Workspace](https://cdn.blueandhack.com/pics/autumn/2015-11-07%2021.45.15.jpg)
+![Workspace](https://cdn.blueandhack.com/images/2015/11/autumn/2015-11-07-21.45.15.jpg)
 
-![HHKB](https://cdn.blueandhack.com/pics/autumn/2015-11-17%2019.35.40.jpg)
+![HHKB](https://cdn.blueandhack.com/images/2015/11/autumn/2015-11-17-19.35.40.jpg)
 
-![Me & HHKB](https://cdn.blueandhack.com/pics/autumn/2015-11-12%2017.37.57.jpg)
+![Me & HHKB](https://cdn.blueandhack.com/images/2015/11/autumn/2015-11-12-17.37.57.jpg)
 

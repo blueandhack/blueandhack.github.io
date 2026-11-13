@@ -17,7 +17,7 @@ tags:
 
 我不参加中考~
 
-![报名](https://cdn.blueandhack.com/wp-content/uploads/2010/03/thumb1.jpg)
+![报名](https://cdn.blueandhack.com/images/2010/03/sign-up-TOEFL/thumb1.jpg)
 
 ETS送的一份免费试题~是05年的~
 

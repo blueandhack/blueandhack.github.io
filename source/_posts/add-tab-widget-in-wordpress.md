@@ -15,7 +15,7 @@ tags:
 
 <!-- more -->  
 
-![拖拽](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb3.png) 
+![拖拽](https://cdn.blueandhack.com/images/2010/10/add-tab-widget-in-wordpress/image_thumb3.png) 
 
 这就是可拖拽的小工具他们可以拖拽小工具到边栏以激活它们，将它们拖回来则自动禁用它们并删除设置。实现此功能，我是查找了很多资料，一开始只找中文资料，但是没有多少好的中文资料去介绍Widget的，所以只好去翻wordpress的codex，结果，还真让我翻到了，[传送门](http://codex.wordpress.org/zh-cn:%E6%8C%82%E4%BB%B6%E6%8E%A5%E5%8F%A3) 此文档中介绍了Widget的API，就是你写的函数要用勾到哪里，做什么事，都需要API来实现，官方文档给了一个很好的例子，我也就是用那个例子改的。 现在说说木木的那个TAB切换特效的小工具吧，这个你可以看我的侧边栏。 直接说操作步骤了 
 
@@ -163,7 +163,7 @@ tab-content ul li{padding-top:5px;overflow:hidden;} }
 
 现在到你的小工具选项中有没有看见一个名叫tabber的小工具呢？
 
-![成功](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb4.png) 哈哈，看见了就说明你成功了，如果没有成功，报错等等问题，留言提问哦~~我会耐心解答的。过几天准备弄成插件……方便小白……不过我还是不赞成使用插件…… 
+![成功](https://cdn.blueandhack.com/images/2010/10/add-tab-widget-in-wordpress/image_thumb4.png) 哈哈，看见了就说明你成功了，如果没有成功，报错等等问题，留言提问哦~~我会耐心解答的。过几天准备弄成插件……方便小白……不过我还是不赞成使用插件…… 
 
 PS：codex真的不错，就是很多英文文档没有翻译成中文，实在太可惜了……
 

@@ -12,7 +12,7 @@ tags:
 
 终于买了VPS，今天才弄好……买的DirectAdmin面板的授权，然后安装，话说折腾了两个小时，终于折腾好了，然后汉化又出了问题，多亏船长大牛，给我弄好了~~嘿嘿~~ 现在说说CentOS 5.5怎么安装DirectAdmin面板吧。 首先需要一个干净的CentOS系统，我选择的是 <!-- more -->
 
-![CentOS](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb16.png)
+![CentOS](https://cdn.blueandhack.com/images/2010/08/how-to-install-DA-in-CentOS/image_thumb16.png)
 
 第一步、安装CentOS的相关组件 先运行命令 
 
@@ -58,7 +58,7 @@ vi /usr/local/directadmin/data/users/admin/user.conf
 
 即可 好了一切完工喽~ 当当当……崭新的DirectAdmin面板出现在眼前了！ 
 
-![DirectAdmin](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb17.png)
+![DirectAdmin](https://cdn.blueandhack.com/images/2010/08/how-to-install-DA-in-CentOS/image_thumb17.png)
 
 最后再广告一下，现在VPS仍然合租，具体资源方案过几天再出 PS：麻烦各位ping一下 godvps.net 测测速度~ 报一下速度情况 本人小博过几天搬上VPS ，需要各位耐心等待了
 

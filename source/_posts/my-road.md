@@ -22,11 +22,11 @@ tags:
 
 今天用skype练习口语，结果断线了，老妈要上网报税，额~就练到一半，正好轮到我说话，额~
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb24.png)
+![image](https://cdn.blueandhack.com/images/2010/04/my-road/image_thumb24.png)
 
 我的skype，截图留念~
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb25.png)
+![image](https://cdn.blueandhack.com/images/2010/04/my-road/image_thumb25.png)
 
 托福两次考试报名~
 

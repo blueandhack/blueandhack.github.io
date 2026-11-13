@@ -12,4 +12,4 @@ translated_by: claude-opus-5-5
 
 From 2010 to 2013, three years just went by like that. Starting, giving up, starting, giving up, and then I started over again. It's another cold autumn, 16°, and it feels like I'm back in the old days, that age of mine, that way of thinking of mine, yet the world inside me has changed. May God be with you. Amen.  <!-- more -->
 
-![2010](https://cdn.blueandhack.com/wp-content/uploads/2013/09/2010.jpg)
+![2010](https://cdn.blueandhack.com/images/2013/09/three-years-ago/2010.jpg)

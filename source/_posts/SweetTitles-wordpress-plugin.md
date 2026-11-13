@@ -19,11 +19,11 @@ Sweet Titles 这个名字源自于一个改变 Title 提示效果的 js 插件 [
 - 插件发布日期：2010年8月19日（由于期间有一段时间是出去旅游，所以很久没有思考这个事情） 
 - 插件功能（效果图）：鼠标停在超链接处，会出现悬浮的超链接提示
 
-![插件特效](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb13.png)
+![插件特效](https://cdn.blueandhack.com/images/2010/08/SweetTitles-wordpress-plugin/image_thumb13.png)
 
 插件说明：此插件方便了那些懒人们，使他们不需要动手就能实现此特效，但是插件也有缺点，可能会导致重复加载jQuery，因为是初始版本，所以没有任何后台选项，今后会有。 插件未来发展：今后会多出让用户自己选择的多个选项，让您选择加载jQuery的方式，同时您可以在后台设置sweetTitles的css样式。今后会优化代码等等，让您会有更好的用户体验。 已知问题：在使用Windows Live Writer（WLW离线编辑器）时，会出现xmlrpc.php无法连接的错误，经过测试，是由于没有开启脚本支持导致的，请在Windows Live Writer工具栏-日志-编辑日志设置-高级-日志覆盖选项-脚本，请您选择支持。然后此问题解决。 
 
-![设置步骤](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb15.png)
+![设置步骤](https://cdn.blueandhack.com/images/2010/08/SweetTitles-wordpress-plugin/image_thumb15.png)
 
 感谢帮助过我的[leeiio](http://leeiio.me)（提供js等等）、[ilover](https://web.archive.org/web/20100830012610/http://www.ilover.me/)（帮我修改过初始版本，但是最后我还是重写了）、[hey33](http://www.hey33.com/)（勇敢的帮我测试插件）、还有[木木](http://immmmm.com)，他们的无私奉献十分感激，在此谢谢他们！ 官方下载地址：[sweetTitles 1.4v](http://wordpress.org/extend/plugins/sweettitles/)
 

@@ -19,7 +19,7 @@ translated_by: claude-opus-5-5
 
 Seventeen years ago I was born, and from then on I started growing up, from a kid who could only bawl his eyes out into the quick-witted teenager I am now. On that long road, I don't know how many times I fell before I became who I am today; I don't know how much my parents gave to make me who I am today; I don't know how many times each of my teachers scolded and taught me before I gained more good sense. What I do know is that it took countless falls, endless giving, and countless rounds of scolding and teaching to bring me to where I am today.
 
-![clip_image001](https://cdn.blueandhack.com/wp-content/uploads/2010/03/clip_image001_thumb.jpg)
+![clip_image001](https://cdn.blueandhack.com/images/2010/03/thanksgiving/clip_image001_thumb.jpg)
 
 ### **My parents: my mom holding my hand, my dad watching over me**
 

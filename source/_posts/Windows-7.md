@@ -44,9 +44,9 @@ tags:
 
 我的QQVIP6了~
 
-![12](https://cdn.blueandhack.com/wp-content/uploads/2010/04/12_thumb.jpg)
+![12](https://cdn.blueandhack.com/images/2010/04/Windows-7/12_thumb.jpg)
 
-![5](https://cdn.blueandhack.com/wp-content/uploads/2010/04/5_thumb.jpg)
+![5](https://cdn.blueandhack.com/images/2010/04/Windows-7/5_thumb.jpg)
 
 做了隐私处理~呵呵~
 

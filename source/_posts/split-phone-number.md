@@ -14,11 +14,11 @@ tags:
 
 <!-- more -->
 
-![复制之后](https://cdn.blueandhack.com/wp-content/uploads/2013/07/复制之后-174x300.png) 
+![复制之后](https://cdn.blueandhack.com/images/2013/07/split-phone-number/after-copying-174x300.png) 
 
 我通过Excel复制到记事本中，结果他是按照Excel的方式，成列复制了，并不能形成一行，于是乎我就把一列的号码拷贝到豌豆荚中，结果让我蛋碎了一地…… 
 
-![无法正常识别](https://cdn.blueandhack.com/wp-content/uploads/2013/07/无法正常识别.png) 
+![无法正常识别](https://cdn.blueandhack.com/images/2013/07/split-phone-number/not-recognized.png) 
 
 可以看到显示的是，将发送给一位联系人，这可是好？难道让我一个一个添加英文逗号来进行分隔？ 我告诉我自己，不能那么低级，至少自己还是个码农呢！ 
 

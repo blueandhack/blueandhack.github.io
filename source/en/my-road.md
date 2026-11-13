@@ -23,11 +23,11 @@ My skills, o(∩_∩)o hahaha!!!
 
 Today I was practicing speaking on Skype and got disconnected because Mom needed the internet to file taxes. Um~ We were only halfway through, and it was just my turn to talk. Um~
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb24.png)
+![image](https://cdn.blueandhack.com/images/2010/04/my-road/image_thumb24.png)
 
 My Skype, a screenshot for the memories~
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb25.png)
+![image](https://cdn.blueandhack.com/images/2010/04/my-road/image_thumb25.png)
 
 Registration for both TOEFL tests~
 

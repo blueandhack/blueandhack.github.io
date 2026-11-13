@@ -19,7 +19,7 @@ tags:
 
 SHOW
 
-![查看 我卡西欧~](https://cdn.blueandhack.com/wp-content/uploads/2010/03/InlineRepresentationa80881e9b091458f9cfbb25d80fcfd98.jpg)
+![查看 我卡西欧~](https://cdn.blueandhack.com/images/2010/03/Casio-dictionary/InlineRepresentationa80881e9b091458f9cfbb25d80fcfd98.jpg)
 
 
 

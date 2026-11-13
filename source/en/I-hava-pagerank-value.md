@@ -14,7 +14,7 @@ PageRank updated today. The site has been up for a little over a month, and its 
 
 His PR is 4 (I'm so jealous~ heh). His site is software reviews and the like, with few link exchanges, so a 4 is totally normal~ His site is high quality, and I'm green with envy~o(∩_∩)o 
 
-![My PR](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb15.png)
+![My PR](https://cdn.blueandhack.com/images/2010/04/I-hava-pagerank-value/image_thumb15.png)
 
 But lately Google has dropped a lot of my indexed pages, probably a few dozen. I have no idea what happened~ Let me also say a bit about the last few days. I've been memorizing vocabulary nonstop, my head hurts, and I keep going on coffee to stay wired. Being wired is the best state for memorizing words, that's my own finding, heh~~
 

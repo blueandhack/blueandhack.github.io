@@ -12,15 +12,15 @@ translated_by: claude-opus-5-5
 
 Nothing much has happened lately, just ordinary days.<!-- more -->  Today I suddenly got an email. Here it is: 
 
-![The first one](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb.png) 
+![The first one](https://cdn.blueandhack.com/images/2010/10/jiankongbao/image_thumb.png) 
 
 Then I got a second one 
 
-![The second one](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb1.png) 
+![The second one](https://cdn.blueandhack.com/images/2010/10/jiankongbao/image_thumb1.png) 
 
 Going from the regular plan to the standard plan? ...Yikes... I checked the prices on their official site, and they're seriously expensive...
 
-![Standard plan](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb2.png)
+![Standard plan](https://cdn.blueandhack.com/images/2010/10/jiankongbao/image_thumb2.png)
 
 I'm speechless... I was even planning to renew on the standard plan... and then... uh~ a last-minute change. I feel like... Jiankongbao is trying to cash in here... sigh~ Profiteers! Profiteers! Then I sent an email asking about the change, and customer support replied: "We plan to gradually transition the regular plan to the free plan. We will provide service to personal websites for free, and offer more complete features to business users." Hmm... fine... looks like I'll stick with the free one from now on... I really can't afford 49 a month... I manage a site that needs real-time monitoring, [The 90s Kids Are Spreading](http://90manyan.cn/)... yep, all you friends born in the '90s, come sign up. 
 

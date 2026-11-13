@@ -11,4 +11,4 @@ translated_by: claude-opus-5-5
 ---
 We talk less, the distance grows, some people leave you, and some stay by your side. That's just how it is. I keep telling myself that only after you've learned to be alone can you succeed. Let's just leave it at that, no more talking. Take care, all of you! Let the memories stay where they are, forever. I won't reach out to you, you won't reach out to me, and we'll just drift apart like that, in silence forever. <!-- more -->
 
-![These people, I don't think I'll see them again. Let them stay in my memories.](https://cdn.blueandhack.com/wp-content/uploads/2013/07/P1000233-1024x768.jpg)
+![These people, I don't think I'll see them again. Let them stay in my memories.](https://cdn.blueandhack.com/images/2013/07/my-high-school-classmates/P1000233-1024x768.jpg)

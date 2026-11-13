@@ -11,7 +11,7 @@ translated_by: claude-opus-5-5
 ---
 This one comes from a post by fellow blogger MOPVHS, [jQuery(Making a background image scroll](https://web.archive.org/web/20101010061923/http://www.tulongzhiji.com/mopvhs/2010/04/02/jquery%e8%ae%a9%e8%83%8c%e6%99%af%e5%9b%be%e7%89%87%e6%bb%91%e5%8a%a8%e8%b5%b7%e6%9d%a5/). It looked pretty nice, so I started tinkering with it.  Floating clouds, these are floating clouds, take a look:<!-- more -->
 
-![Floating clouds](https://cdn.blueandhack.com/wp-content/uploads/2010/10/image_thumb5.png)
+![Floating clouds](https://cdn.blueandhack.com/images/2010/10/scrolling-background/image_thumb5.png)
 
 The clouds in the background are drifting, so these really are floating clouds. Now, straight to the point: first find a background. I ripped mine off some theme. Put it in the images folder in your theme directory. First you need to load the jQuery library, then load this jQuery effect. The code is below:
 

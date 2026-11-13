@@ -11,19 +11,19 @@ tags:
 
 昨天没事打开了谷歌邮箱
 
-![谷歌广告联盟通过](https://cdn.blueandhack.com/wp-content/uploads/2010/06/image_thumb.png)
+![谷歌广告联盟通过](https://cdn.blueandhack.com/images/2010/06/pass-Googl-AdSense/image_thumb.png)
 
 这么一份邮件躺到了我的邮箱里，我大吃一惊，前天才申请的，今天就来了~再看看“欢迎加入……”WOW！！！成功了~经过很长一段的时间，终于过了~4个月了~<!-- more -->
 
 下面是给大家看看我Google AdSense申请的拒绝邮件
 
-![谷歌拒绝信](https://cdn.blueandhack.com/wp-content/uploads/2010/06/image_thumb1.png)
+![谷歌拒绝信](https://cdn.blueandhack.com/images/2010/06/pass-Googl-AdSense/image_thumb1.png)
 
 一共是8封，前一部分是因为网页类型拒绝的，然后就是宕机拒绝，唉~一封比一封悲剧啊~昨天终于成功我高兴死了~HOHO~
 
 百度广告联盟是上上个星期就通过了，百度通过应该的~呵呵~不过百度也不是一帆风顺，连续拒绝了三次后，第四次通过了。
 
-![百度拒绝和通过信](https://cdn.blueandhack.com/wp-content/uploads/2010/06/image_thumb2.png)
+![百度拒绝和通过信](https://cdn.blueandhack.com/images/2010/06/pass-Googl-AdSense/image_thumb2.png)
 
 我想拒绝是有原因的，百度似乎看重收录情况，谷歌似乎看重域名时间，我申请百度的时候百度已经收录了200多，以前就是十几页，当收录200的时候百度就给我通过了~谷歌，一直提示网页类型不正确，我想是域名注册时间不够，所以一直等，终于和小M说的差不多，谷歌会在域名注册第三个月通过。这只是我的猜测，似乎没有任何参考价值……呵呵~
 

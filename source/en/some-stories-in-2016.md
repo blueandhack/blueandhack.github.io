@@ -20,14 +20,14 @@ I know it's been about a year since I wrote on this blog. Most of my time has go
 
 Speaking of summer, in summer 2016 I went to Japan.
 
-![Mount Fuji](https://cdn.blueandhack.com/pics/2016-07-10%2015.16.29.jpg)
-![Shinkansen](https://cdn.blueandhack.com/pics/2016-07-12%2019.53.50.jpg)
+![Mount Fuji](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-07-10-15.16.29.jpg)
+![Shinkansen](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-07-12-19.53.50.jpg)
 
 I was there for 5 days in total and had a great time. It was the happiest summer I've had, even though the summer classes were exhausting.
 
 In August I came back to the US, thinking about moving, and I was actually pretty happy. But the day I got back in August and reached my old apartment, I was completely stunned. The place had been cleaned out: the lock was pried open, and most of the stuff I mentioned in my last post was gone. Three monitors, the router, the graphics card, the NAS (including the four hard drives in it and all the data). The most tragic part is that I didn't have insurance, so what's gone is gone. I called the police, but there's not much hope, because there are no cameras anywhere in the complex.
 
-![The burgled apartment](https://cdn.blueandhack.com/pics/2016-08-10%2021.38.01.jpg)
+![The burgled apartment](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-08-10-21.38.01.jpg)
 
 Later I moved into a new place, got a DS916+ and a new router, and after that bought some parts and built myself a Hackintosh.
 
@@ -37,7 +37,7 @@ Since I took summer classes, I was a sophomore when school started. This semeste
 
 This semester has been fun. It seems like as long as I'm learning a lot, I'm happy. On my birthday I was even lucky enough to see a rocket launch. A nice surprise.
 
-![Me](https://cdn.blueandhack.com/pics/2016-09-08%2016.31.53%20HDR-2.jpg)
+![Me](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-09-08-16.31.53-HDR-2.jpg)
 
 ## Right now
 

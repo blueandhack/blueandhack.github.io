@@ -30,7 +30,7 @@ I hope I can wander between the nation and the government~ Utopia~~
 
 I recently bought a mouse pad. I didn't check the model when I bought it, and when it arrived, WOW, it was huge
 
-![P1000110](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000110_thumb1.jpg)
+![P1000110](https://cdn.blueandhack.com/images/2010/03/to-think/P1000110_thumb1.jpg)
 
 Uh~~ but it looks pretty cool
 
@@ -38,8 +38,8 @@ Calming down to think is really important for me, I think. That's what people do
 
 I used to study C, heh. Last time I got 56 on the written test, just 4 points short. This time I hope to have no regrets. I want to get 80, no regrets. I still have the prep book from last time, so time to review~~
 
-![P1000114](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000114_thumb1.jpg)
+![P1000114](https://cdn.blueandhack.com/images/2010/03/to-think/P1000114_thumb1.jpg)
 
-![P1000115](https://cdn.blueandhack.com/wp-content/uploads/2010/03/P1000115_thumb1.jpg)
+![P1000115](https://cdn.blueandhack.com/images/2010/03/to-think/P1000115_thumb1.jpg)
 
 Cheer up! Go, me~ Yes, I Can!

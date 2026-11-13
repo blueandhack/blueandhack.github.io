@@ -18,14 +18,14 @@ tags:
 
 说到暑假，2016年的暑假去了日本。
 
-![富士山](https://cdn.blueandhack.com/pics/2016-07-10%2015.16.29.jpg)
-![新干线](https://cdn.blueandhack.com/pics/2016-07-12%2019.53.50.jpg)
+![富士山](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-07-10-15.16.29.jpg)
+![新干线](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-07-12-19.53.50.jpg)
 
 一共去了5天，很开心。也算是过得最开心的一个暑假了，虽然修课是很累。
 
 8月的时候回美国，心想搬家了，本来是很开心的。但是8月回美国的那天，到达旧公寓的时候，完全蒙逼的。因为家里被偷完了，门锁被撬，也丢了上个Post里所提到的大多数物品。三块显示器，路由器，显卡，NAS(包括里面的四块硬盘和资料)，最悲摧的是没有买保险，所以丢了就丢了，报警了但是也没啥希望，因为小区内根本没有摄像头。
 
-![被偷的公寓](https://cdn.blueandhack.com/pics/2016-08-10%2021.38.01.jpg)
+![被偷的公寓](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-08-10-21.38.01.jpg)
 
 后来搬了新家，又添置了一台DS916+和路由器，再后来买了一些部件自己组了黑苹果。
 
@@ -35,7 +35,7 @@ tags:
 
 这学期挺开心的，似乎觉得能学到很多东西我就很开心。过生日的那天还有幸看到了火箭发射。也算一个惊喜吧。
 
-![Me](https://cdn.blueandhack.com/pics/2016-09-08%2016.31.53%20HDR-2.jpg)
+![Me](https://cdn.blueandhack.com/images/2016/10/some-stories-in-2016/2016-09-08-16.31.53-HDR-2.jpg)
 
 ## 目前
 

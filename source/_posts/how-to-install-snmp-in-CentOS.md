@@ -58,7 +58,7 @@ chkconfig snmpd on
 
 现在可以在监控宝后台添加服务器监控了。 监控宝中具体设置，请看监控宝的博客 [在Linux服务器上开启安全的SNMP代理](https://web.archive.org/web/20100728080252/http://blog.jiankongbao.com/?p=160) 
 
-PS：![鲁迅](https://cdn.blueandhack.com/wp-content/uploads/2010/09/e284aca8cd58b9c21f17a2e41_thumb.gif)
+PS：![鲁迅](https://cdn.blueandhack.com/images/2010/09/how-to-install-snmp-in-CentOS/e284aca8cd58b9c21f17a2e41_thumb.gif)
 
 鲁迅，党用了60年才弄懂鲁迅在骂谁，用了几个月的时间，将他从教科书上抹去，缺少民族英雄的民族，真是一种悲哀，少了点激进的人，少了点左派份子，少了点愤青，少了点……这个国家就安全了吗？可笑！悲哀，我无法从政，想去从政，但是当我坐上那个位置的时候，我也许就和他一样了，那个位置，给谁去做，都行的！下面一群人帮着他呢！ 以上PS纯属娱乐！
 

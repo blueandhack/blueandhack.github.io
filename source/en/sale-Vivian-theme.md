@@ -13,4 +13,4 @@ Life's forcing my hand, so I'm selling my blog's Vivian theme.  This blog's them
 
 I'm also selling links on this blog. This blog is PR4. Links cost 25 yuan per month.   
 
-Only 15 copies of this theme will be sold, at 99 yuan each, with group-buy discounts. If you're interested, please send an e-mail to ![my email](https://cdn.blueandhack.com/gmail.png) or QQ [![Click here to send me a message](http://wpa.qq.com/imgd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205&pic=49)](http://sighttp.qq.com/authd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205)
+Only 15 copies of this theme will be sold, at 99 yuan each, with group-buy discounts. If you're interested, please send an e-mail to ![my email](https://cdn.blueandhack.com/images/2010/05/struggling/gmail.png) or QQ [![Click here to send me a message](http://wpa.qq.com/imgd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205&pic=49)](http://sighttp.qq.com/authd?IDKEY=3a34c75b29fcb8819916098f8738415dc028e95d343f0205)

@@ -16,25 +16,25 @@ DNSPod，我承认，是中国最好的解析服务公司了，确实不错，�
 
 一个小小的建议，由于一直没有回复，然后我在微博也给他们发了这个建议5
 
-![建议](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb9.png)
+![建议](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb9.png)
 
 然后我又给他们的创始人发了一条微博
 
-![建议B](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb10.png)
+![建议B](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb10.png)
 
 然后，果然，发给她还是挺管用的，很快就发出了两条公告，可是我看了公告之后很不开心。
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb11.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb11.png)
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb12.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb12.png)
 
 我不知道为什么，我骂他们了吗？没有啊，我不清楚，为什么我提了那么一个意见之后，就这么说，这个分明就是在指我的。然后我发了两条微博给他们
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb13.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb13.png)
 
 我问是不是在针对我，他们至今为止没有给我回复，然后我又问，你们的站点的申请邀请码的那个功能是不是个摆设，他们也没有给我回复，似乎认为我是在无理取闹，大概认为我是他们竞争对手派来专门捣蛋的……唉，真无语。
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/07/image_thumb14.png)
+![image](https://cdn.blueandhack.com/images/2010/07/about-DNSPod/image_thumb14.png)
 
 之后我给他们发了最后一条微博，但是也没有给我回复。不清楚为什么，似乎DNSPod对于免费申请用户服务态度并不是很好。
 

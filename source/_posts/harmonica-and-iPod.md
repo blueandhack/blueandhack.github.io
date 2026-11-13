@@ -13,27 +13,27 @@ tags:
 
 口琴是装在口袋里的音乐。
 
-![口琴盒子](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000107_thumb.jpg)
+![口琴盒子](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000107_thumb.jpg)
 
-![通宝口琴](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000110_thumb.jpg)
+![通宝口琴](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000110_thumb.jpg)
 
-![口琴盒子II](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000111_thumb.jpg)
+![口琴盒子II](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000111_thumb.jpg)
 
 我在意的是iPod shuffle电池使用时间。
 
-![iPod shuffle](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000119_thumb.jpg)
+![iPod shuffle](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000119_thumb.jpg)
 
-![iPod shuffle II](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000124_thumb.jpg)
+![iPod shuffle II](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000124_thumb.jpg)
 
-![iPod shuffle III](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000137_thumb.jpg)
+![iPod shuffle III](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000137_thumb.jpg)
 
-![iPod shuffle 出盒](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000140_thumb.jpg)
+![iPod shuffle 出盒](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000140_thumb.jpg)
 
-![iPod shuffle 全部](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000143_thumb.jpg)
+![iPod shuffle 全部](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000143_thumb.jpg)
 
 最后附上我的玉照，害羞……
 
-![我的玉照](https://cdn.blueandhack.com/wp-content/uploads/2011/01/P1000149_thumb.jpg)
+![我的玉照](https://cdn.blueandhack.com/images/2011/01/harmonica-and-iPod/P1000149_thumb.jpg)
 
 下午看电影去了，一女生陪我，GF，嘿嘿~
 

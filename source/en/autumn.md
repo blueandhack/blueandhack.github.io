@@ -23,12 +23,12 @@ Yes, they're right. I spent a few carefree years in high school, didn't care whe
 In the past four months I've splurged on a lot of stuff. In order of purchase: first a NAS, a Synology DS415Play, a UPS backup power supply, an R7000 router, a DELL U2415 monitor, an HHKB Type-S, a Magic Trackpad, a Bother scanner-printer, a New 3DS XL... plus some other handy software...
 <!-- more -->
 
-![My NAS](https://cdn.blueandhack.com/pics/autumn/2015-08-05%2018.13.21.jpg)
+![My NAS](https://cdn.blueandhack.com/images/2015/11/autumn/2015-08-05-18.13.21.jpg)
 
-![Trackpad](https://cdn.blueandhack.com/pics/autumn/2015-10-28%2014.04.12.jpg)
+![Trackpad](https://cdn.blueandhack.com/images/2015/11/autumn/2015-10-28-14.04.12.jpg)
 
-![Workspace](https://cdn.blueandhack.com/pics/autumn/2015-11-07%2021.45.15.jpg)
+![Workspace](https://cdn.blueandhack.com/images/2015/11/autumn/2015-11-07-21.45.15.jpg)
 
-![HHKB](https://cdn.blueandhack.com/pics/autumn/2015-11-17%2019.35.40.jpg)
+![HHKB](https://cdn.blueandhack.com/images/2015/11/autumn/2015-11-17-19.35.40.jpg)
 
-![Me & HHKB](https://cdn.blueandhack.com/pics/autumn/2015-11-12%2017.37.57.jpg)
+![Me & HHKB](https://cdn.blueandhack.com/images/2015/11/autumn/2015-11-12-17.37.57.jpg)

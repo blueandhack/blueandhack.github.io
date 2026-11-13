@@ -11,7 +11,7 @@ translated_by: claude-opus-5-5
 ---
 I think this has to be the coolest tag cloud effect I've ever seen: a super flashy WordPress tag cloud built with Flash+JS. I only found it while aimlessly browsing, clicking one link after another until I ended up there. Turns out something like this exists, and it's well worth recommending. What does it look like? Check out my sidebar. **Best of all, the version I'm using fully supports Chinese!** <!-- more -->
 
-![WP-Cumulus in action](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb8.png)
+![WP-Cumulus in action](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb8.png)
 
 Main features of the **[WP Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)** ****WordPress plugin: 
 
@@ -21,9 +21,9 @@ Main features of the **[WP Cumulus](https://web.archive.org/web/20100920113825/h
 
 How to use the **[WP Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef)** **WordPress plugin**: 
 
-1. Upload and activate it.![Setting up WP Cumulus](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb9.png)
-2. Click Appearance, then Widgets. A list of available widgets will appear; pick [WP-Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef) from it.![Setting up WP-Cumulus](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb10.png)![WP-Cumulus](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb11.png)
-3. Drag WP-Cumulus into the sidebar next to it and configure it.![WP-Cumulus options in detail](https://cdn.blueandhack.com/wp-content/uploads/2010/08/image_thumb12.png)
+1. Upload and activate it.![Setting up WP Cumulus](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb9.png)
+2. Click Appearance, then Widgets. A list of available widgets will appear; pick [WP-Cumulus](https://web.archive.org/web/20100920113825/http://u.115.com/file/f49b5d84ef) from it.![Setting up WP-Cumulus](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb10.png)![WP-Cumulus](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb11.png)
+3. Drag WP-Cumulus into the sidebar next to it and configure it.![WP-Cumulus options in detail](https://cdn.blueandhack.com/images/2010/08/wp-cumulus/image_thumb12.png)
 
   ---
 

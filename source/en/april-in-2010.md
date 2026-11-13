@@ -17,9 +17,9 @@ Sometimes inspiration only lasts a moment. Seize it and you can work miracles.<!
 
 At noon today I looked out the kitchen window. Yep, nice view~
 
-![P1000228](https://cdn.blueandhack.com/wp-content/uploads/2010/04/P1000228_thumb.jpg)
+![P1000228](https://cdn.blueandhack.com/images/2010/04/april-in-2010/P1000228_thumb.jpg)
 
-![P1000229](https://cdn.blueandhack.com/wp-content/uploads/2010/04/P1000229_thumb.jpg)
+![P1000229](https://cdn.blueandhack.com/images/2010/04/april-in-2010/P1000229_thumb.jpg)
 
 The day before yesterday I discovered I'm pretty good at Photoshop~ heh. A friend I met online asked me to remove a watermark. I never really use PS, but I said yes. I'll try! That's all I could do~
 
@@ -27,7 +27,7 @@ Turns out, to my surprise, I did a really good job~ hehe
 
 Let me show you what I made
 
-![See the photo with the watermark removed](https://cdn.blueandhack.com/wp-content/uploads/2010/04/InlineRepresentation025be74889f8473aabc61a10d4471987.jpg)
+![See the photo with the watermark removed](https://cdn.blueandhack.com/images/2010/04/april-in-2010/InlineRepresentation025be74889f8473aabc61a10d4471987.jpg)
 
 Take a look, there's a before and after~~~
 
@@ -47,7 +47,7 @@ I ran into an elementary school classmate online~ late at night, more like close
 
 He offered to take me out to McDonald's~ uh~ but it was way too late
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb30.png)
+![image](https://cdn.blueandhack.com/images/2010/04/april-in-2010/image_thumb30.png)
 
 I turned him down~ I live really close to a McDonald's, it's just that it was raining and too late, so I didn't go. Thanks to him anyway~
 
@@ -57,11 +57,11 @@ I switched my computer theme to Doraemon
 
 Heh, check out my boot screen~
 
-![P1000222](https://cdn.blueandhack.com/wp-content/uploads/2010/04/P1000222_thumb.jpg)
+![P1000222](https://cdn.blueandhack.com/images/2010/04/april-in-2010/P1000222_thumb.jpg)
 
 The desktop has the same theme now too. So sunny~~
 
-![image](https://cdn.blueandhack.com/wp-content/uploads/2010/04/image_thumb31.png)
+![image](https://cdn.blueandhack.com/images/2010/04/april-in-2010/image_thumb31.png)
 
 I'm figuring out how to embed a player in WordPress
 

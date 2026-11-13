@@ -13,11 +13,11 @@ Tonight I needed to text more than 50 people, so I thought of Wandoujia. I copie
 
 <!-- more -->
 
-![After copying](https://cdn.blueandhack.com/wp-content/uploads/2013/07/复制之后-174x300.png) 
+![After copying](https://cdn.blueandhack.com/images/2013/07/split-phone-number/after-copying-174x300.png) 
 
 I copied from Excel into Notepad, and it pasted the Excel way, as a column, not as a single line. So I copied the column of numbers into Wandoujia, and the result left me shattered... 
 
-![Not recognized correctly](https://cdn.blueandhack.com/wp-content/uploads/2013/07/无法正常识别.png) 
+![Not recognized correctly](https://cdn.blueandhack.com/images/2013/07/split-phone-number/not-recognized.png) 
 
 You can see it says it will be sent to one contact. What now? Was I supposed to add English commas one by one to separate them? I told myself I couldn't do something that primitive. After all, I'm a code monkey! 
 
