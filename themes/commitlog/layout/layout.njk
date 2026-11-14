@@ -29,20 +29,21 @@
   {%- if not page.original %}{% set enPage = translation_for(page) %}{% if enPage %}
   <link rel="alternate" hreflang="zh-CN" href="{{ page.permalink }}">
   <link rel="alternate" hreflang="en" href="{{ enPage.permalink }}">
-  <link rel="alternate" hreflang="x-default" href="{{ page.permalink }}">
+  <link rel="alternate" hreflang="x-default" href="{{ enPage.permalink }}">
   {%- set hereLang = 'zh-CN' %}{% set altLang = 'en' %}{% set altPath = url_for(enPage.path) %}
   {%- endif %}{% endif %}
   {%- if page.original %}{% set zhPost = original_for(page) %}{% if zhPost %}
   <link rel="alternate" hreflang="zh-CN" href="{{ zhPost.permalink }}">
   <link rel="alternate" hreflang="en" href="{{ page.permalink }}">
-  <link rel="alternate" hreflang="x-default" href="{{ zhPost.permalink }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.permalink }}">
   {%- set hereLang = 'en' %}{% set altLang = 'zh-CN' %}{% set altPath = url_for(zhPost.path) %}
   {%- endif %}{% endif %}
   {%- if altLang %}
   <script>
     (function () {
       // Show the version in the reader's language: the one they last picked by hand (cl-lang,
-      // saved by main.js), else the first English or Chinese language their browser asks for.
+      // saved by main.js), else the first English or Chinese language their browser asks for,
+      // else English.
       var here = '{{ hereLang }}', other = '{{ altLang }}', want = null;
       try { want = localStorage.getItem('cl-lang'); } catch (e) {}
       if (want !== here && want !== other) {
@@ -55,6 +56,7 @@
           if (l === 'zh') want = 'zh-CN';
           else if (l === 'en') want = 'en';
         }
+        want = want || 'en';
       }
       if (want === other) location.replace({{ altPath | dump | safe }} + location.search + location.hash);
     })();
