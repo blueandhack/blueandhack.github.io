@@ -46,8 +46,19 @@
   {%- if page.content | trim %}<div class="prose" data-prose>{{ page.content }}</div>{% endif %}
 
   {%- else %}
+  {%- set orig = original_for(page) %}
+  {%- set enPage = null if orig else translation_for(page) %}
   <header class="page-head">
     <h1 class="page-head__title">{{ page.title }}</h1>
+    {%- if enPage %}
+    <p class="page-head__intro"><a class="lang-switch" href="{{ url_for(enPage.path) }}" hreflang="en" lang="en">{{ __('translation.read_english') }}</a></p>
+    {%- endif %}
+    {%- if orig %}
+    <p class="translation-note">
+      {{ __('translation.note') }}
+      <a href="{{ url_for(orig.path) }}" hreflang="zh-CN">{{ __('translation.read_original') }}</a>
+    </p>
+    {%- endif %}
   </header>
   {%- if page.profiles %}
   <section class="profiles" aria-labelledby="profiles-title">
@@ -56,7 +67,7 @@
     {% include '_partial/social.njk' %}
   </section>
   {%- endif %}
-  <div class="prose" data-prose>
+  <div class="prose" data-prose lang="{{ content_lang(page) }}">
     {{ page.content }}
   </div>
   {%- if theme.disqus.shortname and page.comments %}

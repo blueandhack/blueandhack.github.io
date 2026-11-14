@@ -374,15 +374,16 @@ hexo.extend.helper.register('asset_url', function(file) {
 hexo.on('generateBefore', () => assetHashes.clear());
 
 // ---- Translations ----------------------------------------------------------
-// English versions live in source/en/ as pages with `layout: translation` and
-// `original: _posts/<file>.md` (written by tools/translate.mjs).
+// English versions live in source/en/ as pages with an `original:` source path:
+//   - posts: `layout: translation`, `original: _posts/<file>.md` (written by tools/translate.mjs);
+//   - pages (e.g. About): their usual layout, `original: <dir>/index.md` (written by hand).
 
 let translationIndex = null;
 function translations(site) {
   if (!translationIndex) {
     translationIndex = new Map();
     toArray(site.pages).forEach(p => {
-      if (p.layout === 'translation' && p.original) translationIndex.set(p.original, p);
+      if (p.original) translationIndex.set(p.original, p);
     });
   }
   return translationIndex;
@@ -395,7 +396,8 @@ hexo.extend.helper.register('translation_for', function(post) {
 
 hexo.extend.helper.register('original_for', function(page) {
   if (!page || !page.original) return null;
-  return toArray(this.site.posts).find(p => p.source === page.original) || null;
+  const isOriginal = p => p.source === page.original;
+  return toArray(this.site.posts).find(isOriginal) || toArray(this.site.pages).find(isOriginal) || null;
 });
 
 // Language of a page's content: translations are English; posts are detected
@@ -407,9 +409,12 @@ function chineseShare(text) {
   return cjk / Math.max(1, cjk + words);
 }
 hexo.extend.helper.register('content_lang', function(page) {
-  if (page.layout === 'translation') return page.lang || 'en';
+  if (page.layout === 'translation' || page.original) return page.lang || 'en';
   // Hexo gives every post a default `lang` (the site language), so detect from the text instead.
-  if (page.layout === 'post' || page.__post) return chineseShare(page.content) >= 0.3 ? 'zh-CN' : 'en';
+  // Same for pages that have an English version (they are the Chinese originals).
+  if (page.layout === 'post' || page.__post || translations(this.site).has(page.source)) {
+    return chineseShare(page.content) >= 0.3 ? 'zh-CN' : 'en';
+  }
   return this.config.language || 'en';
 });
 

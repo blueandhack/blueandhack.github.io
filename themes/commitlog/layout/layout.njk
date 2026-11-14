@@ -25,12 +25,12 @@
   <meta name="theme-color" content="#f3f6fc" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0d1630" media="(prefers-color-scheme: dark)">
   {{ open_graph({ twitter_id: '', image: config.avatar }) }}
-  {%- if is_post() %}{% set enPage = translation_for(page) %}{% if enPage %}
+  {%- if not page.original %}{% set enPage = translation_for(page) %}{% if enPage %}
   <link rel="alternate" hreflang="zh-CN" href="{{ page.permalink }}">
   <link rel="alternate" hreflang="en" href="{{ enPage.permalink }}">
   <link rel="alternate" hreflang="x-default" href="{{ page.permalink }}">
   {%- endif %}{% endif %}
-  {%- if page.layout == 'translation' %}{% set zhPost = original_for(page) %}{% if zhPost %}
+  {%- if page.original %}{% set zhPost = original_for(page) %}{% if zhPost %}
   <link rel="alternate" hreflang="zh-CN" href="{{ zhPost.permalink }}">
   <link rel="alternate" hreflang="en" href="{{ page.permalink }}">
   <link rel="alternate" hreflang="x-default" href="{{ zhPost.permalink }}">

@@ -199,7 +199,10 @@ const orphans = [];
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     const p = path.join(dir, e.name);
     if (e.isDirectory()) walk(p);
-    else if (p.endsWith('.md') && !known.has(p)) orphans.push(path.relative(ROOT, p));
+    // Hand-written translations of pages (e.g. en/about/) have a non-post original; not ours to judge.
+    else if (p.endsWith('.md') && !known.has(p) && (readFrontMatter(p).meta.original || '').startsWith('_posts/')) {
+      orphans.push(path.relative(ROOT, p));
+    }
   }
 })(OUT_DIR);
 
