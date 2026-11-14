@@ -6,6 +6,7 @@ categories: notes-of-life
 tags:
 - life
 - startup
+permalink: notes-of-life/2026/11/13/three-years-later.html
 ---
 
 Time flies. It’s almost the end of 2026.
