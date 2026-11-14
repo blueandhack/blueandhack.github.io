@@ -26,18 +26,19 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
 <meta property="article:published_time" content="2010-05-03T06:25:04.000Z">
-<meta property="article:modified_time" content="2026-11-14T03:43:02.289Z">
+<meta property="article:modified_time" content="2026-11-14T03:43:38.846Z">
 <meta property="article:author" content="Yujia Lin">
 <meta property="article:tag" content="Windows">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
   <link rel="alternate" hreflang="zh-CN" href="https://blueandhack.com/technology/2010/05/03/flash-SLIC.html">
   <link rel="alternate" hreflang="en" href="https://blueandhack.com/en/technology/2010/05/02/flash-SLIC.html">
-  <link rel="alternate" hreflang="x-default" href="https://blueandhack.com/technology/2010/05/03/flash-SLIC.html">
+  <link rel="alternate" hreflang="x-default" href="https://blueandhack.com/en/technology/2010/05/02/flash-SLIC.html">
   <script>
     (function () {
       // Show the version in the reader's language: the one they last picked by hand (cl-lang,
-      // saved by main.js), else the first English or Chinese language their browser asks for.
+      // saved by main.js), else the first English or Chinese language their browser asks for,
+      // else English.
       var here = 'zh-CN', other = 'en', want = null;
       try { want = localStorage.getItem('cl-lang'); } catch (e) {}
       if (want !== here && want !== other) {
@@ -50,6 +51,7 @@
           if (l === 'zh') want = 'zh-CN';
           else if (l === 'en') want = 'en';
         }
+        want = want || 'en';
       }
       if (want === other) location.replace("/en/technology/2010/05/02/flash-SLIC.html" + location.search + location.hash);
     })();
