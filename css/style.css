@@ -1272,7 +1272,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
 .translation-note a { color: var(--c, var(--lane-blue)); }
 
 /* Sits above the row-wide title link so it stays clickable. */
-.en-link {
+.alt-lang {
   position: relative;
   z-index: 3;
   padding: 0 0.35rem;
@@ -1284,7 +1284,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(2px); }
   line-height: 1.5;
   text-decoration: none;
 }
-.en-link:hover { color: var(--ink); border-color: var(--ink-3); }
+.alt-lang:hover { color: var(--ink); border-color: var(--ink-3); }
 
 /* ---------- Color palettes ----------
    Chosen in the header (remembered in localStorage as cl-palette) and applied
