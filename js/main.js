@@ -25,6 +25,20 @@
   /* ---------- Modifier key label ---------- */
   $$('[data-mod-key]').forEach(function (k) { k.textContent = isMac ? '⌘ K' : 'Ctrl K'; });
 
+  /* ---------- Language choice ---------- */
+  // Picking a version by hand (中文原文 / Read in English / EN) overrides the browser language from
+  // then on; the redirect in layout.njk reads it. Without this, it would bounce the reader back.
+  function rememberLang(lang) {
+    try { localStorage.setItem('cl-lang', lang); } catch (e) {}
+  }
+  function onLangLink(e) {
+    var a = e.target.closest && e.target.closest('a[hreflang]');
+    var lang = a && a.getAttribute('hreflang');
+    if (lang === 'en' || lang === 'zh-CN') rememberLang(lang);
+  }
+  document.addEventListener('click', onLangLink);
+  document.addEventListener('auxclick', onLangLink);
+
   /* ---------- Theme ---------- */
   function currentTheme() {
     if (root.dataset.theme) return root.dataset.theme;
@@ -207,7 +221,7 @@
           if (x.en) {
             addItem({
               title: x.p.e.t, q: q, aside: 'EN ' + x.p.d, color: laneVar(x.p.c),
-              run: function () { location.href = x.p.e.u; }
+              run: function () { rememberLang('en'); location.href = x.p.e.u; }
             });
           } else {
             addItem(postItem(x.p, q));

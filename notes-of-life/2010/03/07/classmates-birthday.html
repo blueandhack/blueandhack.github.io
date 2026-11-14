@@ -26,7 +26,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/4150885?s=460">
 <meta property="article:published_time" content="2010-03-07T08:41:00.000Z">
-<meta property="article:modified_time" content="2026-11-14T03:30:23.531Z">
+<meta property="article:modified_time" content="2026-11-14T03:43:02.289Z">
 <meta property="article:author" content="Yujia Lin">
 <meta property="article:tag" content="classmate">
 <meta property="article:tag" content="life">
@@ -35,6 +35,26 @@
   <link rel="alternate" hreflang="zh-CN" href="https://blueandhack.com/notes-of-life/2010/03/07/classmates-birthday.html">
   <link rel="alternate" hreflang="en" href="https://blueandhack.com/en/notes-of-life/2010/03/07/classmates-birthday.html">
   <link rel="alternate" hreflang="x-default" href="https://blueandhack.com/notes-of-life/2010/03/07/classmates-birthday.html">
+  <script>
+    (function () {
+      // Show the version in the reader's language: the one they last picked by hand (cl-lang,
+      // saved by main.js), else the first English or Chinese language their browser asks for.
+      var here = 'zh-CN', other = 'en', want = null;
+      try { want = localStorage.getItem('cl-lang'); } catch (e) {}
+      if (want !== here && want !== other) {
+        want = null;
+        // Crawlers index both versions through the hreflang links above; never redirect them.
+        if (navigator.webdriver || /bot|crawl|spider|slurp/i.test(navigator.userAgent)) return;
+        var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+        for (var i = 0; i < langs.length && !want; i++) {
+          var l = String(langs[i]).toLowerCase().slice(0, 2);
+          if (l === 'zh') want = 'zh-CN';
+          else if (l === 'en') want = 'en';
+        }
+      }
+      if (want === other) location.replace("/en/notes-of-life/2010/03/07/classmates-birthday.html" + location.search + location.hash);
+    })();
+  </script>
   <link rel="icon" href="/favicon.ico">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,7 +70,7 @@
     gtag('config', 'G-QCZTMV5CJM');
   </script>
   <script type="application/json" id="cl-config">{"root":"/","postsIndex":"/posts.json","searchIndex":"/search.json","rss":"/atom.xml","disqus":"blueandhack","lanes":{"life":"blue","code":"magenta","school":"teal","places":"amber","stories":"lime"},"palettes":["ink","forest","plum","ember","mono"],"links":{"home":"/","archive":"/archives/","tags":"/tags/","stats":"/stats/","about":"/about/"},"i18n":{"posts":"Posts","commands":"Commands","fulltext":"Matches in post text","empty":"No posts match. Try a shorter word, or search in Chinese.","loading":"Loading full-text index","go_home":"Go to the log","go_archive":"Go to the archive","go_tags":"Go to tags","go_stats":"Go to stats","go_about":"Go to about","random":"Open a random post","toggle_theme":"Switch light or dark theme","rss":"Subscribe via RSS","shortcuts":"Show keyboard shortcuts","copy":"Copy","copied":"Copied","color":"Color","commentOne":"1 comment","commentMany":"{n} comments","paletteNames":{"ink":"Ink","forest":"Forest","plum":"Plum","ember":"Ember","mono":"Mono"}}}</script>
-  <script src="/js/main.js?v=28fc490711" defer></script>
+  <script src="/js/main.js?v=ed9ad697df" defer></script>
 <meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="blueandhack" type="application/atom+xml">
 </head>
 <body class="is-post">
