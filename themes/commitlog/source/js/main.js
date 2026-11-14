@@ -39,6 +39,27 @@
   document.addEventListener('click', onLangLink);
   document.addEventListener('auxclick', onLangLink);
 
+  // The reader's language, by the same rule as the redirect in layout.njk: their last pick,
+  // else the first English or Chinese language their browser asks for, else English.
+  function readerLang() {
+    var saved = null;
+    try { saved = localStorage.getItem('cl-lang'); } catch (e) {}
+    if (saved === 'en' || saved === 'zh-CN') return saved;
+    var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+    for (var i = 0; i < langs.length; i++) {
+      var l = String(langs[i]).toLowerCase().slice(0, 2);
+      if (l === 'zh') return 'zh-CN';
+      if (l === 'en') return 'en';
+    }
+    return 'en';
+  }
+  // A posts.json entry in the reader's language: its English version when it has one and they
+  // read English, else the original. `lang` is set only when known.
+  function postInLang(p) {
+    if (!p.e) return { t: p.t, u: p.u };
+    return readerLang() === 'en' ? { t: p.e.t, u: p.e.u, lang: 'en' } : { t: p.t, u: p.u, lang: 'zh-CN' };
+  }
+
   /* ---------- Theme ---------- */
   function currentTheme() {
     if (root.dataset.theme) return root.dataset.theme;
@@ -85,8 +106,8 @@
       if (!posts.length) return;
       var here = location.pathname;
       var pick;
-      do { pick = posts[Math.floor(Math.random() * posts.length)]; } while (posts.length > 1 && pick.u === here);
-      location.href = pick.u;
+      do { pick = posts[Math.floor(Math.random() * posts.length)]; } while (posts.length > 1 && (pick.u === here || (pick.e && pick.e.u === here)));
+      location.href = postInLang(pick).u;
     });
   }
 
@@ -425,8 +446,10 @@
         var li = el('li');
         var t = el('time', null, p.d);
         t.setAttribute('datetime', p.d);
-        var a = el('a', null, p.t);
-        a.href = p.u;
+        var shown = postInLang(p);
+        var a = el('a', null, shown.t);
+        a.href = shown.u;
+        if (shown.lang) a.lang = shown.lang;
         li.appendChild(t);
         li.appendChild(a);
         list.appendChild(li);
