@@ -1,0 +1,29 @@
+name: Limbowatch
+
+# Daily dependency scan against security advisories that are published on GitHub
+# but not yet in the GitHub Advisory Database or OSV (so Dependabot may miss them).
+# A failed run means a finding at or above `fail-on`; GitHub emails on scheduled failures.
+on:
+  schedule:
+    - cron: '23 6 * * *'  # daily, 06:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  limbowatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # Alpha release; pinned to the v0.1.0a14 commit for supply-chain safety.
+      - uses: limbowatch/limbowatch-action@710abec6303719b8c764ca43a70bb2f84346abfa # v0.1.0a14
+        with:
+          fail-on: high
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: limbowatch-report
+          path: limbowatch-report
+          if-no-files-found: ignore
