@@ -25,16 +25,41 @@
   <meta name="theme-color" content="#f3f6fc" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0d1630" media="(prefers-color-scheme: dark)">
   {{ open_graph({ twitter_id: '', image: config.avatar }) }}
+  {%- set altLang = null %}
   {%- if not page.original %}{% set enPage = translation_for(page) %}{% if enPage %}
   <link rel="alternate" hreflang="zh-CN" href="{{ page.permalink }}">
   <link rel="alternate" hreflang="en" href="{{ enPage.permalink }}">
   <link rel="alternate" hreflang="x-default" href="{{ page.permalink }}">
+  {%- set hereLang = 'zh-CN' %}{% set altLang = 'en' %}{% set altPath = url_for(enPage.path) %}
   {%- endif %}{% endif %}
   {%- if page.original %}{% set zhPost = original_for(page) %}{% if zhPost %}
   <link rel="alternate" hreflang="zh-CN" href="{{ zhPost.permalink }}">
   <link rel="alternate" hreflang="en" href="{{ page.permalink }}">
   <link rel="alternate" hreflang="x-default" href="{{ zhPost.permalink }}">
+  {%- set hereLang = 'en' %}{% set altLang = 'zh-CN' %}{% set altPath = url_for(zhPost.path) %}
   {%- endif %}{% endif %}
+  {%- if altLang %}
+  <script>
+    (function () {
+      // Show the version in the reader's language: the one they last picked by hand (cl-lang,
+      // saved by main.js), else the first English or Chinese language their browser asks for.
+      var here = '{{ hereLang }}', other = '{{ altLang }}', want = null;
+      try { want = localStorage.getItem('cl-lang'); } catch (e) {}
+      if (want !== here && want !== other) {
+        want = null;
+        // Crawlers index both versions through the hreflang links above; never redirect them.
+        if (navigator.webdriver || /bot|crawl|spider|slurp/i.test(navigator.userAgent)) return;
+        var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+        for (var i = 0; i < langs.length && !want; i++) {
+          var l = String(langs[i]).toLowerCase().slice(0, 2);
+          if (l === 'zh') want = 'zh-CN';
+          else if (l === 'en') want = 'en';
+        }
+      }
+      if (want === other) location.replace({{ altPath | dump | safe }} + location.search + location.hash);
+    })();
+  </script>
+  {%- endif %}
   <link rel="icon" href="{{ url_for('/favicon.ico') }}">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
