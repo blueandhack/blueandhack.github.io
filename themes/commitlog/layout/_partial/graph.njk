@@ -21,19 +21,22 @@
       {%- endif %}
       <span class="dot{% if row.x == 0 %} dot--main{% endif %}" style="--x: {{ row.x }}"></span>
     </span>
-    <article class="commit" lang="{{ content_lang(post) }}">
-      <h2 class="commit__title"><a href="{{ url_for(post.path) }}" data-row-link>{{ post.title }}</a></h2>
+    {#- Posts with an English translation are listed by it (the site's default language);
+        the 中文 chip links to the original. -#}
+    {%- set enRow = translation_for(post) %}
+    {%- set shown = enRow or post %}
+    <article class="commit" lang="{{ content_lang(shown) }}">
+      <h2 class="commit__title"><a href="{{ url_for(shown.path) }}" data-row-link>{{ shown.title }}</a></h2>
       <p class="commit__meta" lang="en">
         <code class="commit__hash">{{ commit_hash(post) }}</code>
         {%- if showHead and row.first %}<span class="ref ref--head">{{ __('home.head') }}</span>{% endif %}
         <time datetime="{{ date_xml(post.date) }}">{{ date(post.date, 'YYYY-MM-DD') }}</time>
-        <span>{{ __('min_read', reading_minutes(post.content)) }}</span>
+        <span>{{ __('min_read', reading_minutes(shown.content)) }}</span>
         <span class="branch">{{ row.key }}</span>
-        {%- set enRow = translation_for(post) %}
-        {%- if enRow %}<a class="en-link" href="{{ url_for(enRow.path) }}" hreflang="en" title="{{ enRow.title }}">EN</a>{% endif %}
-        {%- if theme.disqus.shortname and post.comments !== false %}<a class="comment-count" href="{{ url_for(post.path) }}#comments" data-comments="{{ post.path }}" hidden><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/></svg><span></span></a>{% endif %}
+        {%- if enRow %}<a class="alt-lang" href="{{ url_for(post.path) }}" hreflang="zh-CN" lang="zh-CN" title="{{ post.title }}">中文</a>{% endif %}
+        {%- if theme.disqus.shortname and post.comments !== false %}<a class="comment-count" href="{{ url_for(shown.path) }}#comments" data-comments="{{ post.path }}" hidden><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/></svg><span></span></a>{% endif %}
       </p>
-      {%- set summary = summary_text(post) %}
+      {%- set summary = summary_text(shown) %}
       {%- if summary %}<p class="commit__summary">{{ summary }}</p>{% endif %}
     </article>
   </li>

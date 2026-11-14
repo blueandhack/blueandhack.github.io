@@ -63,7 +63,7 @@ The theme then:
 
 - serves them at `/en/<original path>` and links the two versions both ways
   ("Read in English" / "中文原文"), with `hreflang` alternates for search engines;
-- shows an `EN` link on graph rows that have a translation;
+- lists translated posts by their English version (title, summary, link) in the graph and archive, with a `中文` link on graph rows to the original;
 - keeps translations out of the graph, archive, tags, stats and RSS feed;
 - lets the command palette find posts by their English titles;
 - shares the original post's Disqus thread on the English page.

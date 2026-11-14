@@ -16,9 +16,10 @@
       </h2>
       <ol class="timeline__list">
         {%- for post in group.posts %}
+        {%- set shown = translation_for(post) or post %}
         <li class="timeline__item" style="--c: var(--lane-{{ lane_color(lane_key(post)) }})" data-row>
           <time datetime="{{ date_xml(post.date) }}">{{ date(post.date, 'MM-DD') }}</time>
-          <a href="{{ url_for(post.path) }}" data-row-link>{{ post.title }}</a>
+          <a href="{{ url_for(shown.path) }}" lang="{{ content_lang(shown) }}" data-row-link>{{ shown.title }}</a>
           <code class="timeline__hash">{{ commit_hash(post) }}</code>
         </li>
         {%- endfor %}
