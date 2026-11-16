@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^1.8.0"
+  },
+  "resolutions": {
+    "hexo-renderer-marked/jsdom": "^31.0.1"
   }
 }
