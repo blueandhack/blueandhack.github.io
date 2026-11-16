@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      # Alpha release; pinned to the v0.1.0a14 commit for supply-chain safety.
-      - uses: limbowatch/limbowatch-action@710abec6303719b8c764ca43a70bb2f84346abfa # v0.1.0a14
+      # Alpha release; pinned to the v0.1.0a16 commit for supply-chain safety.
+      - uses: limbowatch/limbowatch-action@fd1a8e37e1b04afbcc33321144c2d4d2e3153f8f # v0.1.0a16
         with:
           fail-on: high
       - name: Upload report
