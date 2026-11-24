@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@anthropic-ai/sdk@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@anthropic-ai/sdk/-/sdk-1.8.0.tgz#36da6bcea167b7f8cba56a39cd1ad5ecb990c5ee"
-  integrity sha512-yDOArk2+Qpd/djEKmZjrv7JZ+pn5iBHARJ9PAdvfhGf4H5wNqTgY/2K0/yDKdQdm8G8hrNQchMlBAHpPK7yBfg==
+"@anthropic-ai/sdk@^1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@anthropic-ai/sdk/-/sdk-1.12.0.tgz#6707039bf551b86b2af29beb08370edf9e76773a"
+  integrity sha512-0j9zwiQdkvr90LoiiBDUh7kae1lsNW2EqeE0vGceYne4BrmMDdDVoQ4KGOieUee0zWZbVJKsf/06JY8U5i63Xg==
   dependencies:
     "@opentelemetry/api" "^1.4.1"
     json-schema-to-ts "^3.1.1"
