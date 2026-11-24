@@ -26,7 +26,7 @@
     "hexo-server": "^3.0.0"
   },
   "devDependencies": {
-    "@anthropic-ai/sdk": "^1.8.0"
+    "@anthropic-ai/sdk": "^1.12.0"
   },
   "resolutions": {
     "hexo-renderer-marked/jsdom": "^31.0.1"
